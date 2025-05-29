@@ -1,0 +1,480 @@
+{
+  "documentInfo": {
+    "title": "Risk Assessment Matrix - DafnckMachine v3.1",
+    "version": "3.1.0",
+    "created": "2025-01-27",
+    "status": "template",
+    "phase": "2 - Discovery & Strategy",
+    "step": "02 - Problem Validation"
+  },
+  "riskCategories": {
+    "technicalRisks": [
+      {
+        "riskId": "TECH-001",
+        "riskName": "",
+        "description": "",
+        "category": "Technical",
+        "subcategory": "",
+        "probability": "",
+        "impact": "",
+        "riskScore": 0,
+        "priority": "",
+        "owner": "",
+        "status": "Identified",
+        "identificationDate": "",
+        "lastReviewDate": "",
+        "triggers": [],
+        "earlyWarningSignals": [],
+        "mitigation": {
+          "strategy": "",
+          "actions": [],
+          "timeline": "",
+          "cost": 0,
+          "effectiveness": ""
+        },
+        "contingency": {
+          "plan": "",
+          "actions": [],
+          "triggerConditions": [],
+          "cost": 0
+        },
+        "monitoring": {
+          "metrics": [],
+          "frequency": "",
+          "responsible": "",
+          "reportingMethod": ""
+        }
+      }
+    ],
+    "businessRisks": [
+      {
+        "riskId": "BUS-001",
+        "riskName": "",
+        "description": "",
+        "category": "Business",
+        "subcategory": "",
+        "probability": "",
+        "impact": "",
+        "riskScore": 0,
+        "priority": "",
+        "owner": "",
+        "status": "Identified",
+        "identificationDate": "",
+        "lastReviewDate": "",
+        "triggers": [],
+        "earlyWarningSignals": [],
+        "mitigation": {
+          "strategy": "",
+          "actions": [],
+          "timeline": "",
+          "cost": 0,
+          "effectiveness": ""
+        },
+        "contingency": {
+          "plan": "",
+          "actions": [],
+          "triggerConditions": [],
+          "cost": 0
+        },
+        "monitoring": {
+          "metrics": [],
+          "frequency": "",
+          "responsible": "",
+          "reportingMethod": ""
+        }
+      }
+    ],
+    "marketRisks": [
+      {
+        "riskId": "MKT-001",
+        "riskName": "",
+        "description": "",
+        "category": "Market",
+        "subcategory": "",
+        "probability": "",
+        "impact": "",
+        "riskScore": 0,
+        "priority": "",
+        "owner": "",
+        "status": "Identified",
+        "identificationDate": "",
+        "lastReviewDate": "",
+        "triggers": [],
+        "earlyWarningSignals": [],
+        "mitigation": {
+          "strategy": "",
+          "actions": [],
+          "timeline": "",
+          "cost": 0,
+          "effectiveness": ""
+        },
+        "contingency": {
+          "plan": "",
+          "actions": [],
+          "triggerConditions": [],
+          "cost": 0
+        },
+        "monitoring": {
+          "metrics": [],
+          "frequency": "",
+          "responsible": "",
+          "reportingMethod": ""
+        }
+      }
+    ],
+    "operationalRisks": [
+      {
+        "riskId": "OPS-001",
+        "riskName": "",
+        "description": "",
+        "category": "Operational",
+        "subcategory": "",
+        "probability": "",
+        "impact": "",
+        "riskScore": 0,
+        "priority": "",
+        "owner": "",
+        "status": "Identified",
+        "identificationDate": "",
+        "lastReviewDate": "",
+        "triggers": [],
+        "earlyWarningSignals": [],
+        "mitigation": {
+          "strategy": "",
+          "actions": [],
+          "timeline": "",
+          "cost": 0,
+          "effectiveness": ""
+        },
+        "contingency": {
+          "plan": "",
+          "actions": [],
+          "triggerConditions": [],
+          "cost": 0
+        },
+        "monitoring": {
+          "metrics": [],
+          "frequency": "",
+          "responsible": "",
+          "reportingMethod": ""
+        }
+      }
+    ],
+    "financialRisks": [
+      {
+        "riskId": "FIN-001",
+        "riskName": "",
+        "description": "",
+        "category": "Financial",
+        "subcategory": "",
+        "probability": "",
+        "impact": "",
+        "riskScore": 0,
+        "priority": "",
+        "owner": "",
+        "status": "Identified",
+        "identificationDate": "",
+        "lastReviewDate": "",
+        "triggers": [],
+        "earlyWarningSignals": [],
+        "mitigation": {
+          "strategy": "",
+          "actions": [],
+          "timeline": "",
+          "cost": 0,
+          "effectiveness": ""
+        },
+        "contingency": {
+          "plan": "",
+          "actions": [],
+          "triggerConditions": [],
+          "cost": 0
+        },
+        "monitoring": {
+          "metrics": [],
+          "frequency": "",
+          "responsible": "",
+          "reportingMethod": ""
+        }
+      }
+    ],
+    "complianceRisks": [
+      {
+        "riskId": "COMP-001",
+        "riskName": "",
+        "description": "",
+        "category": "Compliance",
+        "subcategory": "",
+        "probability": "",
+        "impact": "",
+        "riskScore": 0,
+        "priority": "",
+        "owner": "",
+        "status": "Identified",
+        "identificationDate": "",
+        "lastReviewDate": "",
+        "triggers": [],
+        "earlyWarningSignals": [],
+        "mitigation": {
+          "strategy": "",
+          "actions": [],
+          "timeline": "",
+          "cost": 0,
+          "effectiveness": ""
+        },
+        "contingency": {
+          "plan": "",
+          "actions": [],
+          "triggerConditions": [],
+          "cost": 0
+        },
+        "monitoring": {
+          "metrics": [],
+          "frequency": "",
+          "responsible": "",
+          "reportingMethod": ""
+        }
+      }
+    ],
+    "externalRisks": [
+      {
+        "riskId": "EXT-001",
+        "riskName": "",
+        "description": "",
+        "category": "External",
+        "subcategory": "",
+        "probability": "",
+        "impact": "",
+        "riskScore": 0,
+        "priority": "",
+        "owner": "",
+        "status": "Identified",
+        "identificationDate": "",
+        "lastReviewDate": "",
+        "triggers": [],
+        "earlyWarningSignals": [],
+        "mitigation": {
+          "strategy": "",
+          "actions": [],
+          "timeline": "",
+          "cost": 0,
+          "effectiveness": ""
+        },
+        "contingency": {
+          "plan": "",
+          "actions": [],
+          "triggerConditions": [],
+          "cost": 0
+        },
+        "monitoring": {
+          "metrics": [],
+          "frequency": "",
+          "responsible": "",
+          "reportingMethod": ""
+        }
+      }
+    ]
+  },
+  "riskMatrix": {
+    "probabilityScale": {
+      "veryLow": {
+        "value": 1,
+        "description": "0-10% chance of occurrence",
+        "criteria": "Highly unlikely to occur"
+      },
+      "low": {
+        "value": 2,
+        "description": "11-30% chance of occurrence",
+        "criteria": "Unlikely to occur"
+      },
+      "medium": {
+        "value": 3,
+        "description": "31-60% chance of occurrence",
+        "criteria": "Possible to occur"
+      },
+      "high": {
+        "value": 4,
+        "description": "61-80% chance of occurrence",
+        "criteria": "Likely to occur"
+      },
+      "veryHigh": {
+        "value": 5,
+        "description": "81-100% chance of occurrence",
+        "criteria": "Almost certain to occur"
+      }
+    },
+    "impactScale": {
+      "veryLow": {
+        "value": 1,
+        "description": "Minimal impact on project",
+        "criteria": "Minor delays or cost increases"
+      },
+      "low": {
+        "value": 2,
+        "description": "Low impact on project",
+        "criteria": "Some delays or cost increases"
+      },
+      "medium": {
+        "value": 3,
+        "description": "Moderate impact on project",
+        "criteria": "Significant delays or cost increases"
+      },
+      "high": {
+        "value": 4,
+        "description": "High impact on project",
+        "criteria": "Major delays or cost increases"
+      },
+      "veryHigh": {
+        "value": 5,
+        "description": "Severe impact on project",
+        "criteria": "Project failure or major restructuring"
+      }
+    },
+    "riskScoring": {
+      "calculation": "Probability × Impact",
+      "riskLevels": {
+        "low": {
+          "range": "1-6",
+          "color": "green",
+          "action": "Monitor"
+        },
+        "medium": {
+          "range": "7-14",
+          "color": "yellow",
+          "action": "Manage"
+        },
+        "high": {
+          "range": "15-20",
+          "color": "orange",
+          "action": "Mitigate"
+        },
+        "critical": {
+          "range": "21-25",
+          "color": "red",
+          "action": "Immediate Action"
+        }
+      }
+    }
+  },
+  "riskSummary": {
+    "totalRisks": 0,
+    "risksByCategory": {
+      "technical": 0,
+      "business": 0,
+      "market": 0,
+      "operational": 0,
+      "financial": 0,
+      "compliance": 0,
+      "external": 0
+    },
+    "risksByPriority": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "topRisks": [],
+    "overallRiskProfile": "",
+    "riskTrends": []
+  },
+  "mitigationPlan": {
+    "immediateActions": [
+      {
+        "action": "",
+        "riskId": "",
+        "owner": "",
+        "deadline": "",
+        "cost": 0,
+        "status": ""
+      }
+    ],
+    "shortTermActions": [
+      {
+        "action": "",
+        "riskId": "",
+        "owner": "",
+        "deadline": "",
+        "cost": 0,
+        "status": ""
+      }
+    ],
+    "longTermActions": [
+      {
+        "action": "",
+        "riskId": "",
+        "owner": "",
+        "deadline": "",
+        "cost": 0,
+        "status": ""
+      }
+    ],
+    "totalMitigationCost": 0,
+    "contingencyBudget": 0
+  },
+  "monitoringPlan": {
+    "riskReviewSchedule": {
+      "frequency": "Monthly",
+      "participants": [],
+      "agenda": [],
+      "deliverables": []
+    },
+    "escalationProcedures": [
+      {
+        "triggerCondition": "",
+        "escalationLevel": "",
+        "notificationList": [],
+        "responseTime": "",
+        "actions": []
+      }
+    ],
+    "reportingStructure": {
+      "dashboards": [],
+      "reports": [],
+      "metrics": [],
+      "stakeholders": []
+    }
+  },
+  "riskGovernance": {
+    "riskOwnership": {
+      "riskManager": "",
+      "riskCommittee": [],
+      "escalationAuthority": "",
+      "decisionMakers": []
+    },
+    "riskPolicies": {
+      "riskTolerance": "",
+      "riskAppetite": "",
+      "riskThresholds": {},
+      "approvalLimits": {}
+    },
+    "riskProcesses": {
+      "identificationProcess": "",
+      "assessmentProcess": "",
+      "mitigationProcess": "",
+      "monitoringProcess": "",
+      "reportingProcess": ""
+    }
+  },
+  "integrationPoints": {
+    "relatedDocuments": [
+      "Business_Viability_Analysis.json",
+      "Technical_Feasibility_Report.md",
+      "Market_Opportunity_Analysis.json",
+      "Mitigation_Strategies.md"
+    ],
+    "dataFlows": [],
+    "systemConnections": []
+  },
+  "populationInstructions": {
+    "assignedAgent": "@market-research-agent",
+    "supportingAgents": ["@technology-advisor-agent", "@security-auditor-agent"],
+    "completionCriteria": [
+      "All risk categories populated with identified risks",
+      "Risk probability and impact assessed for each risk",
+      "Risk scores calculated and prioritized",
+      "Mitigation strategies defined for high-priority risks",
+      "Monitoring plan established",
+      "Contingency plans developed for critical risks"
+    ]
+  }
+} 

@@ -1,0 +1,567 @@
+{
+  "document_metadata": {
+    "document_type": "UI Framework Matrix",
+    "version": "3.1.0",
+    "last_updated": "2025-01-27",
+    "phase": "Phase 3 - Product Definition & Design",
+    "primary_agent": "@technology-advisor-agent",
+    "supporting_agents": ["@ui-designer-agent", "@design-system-agent"],
+    "status": "Template Ready"
+  },
+  "overview": {
+    "purpose": "Define comprehensive UI framework support matrix for DafnckMachine v3.1 universal platform coverage",
+    "principle": "Shadcn/ui + Tailwind CSS foundation with platform-specific adaptations",
+    "coverage": "Web, Mobile, Desktop, Game Development, Enterprise, Embedded Systems",
+    "consistency_target": "95%+ cross-platform visual consistency"
+  },
+  "web_frameworks": {
+    "react_ecosystem": {
+      "next_js": {
+        "framework": "Next.js",
+        "version_support": "13.0+",
+        "ui_library": "Shadcn/ui + Tailwind CSS",
+        "component_library": "@/components/ui",
+        "styling_approach": "Tailwind CSS utility classes",
+        "features": [
+          "App Router support",
+          "Server Components",
+          "Static Site Generation",
+          "API Routes",
+          "Image optimization",
+          "Font optimization"
+        ],
+        "design_system_integration": {
+          "base_components": "Shadcn/ui primitives",
+          "customization": "CSS variables + Tailwind config",
+          "theming": "Light/dark mode with CSS variables",
+          "responsive": "Tailwind responsive utilities"
+        },
+        "performance_optimizations": [
+          "Automatic code splitting",
+          "Image optimization",
+          "Font optimization",
+          "Bundle analyzer integration",
+          "Tree shaking"
+        ],
+        "accessibility": {
+          "compliance": "WCAG 2.1 AA",
+          "features": ["ARIA support", "Keyboard navigation", "Screen reader support"],
+          "testing": "axe-core integration"
+        }
+      },
+      "vite_react": {
+        "framework": "Vite + React",
+        "version_support": "React 18+, Vite 4+",
+        "ui_library": "Shadcn/ui + Tailwind CSS",
+        "component_library": "@/components/ui",
+        "styling_approach": "Tailwind CSS utility classes",
+        "features": [
+          "Fast HMR",
+          "ES modules",
+          "TypeScript support",
+          "Plugin ecosystem",
+          "Build optimization"
+        ],
+        "design_system_integration": {
+          "base_components": "Shadcn/ui primitives",
+          "customization": "CSS variables + Tailwind config",
+          "theming": "Light/dark mode with CSS variables",
+          "responsive": "Tailwind responsive utilities"
+        }
+      },
+      "remix": {
+        "framework": "Remix",
+        "version_support": "2.0+",
+        "ui_library": "Shadcn/ui + Tailwind CSS",
+        "component_library": "@/components/ui",
+        "styling_approach": "Tailwind CSS utility classes",
+        "features": [
+          "Nested routing",
+          "Progressive enhancement",
+          "Server-side rendering",
+          "Form handling",
+          "Error boundaries"
+        ]
+      }
+    },
+    "vue_ecosystem": {
+      "nuxt": {
+        "framework": "Nuxt.js",
+        "version_support": "3.0+",
+        "ui_library": "Nuxt UI + Tailwind CSS",
+        "component_library": "@nuxt/ui",
+        "styling_approach": "Tailwind CSS utility classes",
+        "features": [
+          "Auto-imports",
+          "File-based routing",
+          "Server-side rendering",
+          "Static site generation",
+          "Module ecosystem"
+        ],
+        "design_system_adaptation": {
+          "base_components": "Nuxt UI components",
+          "shadcn_equivalent": "Vue adaptations of Shadcn patterns",
+          "customization": "Tailwind config + CSS variables",
+          "theming": "Nuxt Color Mode module"
+        }
+      },
+      "vue_vite": {
+        "framework": "Vue 3 + Vite",
+        "version_support": "Vue 3.3+, Vite 4+",
+        "ui_library": "Headless UI Vue + Tailwind CSS",
+        "component_library": "@headlessui/vue",
+        "styling_approach": "Tailwind CSS utility classes"
+      }
+    },
+    "svelte_ecosystem": {
+      "sveltekit": {
+        "framework": "SvelteKit",
+        "version_support": "1.0+",
+        "ui_library": "Skeleton UI + Tailwind CSS",
+        "component_library": "@skeletonlabs/skeleton",
+        "styling_approach": "Tailwind CSS utility classes",
+        "design_system_adaptation": {
+          "base_components": "Skeleton UI components",
+          "shadcn_equivalent": "Svelte adaptations of Shadcn patterns",
+          "customization": "Tailwind config + CSS custom properties"
+        }
+      }
+    },
+    "angular_ecosystem": {
+      "angular": {
+        "framework": "Angular",
+        "version_support": "16+",
+        "ui_library": "Angular Material + Tailwind CSS",
+        "component_library": "@angular/material",
+        "styling_approach": "Angular Material + Tailwind utilities",
+        "design_system_adaptation": {
+          "base_components": "Angular Material components",
+          "shadcn_equivalent": "Material Design adaptations",
+          "customization": "Material theming + Tailwind config"
+        }
+      }
+    }
+  },
+  "mobile_frameworks": {
+    "react_native": {
+      "expo": {
+        "framework": "Expo",
+        "version_support": "SDK 49+",
+        "ui_library": "NativeWind + Expo Router",
+        "component_library": "Custom components with NativeWind",
+        "styling_approach": "Tailwind CSS classes via NativeWind",
+        "features": [
+          "Cross-platform development",
+          "Over-the-air updates",
+          "Native module access",
+          "Development tools",
+          "Build services"
+        ],
+        "design_system_integration": {
+          "base_components": "React Native primitives",
+          "shadcn_equivalent": "NativeWind styled components",
+          "customization": "Tailwind config for React Native",
+          "theming": "React Native Appearance API"
+        },
+        "platform_adaptations": {
+          "ios": "iOS design guidelines compliance",
+          "android": "Material Design compliance",
+          "touch_targets": "Minimum 44px touch targets",
+          "navigation": "Platform-specific navigation patterns"
+        }
+      },
+      "react_native_cli": {
+        "framework": "React Native CLI",
+        "version_support": "0.72+",
+        "ui_library": "NativeWind + React Navigation",
+        "component_library": "Custom components with NativeWind",
+        "styling_approach": "Tailwind CSS classes via NativeWind"
+      }
+    },
+    "flutter": {
+      "flutter_framework": {
+        "framework": "Flutter",
+        "version_support": "3.10+",
+        "ui_library": "Material 3 + Custom Design System",
+        "component_library": "Flutter Material Components",
+        "styling_approach": "Flutter theming system",
+        "design_system_adaptation": {
+          "base_components": "Material 3 components",
+          "shadcn_equivalent": "Custom Flutter widgets",
+          "customization": "ThemeData configuration",
+          "theming": "Material 3 color system"
+        },
+        "cross_platform": {
+          "ios": "Cupertino design adaptation",
+          "android": "Material Design native",
+          "web": "Flutter web support",
+          "desktop": "Windows, macOS, Linux support"
+        }
+      }
+    },
+    "native_development": {
+      "ios_swift": {
+        "framework": "SwiftUI",
+        "version_support": "iOS 15+",
+        "ui_library": "SwiftUI + Design System",
+        "component_library": "Custom SwiftUI components",
+        "styling_approach": "SwiftUI modifiers + Design tokens",
+        "design_system_adaptation": {
+          "base_components": "SwiftUI primitives",
+          "shadcn_equivalent": "SwiftUI custom components",
+          "customization": "Environment values + ViewModifiers"
+        }
+      },
+      "android_kotlin": {
+        "framework": "Jetpack Compose",
+        "version_support": "Android API 21+",
+        "ui_library": "Material 3 Compose",
+        "component_library": "Compose Material 3",
+        "styling_approach": "Compose theming system",
+        "design_system_adaptation": {
+          "base_components": "Material 3 Compose components",
+          "shadcn_equivalent": "Custom Compose components",
+          "customization": "MaterialTheme configuration"
+        }
+      }
+    }
+  },
+  "desktop_frameworks": {
+    "electron": {
+      "electron_react": {
+        "framework": "Electron + React",
+        "version_support": "Electron 25+, React 18+",
+        "ui_library": "Shadcn/ui + Tailwind CSS",
+        "component_library": "@/components/ui",
+        "styling_approach": "Tailwind CSS utility classes",
+        "desktop_features": [
+          "Native menu bar",
+          "Window management",
+          "File system access",
+          "System notifications",
+          "Auto-updater"
+        ],
+        "design_system_integration": {
+          "base_components": "Shadcn/ui components",
+          "desktop_adaptations": "Larger touch targets, keyboard shortcuts",
+          "native_integration": "OS-specific styling"
+        }
+      }
+    },
+    "tauri": {
+      "tauri_react": {
+        "framework": "Tauri + React",
+        "version_support": "Tauri 1.4+, React 18+",
+        "ui_library": "Shadcn/ui + Tailwind CSS",
+        "component_library": "@/components/ui",
+        "styling_approach": "Tailwind CSS utility classes",
+        "benefits": [
+          "Smaller bundle size",
+          "Better security",
+          "Native performance",
+          "Rust backend"
+        ]
+      }
+    },
+    "native_desktop": {
+      "macos_swiftui": {
+        "framework": "SwiftUI (macOS)",
+        "version_support": "macOS 12+",
+        "ui_library": "SwiftUI + Design System",
+        "component_library": "Custom SwiftUI components",
+        "styling_approach": "SwiftUI modifiers + Design tokens"
+      },
+      "windows_winui": {
+        "framework": "WinUI 3",
+        "version_support": "Windows 10 1809+",
+        "ui_library": "WinUI 3 + Design System",
+        "component_library": "WinUI 3 controls",
+        "styling_approach": "XAML styling + Design tokens"
+      },
+      "linux_gtk": {
+        "framework": "GTK 4",
+        "version_support": "GTK 4.0+",
+        "ui_library": "GTK 4 + Custom theming",
+        "component_library": "GTK 4 widgets",
+        "styling_approach": "CSS styling + Design tokens"
+      }
+    }
+  },
+  "game_development": {
+    "unity": {
+      "unity_ui_toolkit": {
+        "framework": "Unity UI Toolkit",
+        "version_support": "Unity 2022.3+",
+        "ui_library": "UI Toolkit + Custom Design System",
+        "component_library": "Custom UI elements",
+        "styling_approach": "USS (Unity Style Sheets)",
+        "design_system_adaptation": {
+          "base_components": "VisualElement primitives",
+          "shadcn_equivalent": "Custom UI elements",
+          "customization": "USS styling + C# scripting"
+        }
+      }
+    },
+    "unreal": {
+      "unreal_umg": {
+        "framework": "Unreal UMG",
+        "version_support": "Unreal Engine 5.0+",
+        "ui_library": "UMG + Custom Design System",
+        "component_library": "UMG widgets",
+        "styling_approach": "Blueprint styling + C++",
+        "design_system_adaptation": {
+          "base_components": "UMG widget primitives",
+          "shadcn_equivalent": "Custom UMG widgets",
+          "customization": "Blueprint + C++ implementation"
+        }
+      }
+    },
+    "web_games": {
+      "phaser": {
+        "framework": "Phaser 3",
+        "version_support": "Phaser 3.70+",
+        "ui_library": "Phaser UI + Custom Design System",
+        "component_library": "Custom game UI components",
+        "styling_approach": "Phaser styling + Canvas rendering"
+      }
+    }
+  },
+  "enterprise_frameworks": {
+    "salesforce": {
+      "lightning_web_components": {
+        "framework": "Lightning Web Components",
+        "version_support": "API 57.0+",
+        "ui_library": "Lightning Design System",
+        "component_library": "lightning-base-components",
+        "styling_approach": "SLDS utility classes",
+        "design_system_adaptation": {
+          "base_components": "Lightning base components",
+          "shadcn_equivalent": "SLDS component adaptations",
+          "customization": "SLDS design tokens"
+        }
+      }
+    },
+    "sharepoint": {
+      "spfx": {
+        "framework": "SharePoint Framework",
+        "version_support": "SPFx 1.17+",
+        "ui_library": "Fluent UI React",
+        "component_library": "@fluentui/react",
+        "styling_approach": "Fluent UI theming",
+        "design_system_adaptation": {
+          "base_components": "Fluent UI components",
+          "shadcn_equivalent": "Fluent UI adaptations",
+          "customization": "Fluent UI theme configuration"
+        }
+      }
+    },
+    "microsoft_365": {
+      "teams_toolkit": {
+        "framework": "Teams Toolkit",
+        "version_support": "Teams Toolkit 5.0+",
+        "ui_library": "Fluent UI React",
+        "component_library": "@fluentui/react-components",
+        "styling_approach": "Fluent UI v9 theming"
+      }
+    }
+  },
+  "embedded_systems": {
+    "iot_devices": {
+      "react_native_iot": {
+        "framework": "React Native for IoT",
+        "version_support": "Custom builds",
+        "ui_library": "Minimal UI components",
+        "component_library": "Custom lightweight components",
+        "styling_approach": "Minimal CSS/styling",
+        "constraints": [
+          "Limited memory",
+          "Low processing power",
+          "Small screen sizes",
+          "Touch or button input only"
+        ]
+      }
+    },
+    "automotive": {
+      "android_automotive": {
+        "framework": "Android Automotive OS",
+        "version_support": "Android 11+",
+        "ui_library": "Automotive-specific Material Design",
+        "component_library": "Automotive UI components",
+        "styling_approach": "Material Design for Automotive"
+      }
+    }
+  },
+  "cross_platform_consistency": {
+    "design_token_mapping": {
+      "colors": {
+        "primary": {
+          "web": "hsl(222.2 84% 4.9%)",
+          "react_native": "#0F172A",
+          "flutter": "0xFF0F172A",
+          "swiftui": "Color(red: 0.059, green: 0.090, blue: 0.165)",
+          "android": "#FF0F172A"
+        },
+        "background": {
+          "web": "hsl(0 0% 100%)",
+          "react_native": "#FFFFFF",
+          "flutter": "0xFFFFFFFF",
+          "swiftui": "Color.white",
+          "android": "#FFFFFFFF"
+        }
+      },
+      "spacing": {
+        "sm": {
+          "web": "0.5rem",
+          "react_native": 8,
+          "flutter": 8.0,
+          "swiftui": 8,
+          "android": "8dp"
+        },
+        "md": {
+          "web": "1rem",
+          "react_native": 16,
+          "flutter": 16.0,
+          "swiftui": 16,
+          "android": "16dp"
+        }
+      },
+      "typography": {
+        "body": {
+          "web": "1rem",
+          "react_native": 16,
+          "flutter": 16.0,
+          "swiftui": 16,
+          "android": "16sp"
+        },
+        "heading": {
+          "web": "1.5rem",
+          "react_native": 24,
+          "flutter": 24.0,
+          "swiftui": 24,
+          "android": "24sp"
+        }
+      }
+    },
+    "component_mapping": {
+      "button": {
+        "web": "Shadcn Button component",
+        "react_native": "TouchableOpacity with styling",
+        "flutter": "ElevatedButton with custom theme",
+        "swiftui": "Button with custom ButtonStyle",
+        "android": "Material Button with custom styling"
+      },
+      "input": {
+        "web": "Shadcn Input component",
+        "react_native": "TextInput with styling",
+        "flutter": "TextField with custom decoration",
+        "swiftui": "TextField with custom modifiers",
+        "android": "TextInputLayout with Material styling"
+      },
+      "card": {
+        "web": "Shadcn Card component",
+        "react_native": "View with shadow and styling",
+        "flutter": "Card widget with custom theme",
+        "swiftui": "RoundedRectangle with content",
+        "android": "MaterialCardView with styling"
+      }
+    }
+  },
+  "accessibility_standards": {
+    "wcag_compliance": {
+      "level": "WCAG 2.1 AA",
+      "requirements": [
+        "Color contrast 4.5:1 minimum",
+        "Keyboard navigation support",
+        "Screen reader compatibility",
+        "Focus indicators",
+        "Alternative text for images"
+      ]
+    },
+    "platform_specific": {
+      "web": {
+        "standards": ["ARIA", "Semantic HTML", "Focus management"],
+        "testing_tools": ["axe-core", "Lighthouse", "WAVE"]
+      },
+      "mobile": {
+        "ios": ["VoiceOver support", "Dynamic Type", "Switch Control"],
+        "android": ["TalkBack support", "Font scaling", "Touch exploration"]
+      },
+      "desktop": {
+        "standards": ["High contrast mode", "Keyboard shortcuts", "Screen magnification"],
+        "testing": ["NVDA", "JAWS", "VoiceOver (macOS)"]
+      }
+    }
+  },
+  "performance_optimization": {
+    "web_optimization": [
+      "Code splitting",
+      "Tree shaking",
+      "Image optimization",
+      "Font optimization",
+      "Bundle analysis"
+    ],
+    "mobile_optimization": [
+      "Bundle size reduction",
+      "Native module optimization",
+      "Image compression",
+      "Memory management",
+      "Battery optimization"
+    ],
+    "desktop_optimization": [
+      "Memory usage optimization",
+      "CPU usage monitoring",
+      "Disk space management",
+      "Startup time optimization",
+      "Update mechanisms"
+    ]
+  },
+  "testing_strategy": {
+    "visual_regression": {
+      "tools": ["Chromatic", "Percy", "Applitools"],
+      "coverage": "All major components and layouts",
+      "browsers": ["Chrome", "Firefox", "Safari", "Edge"],
+      "devices": ["Mobile", "Tablet", "Desktop"]
+    },
+    "accessibility_testing": {
+      "automated": ["axe-core", "Lighthouse", "Pa11y"],
+      "manual": ["Screen reader testing", "Keyboard navigation", "Color contrast"],
+      "compliance": "WCAG 2.1 AA certification"
+    },
+    "cross_platform_testing": {
+      "consistency": "Visual and functional consistency across platforms",
+      "performance": "Performance benchmarks for each platform",
+      "user_experience": "Platform-specific UX validation"
+    }
+  },
+  "implementation_guidelines": {
+    "development_workflow": {
+      "design_tokens": "Centralized token management with platform generation",
+      "component_development": "Platform-agnostic component API design",
+      "testing": "Automated cross-platform consistency validation",
+      "documentation": "Comprehensive component and pattern documentation"
+    },
+    "quality_assurance": {
+      "code_review": "Cross-platform implementation review",
+      "testing": "Automated and manual testing across platforms",
+      "performance": "Performance monitoring and optimization",
+      "accessibility": "Accessibility compliance validation"
+    }
+  },
+  "success_metrics": {
+    "consistency": {
+      "visual_consistency": ">95% across platforms",
+      "functional_consistency": ">98% feature parity",
+      "performance_consistency": "<20% variance in key metrics"
+    },
+    "developer_experience": {
+      "implementation_time": "<50% reduction with framework",
+      "learning_curve": "<2 weeks for new platform adoption",
+      "documentation_satisfaction": ">4.5/5.0 rating"
+    },
+    "user_experience": {
+      "accessibility_compliance": "100% WCAG 2.1 AA",
+      "performance_targets": "Core Web Vitals compliance",
+      "user_satisfaction": ">4.7/5.0 across platforms"
+    }
+  }
+} 

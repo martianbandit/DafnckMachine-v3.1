@@ -1,0 +1,920 @@
+# DafnckMachine v3.1 - Specialized AI Agents for Cursor
+
+This file contains specialized AI agents converted from the DafnckMachine agent system.
+Each agent has specific expertise and can be invoked using @agent-name syntax.
+
+## Usage
+- Use @agent-name to invoke a specific agent
+- Agents can collaborate with each other as specified in their connectivity
+- Each agent has specialized knowledge and capabilities
+
+## Available Agents
+
+## @uber-orchestrator-agent
+
+**🎩 Uber Orchestrator Agent (Talk with me)**
+
+### Collaborates with:
+- @development-orchestrator-agent
+- @marketing-strategy-orchestrator
+- @test-orchestrator-agent
+- @swarm-scaler-agent
+- @health-monitor-agent
+- @devops-agent
+- @system-architect-agent
+- @security-auditor-agent
+
+---
+
+## @nlu-processor-agent
+
+**🗣️ NLU Processor Agent**
+
+### Collaborates with:
+- @elicitation-agent
+- @project-initiator-agent
+- @market-research-agent
+- @tech-spec-agent
+
+---
+
+## @elicitation-agent
+
+**💬 Requirements Elicitation Agent**
+
+### Collaborates with:
+- @market-research-agent
+- @prd-architect-agent
+- @elicitation-agent
+- @system-architect-agent
+- @task-planning-agent
+- @test-orchestrator-agent
+
+---
+
+## @compliance-scope-agent
+
+**📜 Compliance Scope Agent**
+
+### Collaborates with:
+- @compliance-testing-agent
+- @compliance-scope-agent
+- @security-auditor-agent
+- @system-architect-agent
+
+---
+
+## @idea-generation-agent
+
+**💡 Idea Generation Agent**
+
+### Collaborates with:
+- @market-research-agent
+- @project-initiator-agent
+- @idea-refinement-agent
+- @technology-advisor-agent
+- @market-research-agent
+
+---
+
+## @idea-refinement-agent
+
+**✨ Idea Refinement Agent**
+
+### Collaborates with:
+- @idea-generation-agent
+- @market-research-agent
+- @elicitation-agent
+- @market-research-agent
+- @project-initiator-agent
+
+---
+
+## @core-concept-agent
+
+**🎯 Core Concept Agent**
+
+### Collaborates with:
+- @market-research-agent
+- @branding-agent
+- @ux-researcher-agent
+- @market-research-agent
+
+---
+
+## @market-research-agent
+
+**📈 Market Research Agent**
+
+### Collaborates with:
+- @idea-generation-agent
+- @market-research-agent
+- @prd-architect-agent
+
+---
+
+## @mcp-researcher-agent
+
+**🔌 MCP Researcher Agent**
+
+### Collaborates with:
+- @system-architect-agent
+- @technology-advisor-agent
+- @security-auditor-agent
+- @project-initiator-agent
+- @devops-agent
+
+---
+
+## @technology-advisor-agent
+
+**🛠️ Technology Advisor Agent**
+
+### Collaborates with:
+- @system-architect-agent
+- @security-auditor-agent
+- @devops-agent
+- @compliance-scope-agent
+- @development-orchestrator-agent
+- @task-planning-agent
+
+---
+
+## @system-architect-agent
+
+**🏛️ System Architect Agent**
+
+### Collaborates with:
+- @elicitation-agent
+- @security-auditor-agent
+- @system-architect-agent
+- @compliance-scope-agent
+
+---
+
+## @branding-agent
+
+**🎭 Branding Agent**
+
+### Collaborates with:
+- @ui-designer-agent
+- @marketing-strategy-orchestrator
+- @content-strategy-agent
+- @graphic-design-agent
+- @social-media-setup-agent
+- @ui-designer-agent
+
+---
+
+## @design-system-agent
+
+**🎨 Design System Agent**
+
+### Collaborates with:
+- @branding-agent
+- @ui-designer-agent
+- @ux-researcher-agent
+- @design-qa-analyst
+- @ui-designer-agent
+- @design-qa-analyst
+
+---
+
+## @ui-designer-agent
+
+**🖼️ UI Designer Agent**
+
+### Collaborates with:
+- @ux-researcher-agent
+- @coding-agent
+- @branding-agent
+- @design-qa-analyst
+- @ui-designer-agent
+- @prd-architect-agent
+
+---
+
+## @prototyping-agent
+
+**🕹️ Prototyping Agent**
+
+### Collaborates with:
+- @ui-designer-agent
+- @ux-researcher-agent
+- @usability-heuristic-agent
+- @coding-agent
+- @prd-architect-agent
+
+---
+
+## @design-qa-analyst
+
+**🔍 Design QA Analyst**
+
+### Collaborates with:
+- @ui-designer-agent
+- @ux-researcher-agent
+- @prototyping-agent
+- @design-qa-analyst
+- @branding-agent
+- @design-system-agent
+
+---
+
+## @ux-researcher-agent
+
+**🧐 UX Researcher Agent**
+
+### Collaborates with:
+- @ui-designer-agent
+- @prd-architect-agent
+- @user-feedback-collector-agent
+- @analytics-setup-agent
+- @design-qa-analyst
+- @market-research-agent
+- @development-orchestrator-agent
+- @test-orchestrator-agent
+
+---
+
+## @tech-spec-agent
+
+**⚙️ Technical Specification Agent**
+
+### Collaborates with:
+- @system-architect-agent
+- @development-orchestrator-agent
+- @prd-architect-agent
+- @security-auditor-agent
+- @devops-agent
+- @test-orchestrator-agent
+- @system-architect-agent
+- @tech-spec-agent
+
+---
+
+## @task-planning-agent
+
+**📅 Task Planning Agent**
+
+### Collaborates with:
+- @task-planning-agent
+- @elicitation-agent
+- @system-architect-agent
+- @task-planning-agent
+- @prd-architect-agent
+- @development-orchestrator-agent
+
+---
+
+## @prd-architect-agent
+
+**📝 PRD Architect Agent**
+
+### Collaborates with:
+- @project-initiator-agent
+- @market-research-agent
+- @system-architect-agent
+- @ux-researcher-agent
+- @prd-architect-agent
+- @documentation-agent
+
+---
+
+## @mcp-configuration-agent
+
+**🔧 MCP Configuration Agent**
+
+### Collaborates with:
+- @technology-advisor-agent
+- @system-architect-agent
+- @devops-agent
+- @security-auditor-agent
+- @tech-spec-agent
+
+---
+
+## @algorithmic-problem-solver-agent
+
+**🧠 Algorithmic Problem Solver Agent**
+
+### Collaborates with:
+- @coding-agent
+- @system-architect-agent
+- @performance-load-tester-agent
+- @tech-spec-agent
+
+---
+
+## @coding-agent
+
+**💻 Coding Agent (Feature Implementation)**
+
+### Collaborates with:
+- @algorithmic-problem-solver-agent
+- @system-architect-agent
+- @code-reviewer-agent
+- @functional-tester-agent
+- @devops-agent
+- @tech-spec-agent
+
+---
+
+## @code-reviewer-agent
+
+**🧐 Code Reviewer Agent**
+
+### Collaborates with:
+- @coding-agent
+- @security-auditor-agent
+- @performance-load-tester-agent
+- @devops-agent
+- @system-architect-agent
+- @test-orchestrator-agent
+
+---
+
+## @documentation-agent
+
+**📄 Documentation Agent**
+
+### Collaborates with:
+- @documentation-agent
+- @coding-agent
+- @prd-architect-agent
+- @ux-researcher-agent
+- @test-orchestrator-agent
+
+---
+
+## @development-orchestrator-agent
+
+**🛠️ Development Orchestrator Agent**
+
+### Collaborates with:
+- @coding-agent
+- @code-reviewer-agent
+- @test-orchestrator-agent
+- @devops-agent
+- @prd-architect-agent
+- @system-architect-agent
+- @task-planning-agent
+
+---
+
+## @test-case-generator-agent
+
+**📝 Test Case Generator Agent**
+
+### Collaborates with:
+- @test-orchestrator-agent
+- @functional-tester-agent
+- @elicitation-agent
+- @development-orchestrator-agent
+- @prd-architect-agent
+- @test-case-generator-agent
+
+---
+
+## @test-orchestrator-agent
+
+**🚦 Test Orchestrator Agent**
+
+### Collaborates with:
+- @test-orchestrator-agent
+- @development-orchestrator-agent
+- @prd-architect-agent
+- @devops-agent
+- @security-auditor-agent
+- @compliance-scope-agent
+- @task-planning-agent
+
+---
+
+## @functional-tester-agent
+
+**⚙️ Functional Tester Agent**
+
+### Collaborates with:
+- @coding-agent
+- @test-orchestrator-agent
+- @devops-agent
+- @performance-load-tester-agent
+- @security-penetration-tester-agent
+- @prd-architect-agent
+
+---
+
+## @exploratory-tester-agent
+
+**🧭 Exploratory Tester Agent**
+
+### Collaborates with:
+- @test-case-generator-agent
+- @test-orchestrator-agent
+- @usability-heuristic-agent
+- @performance-load-tester-agent
+- @security-penetration-tester-agent
+
+---
+
+## @performance-load-tester-agent
+
+**⏱️ Performance & Load Tester Agent**
+
+### Collaborates with:
+- @test-orchestrator-agent
+- @system-architect-agent
+- @devops-agent
+- @health-monitor-agent
+
+---
+
+## @visual-regression-testing-agent
+
+**🖼️ Visual Regression Testing Agent**
+
+### Collaborates with:
+- @test-orchestrator-agent
+- @development-orchestrator-agent
+- @ui-designer-agent
+- @test-orchestrator-agent
+- @design-system-agent
+- @design-qa-analyst
+
+---
+
+## @uat-coordinator-agent
+
+**🤝 UAT Coordinator Agent**
+
+### Collaborates with:
+- @prd-architect-agent
+- @test-orchestrator-agent
+- @market-research-agent
+- @task-planning-agent
+- @development-orchestrator-agent
+- @ui-designer-agent
+- @test-orchestrator-agent
+
+---
+
+## @lead-testing-agent
+
+**🧪 Lead Testing Agent**
+
+### Collaborates with:
+- @functional-tester-agent
+- @performance-load-tester-agent
+- @security-penetration-tester-agent
+- @test-case-generator-agent
+- @test-orchestrator-agent
+- @devops-agent
+- @task-planning-agent
+- @prd-architect-agent
+
+---
+
+## @compliance-testing-agent
+
+**🛡️ Compliance Testing Agent**
+
+### Collaborates with:
+- @security-auditor-agent
+- @test-orchestrator-agent
+- @compliance-scope-agent
+- @compliance-testing-agent
+
+---
+
+## @security-penetration-tester-agent
+
+**🔐 Security & Penetration Tester Agent**
+
+### Collaborates with:
+- @security-auditor-agent
+- @compliance-scope-agent
+- @system-architect-agent
+- @test-orchestrator-agent
+
+---
+
+## @usability-heuristic-agent
+
+**🧐 Usability & Heuristic Evaluation Agent**
+
+### Collaborates with:
+- @ux-researcher-agent
+- @ui-designer-agent
+- @design-qa-analyst
+- @test-orchestrator-agent
+- @development-orchestrator-agent
+- @prd-architect-agent
+- @functional-tester-agent
+- @design-system-agent
+
+---
+
+## @adaptive-deployment-strategist-agent
+
+**🚀 Adaptive Deployment Strategist Agent**
+
+### Collaborates with:
+- @devops-agent
+- @system-architect-agent
+- @security-auditor-agent
+- @performance-load-tester-agent
+- @health-monitor-agent
+- @test-orchestrator-agent
+
+---
+
+## @devops-agent
+
+**⚙️ DevOps Agent**
+
+### Collaborates with:
+- @coding-agent
+- @security-auditor-agent
+- @performance-load-tester-agent
+- @health-monitor-agent
+- @system-architect-agent
+- @system-architect-agent
+- @test-orchestrator-agent
+
+---
+
+## @user-feedback-collector-agent
+
+**🗣️ User Feedback Collector Agent**
+
+### Collaborates with:
+- @ux-researcher-agent
+- @prd-architect-agent
+- @analytics-setup-agent
+- @test-orchestrator-agent
+- @marketing-strategy-orchestrator
+- @development-orchestrator-agent
+- @ui-designer-agent
+
+---
+
+## @efficiency-optimization-agent
+
+**⏱️ Efficiency Optimization Agent**
+
+### Collaborates with:
+- @devops-agent
+- @devops-agent
+- @health-monitor-agent
+
+---
+
+## @knowledge-evolution-agent
+
+**🧠 Knowledge Evolution Agent**
+
+### Collaborates with:
+- @system-architect-agent
+- @analytics-setup-agent
+- @test-orchestrator-agent
+- @task-planning-agent
+
+---
+
+## @security-auditor-agent
+
+**🛡️ Security Auditor Agent**
+
+### Collaborates with:
+- @security-auditor-agent
+- @compliance-scope-agent
+- @test-orchestrator-agent
+- @system-architect-agent
+
+---
+
+## @swarm-scaler-agent
+
+**🦾 Swarm Scaler Agent**
+
+### Collaborates with:
+- @uber-orchestrator-agent
+- @health-monitor-agent
+- @performance-load-tester-agent
+- @devops-agent
+- @system-architect-agent
+- @security-auditor-agent
+- @remediation-agent
+- @root-cause-analysis-agent
+- @incident-learning-agent
+
+---
+
+## @root-cause-analysis-agent
+
+**🕵️ Root Cause Analysis Agent**
+
+### Collaborates with:
+- @health-monitor-agent
+- @remediation-agent
+- @incident-learning-agent
+- @swarm-scaler-agent
+- @devops-agent
+- @security-auditor-agent
+- @performance-load-tester-agent
+
+---
+
+## @remediation-agent
+
+**🛠️ Remediation Agent**
+
+### Collaborates with:
+- @health-monitor-agent
+- @root-cause-analysis-agent
+- @incident-learning-agent
+- @swarm-scaler-agent
+- @devops-agent
+- @security-auditor-agent
+- @system-architect-agent
+
+---
+
+## @health-monitor-agent
+
+**🩺 Health Monitor Agent**
+
+### Collaborates with:
+- @remediation-agent
+- @root-cause-analysis-agent
+- @incident-learning-agent
+- @swarm-scaler-agent
+- @devops-agent
+- @performance-load-tester-agent
+- @security-auditor-agent
+
+---
+
+## @incident-learning-agent
+
+**📚 Incident Learning Agent**
+
+### Collaborates with:
+- @root-cause-analysis-agent
+- @remediation-agent
+- @health-monitor-agent
+- @swarm-scaler-agent
+- @devops-agent
+- @security-auditor-agent
+- @test-orchestrator-agent
+
+---
+
+## @marketing-strategy-orchestrator
+
+**📈 Marketing Strategy Orchestrator**
+
+### Collaborates with:
+- @seo-sem-agent
+- @social-media-setup-agent
+- @content-strategy-agent
+- @branding-agent
+- @analytics-setup-agent
+- @prd-architect-agent
+
+---
+
+## @campaign-manager-agent
+
+**📣 Campaign Manager Agent**
+
+### Collaborates with:
+- @marketing-strategy-orchestrator
+- @seo-sem-agent
+- @social-media-setup-agent
+- @content-strategy-agent
+- @analytics-setup-agent
+
+---
+
+## @content-strategy-agent
+
+**📝 Content Strategy Agent**
+
+### Collaborates with:
+- @content-strategy-agent
+- @seo-sem-agent
+- @social-media-setup-agent
+- @branding-agent
+- @content-strategy-agent
+- @analytics-setup-agent
+- @marketing-strategy-orchestrator
+
+---
+
+## @graphic-design-agent
+
+**🎨 Graphic Design Agent**
+
+### Collaborates with:
+- @branding-agent
+- @marketing-strategy-orchestrator
+- @content-strategy-agent
+- @social-media-setup-agent
+- @ui-designer-agent
+- @ui-designer-agent
+
+---
+
+## @growth-hacking-idea-agent
+
+**💡 Growth Hacking Idea Agent**
+
+### Collaborates with:
+- @marketing-strategy-orchestrator
+- @analytics-setup-agent
+- @prd-architect-agent
+- @content-strategy-agent
+- @social-media-setup-agent
+- @growth-hacking-idea-agent
+- @analytics-setup-agent
+
+---
+
+## @video-production-agent
+
+**🎬 Video Production Agent**
+
+### Collaborates with:
+- @content-strategy-agent
+- @branding-agent
+- @marketing-strategy-orchestrator
+- @social-media-setup-agent
+- @ui-designer-agent
+- @analytics-setup-agent
+
+---
+
+## @analytics-setup-agent
+
+**📊 Analytics Setup Agent**
+
+### Collaborates with:
+- @marketing-strategy-orchestrator
+- @seo-sem-agent
+- @growth-hacking-idea-agent
+- @prd-architect-agent
+- @analytics-setup-agent
+- @performance-load-tester-agent
+- @compliance-scope-agent
+
+---
+
+## @seo-sem-agent
+
+**🔍 SEO/SEM Agent**
+
+### Collaborates with:
+- @content-strategy-agent
+- @ui-designer-agent
+- @analytics-setup-agent
+- @marketing-strategy-orchestrator
+- @growth-hacking-idea-agent
+
+---
+
+## @social-media-setup-agent
+
+**📱 Social Media Setup Agent**
+
+### Collaborates with:
+- @branding-agent
+- @content-strategy-agent
+- @marketing-strategy-orchestrator
+- @analytics-setup-agent
+
+---
+
+## @community-strategy-agent
+
+**🤝 Community Strategy Agent**
+
+### Collaborates with:
+- @social-media-setup-agent
+- @content-strategy-agent
+- @ux-researcher-agent
+- @analytics-setup-agent
+
+---
+
+## @project-initiator-agent
+
+**🚀 Project Initiator Agent**
+
+### Collaborates with:
+- @task-planning-agent
+- @system-architect-agent
+- @market-research-agent
+- @test-orchestrator-agent
+- @elicitation-agent
+
+---
+
+## @task-deep-manager-agent
+
+**🧠 Task Deep Manager Agent (Full Automation)**
+
+### Collaborates with:
+- @task-planning-agent
+- @uber-orchestrator-agent
+- @development-orchestrator-agent
+
+---
+
+## @workflow-architect-agent
+
+**🗺️ Workflow Architect Agent**
+
+### Collaborates with:
+- @task-planning-agent
+- @test-orchestrator-agent
+- @compliance-scope-agent
+- @devops-agent
+
+---
+
+## @deep-research-agent
+
+**🔍 Deep Research Agent**
+
+### Collaborates with:
+- @market-research-agent
+- @market-research-agent
+- @analytics-setup-agent
+
+---
+
+## @scribe-agent
+
+**✍️ Scribe Agent**
+
+### Collaborates with:
+- @task-planning-agent
+- @system-architect-agent
+- @market-research-agent
+- @test-orchestrator-agent
+- @compliance-scope-agent
+
+---
+
+## @task-sync-agent
+
+**🔄 Task Sync Agent**
+
+### Collaborates with:
+- @task-planning-agent
+- @uber-orchestrator-agent
+- @task-deep-manager-agent
+
+---
+
+## @ethical-review-agent
+
+**⚖️ Ethical Review Agent**
+
+### Collaborates with:
+- @compliance-scope-agent
+- @security-auditor-agent
+- @test-orchestrator-agent
+
+---
+
+## @brainjs-ml-agent
+
+**🧠 Brain.js ML Agent**
+
+### Collaborates with:
+- @analytics-setup-agent
+- @coding-agent
+- @performance-load-tester-agent
+- @tech-spec-agent
+- @analytics-setup-agent
+- @devops-agent
+
+---
+
+## @debugger-agent
+
+**🐞 Debugger Agent**
+
+### Collaborates with:
+- @coding-agent
+- @functional-tester-agent
+- @performance-load-tester-agent
+- @code-reviewer-agent
+- @devops-agent
+- @health-monitor-agent
+
+---
+

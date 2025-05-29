@@ -1,0 +1,475 @@
+{
+  "document_metadata": {
+    "title": "Constraints Matrix - DafnckMachine v3.1",
+    "document_status": "Template - To be populated during user briefing",
+    "created": "2025-01-27",
+    "phase": "1 - Initial User Input & Project Inception",
+    "step": "01 - User Briefing",
+    "version": "1.0",
+    "last_updated": "2025-01-27"
+  },
+  "document_purpose": "Comprehensive matrix of all project constraints including technical, business, resource, regulatory, and operational limitations that will impact the DafnckMachine v3.1 project design and implementation.",
+  "constraints_overview": {
+    "total_constraints": "[To be calculated]",
+    "constraint_categories": "[Number of constraint categories identified]",
+    "critical_constraints": "[Number of critical/blocking constraints]",
+    "impact_assessment": "[Overall impact assessment of constraints]"
+  },
+  "constraint_categories": {
+    "technical_constraints": {
+      "category_description": "Technical limitations and requirements that constrain technology choices and implementation approaches",
+      "constraints": [
+        {
+          "constraint_id": "TC001",
+          "constraint_name": "[Constraint Name]",
+          "description": "[Detailed description of the technical constraint]",
+          "constraint_type": "Technical",
+          "severity": "[Critical/High/Medium/Low]",
+          "impact_areas": [
+            "[Impact Area 1]",
+            "[Impact Area 2]"
+          ],
+          "specific_limitations": {
+            "technology_stack": "[Specific technology limitations]",
+            "performance_requirements": "[Performance constraints]",
+            "compatibility_requirements": "[Compatibility constraints]",
+            "security_requirements": "[Security constraints]"
+          },
+          "workarounds": [
+            {
+              "workaround_description": "[Description of potential workaround]",
+              "feasibility": "[High/Medium/Low]",
+              "cost_impact": "[Cost implications of workaround]",
+              "timeline_impact": "[Timeline implications of workaround]"
+            }
+          ],
+          "mitigation_strategies": [
+            {
+              "strategy_description": "[Description of mitigation strategy]",
+              "implementation_effort": "[High/Medium/Low]",
+              "success_probability": "[High/Medium/Low]"
+            }
+          ],
+          "constraint_source": "[Where this constraint originates from]",
+          "negotiability": "[Non-negotiable/Partially negotiable/Negotiable]",
+          "timeline_sensitivity": "[Time-sensitive/Flexible]",
+          "dependencies": [
+            "[Related constraint IDs or external dependencies]"
+          ]
+        }
+      ]
+    },
+    "business_constraints": {
+      "category_description": "Business-related limitations including budget, timeline, market, and strategic constraints",
+      "constraints": [
+        {
+          "constraint_id": "BC001",
+          "constraint_name": "[Constraint Name]",
+          "description": "[Detailed description of the business constraint]",
+          "constraint_type": "Business",
+          "severity": "[Critical/High/Medium/Low]",
+          "impact_areas": [
+            "[Impact Area 1]",
+            "[Impact Area 2]"
+          ],
+          "specific_limitations": {
+            "budget_constraints": {
+              "total_budget": "[Total project budget limit]",
+              "budget_breakdown": {
+                "development": "[Development budget allocation]",
+                "infrastructure": "[Infrastructure budget allocation]",
+                "marketing": "[Marketing budget allocation]",
+                "operations": "[Operations budget allocation]"
+              },
+              "budget_flexibility": "[How flexible the budget constraints are]"
+            },
+            "timeline_constraints": {
+              "project_deadline": "[Hard deadline for project completion]",
+              "milestone_deadlines": [
+                {
+                  "milestone": "[Milestone name]",
+                  "deadline": "[Milestone deadline]",
+                  "flexibility": "[How flexible this deadline is]"
+                }
+              ],
+              "market_timing": "[Market timing considerations]"
+            },
+            "market_constraints": {
+              "competitive_pressure": "[Competitive timing pressures]",
+              "market_window": "[Market opportunity window]",
+              "customer_expectations": "[Customer timing expectations]"
+            },
+            "strategic_constraints": {
+              "company_strategy": "[How company strategy constrains the project]",
+              "brand_alignment": "[Brand alignment requirements]",
+              "partnership_requirements": "[Partnership-related constraints]"
+            }
+          },
+          "business_impact": {
+            "revenue_impact": "[How this constraint affects revenue potential]",
+            "cost_impact": "[How this constraint affects project costs]",
+            "risk_impact": "[How this constraint affects business risk]"
+          },
+          "stakeholder_impact": [
+            {
+              "stakeholder": "[Stakeholder name/role]",
+              "impact_description": "[How this constraint affects this stakeholder]"
+            }
+          ],
+          "constraint_source": "[Where this constraint originates from]",
+          "negotiability": "[Non-negotiable/Partially negotiable/Negotiable]",
+          "escalation_path": "[Who can make decisions about this constraint]"
+        }
+      ]
+    },
+    "resource_constraints": {
+      "category_description": "Limitations related to human resources, skills, tools, and infrastructure availability",
+      "constraints": [
+        {
+          "constraint_id": "RC001",
+          "constraint_name": "[Constraint Name]",
+          "description": "[Detailed description of the resource constraint]",
+          "constraint_type": "Resource",
+          "severity": "[Critical/High/Medium/Low]",
+          "impact_areas": [
+            "[Impact Area 1]",
+            "[Impact Area 2]"
+          ],
+          "specific_limitations": {
+            "human_resources": {
+              "team_size_limits": "[Maximum team size constraints]",
+              "skill_availability": [
+                {
+                  "skill": "[Required skill]",
+                  "availability": "[Available/Limited/Unavailable]",
+                  "gap_description": "[Description of skill gap if any]"
+                }
+              ],
+              "time_availability": {
+                "full_time_resources": "[Number of full-time resources available]",
+                "part_time_resources": "[Number of part-time resources available]",
+                "contractor_budget": "[Budget available for contractors]"
+              },
+              "experience_requirements": "[Required experience levels and constraints]"
+            },
+            "infrastructure_constraints": {
+              "hardware_limitations": "[Hardware availability and limitations]",
+              "software_licensing": "[Software licensing constraints]",
+              "cloud_resources": "[Cloud resource limitations and budgets]",
+              "development_tools": "[Development tool availability and constraints]"
+            },
+            "external_dependencies": {
+              "vendor_availability": "[Vendor resource availability]",
+              "third_party_services": "[Third-party service limitations]",
+              "integration_constraints": "[Integration resource constraints]"
+            }
+          },
+          "resource_acquisition": {
+            "procurement_timeline": "[Timeline for acquiring needed resources]",
+            "approval_process": "[Process for getting resource approvals]",
+            "alternative_sources": "[Alternative sources for constrained resources]"
+          },
+          "constraint_source": "[Where this constraint originates from]",
+          "flexibility": "[How flexible this constraint is]",
+          "cost_to_overcome": "[Cost to overcome this constraint]"
+        }
+      ]
+    },
+    "regulatory_constraints": {
+      "category_description": "Legal, compliance, and regulatory requirements that constrain project implementation",
+      "constraints": [
+        {
+          "constraint_id": "REG001",
+          "constraint_name": "[Constraint Name]",
+          "description": "[Detailed description of the regulatory constraint]",
+          "constraint_type": "Regulatory",
+          "severity": "[Critical/High/Medium/Low]",
+          "impact_areas": [
+            "[Impact Area 1]",
+            "[Impact Area 2]"
+          ],
+          "specific_limitations": {
+            "legal_requirements": {
+              "applicable_laws": [
+                {
+                  "law_name": "[Name of applicable law/regulation]",
+                  "jurisdiction": "[Jurisdiction where law applies]",
+                  "compliance_requirements": "[Specific compliance requirements]",
+                  "penalties": "[Penalties for non-compliance]"
+                }
+              ],
+              "licensing_requirements": "[Required licenses and permits]",
+              "intellectual_property": "[IP-related constraints]"
+            },
+            "data_protection": {
+              "privacy_regulations": "[GDPR, CCPA, etc. requirements]",
+              "data_handling": "[Data handling and storage constraints]",
+              "user_consent": "[User consent requirements]",
+              "data_retention": "[Data retention and deletion requirements]"
+            },
+            "security_compliance": {
+              "security_standards": "[Required security standards (SOC2, ISO27001, etc.)]",
+              "audit_requirements": "[Audit and reporting requirements]",
+              "certification_needs": "[Required certifications]"
+            },
+            "industry_specific": {
+              "industry_regulations": "[Industry-specific regulatory requirements]",
+              "professional_standards": "[Professional standards that must be met]",
+              "reporting_obligations": "[Required reporting and documentation]"
+            }
+          },
+          "compliance_timeline": {
+            "assessment_period": "[Time needed for compliance assessment]",
+            "implementation_period": "[Time needed for compliance implementation]",
+            "certification_period": "[Time needed for certification if required]"
+          },
+          "compliance_costs": {
+            "assessment_costs": "[Costs for compliance assessment]",
+            "implementation_costs": "[Costs for compliance implementation]",
+            "ongoing_costs": "[Ongoing compliance maintenance costs]"
+          },
+          "constraint_source": "[Regulatory body or legal requirement source]",
+          "negotiability": "[Non-negotiable/Partially negotiable through exemptions]",
+          "expert_consultation": "[Need for legal/compliance expert consultation]"
+        }
+      ]
+    },
+    "operational_constraints": {
+      "category_description": "Operational limitations including process, organizational, and environmental constraints",
+      "constraints": [
+        {
+          "constraint_id": "OC001",
+          "constraint_name": "[Constraint Name]",
+          "description": "[Detailed description of the operational constraint]",
+          "constraint_type": "Operational",
+          "severity": "[Critical/High/Medium/Low]",
+          "impact_areas": [
+            "[Impact Area 1]",
+            "[Impact Area 2]"
+          ],
+          "specific_limitations": {
+            "process_constraints": {
+              "development_methodology": "[Required development methodology constraints]",
+              "approval_processes": "[Required approval processes and timelines]",
+              "quality_gates": "[Required quality gates and checkpoints]",
+              "documentation_requirements": "[Documentation requirements and standards]"
+            },
+            "organizational_constraints": {
+              "reporting_structure": "[Organizational reporting constraints]",
+              "decision_making": "[Decision-making process constraints]",
+              "communication_protocols": "[Required communication protocols]",
+              "change_management": "[Change management process constraints]"
+            },
+            "environmental_constraints": {
+              "physical_location": "[Physical location constraints]",
+              "time_zone_limitations": "[Time zone coordination constraints]",
+              "cultural_considerations": "[Cultural and language constraints]",
+              "seasonal_factors": "[Seasonal factors affecting operations]"
+            },
+            "integration_constraints": {
+              "existing_systems": "[Constraints from existing system integration]",
+              "data_migration": "[Data migration constraints]",
+              "legacy_support": "[Legacy system support requirements]"
+            }
+          },
+          "process_adaptation": {
+            "flexibility_options": "[Options for adapting processes]",
+            "exception_procedures": "[Procedures for handling exceptions]",
+            "escalation_paths": "[Escalation paths for constraint issues]"
+          },
+          "constraint_source": "[Source of operational constraint]",
+          "change_possibility": "[Possibility of changing this constraint]",
+          "workaround_feasibility": "[Feasibility of working around this constraint]"
+        }
+      ]
+    },
+    "user_experience_constraints": {
+      "category_description": "Constraints related to user experience requirements, accessibility, and usability standards",
+      "constraints": [
+        {
+          "constraint_id": "UX001",
+          "constraint_name": "[Constraint Name]",
+          "description": "[Detailed description of the UX constraint]",
+          "constraint_type": "User Experience",
+          "severity": "[Critical/High/Medium/Low]",
+          "impact_areas": [
+            "[Impact Area 1]",
+            "[Impact Area 2]"
+          ],
+          "specific_limitations": {
+            "accessibility_requirements": {
+              "wcag_compliance": "[WCAG compliance level required]",
+              "assistive_technology": "[Assistive technology support requirements]",
+              "keyboard_navigation": "[Keyboard navigation requirements]",
+              "screen_reader_support": "[Screen reader support requirements]"
+            },
+            "usability_standards": {
+              "response_time": "[Required response time standards]",
+              "error_handling": "[Error handling and recovery requirements]",
+              "user_feedback": "[User feedback and confirmation requirements]",
+              "help_documentation": "[Help and documentation requirements]"
+            },
+            "device_support": {
+              "browser_support": "[Required browser support matrix]",
+              "mobile_devices": "[Mobile device support requirements]",
+              "screen_resolutions": "[Supported screen resolutions]",
+              "operating_systems": "[Operating system support requirements]"
+            },
+            "content_constraints": {
+              "language_support": "[Required language support]",
+              "content_guidelines": "[Content creation and presentation guidelines]",
+              "media_requirements": "[Image, video, and media requirements]"
+            }
+          },
+          "testing_requirements": {
+            "usability_testing": "[Required usability testing approaches]",
+            "accessibility_testing": "[Required accessibility testing]",
+            "device_testing": "[Required device and browser testing]"
+          },
+          "constraint_source": "[Source of UX constraint]",
+          "user_impact": "[How this constraint affects user experience]",
+          "design_flexibility": "[How much design flexibility remains within constraint]"
+        }
+      ]
+    }
+  },
+  "constraint_analysis": {
+    "constraint_interactions": [
+      {
+        "constraint_1": "[Constraint ID 1]",
+        "constraint_2": "[Constraint ID 2]",
+        "interaction_type": "[Conflicting/Reinforcing/Dependent]",
+        "interaction_description": "[How these constraints interact]",
+        "resolution_approach": "[How to resolve conflicting constraints]"
+      }
+    ],
+    "critical_path_constraints": [
+      {
+        "constraint_id": "[Constraint ID]",
+        "critical_path_impact": "[How this constraint affects the critical path]",
+        "mitigation_priority": "[Priority level for mitigation]"
+      }
+    ],
+    "constraint_priorities": {
+      "must_have_constraints": [
+        "[List of absolutely non-negotiable constraints]"
+      ],
+      "should_have_constraints": [
+        "[List of highly important but potentially negotiable constraints]"
+      ],
+      "nice_to_have_constraints": [
+        "[List of preferred but flexible constraints]"
+      ]
+    }
+  },
+  "mitigation_strategies": {
+    "global_strategies": [
+      {
+        "strategy_name": "[Strategy Name]",
+        "strategy_description": "[Description of overall mitigation strategy]",
+        "applicable_constraints": [
+          "[List of constraint IDs this strategy addresses]"
+        ],
+        "implementation_approach": "[How to implement this strategy]",
+        "resource_requirements": "[Resources needed for this strategy]",
+        "timeline": "[Timeline for implementing this strategy]",
+        "success_metrics": "[How to measure success of this strategy]"
+      }
+    ],
+    "contingency_plans": [
+      {
+        "scenario": "[Scenario description]",
+        "trigger_conditions": "[Conditions that would trigger this contingency]",
+        "response_plan": "[Planned response to this scenario]",
+        "resource_allocation": "[How resources would be reallocated]",
+        "timeline_adjustments": "[How timeline would be adjusted]"
+      }
+    ]
+  },
+  "constraint_monitoring": {
+    "monitoring_approach": "[How constraints will be monitored throughout the project]",
+    "review_schedule": "[Schedule for reviewing and updating constraints]",
+    "escalation_triggers": "[Conditions that would trigger constraint escalation]",
+    "change_management": "[Process for managing constraint changes]",
+    "stakeholder_communication": "[How constraint changes will be communicated]"
+  },
+  "impact_assessment": {
+    "project_scope_impact": {
+      "scope_reductions": "[Potential scope reductions due to constraints]",
+      "scope_additions": "[Additional scope needed to address constraints]",
+      "feature_prioritization": "[How constraints affect feature prioritization]"
+    },
+    "timeline_impact": {
+      "critical_path_delays": "[Potential delays to critical path]",
+      "milestone_adjustments": "[Required milestone adjustments]",
+      "buffer_requirements": "[Additional time buffers needed]"
+    },
+    "budget_impact": {
+      "additional_costs": "[Additional costs due to constraints]",
+      "cost_savings": "[Potential cost savings from constraint-driven decisions]",
+      "budget_reallocation": "[Required budget reallocations]"
+    },
+    "quality_impact": {
+      "quality_trade_offs": "[Quality trade-offs required by constraints]",
+      "quality_enhancements": "[Quality improvements driven by constraints]",
+      "testing_implications": "[How constraints affect testing approach]"
+    }
+  },
+  "stakeholder_alignment": {
+    "constraint_communication": [
+      {
+        "stakeholder": "[Stakeholder name/role]",
+        "relevant_constraints": "[Constraints that affect this stakeholder]",
+        "communication_approach": "[How to communicate constraints to this stakeholder]",
+        "decision_authority": "[This stakeholder's authority over constraints]"
+      }
+    ],
+    "approval_requirements": [
+      {
+        "constraint_category": "[Category of constraints]",
+        "approval_authority": "[Who needs to approve constraint decisions]",
+        "approval_process": "[Process for getting constraint approvals]"
+      }
+    ]
+  },
+  "agent_assignment": {
+    "primary_agent": "@elicitation-agent",
+    "supporting_agents": [
+      "@system-architect-agent",
+      "@compliance-scope-agent",
+      "@project-initiator-agent"
+    ]
+  },
+  "integration_points": {
+    "related_documents": [
+      {
+        "document": "Risk_Assessment.md",
+        "relationship": "Constraints inform risk assessment and mitigation strategies"
+      },
+      {
+        "document": "Project_Vision_Statement.md",
+        "relationship": "Constraints may require vision adjustments or clarifications"
+      },
+      {
+        "document": "Requirements_Matrix.json",
+        "relationship": "Constraints affect requirement feasibility and prioritization"
+      },
+      {
+        "document": "User_Profile.json",
+        "relationship": "User constraints and preferences inform project constraints"
+      }
+    ],
+    "workflow_integration": [
+      "Feeds into project planning and scope definition",
+      "Informs technology stack selection and architecture decisions",
+      "Guides resource allocation and timeline planning",
+      "Influences risk management and mitigation strategies"
+    ]
+  },
+  "template_completion": {
+    "status": "Template Ready for Population",
+    "next_action": "Populate during constraint identification with @elicitation-agent",
+    "estimated_completion": "During user briefing and requirements gathering phases",
+    "review_schedule": "Weekly during active project phases, monthly during maintenance"
+  }
+} 

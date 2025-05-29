@@ -1,0 +1,187 @@
+{
+  "documentInfo": {
+    "title": "Market Opportunity Analysis - DafnckMachine v3.1",
+    "version": "3.1.0",
+    "created": "2025-01-27",
+    "status": "template",
+    "phase": "2 - Discovery & Strategy",
+    "step": "02 - Problem Validation"
+  },
+  "marketSizing": {
+    "totalAddressableMarket": {
+      "tam": {
+        "value": 0,
+        "currency": "USD",
+        "timeframe": "annual",
+        "description": "Total market size for the entire problem space",
+        "sources": [],
+        "methodology": ""
+      }
+    },
+    "serviceableAddressableMarket": {
+      "sam": {
+        "value": 0,
+        "currency": "USD",
+        "timeframe": "annual",
+        "description": "Market size we can realistically target",
+        "sources": [],
+        "methodology": ""
+      }
+    },
+    "serviceableObtainableMarket": {
+      "som": {
+        "value": 0,
+        "currency": "USD",
+        "timeframe": "annual",
+        "description": "Market share we can realistically capture",
+        "sources": [],
+        "methodology": ""
+      }
+    }
+  },
+  "marketSegmentation": {
+    "primarySegments": [
+      {
+        "segmentName": "",
+        "description": "",
+        "size": 0,
+        "growthRate": 0,
+        "characteristics": [],
+        "painPoints": [],
+        "buyingBehavior": ""
+      }
+    ],
+    "secondarySegments": [
+      {
+        "segmentName": "",
+        "description": "",
+        "size": 0,
+        "growthRate": 0,
+        "characteristics": [],
+        "painPoints": [],
+        "buyingBehavior": ""
+      }
+    ]
+  },
+  "marketTrends": {
+    "growthDrivers": [
+      {
+        "driver": "",
+        "impact": "",
+        "timeframe": "",
+        "evidence": []
+      }
+    ],
+    "marketBarriers": [
+      {
+        "barrier": "",
+        "impact": "",
+        "mitigation": "",
+        "evidence": []
+      }
+    ],
+    "emergingTrends": [
+      {
+        "trend": "",
+        "relevance": "",
+        "opportunity": "",
+        "timeline": ""
+      }
+    ]
+  },
+  "competitiveLandscape": {
+    "marketMaturity": "",
+    "competitionLevel": "",
+    "marketLeaders": [],
+    "marketGaps": [],
+    "differentiationOpportunities": []
+  },
+  "customerAnalysis": {
+    "targetCustomers": [
+      {
+        "customerType": "",
+        "demographics": {},
+        "psychographics": {},
+        "needsAndPains": [],
+        "currentSolutions": [],
+        "decisionCriteria": []
+      }
+    ],
+    "customerJourney": {
+      "awareness": "",
+      "consideration": "",
+      "decision": "",
+      "retention": ""
+    }
+  },
+  "opportunityAssessment": {
+    "marketAttractiveness": {
+      "score": 0,
+      "factors": [
+        {
+          "factor": "Market Size",
+          "weight": 0.3,
+          "score": 0,
+          "rationale": ""
+        },
+        {
+          "factor": "Growth Rate",
+          "weight": 0.25,
+          "score": 0,
+          "rationale": ""
+        },
+        {
+          "factor": "Competition Level",
+          "weight": 0.2,
+          "score": 0,
+          "rationale": ""
+        },
+        {
+          "factor": "Market Access",
+          "weight": 0.15,
+          "score": 0,
+          "rationale": ""
+        },
+        {
+          "factor": "Regulatory Environment",
+          "weight": 0.1,
+          "score": 0,
+          "rationale": ""
+        }
+      ]
+    },
+    "revenueProjections": {
+      "year1": 0,
+      "year2": 0,
+      "year3": 0,
+      "year5": 0,
+      "assumptions": [],
+      "scenarios": {
+        "conservative": {},
+        "realistic": {},
+        "optimistic": {}
+      }
+    }
+  },
+  "integrationPoints": {
+    "relatedDocuments": [
+      "Problem_Statement.md",
+      "Competitive_Analysis.md",
+      "Market_Trends_Analysis.md",
+      "User_Validation_Report.md"
+    ],
+    "dataFlows": [],
+    "systemConnections": []
+  },
+  "populationInstructions": {
+    "assignedAgent": "@market-research-agent",
+    "supportingAgents": [],
+    "completionCriteria": [
+      "TAM/SAM/SOM analysis completed with sources",
+      "Market segments identified and sized",
+      "Growth trends and drivers documented",
+      "Competitive landscape mapped",
+      "Revenue projections with scenarios"
+    ]
+  }
+} 

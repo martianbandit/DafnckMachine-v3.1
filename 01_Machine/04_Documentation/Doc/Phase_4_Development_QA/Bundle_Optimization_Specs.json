@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "version": "3.1.0",
+    "lastUpdated": "2025-01-27",
+    "relatedWorkflow": "12_Frontend_Development.md",
+    "purpose": "Bundle optimization and performance specifications for frontend application"
+  },
+  "bundleTargets": {
+    "javascript": {
+      "main": {
+        "maxSize": "250KB",
+        "gzipped": "80KB",
+        "description": "Main application bundle"
+      },
+      "vendor": {
+        "maxSize": "500KB",
+        "gzipped": "150KB",
+        "description": "Third-party libraries bundle"
+      },
+      "chunks": {
+        "maxSize": "100KB",
+        "gzipped": "30KB",
+        "description": "Individual route/feature chunks"
+      }
+    },
+    "css": {
+      "main": {
+        "maxSize": "50KB",
+        "gzipped": "15KB",
+        "description": "Main stylesheet bundle"
+      },
+      "critical": {
+        "maxSize": "14KB",
+        "inline": true,
+        "description": "Critical above-the-fold CSS"
+      }
+    },
+    "assets": {
+      "images": {
+        "maxSize": "2MB",
+        "formats": ["webp", "avif", "jpg"],
+        "compression": "85%"
+      },
+      "fonts": {
+        "maxSize": "500KB",
+        "formats": ["woff2", "woff"],
+        "preload": "critical fonts only"
+      }
+    }
+  },
+  "codeSplitting": {
+    "strategies": {
+      "routeBased": {
+        "enabled": true,
+        "description": "Split code by application routes",
+        "implementation": "React.lazy() with Suspense",
+        "chunkNaming": "[name].[contenthash].js"
+      },
+      "vendorSplitting": {
+        "enabled": true,
+        "description": "Separate vendor libraries from application code",
+        "criteria": "node_modules dependencies",
+        "cacheStrategy": "long-term caching"
+      },
+      "featureBased": {
+        "enabled": true,
+        "description": "Split by feature modules",
+        "criteria": "feature directories",
+        "loadingStrategy": "on-demand"
+      },
+      "commonChunks": {
+        "enabled": true,
+        "description": "Extract shared code between chunks",
+        "minChunks": 2,
+        "priority": "high"
+      }
+    },
+    "chunkOptimization": {
+      "minSize": "20KB",
+      "maxSize": "244KB",
+      "maxAsyncRequests": 30,
+      "maxInitialRequests": 30,
+      "automaticNameDelimiter": "~"
+    }
+  },
+  "treeShaking": {
+    "enabled": true,
+    "sideEffects": false,
+    "optimization": {
+      "usedExports": true,
+      "providedExports": true,
+      "concatenateModules": true,
+      "flagIncludedChunks": true
+    },
+    "libraryOptimization": {
+      "lodash": "babel-plugin-lodash",
+      "momentjs": "exclude and use date-fns",
+      "antd": "babel-plugin-import",
+      "materialUI": "babel-plugin-import"
+    }
+  },
+  "compression": {
+    "gzip": {
+      "enabled": true,
+      "level": 9,
+      "threshold": "1KB",
+      "compressionRatio": "70-80%"
+    },
+    "brotli": {
+      "enabled": true,
+      "quality": 11,
+      "threshold": "1KB",
+      "compressionRatio": "75-85%"
+    },
+    "assetCompression": {
+      "images": {
+        "webp": "85% quality",
+        "avif": "80% quality",
+        "jpeg": "85% quality",
+        "png": "lossless compression"
+      },
+      "svg": {
+        "optimization": "svgo",
+        "removeComments": true,
+        "removeMetadata": true
+      }
+    }
+  },
+  "caching": {
+    "strategies": {
+      "contentHashing": {
+        "enabled": true,
+        "pattern": "[name].[contenthash:8].[ext]",
+        "description": "Cache busting through content hashing"
+      },
+      "immutableCaching": {
+        "enabled": true,
+        "maxAge": "31536000",
+        "description": "Long-term caching for hashed assets"
+      },
+      "serviceWorker": {
+        "enabled": true,
+        "strategy": "cache-first",
+        "resources": ["static assets", "API responses"]
+      }
+    },
+    "cacheGroups": {
+      "vendor": {
+        "test": "/[\\/]node_modules[\\/]/",
+        "name": "vendors",
+        "chunks": "all",
+        "priority": 10
+      },
+      "common": {
+        "name": "common",
+        "minChunks": 2,
+        "chunks": "all",
+        "priority": 5
+      }
+    }
+  },
+  "moduleResolution": {
+    "alias": {
+      "@components": "./src/components",
+      "@utils": "./src/utils",
+      "@hooks": "./src/hooks",
+      "@services": "./src/services",
+      "@assets": "./src/assets"
+    },
+    "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"],
+    "mainFields": ["browser", "module", "main"],
+    "optimization": {
+      "resolveSymlinks": false,
+      "cacheWithContext": false
+    }
+  },
+  "buildOptimization": {
+    "production": {
+      "minimize": true,
+      "minimizer": "terser",
+      "terserOptions": {
+        "compress": {
+          "drop_console": true,
+          "drop_debugger": true,
+          "pure_funcs": ["console.log", "console.info"]
+        },
+        "mangle": {
+          "safari10": true
+        },
+        "format": {
+          "comments": false
+        }
+      }
+    },
+    "development": {
+      "minimize": false,
+      "sourceMap": "eval-source-map",
+      "devtool": "eval-cheap-module-source-map"
+    }
+  },
+  "assetOptimization": {
+    "images": {
+      "responsive": {
+        "enabled": true,
+        "breakpoints": [480, 768, 1024, 1440],
+        "formats": ["webp", "avif", "original"]
+      },
+      "lazyLoading": {
+        "enabled": true,
+        "threshold": "50px",
+        "placeholder": "blur"
+      },
+      "optimization": {
+        "quality": 85,
+        "progressive": true,
+        "mozjpeg": true
+      }
+    },
+    "fonts": {
+      "preload": ["primary-font.woff2"],
+      "display": "swap",
+      "subsetting": "unicode-range",
+      "compression": "woff2"
+    },
+    "icons": {
+      "strategy": "svg-sprite",
+      "optimization": "svgo",
+      "inlining": "critical icons only"
+    }
+  },
+  "performanceMetrics": {
+    "budgets": {
+      "initial": "500KB",
+      "maximumWarning": "750KB",
+      "maximumError": "1MB"
+    },
+    "monitoring": {
+      "bundleAnalyzer": {
+        "enabled": true,
+        "generateStatsFile": true,
+        "analyzerMode": "static"
+      },
+      "lighthouse": {
+        "performance": "> 90",
+        "accessibility": "> 95",
+        "bestPractices": "> 90",
+        "seo": "> 90"
+      },
+      "webVitals": {
+        "FCP": "< 1.8s",
+        "LCP": "< 2.5s",
+        "FID": "< 100ms",
+        "CLS": "< 0.1",
+        "TTI": "< 3.8s"
+      }
+    }
+  },
+  "polyfills": {
+    "strategy": "differential serving",
+    "modern": {
+      "target": "es2018",
+      "modules": true,
+      "polyfills": "minimal"
+    },
+    "legacy": {
+      "target": "es5",
+      "modules": false,
+      "polyfills": "full"
+    },
+    "detection": "module/nomodule pattern"
+  },
+  "environmentOptimization": {
+    "development": {
+      "hotReload": true,
+      "sourceMap": "eval-source-map",
+      "optimization": false,
+      "bundleAnalyzer": false
+    },
+    "staging": {
+      "sourceMap": "source-map",
+      "optimization": true,
+      "bundleAnalyzer": true,
+      "compression": true
+    },
+    "production": {
+      "sourceMap": false,
+      "optimization": true,
+      "bundleAnalyzer": true,
+      "compression": true,
+      "minification": true
+    }
+  },
+  "monitoring": {
+    "buildTime": {
+      "target": "< 60s",
+      "warning": "> 90s",
+      "error": "> 120s"
+    },
+    "bundleSize": {
+      "tracking": "continuous",
+      "alerts": "size increase > 10%",
+      "reporting": "weekly"
+    },
+    "performance": {
+      "realUserMonitoring": true,
+      "syntheticTesting": true,
+      "alerting": "performance regression"
+    }
+  },
+  "tools": {
+    "bundler": "webpack",
+    "analyzer": "webpack-bundle-analyzer",
+    "compression": "compression-webpack-plugin",
+    "optimization": "terser-webpack-plugin",
+    "monitoring": ["lighthouse-ci", "bundlesize", "size-limit"]
+  }
+} 

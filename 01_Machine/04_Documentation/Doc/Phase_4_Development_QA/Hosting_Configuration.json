@@ -1,0 +1,631 @@
+{
+  "document_metadata": {
+    "document_type": "Hosting Configuration Specifications",
+    "phase": "Phase 4 - Development & QA",
+    "version": "3.1.0",
+    "last_updated": "2025-01-27",
+    "related_documents": [
+      "Deployment_Configuration.json",
+      "Build_Configuration_Documentation.md",
+      "Frontend_Monitoring_Setup.md"
+    ]
+  },
+  "hosting_strategy": {
+    "overview": "Multi-cloud hosting strategy for DafnckMachine v3.1 with high availability and global distribution",
+    "primary_provider": "AWS",
+    "secondary_provider": "Google Cloud Platform",
+    "disaster_recovery_provider": "Microsoft Azure",
+    "multi_region_deployment": true
+  },
+  "infrastructure_architecture": {
+    "compute_services": {
+      "primary": {
+        "service": "AWS ECS Fargate",
+        "regions": ["us-west-2", "us-east-1", "eu-west-1"],
+        "availability_zones": 3,
+        "auto_scaling": true,
+        "load_balancing": "Application Load Balancer"
+      },
+      "serverless": {
+        "service": "AWS Lambda",
+        "runtime": "Node.js 18",
+        "memory": "1024MB",
+        "timeout": "30 seconds",
+        "concurrent_executions": 1000
+      },
+      "edge_computing": {
+        "service": "AWS Lambda@Edge",
+        "functions": [
+          "request_routing",
+          "response_modification",
+          "authentication",
+          "security_headers"
+        ]
+      }
+    },
+    "storage_services": {
+      "object_storage": {
+        "service": "AWS S3",
+        "buckets": {
+          "static_assets": {
+            "name": "dafnckmachine-static-assets",
+            "versioning": true,
+            "encryption": "AES-256",
+            "lifecycle_policy": "30 days IA, 90 days Glacier"
+          },
+          "user_uploads": {
+            "name": "dafnckmachine-user-uploads",
+            "versioning": true,
+            "encryption": "KMS",
+            "lifecycle_policy": "365 days retention"
+          },
+          "backups": {
+            "name": "dafnckmachine-backups",
+            "versioning": true,
+            "encryption": "KMS",
+            "cross_region_replication": true
+          }
+        }
+      },
+      "database_storage": {
+        "primary": {
+          "service": "AWS RDS PostgreSQL",
+          "version": "15.4",
+          "instance_class": "db.r5.xlarge",
+          "storage_type": "gp3",
+          "storage_size": "1TB",
+          "iops": 3000,
+          "multi_az": true,
+          "read_replicas": 2
+        },
+        "cache": {
+          "service": "AWS ElastiCache Redis",
+          "version": "7.0",
+          "node_type": "cache.r6g.large",
+          "cluster_mode": true,
+          "num_shards": 3,
+          "replicas_per_shard": 1
+        },
+        "search": {
+          "service": "AWS OpenSearch",
+          "version": "2.3",
+          "instance_type": "t3.medium.search",
+          "instance_count": 3,
+          "storage_type": "gp3",
+          "storage_size": "100GB"
+        }
+      }
+    },
+    "networking": {
+      "vpc_configuration": {
+        "cidr_block": "10.0.0.0/16",
+        "public_subnets": [
+          "10.0.1.0/24",
+          "10.0.2.0/24",
+          "10.0.3.0/24"
+        ],
+        "private_subnets": [
+          "10.0.4.0/24",
+          "10.0.5.0/24",
+          "10.0.6.0/24"
+        ],
+        "database_subnets": [
+          "10.0.7.0/24",
+          "10.0.8.0/24",
+          "10.0.9.0/24"
+        ]
+      },
+      "load_balancing": {
+        "application_load_balancer": {
+          "scheme": "internet-facing",
+          "type": "application",
+          "ip_address_type": "ipv4",
+          "deletion_protection": true,
+          "idle_timeout": 60
+        },
+        "network_load_balancer": {
+          "scheme": "internal",
+          "type": "network",
+          "cross_zone_load_balancing": true
+        }
+      },
+      "cdn": {
+        "service": "AWS CloudFront",
+        "price_class": "PriceClass_All",
+        "http_version": "http2",
+        "ipv6_enabled": true,
+        "compression": true,
+        "cache_behaviors": [
+          {
+            "path_pattern": "/static/*",
+            "ttl_min": 0,
+            "ttl_default": 86400,
+            "ttl_max": 31536000,
+            "compress": true
+          },
+          {
+            "path_pattern": "/api/*",
+            "ttl_min": 0,
+            "ttl_default": 0,
+            "ttl_max": 0,
+            "compress": false
+          }
+        ]
+      }
+    }
+  },
+  "environment_configurations": {
+    "development": {
+      "hosting_tier": "Basic",
+      "compute": {
+        "service": "AWS ECS Fargate",
+        "cpu": "0.5 vCPU",
+        "memory": "1GB",
+        "desired_count": 1,
+        "max_count": 2
+      },
+      "database": {
+        "instance_class": "db.t3.micro",
+        "storage": "20GB",
+        "backup_retention": "7 days",
+        "multi_az": false
+      },
+      "cache": {
+        "node_type": "cache.t3.micro",
+        "num_nodes": 1
+      },
+      "monitoring": {
+        "level": "basic",
+        "retention": "7 days"
+      },
+      "cost_optimization": {
+        "auto_shutdown": true,
+        "schedule": "weekdays 8AM-8PM PST"
+      }
+    },
+    "staging": {
+      "hosting_tier": "Standard",
+      "compute": {
+        "service": "AWS ECS Fargate",
+        "cpu": "1 vCPU",
+        "memory": "2GB",
+        "desired_count": 2,
+        "max_count": 4
+      },
+      "database": {
+        "instance_class": "db.t3.small",
+        "storage": "100GB",
+        "backup_retention": "14 days",
+        "multi_az": true
+      },
+      "cache": {
+        "node_type": "cache.t3.small",
+        "num_nodes": 2
+      },
+      "monitoring": {
+        "level": "standard",
+        "retention": "30 days"
+      },
+      "cost_optimization": {
+        "auto_shutdown": false,
+        "spot_instances": "50%"
+      }
+    },
+    "production": {
+      "hosting_tier": "Enterprise",
+      "compute": {
+        "service": "AWS ECS Fargate",
+        "cpu": "2 vCPU",
+        "memory": "4GB",
+        "desired_count": 4,
+        "max_count": 20
+      },
+      "database": {
+        "instance_class": "db.r5.xlarge",
+        "storage": "1TB",
+        "backup_retention": "30 days",
+        "multi_az": true,
+        "read_replicas": 2
+      },
+      "cache": {
+        "node_type": "cache.r6g.large",
+        "cluster_mode": true,
+        "num_shards": 3
+      },
+      "monitoring": {
+        "level": "enterprise",
+        "retention": "90 days"
+      },
+      "cost_optimization": {
+        "reserved_instances": true,
+        "savings_plans": true
+      }
+    }
+  },
+  "domain_management": {
+    "primary_domain": "dafnckmachine.com",
+    "subdomains": {
+      "app": "app.dafnckmachine.com",
+      "api": "api.dafnckmachine.com",
+      "docs": "docs.dafnckmachine.com",
+      "status": "status.dafnckmachine.com",
+      "blog": "blog.dafnckmachine.com"
+    },
+    "environment_domains": {
+      "development": "dev.dafnckmachine.com",
+      "staging": "staging.dafnckmachine.com",
+      "production": "app.dafnckmachine.com"
+    },
+    "dns_configuration": {
+      "provider": "AWS Route 53",
+      "hosted_zone": "dafnckmachine.com",
+      "health_checks": true,
+      "failover_routing": true,
+      "geolocation_routing": true
+    },
+    "ssl_certificates": {
+      "provider": "AWS Certificate Manager",
+      "wildcard_certificate": "*.dafnckmachine.com",
+      "auto_renewal": true,
+      "validation_method": "DNS"
+    }
+  },
+  "security_configuration": {
+    "network_security": {
+      "waf": {
+        "service": "AWS WAF v2",
+        "rules": [
+          "AWSManagedRulesCommonRuleSet",
+          "AWSManagedRulesKnownBadInputsRuleSet",
+          "AWSManagedRulesSQLiRuleSet",
+          "AWSManagedRulesLinuxRuleSet",
+          "AWSManagedRulesUnixRuleSet"
+        ],
+        "rate_limiting": {
+          "requests_per_5_minutes": 2000,
+          "requests_per_ip": 100
+        }
+      },
+      "ddos_protection": {
+        "service": "AWS Shield Advanced",
+        "response_team": true,
+        "cost_protection": true
+      },
+      "security_groups": {
+        "web_tier": {
+          "inbound": [
+            {"port": 80, "protocol": "HTTP", "source": "0.0.0.0/0"},
+            {"port": 443, "protocol": "HTTPS", "source": "0.0.0.0/0"}
+          ],
+          "outbound": [
+            {"port": 3000, "protocol": "HTTP", "destination": "app_tier"}
+          ]
+        },
+        "app_tier": {
+          "inbound": [
+            {"port": 3000, "protocol": "HTTP", "source": "web_tier"}
+          ],
+          "outbound": [
+            {"port": 5432, "protocol": "PostgreSQL", "destination": "db_tier"},
+            {"port": 6379, "protocol": "Redis", "destination": "cache_tier"}
+          ]
+        },
+        "db_tier": {
+          "inbound": [
+            {"port": 5432, "protocol": "PostgreSQL", "source": "app_tier"}
+          ],
+          "outbound": []
+        }
+      }
+    },
+    "application_security": {
+      "secrets_management": {
+        "service": "AWS Secrets Manager",
+        "automatic_rotation": true,
+        "cross_region_replication": true
+      },
+      "identity_management": {
+        "service": "AWS IAM",
+        "principle": "least_privilege",
+        "mfa_required": true,
+        "role_based_access": true
+      },
+      "encryption": {
+        "at_rest": {
+          "service": "AWS KMS",
+          "key_rotation": true,
+          "multi_region_keys": true
+        },
+        "in_transit": {
+          "tls_version": "1.3",
+          "cipher_suites": "ECDHE-RSA-AES256-GCM-SHA384"
+        }
+      }
+    },
+    "compliance": {
+      "frameworks": [
+        "SOC 2 Type II",
+        "GDPR",
+        "CCPA",
+        "HIPAA"
+      ],
+      "audit_logging": {
+        "service": "AWS CloudTrail",
+        "log_file_validation": true,
+        "multi_region_trail": true,
+        "retention": "7 years"
+      },
+      "vulnerability_scanning": {
+        "service": "AWS Inspector",
+        "schedule": "weekly",
+        "auto_remediation": true
+      }
+    }
+  },
+  "monitoring_and_observability": {
+    "application_monitoring": {
+      "service": "DataDog",
+      "metrics": [
+        "application_performance",
+        "infrastructure_health",
+        "user_experience",
+        "business_metrics"
+      ],
+      "dashboards": [
+        "infrastructure_overview",
+        "application_performance",
+        "user_analytics",
+        "business_kpis"
+      ]
+    },
+    "log_management": {
+      "service": "AWS CloudWatch Logs",
+      "log_groups": [
+        "/aws/ecs/dafnckmachine/application",
+        "/aws/ecs/dafnckmachine/nginx",
+        "/aws/rds/dafnckmachine/postgresql",
+        "/aws/lambda/dafnckmachine/functions"
+      ],
+      "retention_policy": "30 days",
+      "log_insights": true
+    },
+    "distributed_tracing": {
+      "service": "AWS X-Ray",
+      "sampling_rate": "10%",
+      "trace_retention": "30 days",
+      "service_map": true
+    },
+    "uptime_monitoring": {
+      "service": "Pingdom",
+      "check_locations": [
+        "North America East",
+        "North America West",
+        "Europe",
+        "Asia Pacific"
+      ],
+      "check_interval": "1 minute",
+      "alert_channels": [
+        "email",
+        "slack",
+        "pagerduty"
+      ]
+    },
+    "synthetic_monitoring": {
+      "service": "DataDog Synthetics",
+      "browser_tests": [
+        "user_login_flow",
+        "project_creation",
+        "agent_deployment",
+        "critical_user_journeys"
+      ],
+      "api_tests": [
+        "authentication_endpoint",
+        "project_api",
+        "agent_api",
+        "health_checks"
+      ]
+    }
+  },
+  "backup_and_disaster_recovery": {
+    "backup_strategy": {
+      "database_backups": {
+        "automated_backups": true,
+        "backup_window": "03:00-04:00 UTC",
+        "retention_period": "30 days",
+        "point_in_time_recovery": true,
+        "cross_region_backup": true
+      },
+      "application_backups": {
+        "configuration_backup": "Git repository",
+        "user_data_backup": "S3 with versioning",
+        "log_backup": "CloudWatch Logs",
+        "frequency": "daily"
+      }
+    },
+    "disaster_recovery": {
+      "rto": "4 hours",
+      "rpo": "1 hour",
+      "strategy": "pilot_light",
+      "secondary_region": "us-east-1",
+      "automated_failover": false,
+      "runbook": "disaster_recovery_procedures.md"
+    },
+    "business_continuity": {
+      "incident_response": {
+        "escalation_matrix": "on_call_schedule.json",
+        "communication_plan": "incident_communication.md",
+        "post_mortem_process": "post_mortem_template.md"
+      },
+      "data_retention": {
+        "user_data": "7 years",
+        "audit_logs": "7 years",
+        "application_logs": "1 year",
+        "metrics": "2 years"
+      }
+    }
+  },
+  "performance_optimization": {
+    "caching_strategy": {
+      "application_cache": {
+        "service": "Redis Cluster",
+        "cache_policies": [
+          {"type": "user_sessions", "ttl": "24 hours"},
+          {"type": "api_responses", "ttl": "5 minutes"},
+          {"type": "static_data", "ttl": "1 hour"}
+        ]
+      },
+      "cdn_optimization": {
+        "edge_locations": "global",
+        "cache_behaviors": [
+          {"pattern": "/static/*", "ttl": "1 year"},
+          {"pattern": "/api/*", "ttl": "0"},
+          {"pattern": "/*", "ttl": "1 hour"}
+        ],
+        "compression": true,
+        "http2_support": true
+      },
+      "database_optimization": {
+        "connection_pooling": true,
+        "read_replicas": 2,
+        "query_optimization": true,
+        "index_optimization": true
+      }
+    },
+    "auto_scaling": {
+      "horizontal_scaling": {
+        "metric": "cpu_utilization",
+        "target_value": 70,
+        "scale_out_cooldown": "300 seconds",
+        "scale_in_cooldown": "300 seconds"
+      },
+      "vertical_scaling": {
+        "enabled": false,
+        "note": "Manual scaling for database instances"
+      },
+      "predictive_scaling": {
+        "enabled": true,
+        "forecast_period": "24 hours",
+        "buffer": "10%"
+      }
+    }
+  },
+  "cost_management": {
+    "cost_optimization": {
+      "reserved_instances": {
+        "production_database": "1 year term",
+        "production_compute": "1 year term",
+        "savings_estimate": "40%"
+      },
+      "spot_instances": {
+        "non_production": "70%",
+        "batch_processing": "90%",
+        "savings_estimate": "60%"
+      },
+      "resource_scheduling": {
+        "development_environments": {
+          "schedule": "weekdays 8AM-8PM",
+          "savings_estimate": "65%"
+        }
+      }
+    },
+    "cost_monitoring": {
+      "budgets": {
+        "monthly_budget": "$50,000",
+        "alert_thresholds": [50, 80, 100],
+        "forecast_alerts": true
+      },
+      "cost_allocation": {
+        "tags": [
+          "Environment",
+          "Project",
+          "Team",
+          "CostCenter"
+        ]
+      },
+      "rightsizing": {
+        "service": "AWS Compute Optimizer",
+        "recommendations": "weekly",
+        "auto_implementation": false
+      }
+    }
+  },
+  "deployment_automation": {
+    "infrastructure_as_code": {
+      "tool": "AWS CDK",
+      "language": "TypeScript",
+      "version_control": "Git",
+      "automated_testing": true,
+      "drift_detection": true
+    },
+    "configuration_management": {
+      "tool": "AWS Systems Manager",
+      "parameter_store": true,
+      "secrets_manager": true,
+      "patch_management": true
+    },
+    "ci_cd_integration": {
+      "pipeline_tool": "GitHub Actions",
+      "deployment_stages": [
+        "build",
+        "test",
+        "security_scan",
+        "deploy",
+        "validate"
+      ],
+      "approval_gates": {
+        "staging": "automated",
+        "production": "manual"
+      }
+    }
+  },
+  "vendor_management": {
+    "primary_vendors": {
+      "cloud_provider": {
+        "name": "Amazon Web Services",
+        "contract_type": "Enterprise Agreement",
+        "support_level": "Enterprise",
+        "technical_account_manager": true
+      },
+      "monitoring": {
+        "name": "DataDog",
+        "contract_type": "Annual Subscription",
+        "support_level": "Premium"
+      },
+      "security": {
+        "name": "Various AWS Services",
+        "contract_type": "Pay-as-you-go",
+        "support_level": "Enterprise"
+      }
+    },
+    "vendor_evaluation": {
+      "criteria": [
+        "technical_capabilities",
+        "security_compliance",
+        "cost_effectiveness",
+        "support_quality",
+        "vendor_stability"
+      ],
+      "review_frequency": "annual",
+      "decision_matrix": "vendor_evaluation_matrix.xlsx"
+    }
+  },
+  "governance_and_compliance": {
+    "change_management": {
+      "process": "ITIL v4",
+      "approval_workflow": "change_approval_board",
+      "emergency_changes": "post_implementation_review"
+    },
+    "access_management": {
+      "identity_provider": "AWS SSO",
+      "multi_factor_authentication": "required",
+      "privileged_access_management": "AWS IAM",
+      "access_review": "quarterly"
+    },
+    "data_governance": {
+      "data_classification": "public, internal, confidential, restricted",
+      "data_retention": "data_retention_policy.md",
+      "data_privacy": "privacy_policy.md",
+      "data_sovereignty": "regional_compliance.md"
+    }
+  }
+} 

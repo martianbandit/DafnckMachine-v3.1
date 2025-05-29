@@ -1,0 +1,409 @@
+{
+  "template_metadata": {
+    "status": "Template Created - Awaiting Population",
+    "created": "2024-12-19",
+    "agent_assignment": "@market-research-agent",
+    "completion_criteria": "Complete analysis of market growth drivers with quantitative impact assessment",
+    "integration_points": [
+      "01_Machine/04_Documentation/Doc/Phase_2_Discovery_Strategy/Market_Dynamics_Report.md",
+      "01_Machine/04_Documentation/Doc/Phase_2_Discovery_Strategy/Industry_Analysis_Report.md",
+      "01_Machine/04_Documentation/Doc/Phase_2_Discovery_Strategy/Market_Trends_Report.md"
+    ]
+  },
+  "executive_summary": {
+    "primary_growth_drivers": "[Agent to populate: Top 3-5 primary growth drivers]",
+    "growth_potential": "[Agent to populate: Overall market growth potential assessment]",
+    "timeline": "[Agent to populate: Timeline for growth driver impact]",
+    "strategic_implications": "[Agent to populate: Key strategic implications for DafnckMachine]"
+  },
+  "macro_economic_drivers": {
+    "economic_growth": {
+      "driver_name": "Economic Growth and Digital Transformation",
+      "description": "[Agent to populate: How economic growth drives market expansion]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "geographic_variation": "[Agent to populate: Regional variations in impact]",
+      "supporting_evidence": [
+        "[Agent to populate: Evidence supporting this driver]",
+        "[Agent to populate: Statistical data or research findings]"
+      ]
+    },
+    "technology_investment": {
+      "driver_name": "Enterprise Technology Investment",
+      "description": "[Agent to populate: How technology investment drives market growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "investment_trends": "[Agent to populate: Current investment trends and patterns]",
+      "supporting_evidence": [
+        "[Agent to populate: Evidence supporting this driver]",
+        "[Agent to populate: Investment data or market research]"
+      ]
+    },
+    "regulatory_environment": {
+      "driver_name": "Regulatory and Compliance Requirements",
+      "description": "[Agent to populate: How regulatory changes drive market demand]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "key_regulations": [
+        "[Agent to populate: Key regulatory driver 1]",
+        "[Agent to populate: Key regulatory driver 2]"
+      ],
+      "supporting_evidence": [
+        "[Agent to populate: Evidence supporting this driver]",
+        "[Agent to populate: Regulatory analysis or compliance data]"
+      ]
+    }
+  },
+  "technology_drivers": {
+    "ai_ml_advancement": {
+      "driver_name": "AI and Machine Learning Advancement",
+      "description": "[Agent to populate: How AI/ML advancement drives market growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "technology_maturity": "[Agent to populate: Current maturity level and trajectory]",
+      "adoption_barriers": [
+        "[Agent to populate: Barrier to adoption 1]",
+        "[Agent to populate: Barrier to adoption 2]"
+      ],
+      "acceleration_factors": [
+        "[Agent to populate: Factor accelerating adoption 1]",
+        "[Agent to populate: Factor accelerating adoption 2]"
+      ]
+    },
+    "cloud_computing": {
+      "driver_name": "Cloud Computing and Infrastructure",
+      "description": "[Agent to populate: How cloud computing drives market growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "cloud_adoption_rate": "[Agent to populate: Current cloud adoption rates]",
+      "infrastructure_trends": "[Agent to populate: Key infrastructure trends]"
+    },
+    "automation_demand": {
+      "driver_name": "Business Process Automation Demand",
+      "description": "[Agent to populate: How automation demand drives market growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "automation_areas": [
+        "[Agent to populate: Key automation area 1]",
+        "[Agent to populate: Key automation area 2]",
+        "[Agent to populate: Key automation area 3]"
+      ],
+      "roi_expectations": "[Agent to populate: Expected ROI from automation]"
+    }
+  },
+  "market_drivers": {
+    "competitive_pressure": {
+      "driver_name": "Competitive Pressure and Differentiation",
+      "description": "[Agent to populate: How competitive pressure drives market growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "competitive_dynamics": "[Agent to populate: Key competitive dynamics driving growth]",
+      "differentiation_needs": [
+        "[Agent to populate: Key differentiation need 1]",
+        "[Agent to populate: Key differentiation need 2]"
+      ]
+    },
+    "customer_expectations": {
+      "driver_name": "Evolving Customer Expectations",
+      "description": "[Agent to populate: How customer expectations drive market growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "expectation_trends": [
+        "[Agent to populate: Key expectation trend 1]",
+        "[Agent to populate: Key expectation trend 2]",
+        "[Agent to populate: Key expectation trend 3]"
+      ],
+      "experience_requirements": "[Agent to populate: Key experience requirements]"
+    },
+    "market_maturation": {
+      "driver_name": "Market Maturation and Sophistication",
+      "description": "[Agent to populate: How market maturation drives growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "maturation_indicators": [
+        "[Agent to populate: Maturation indicator 1]",
+        "[Agent to populate: Maturation indicator 2]"
+      ],
+      "sophistication_trends": "[Agent to populate: Key sophistication trends]"
+    }
+  },
+  "customer_drivers": {
+    "efficiency_demands": {
+      "driver_name": "Operational Efficiency Demands",
+      "description": "[Agent to populate: How efficiency demands drive market growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "efficiency_metrics": [
+        "[Agent to populate: Key efficiency metric 1]",
+        "[Agent to populate: Key efficiency metric 2]"
+      ],
+      "cost_pressure": "[Agent to populate: Cost pressure analysis]"
+    },
+    "scalability_needs": {
+      "driver_name": "Business Scalability Requirements",
+      "description": "[Agent to populate: How scalability needs drive market growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "scalability_challenges": [
+        "[Agent to populate: Key scalability challenge 1]",
+        "[Agent to populate: Key scalability challenge 2]"
+      ],
+      "growth_patterns": "[Agent to populate: Business growth patterns driving scalability needs]"
+    },
+    "talent_shortage": {
+      "driver_name": "Technical Talent Shortage",
+      "description": "[Agent to populate: How talent shortage drives market growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "skill_gaps": [
+        "[Agent to populate: Key skill gap 1]",
+        "[Agent to populate: Key skill gap 2]",
+        "[Agent to populate: Key skill gap 3]"
+      ],
+      "hiring_challenges": "[Agent to populate: Key hiring challenges]"
+    }
+  },
+  "industry_specific_drivers": {
+    "software_development": {
+      "driver_name": "Software Development Industry Trends",
+      "description": "[Agent to populate: Software development trends driving market growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "development_trends": [
+        "[Agent to populate: Key development trend 1]",
+        "[Agent to populate: Key development trend 2]",
+        "[Agent to populate: Key development trend 3]"
+      ],
+      "methodology_evolution": "[Agent to populate: Evolution in development methodologies]"
+    },
+    "enterprise_software": {
+      "driver_name": "Enterprise Software Market Evolution",
+      "description": "[Agent to populate: Enterprise software trends driving growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % impact on market growth]",
+      "timeline": "[Agent to populate: Short/Medium/Long term impact]",
+      "enterprise_trends": [
+        "[Agent to populate: Key enterprise trend 1]",
+        "[Agent to populate: Key enterprise trend 2]"
+      ],
+      "procurement_changes": "[Agent to populate: Changes in enterprise procurement]"
+    }
+  },
+  "geographic_drivers": {
+    "north_america": {
+      "region": "North America",
+      "growth_drivers": [
+        "[Agent to populate: Regional growth driver 1]",
+        "[Agent to populate: Regional growth driver 2]",
+        "[Agent to populate: Regional growth driver 3]"
+      ],
+      "market_characteristics": "[Agent to populate: Key market characteristics]",
+      "growth_rate": "[Agent to populate: Expected growth rate]",
+      "unique_factors": "[Agent to populate: Unique regional factors]"
+    },
+    "europe": {
+      "region": "Europe",
+      "growth_drivers": [
+        "[Agent to populate: Regional growth driver 1]",
+        "[Agent to populate: Regional growth driver 2]",
+        "[Agent to populate: Regional growth driver 3]"
+      ],
+      "market_characteristics": "[Agent to populate: Key market characteristics]",
+      "growth_rate": "[Agent to populate: Expected growth rate]",
+      "regulatory_factors": "[Agent to populate: Key regulatory factors]"
+    },
+    "asia_pacific": {
+      "region": "Asia Pacific",
+      "growth_drivers": [
+        "[Agent to populate: Regional growth driver 1]",
+        "[Agent to populate: Regional growth driver 2]",
+        "[Agent to populate: Regional growth driver 3]"
+      ],
+      "market_characteristics": "[Agent to populate: Key market characteristics]",
+      "growth_rate": "[Agent to populate: Expected growth rate]",
+      "emerging_markets": "[Agent to populate: Key emerging market dynamics]"
+    }
+  },
+  "growth_inhibitors": {
+    "economic_factors": {
+      "inhibitor_name": "Economic Uncertainty and Budget Constraints",
+      "description": "[Agent to populate: How economic factors inhibit growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % negative impact]",
+      "timeline": "[Agent to populate: Duration of impact]",
+      "mitigation_strategies": [
+        "[Agent to populate: Mitigation strategy 1]",
+        "[Agent to populate: Mitigation strategy 2]"
+      ]
+    },
+    "technical_barriers": {
+      "inhibitor_name": "Technical Implementation Barriers",
+      "description": "[Agent to populate: How technical barriers inhibit growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % negative impact]",
+      "timeline": "[Agent to populate: Duration of impact]",
+      "barrier_types": [
+        "[Agent to populate: Technical barrier 1]",
+        "[Agent to populate: Technical barrier 2]",
+        "[Agent to populate: Technical barrier 3]"
+      ]
+    },
+    "market_saturation": {
+      "inhibitor_name": "Market Saturation in Mature Segments",
+      "description": "[Agent to populate: How market saturation inhibits growth]",
+      "impact_level": "[Agent to populate: High/Medium/Low]",
+      "quantitative_impact": "[Agent to populate: Estimated % negative impact]",
+      "timeline": "[Agent to populate: Duration of impact]",
+      "saturated_segments": [
+        "[Agent to populate: Saturated segment 1]",
+        "[Agent to populate: Saturated segment 2]"
+      ]
+    }
+  },
+  "growth_scenarios": {
+    "optimistic_scenario": {
+      "scenario_name": "High Growth Scenario",
+      "probability": "[Agent to populate: Probability percentage]",
+      "growth_rate": "[Agent to populate: Expected annual growth rate]",
+      "key_assumptions": [
+        "[Agent to populate: Key assumption 1]",
+        "[Agent to populate: Key assumption 2]",
+        "[Agent to populate: Key assumption 3]"
+      ],
+      "driving_factors": [
+        "[Agent to populate: Key driving factor 1]",
+        "[Agent to populate: Key driving factor 2]"
+      ],
+      "timeline": "[Agent to populate: Timeline for scenario realization]"
+    },
+    "base_case_scenario": {
+      "scenario_name": "Moderate Growth Scenario",
+      "probability": "[Agent to populate: Probability percentage]",
+      "growth_rate": "[Agent to populate: Expected annual growth rate]",
+      "key_assumptions": [
+        "[Agent to populate: Key assumption 1]",
+        "[Agent to populate: Key assumption 2]",
+        "[Agent to populate: Key assumption 3]"
+      ],
+      "driving_factors": [
+        "[Agent to populate: Key driving factor 1]",
+        "[Agent to populate: Key driving factor 2]"
+      ],
+      "timeline": "[Agent to populate: Timeline for scenario realization]"
+    },
+    "conservative_scenario": {
+      "scenario_name": "Slow Growth Scenario",
+      "probability": "[Agent to populate: Probability percentage]",
+      "growth_rate": "[Agent to populate: Expected annual growth rate]",
+      "key_assumptions": [
+        "[Agent to populate: Key assumption 1]",
+        "[Agent to populate: Key assumption 2]",
+        "[Agent to populate: Key assumption 3]"
+      ],
+      "inhibiting_factors": [
+        "[Agent to populate: Key inhibiting factor 1]",
+        "[Agent to populate: Key inhibiting factor 2]"
+      ],
+      "timeline": "[Agent to populate: Timeline for scenario realization]"
+    }
+  },
+  "strategic_implications": {
+    "for_dafnck_machine": {
+      "opportunity_alignment": "[Agent to populate: How growth drivers align with DafnckMachine opportunities]",
+      "timing_considerations": "[Agent to populate: Optimal timing for market entry based on growth drivers]",
+      "investment_priorities": [
+        "[Agent to populate: Investment priority 1]",
+        "[Agent to populate: Investment priority 2]",
+        "[Agent to populate: Investment priority 3]"
+      ],
+      "competitive_advantages": [
+        "[Agent to populate: Competitive advantage 1]",
+        "[Agent to populate: Competitive advantage 2]"
+      ],
+      "risk_mitigation": [
+        "[Agent to populate: Risk mitigation strategy 1]",
+        "[Agent to populate: Risk mitigation strategy 2]"
+      ]
+    },
+    "market_positioning": {
+      "optimal_positioning": "[Agent to populate: Optimal market positioning based on growth drivers]",
+      "value_proposition_alignment": "[Agent to populate: How to align value proposition with growth drivers]",
+      "target_segment_prioritization": "[Agent to populate: Segment prioritization based on growth potential]",
+      "go_to_market_implications": "[Agent to populate: Go-to-market implications]"
+    }
+  },
+  "monitoring_framework": {
+    "key_indicators": [
+      {
+        "indicator_name": "[Agent to populate: Growth indicator name]",
+        "description": "[Agent to populate: What this indicator measures]",
+        "measurement_method": "[Agent to populate: How to measure this indicator]",
+        "monitoring_frequency": "[Agent to populate: How often to monitor]",
+        "threshold_values": "[Agent to populate: Key threshold values to watch]"
+      }
+    ],
+    "data_sources": [
+      "[Agent to populate: Data source 1]",
+      "[Agent to populate: Data source 2]",
+      "[Agent to populate: Data source 3]"
+    ],
+    "reporting_schedule": "[Agent to populate: Schedule for growth driver analysis updates]",
+    "review_triggers": [
+      "[Agent to populate: Trigger for review 1]",
+      "[Agent to populate: Trigger for review 2]"
+    ]
+  },
+  "quantitative_analysis": {
+    "market_size_impact": {
+      "current_market_size": "[Agent to populate: Current market size]",
+      "projected_market_size": {
+        "year_1": "[Agent to populate: Year 1 projection]",
+        "year_3": "[Agent to populate: Year 3 projection]",
+        "year_5": "[Agent to populate: Year 5 projection]"
+      },
+      "growth_driver_contribution": {
+        "technology_drivers": "[Agent to populate: % contribution from technology drivers]",
+        "market_drivers": "[Agent to populate: % contribution from market drivers]",
+        "customer_drivers": "[Agent to populate: % contribution from customer drivers]",
+        "economic_drivers": "[Agent to populate: % contribution from economic drivers]"
+      }
+    },
+    "sensitivity_analysis": {
+      "high_impact_drivers": [
+        "[Agent to populate: High impact driver 1]",
+        "[Agent to populate: High impact driver 2]"
+      ],
+      "sensitivity_factors": [
+        {
+          "factor": "[Agent to populate: Sensitivity factor]",
+          "impact_range": "[Agent to populate: Range of impact]",
+          "probability": "[Agent to populate: Probability of occurrence]"
+        }
+      ]
+    }
+  },
+  "document_control": {
+    "version": "1.0",
+    "last_updated": "[Agent to populate: Last update date]",
+    "next_review": "[Agent to populate: Next review date]",
+    "owner": "@market-research-agent",
+    "stakeholders": [
+      "@strategic-planning-agent",
+      "@business-development-agent",
+      "@product-strategy-agent"
+    ]
+  }
+} 

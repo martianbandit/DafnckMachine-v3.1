@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "version": "1.0.0"
+  },
+  
+  "workflow_state": {
+    "current_step": null,
+    "current_phase": null,
+    "current_task": null,
+    "previous_step": null,
+    "next_step": null,
+    "progress": {
+      "total_steps": 0,
+      "completed_steps": 0,
+      "current_step_number": 0,
+      "percentage": 0
+    },
+    "session": {
+      "started_at": null,
+      "last_updated": null,
+      "status": "not_started",
+      "project_type": null
+    }
+  },
+  
+  "agentRegistry": [
+    {
+      "agentName": "uber-orchestrator-agent",
+      "id": "ORCH-001",
+      "name": "Uber Orchestrator Agent",
+      "capabilities": ["workflow_coordination", "state_management", "task_delegation", "progress_tracking"],
+      "persona": "system_orchestrator",
+      "phases": ["phase_0", "phase_1", "phase_2", "phase_3", "phase_4", "phase_5", "phase_6"],
+      "workflow_steps": ["all"]
+    },
+    {
+      "agentName": "scribe-agent",
+      "id": "SCRIBE-001",
+      "name": "Scribe Agent",
+      "capabilities": ["documentation", "note_taking", "report_generation", "knowledge_capture"],
+      "persona": "expert_technical_writer",
+      "phases": ["phase_0", "phase_1", "phase_2", "phase_3", "phase_4", "phase_5", "phase_6"],
+      "workflow_steps": ["all"]
+    },
+    {
+      "agentName": "task-sync-agent",
+      "id": "SYNC-001",
+      "name": "Task Sync Agent",
+      "capabilities": ["task_synchronization", "progress_tracking", "status_updates", "coordination"],
+      "persona": "project_coordinator",
+      "phases": ["phase_0", "phase_1", "phase_2", "phase_3", "phase_4", "phase_5", "phase_6"],
+      "workflow_steps": ["all"]
+    },
+    {
+      "agentName": "initialization-agent",
+      "id": "INIT-001",
+      "name": "Initialization Agent",
+      "capabilities": ["repository_setup", "codebase_scanning", "environment_validation"],
+      "persona": "expert_system_architect",
+      "phases": ["phase_0"],
+      "workflow_steps": ["00_Project_Initialization"]
+    },
+    {
+      "agentName": "elicitation-agent",
+      "id": "ELICIT-001", 
+      "name": "Requirements Elicitation Agent",
+      "capabilities": ["requirement_extraction", "user_interview", "stakeholder_mapping", "requirements_analysis"],
+      "persona": "expert_business_analyst",
+      "phases": ["phase_1"],
+      "workflow_steps": ["01_User_Briefing"]
+    },
+    {
+      "agentName": "discovery-agent",
+      "id": "DISC-001",
+      "name": "Discovery & Strategy Agent", 
+      "capabilities": ["market_research", "competitive_analysis", "strategy_formulation"],
+      "persona": "strategic_market_analyst",
+      "phases": ["phase_2"],
+      "workflow_steps": ["02_Discovery_Strategy", "03_Market_Research", "04_Business_Strategy"]
+    },
+    {
+      "agentName": "product-agent",
+      "id": "PROD-001",
+      "name": "Product Definition Agent",
+      "capabilities": ["prd_generation", "feature_prioritization", "ux_design"],
+      "persona": "expert_product_manager",
+      "phases": ["phase_3"],
+      "workflow_steps": ["05_PRD_Generator", "06_Feature_Prioritization", "07_User_Experience_Design"]
+    },
+    {
+      "agentName": "technical-agent",
+      "id": "TECH-001",
+      "name": "Technical Architecture Agent",
+      "capabilities": ["ui_design", "technical_architecture", "framework_selection"],
+      "persona": "expert_technical_architect",
+      "phases": ["phase_3"],
+      "workflow_steps": ["08_User_Interface_Design", "09_Technical_Architecture", "10_Detailed_Framework_Selection"]
+    }
+  ],
+
+  "agents": {
+    "initialization_agent": {
+      "id": "INIT-001",
+      "name": "Initialization Agent",
+      "capabilities": ["repository_setup", "codebase_scanning", "environment_validation"],
+      "persona": "expert_system_architect",
+      "workflow_steps": ["00_Project_Initialization"]
+    },
+    "elicitation_agent": {
+      "id": "ELICIT-001", 
+      "name": "Requirements Elicitation Agent",
+      "capabilities": ["requirement_extraction", "user_interview", "stakeholder_mapping", "requirements_analysis"],
+      "persona": "expert_business_analyst",
+      "workflow_steps": ["01_User_Briefing"]
+    },
+    "discovery_agent": {
+      "id": "DISC-001",
+      "name": "Discovery & Strategy Agent", 
+      "capabilities": ["market_research", "competitive_analysis", "strategy_formulation"],
+      "persona": "strategic_market_analyst",
+      "workflow_steps": ["02_Discovery_Strategy", "03_Market_Research", "04_Business_Strategy"]
+    },
+    "product_agent": {
+      "id": "PROD-001",
+      "name": "Product Definition Agent",
+      "capabilities": ["prd_generation", "feature_prioritization", "ux_design"],
+      "persona": "expert_product_manager",
+      "workflow_steps": ["05_PRD_Generator", "06_Feature_Prioritization", "07_User_Experience_Design"]
+    },
+    "technical_agent": {
+      "id": "TECH-001",
+      "name": "Technical Architecture Agent",
+      "capabilities": ["ui_design", "technical_architecture", "framework_selection"],
+      "persona": "expert_technical_architect",
+      "workflow_steps": ["08_User_Interface_Design", "09_Technical_Architecture", "10_Detailed_Framework_Selection"]
+    },
+    "orchestrator_agent": {
+      "id": "ORCH-001",
+      "name": "Workflow Orchestrator",
+      "capabilities": ["workflow_coordination", "state_management", "task_delegation", "progress_tracking"],
+      "persona": "system_orchestrator",
+      "workflow_steps": ["all"]
+    }
+  },
+  
+  "workflow_progression": {
+    "step_sequence": [
+      "00_Project_Initialization",
+      "01_User_Briefing", 
+      "02_Discovery_Strategy",
+      "03_Market_Research",
+      "04_Business_Strategy",
+      "05_PRD_Generator",
+      "06_Feature_Prioritization",
+      "07_User_Experience_Design",
+      "08_User_Interface_Design",
+      "09_Technical_Architecture",
+      "10_Detailed_Framework_Selection"
+    ],
+    "auto_progression": true,
+    "require_completion_confirmation": true
+  },
+  
+  "step_definitions": {
+    "00_Project_Initialization": {
+      "agent": "initialization_agent",
+      "phase": "phase_0",
+      "task_id": "PRJ-INIT-001",
+      "file_path": "01_Machine/01_Workflow/Phase 0 : Project Setup/00_Project_Initialization.md",
+      "estimated_duration_minutes": 30
+    },
+    "01_User_Briefing": {
+      "agent": "elicitation_agent",
+      "phase": "phase_1",
+      "task_id": "USR-BRIEF-002",
+      "file_path": "01_Machine/01_Workflow/Phase 1: Initial User Input & Project Inception/01_User_Briefing.md",
+      "estimated_duration_minutes": 45
+    },
+    "02_Discovery_Strategy": {
+      "agent": "discovery_agent",
+      "phase": "phase_2",
+      "task_id": "MKT-DISC-003",
+      "file_path": "01_Machine/01_Workflow/Phase 2: Discovery & Strategy/02_Problem_Validation.md",
+      "estimated_duration_minutes": 60
+    },
+    "03_Market_Research": {
+      "agent": "discovery_agent",
+      "phase": "phase_2",
+      "task_id": "MKT-RES-004",
+      "file_path": "01_Machine/01_Workflow/Phase 2: Discovery & Strategy/03_Market_Research.md",
+      "estimated_duration_minutes": 90
+    },
+    "04_Business_Strategy": {
+      "agent": "discovery_agent",
+      "phase": "phase_2",
+      "task_id": "BIZ-STRAT-005",
+      "file_path": "01_Machine/01_Workflow/Phase 2: Discovery & Strategy/04_Business_Strategy.md",
+      "estimated_duration_minutes": 75
+    },
+    "05_PRD_Generator": {
+      "agent": "product_agent",
+      "phase": "phase_3",
+      "task_id": "PRD-GEN-006",
+      "file_path": "01_Machine/01_Workflow/Phase 3: Product Definition & Design/05_PRD_Generator.md",
+      "estimated_duration_minutes": 120
+    },
+    "06_Feature_Prioritization": {
+      "agent": "product_agent",
+      "phase": "phase_3",
+      "task_id": "FEAT-PRIOR-007",
+      "file_path": "01_Machine/01_Workflow/Phase 3: Product Definition & Design/06_Feature_Prioritization.md",
+      "estimated_duration_minutes": 60
+    },
+    "07_User_Experience_Design": {
+      "agent": "product_agent",
+      "phase": "phase_3",
+      "task_id": "UX-DES-008",
+      "file_path": "01_Machine/01_Workflow/Phase 3: Product Definition & Design/07_User_Experience_Design.md",
+      "estimated_duration_minutes": 90
+    },
+    "08_User_Interface_Design": {
+      "agent": "technical_agent",
+      "phase": "phase_3",
+      "task_id": "UI-DES-009",
+      "file_path": "01_Machine/01_Workflow/Phase 3: Product Definition & Design/08_User_Interface_Design.md",
+      "estimated_duration_minutes": 120
+    },
+    "09_Technical_Architecture": {
+      "agent": "technical_agent",
+      "phase": "phase_3",
+      "task_id": "TECH-ARCH-010",
+      "file_path": "01_Machine/01_Workflow/Phase 3: Product Definition & Design/09_Technical_Architecture.md",
+      "estimated_duration_minutes": 90
+    },
+    "10_Detailed_Framework_Selection": {
+      "agent": "technical_agent",
+      "phase": "phase_3",
+      "task_id": "FRAME-SEL-011",
+      "file_path": "01_Machine/01_Workflow/Phase 3: Product Definition & Design/10_Detailed_Framework_Selection.md",
+      "estimated_duration_minutes": 60
+    }
+  },
+  
+  "tracking_functions": {
+    "start_workflow": {
+      "description": "Initialize workflow tracking for a new project",
+      "updates": ["workflow_state.session", "workflow_state.current_step", "workflow_state.progress"],
+      "sets_current_step": "00_Project_Initialization"
+    },
+    "complete_step": {
+      "description": "Mark current step as complete and move to next",
+      "updates": ["workflow_state.previous_step", "workflow_state.current_step", "workflow_state.next_step", "workflow_state.progress"],
+      "auto_progression": true
+    },
+    "get_current_status": {
+      "description": "Get current workflow position and progress",
+      "returns": ["current_step", "previous_step", "next_step", "progress_percentage", "current_agent"]
+    },
+    "update_progress": {
+      "description": "Update progress within current step",
+      "updates": ["workflow_state.current_task", "workflow_state.progress"]
+    }
+  },
+  
+  "agent_instructions": {
+    "start_command": "When user says 'Let's get started', call start_workflow() and begin with step 00_Project_Initialization",
+    "step_completion": "When step is complete, call complete_step() to automatically move to next step",
+    "status_check": "Use get_current_status() to always know where you are in the workflow",
+    "file_reference": "Always reference the current step's file_path for detailed instructions"
+  },
+  
+  "project_templates": {
+    "web_application": {
+      "phases": ["phase_0", "phase_1", "phase_2", "phase_3"],
+      "estimated_timeline": "2-12_weeks",
+      "steps": ["00_Project_Initialization", "01_User_Briefing", "02_Discovery_Strategy", "03_Market_Research", "04_Business_Strategy", "05_PRD_Generator", "06_Feature_Prioritization", "07_User_Experience_Design", "08_User_Interface_Design", "09_Technical_Architecture", "10_Detailed_Framework_Selection"]
+    },
+    "api_service": {
+      "phases": ["phase_0", "phase_1", "phase_2", "phase_3"], 
+      "estimated_timeline": "1-8_weeks",
+      "steps": ["00_Project_Initialization", "01_User_Briefing", "02_Discovery_Strategy", "05_PRD_Generator", "09_Technical_Architecture", "10_Detailed_Framework_Selection"]
+    }
+  }
+} 

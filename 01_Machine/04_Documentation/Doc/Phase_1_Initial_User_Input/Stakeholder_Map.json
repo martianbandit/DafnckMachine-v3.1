@@ -1,0 +1,497 @@
+{
+  "document_metadata": {
+    "title": "Stakeholder Map - DafnckMachine v3.1",
+    "document_status": "Template - To be populated during user briefing",
+    "created": "2025-01-27",
+    "phase": "1 - Initial User Input & Project Inception",
+    "step": "01 - User Briefing",
+    "version": "1.0",
+    "last_updated": "2025-01-27"
+  },
+  "document_purpose": "Comprehensive mapping of all project stakeholders including their roles, influence levels, communication requirements, and engagement strategies for the DafnckMachine v3.1 project workflow.",
+  "stakeholder_overview": {
+    "total_stakeholders": "[To be calculated]",
+    "stakeholder_categories": {
+      "primary": "[Number of primary stakeholders]",
+      "secondary": "[Number of secondary stakeholders]",
+      "external": "[Number of external stakeholders]",
+      "internal": "[Number of internal stakeholders]"
+    },
+    "influence_distribution": {
+      "high_influence": "[Number of high influence stakeholders]",
+      "medium_influence": "[Number of medium influence stakeholders]",
+      "low_influence": "[Number of low influence stakeholders]"
+    },
+    "engagement_levels": {
+      "actively_engaged": "[Number of actively engaged stakeholders]",
+      "regularly_informed": "[Number regularly informed]",
+      "occasionally_consulted": "[Number occasionally consulted]",
+      "minimally_involved": "[Number minimally involved]"
+    }
+  },
+  "primary_stakeholders": {
+    "description": "Stakeholders with direct decision-making authority and high impact on project success",
+    "stakeholders": [
+      {
+        "id": "PS-001",
+        "name": "[Primary Stakeholder 1 Name]",
+        "role": "[Job title or organizational role]",
+        "organization": "[Company or department]",
+        "stakeholder_type": "Primary Decision Maker",
+        "influence_level": "High",
+        "interest_level": "High",
+        "decision_authority": {
+          "scope": "[What decisions they can make]",
+          "budget_authority": "[Budget approval limits]",
+          "technical_authority": "[Technical decision scope]",
+          "strategic_authority": "[Strategic decision scope]"
+        },
+        "project_impact": {
+          "impact_on_project": "[How they affect project success]",
+          "project_impact_on_them": "[How project affects them]",
+          "success_criteria": "[What success means to them]",
+          "concerns": ["[Concern 1]", "[Concern 2]"]
+        },
+        "communication_requirements": {
+          "preferred_channels": ["[Email]", "[Meetings]", "[Reports]"],
+          "frequency": "[Daily/Weekly/Monthly/As-needed]",
+          "format_preferences": "[Detailed/Summary/Visual/Technical]",
+          "escalation_path": "[How to escalate issues to them]",
+          "availability": "[Timezone and availability windows]"
+        },
+        "engagement_strategy": {
+          "engagement_level": "Active Participation",
+          "involvement_activities": ["[Decision approval]", "[Strategic guidance]"],
+          "feedback_mechanisms": ["[Regular reviews]", "[Milestone approvals]"],
+          "influence_tactics": "[How to effectively engage them]"
+        },
+        "relationship_dynamics": {
+          "allies": ["[Stakeholder IDs of allies]"],
+          "potential_conflicts": ["[Stakeholder IDs of potential conflicts]"],
+          "influence_network": ["[Who they influence]"],
+          "influenced_by": ["[Who influences them]"]
+        }
+      },
+      {
+        "id": "PS-002",
+        "name": "[Primary Stakeholder 2 Name]",
+        "role": "[Job title or organizational role]",
+        "organization": "[Company or department]",
+        "stakeholder_type": "Project Sponsor",
+        "influence_level": "High",
+        "interest_level": "High",
+        "decision_authority": {
+          "scope": "[What decisions they can make]",
+          "budget_authority": "[Budget approval limits]",
+          "technical_authority": "[Technical decision scope]",
+          "strategic_authority": "[Strategic decision scope]"
+        },
+        "project_impact": {
+          "impact_on_project": "[How they affect project success]",
+          "project_impact_on_them": "[How project affects them]",
+          "success_criteria": "[What success means to them]",
+          "concerns": ["[Concern 1]", "[Concern 2]"]
+        },
+        "communication_requirements": {
+          "preferred_channels": ["[Email]", "[Meetings]", "[Reports]"],
+          "frequency": "[Daily/Weekly/Monthly/As-needed]",
+          "format_preferences": "[Detailed/Summary/Visual/Technical]",
+          "escalation_path": "[How to escalate issues to them]",
+          "availability": "[Timezone and availability windows]"
+        },
+        "engagement_strategy": {
+          "engagement_level": "Regular Consultation",
+          "involvement_activities": ["[Budget approval]", "[Resource allocation]"],
+          "feedback_mechanisms": ["[Progress reports]", "[Budget reviews]"],
+          "influence_tactics": "[How to effectively engage them]"
+        },
+        "relationship_dynamics": {
+          "allies": ["[Stakeholder IDs of allies]"],
+          "potential_conflicts": ["[Stakeholder IDs of potential conflicts]"],
+          "influence_network": ["[Who they influence]"],
+          "influenced_by": ["[Who influences them]"]
+        }
+      }
+    ]
+  },
+  "secondary_stakeholders": {
+    "description": "Stakeholders with significant interest but limited direct decision authority",
+    "stakeholders": [
+      {
+        "id": "SS-001",
+        "name": "[Secondary Stakeholder 1 Name]",
+        "role": "[Job title or organizational role]",
+        "organization": "[Company or department]",
+        "stakeholder_type": "End User Representative",
+        "influence_level": "Medium",
+        "interest_level": "High",
+        "project_impact": {
+          "impact_on_project": "[How they affect project success]",
+          "project_impact_on_them": "[How project affects them]",
+          "success_criteria": "[What success means to them]",
+          "concerns": ["[Concern 1]", "[Concern 2]"]
+        },
+        "communication_requirements": {
+          "preferred_channels": ["[Email]", "[User testing sessions]"],
+          "frequency": "[Weekly/Monthly/Milestone-based]",
+          "format_preferences": "[User-friendly/Visual/Practical]",
+          "feedback_methods": ["[Surveys]", "[Focus groups]", "[Testing sessions]"]
+        },
+        "engagement_strategy": {
+          "engagement_level": "Regular Feedback",
+          "involvement_activities": ["[User testing]", "[Requirement validation]"],
+          "feedback_mechanisms": ["[User acceptance testing]", "[Feedback sessions]"],
+          "influence_tactics": "[How to effectively engage them]"
+        }
+      },
+      {
+        "id": "SS-002",
+        "name": "[Secondary Stakeholder 2 Name]",
+        "role": "[Job title or organizational role]",
+        "organization": "[Company or department]",
+        "stakeholder_type": "Technical Reviewer",
+        "influence_level": "Medium",
+        "interest_level": "Medium",
+        "project_impact": {
+          "impact_on_project": "[Technical guidance and validation]",
+          "project_impact_on_them": "[Integration and maintenance responsibilities]",
+          "success_criteria": "[Technical quality and maintainability]",
+          "concerns": ["[Technical debt]", "[Integration complexity]"]
+        },
+        "communication_requirements": {
+          "preferred_channels": ["[Technical documentation]", "[Code reviews]"],
+          "frequency": "[Sprint-based/Milestone-based]",
+          "format_preferences": "[Technical/Detailed/Documented]",
+          "feedback_methods": ["[Code reviews]", "[Architecture reviews]"]
+        },
+        "engagement_strategy": {
+          "engagement_level": "Technical Consultation",
+          "involvement_activities": ["[Architecture review]", "[Code review]"],
+          "feedback_mechanisms": ["[Technical reviews]", "[Quality gates]"],
+          "influence_tactics": "[Technical expertise and best practices]"
+        }
+      }
+    ]
+  },
+  "external_stakeholders": {
+    "description": "Stakeholders outside the immediate organization with project interest or impact",
+    "stakeholders": [
+      {
+        "id": "ES-001",
+        "name": "[External Stakeholder 1 Name]",
+        "role": "[Role or relationship to project]",
+        "organization": "[External organization]",
+        "stakeholder_type": "Integration Partner",
+        "influence_level": "Medium",
+        "interest_level": "Medium",
+        "relationship_type": "Vendor/Partner",
+        "project_impact": {
+          "impact_on_project": "[How they affect project success]",
+          "project_impact_on_them": "[How project affects their business]",
+          "success_criteria": "[What success means to them]",
+          "dependencies": ["[What project depends on from them]"]
+        },
+        "communication_requirements": {
+          "preferred_channels": ["[Formal meetings]", "[Email]", "[API documentation]"],
+          "frequency": "[Monthly/Quarterly/As-needed]",
+          "format_preferences": "[Formal/Documented/Contractual]",
+          "escalation_procedures": "[How to escalate issues]"
+        },
+        "engagement_strategy": {
+          "engagement_level": "Formal Coordination",
+          "involvement_activities": ["[Integration planning]", "[Testing coordination]"],
+          "feedback_mechanisms": ["[Formal reviews]", "[SLA monitoring]"],
+          "contract_considerations": "[Contractual obligations and SLAs]"
+        }
+      },
+      {
+        "id": "ES-002",
+        "name": "[External Stakeholder 2 Name]",
+        "role": "[Role or relationship to project]",
+        "organization": "[External organization]",
+        "stakeholder_type": "Regulatory Body",
+        "influence_level": "High",
+        "interest_level": "Low",
+        "relationship_type": "Regulatory/Compliance",
+        "project_impact": {
+          "impact_on_project": "[Compliance requirements and approvals]",
+          "project_impact_on_them": "[Regulatory oversight responsibilities]",
+          "success_criteria": "[Compliance and regulatory adherence]",
+          "requirements": ["[Specific regulatory requirements]"]
+        },
+        "communication_requirements": {
+          "preferred_channels": ["[Formal submissions]", "[Official documentation]"],
+          "frequency": "[Milestone-based/Compliance-driven]",
+          "format_preferences": "[Formal/Legal/Documented]",
+          "submission_requirements": "[Required documentation and approvals]"
+        },
+        "engagement_strategy": {
+          "engagement_level": "Compliance Coordination",
+          "involvement_activities": ["[Compliance reviews]", "[Approval processes]"],
+          "feedback_mechanisms": ["[Formal approvals]", "[Compliance audits]"],
+          "compliance_strategy": "[How to ensure regulatory compliance]"
+        }
+      }
+    ]
+  },
+  "internal_stakeholders": {
+    "description": "Stakeholders within the organization who are affected by or contribute to the project",
+    "stakeholders": [
+      {
+        "id": "IS-001",
+        "name": "[Internal Stakeholder 1 Name]",
+        "role": "[Job title or organizational role]",
+        "department": "[Department or team]",
+        "stakeholder_type": "Support Team",
+        "influence_level": "Low",
+        "interest_level": "Medium",
+        "project_impact": {
+          "impact_on_project": "[How they support project success]",
+          "project_impact_on_them": "[How project affects their work]",
+          "success_criteria": "[What success means to them]",
+          "support_requirements": ["[What support they need to provide]"]
+        },
+        "communication_requirements": {
+          "preferred_channels": ["[Team meetings]", "[Internal chat]", "[Documentation]"],
+          "frequency": "[Weekly/Bi-weekly/As-needed]",
+          "format_preferences": "[Informal/Practical/Action-oriented]",
+          "coordination_needs": "[How to coordinate with their work]"
+        },
+        "engagement_strategy": {
+          "engagement_level": "Coordination and Support",
+          "involvement_activities": ["[Support planning]", "[Resource coordination]"],
+          "feedback_mechanisms": ["[Team updates]", "[Support metrics]"],
+          "coordination_approach": "[How to effectively coordinate]"
+        }
+      },
+      {
+        "id": "IS-002",
+        "name": "[Internal Stakeholder 2 Name]",
+        "role": "[Job title or organizational role]",
+        "department": "[Department or team]",
+        "stakeholder_type": "Operations Team",
+        "influence_level": "Medium",
+        "interest_level": "High",
+        "project_impact": {
+          "impact_on_project": "[Operational requirements and constraints]",
+          "project_impact_on_them": "[Changes to operational procedures]",
+          "success_criteria": "[Operational efficiency and reliability]",
+          "operational_requirements": ["[Specific operational needs]"]
+        },
+        "communication_requirements": {
+          "preferred_channels": ["[Operations meetings]", "[Documentation]", "[Training sessions]"],
+          "frequency": "[Regular/Milestone-based]",
+          "format_preferences": "[Practical/Procedural/Detailed]",
+          "training_needs": "[What training they need]"
+        },
+        "engagement_strategy": {
+          "engagement_level": "Active Collaboration",
+          "involvement_activities": ["[Requirements gathering]", "[Testing]", "[Training]"],
+          "feedback_mechanisms": ["[Operational reviews]", "[Performance metrics]"],
+          "change_management": "[How to manage operational changes]"
+        }
+      }
+    ]
+  },
+  "stakeholder_analysis": {
+    "influence_interest_matrix": {
+      "high_influence_high_interest": {
+        "stakeholders": ["[Stakeholder IDs]"],
+        "strategy": "Manage Closely",
+        "approach": "[Detailed engagement approach]",
+        "communication_frequency": "High",
+        "decision_involvement": "Direct participation"
+      },
+      "high_influence_low_interest": {
+        "stakeholders": ["[Stakeholder IDs]"],
+        "strategy": "Keep Satisfied",
+        "approach": "[Satisfaction-focused approach]",
+        "communication_frequency": "Medium",
+        "decision_involvement": "Consultation and approval"
+      },
+      "low_influence_high_interest": {
+        "stakeholders": ["[Stakeholder IDs]"],
+        "strategy": "Keep Informed",
+        "approach": "[Information-focused approach]",
+        "communication_frequency": "Medium",
+        "decision_involvement": "Information sharing"
+      },
+      "low_influence_low_interest": {
+        "stakeholders": ["[Stakeholder IDs]"],
+        "strategy": "Monitor",
+        "approach": "[Minimal engagement approach]",
+        "communication_frequency": "Low",
+        "decision_involvement": "Minimal"
+      }
+    },
+    "stakeholder_relationships": {
+      "alliances": [
+        {
+          "stakeholders": ["[Stakeholder ID 1]", "[Stakeholder ID 2]"],
+          "relationship_type": "Natural allies",
+          "leverage_strategy": "[How to leverage this alliance]"
+        }
+      ],
+      "potential_conflicts": [
+        {
+          "stakeholders": ["[Stakeholder ID 1]", "[Stakeholder ID 2]"],
+          "conflict_source": "[Source of potential conflict]",
+          "mitigation_strategy": "[How to prevent or manage conflict]"
+        }
+      ],
+      "influence_chains": [
+        {
+          "influencer": "[Stakeholder ID]",
+          "influenced": ["[Stakeholder IDs they influence]"],
+          "influence_method": "[How influence is exercised]",
+          "leverage_opportunity": "[How to leverage this influence]"
+        }
+      ]
+    }
+  },
+  "communication_strategy": {
+    "communication_matrix": [
+      {
+        "stakeholder_group": "[Group name]",
+        "communication_objectives": ["[Objective 1]", "[Objective 2]"],
+        "key_messages": ["[Message 1]", "[Message 2]"],
+        "communication_channels": ["[Channel 1]", "[Channel 2]"],
+        "frequency": "[Communication frequency]",
+        "format": "[Communication format]",
+        "feedback_mechanisms": ["[Feedback method 1]", "[Feedback method 2]"]
+      }
+    ],
+    "escalation_procedures": {
+      "level_1_escalation": {
+        "triggers": ["[Trigger 1]", "[Trigger 2]"],
+        "stakeholders": ["[Stakeholder IDs]"],
+        "process": "[Escalation process]",
+        "timeline": "[Expected resolution time]"
+      },
+      "level_2_escalation": {
+        "triggers": ["[Trigger 1]", "[Trigger 2]"],
+        "stakeholders": ["[Stakeholder IDs]"],
+        "process": "[Escalation process]",
+        "timeline": "[Expected resolution time]"
+      },
+      "final_escalation": {
+        "triggers": ["[Trigger 1]", "[Trigger 2]"],
+        "stakeholders": ["[Stakeholder IDs]"],
+        "process": "[Final escalation process]",
+        "authority": "[Final decision authority]"
+      }
+    }
+  },
+  "engagement_planning": {
+    "engagement_calendar": [
+      {
+        "milestone": "[Project milestone]",
+        "stakeholder_activities": [
+          {
+            "stakeholder": "[Stakeholder ID]",
+            "activity": "[Engagement activity]",
+            "timeline": "[When activity occurs]",
+            "deliverables": ["[Expected deliverable 1]", "[Expected deliverable 2]"]
+          }
+        ]
+      }
+    ],
+    "feedback_collection": {
+      "feedback_methods": [
+        {
+          "method": "[Feedback method]",
+          "stakeholder_groups": ["[Group 1]", "[Group 2]"],
+          "frequency": "[How often]",
+          "analysis_approach": "[How feedback will be analyzed]"
+        }
+      ],
+      "feedback_integration": {
+        "collection_process": "[How feedback is collected]",
+        "analysis_process": "[How feedback is analyzed]",
+        "integration_process": "[How feedback is integrated into project]",
+        "response_process": "[How responses are provided to stakeholders]"
+      }
+    }
+  },
+  "risk_management": {
+    "stakeholder_risks": [
+      {
+        "risk_id": "SR-001",
+        "risk_description": "[Description of stakeholder-related risk]",
+        "affected_stakeholders": ["[Stakeholder IDs]"],
+        "probability": "[High/Medium/Low]",
+        "impact": "[High/Medium/Low]",
+        "risk_indicators": ["[Early warning sign 1]", "[Early warning sign 2]"],
+        "mitigation_strategies": ["[Strategy 1]", "[Strategy 2]"],
+        "contingency_plans": ["[Plan 1]", "[Plan 2]"],
+        "monitoring_approach": "[How this risk will be monitored]"
+      }
+    ],
+    "change_management": {
+      "stakeholder_change_impact": [
+        {
+          "change_type": "[Type of change]",
+          "affected_stakeholders": ["[Stakeholder IDs]"],
+          "impact_assessment": "[How stakeholders are affected]",
+          "change_strategy": "[How to manage this change]",
+          "communication_plan": "[How to communicate the change]",
+          "support_requirements": ["[Support needed for stakeholders]"]
+        }
+      ]
+    }
+  },
+  "success_metrics": {
+    "stakeholder_satisfaction": {
+      "measurement_methods": ["[Survey]", "[Interview]", "[Feedback session]"],
+      "success_criteria": ["[Criterion 1]", "[Criterion 2]"],
+      "target_scores": {
+        "overall_satisfaction": "[Target percentage or score]",
+        "communication_effectiveness": "[Target percentage or score]",
+        "engagement_quality": "[Target percentage or score]"
+      }
+    },
+    "engagement_effectiveness": {
+      "participation_rates": "[Target participation in meetings/activities]",
+      "feedback_quality": "[Quality metrics for stakeholder feedback]",
+      "decision_speed": "[Speed of stakeholder decision-making]",
+      "conflict_resolution": "[Effectiveness of conflict resolution]"
+    }
+  },
+  "agent_assignment": {
+    "primary_agent": "@nlu-processor-agent",
+    "supporting_agents": ["@elicitation-agent"],
+    "completion_criteria": [
+      "All key stakeholders identified and categorized",
+      "Stakeholder influence and interest levels assessed",
+      "Communication requirements and preferences documented",
+      "Engagement strategies defined for each stakeholder group",
+      "Relationship dynamics and potential conflicts identified",
+      "Communication matrix and escalation procedures established",
+      "Stakeholder risks and mitigation strategies documented"
+    ]
+  },
+  "integration_points": {
+    "input_sources": [
+      "User briefing session responses",
+      "Organizational charts and contact information",
+      "Project scope and requirements documentation"
+    ],
+    "output_connections": [
+      "Communication_Protocol.md",
+      "Project_Vision_Statement.md",
+      "Risk_Assessment.md",
+      "Project planning and execution strategies"
+    ],
+    "cross_references": [
+      "Links to Communication_Protocol.md for communication guidelines",
+      "References User_Profile.json for primary user information",
+      "Connects to Risk_Assessment.md for stakeholder-related risks",
+      "Feeds into all project communication and engagement activities"
+    ]
+  },
+  "status": {
+    "document_status": "Template Ready for Population",
+    "next_action": "Populate during stakeholder identification with @nlu-processor-agent",
+    "estimated_completion": "During user briefing and stakeholder analysis sessions"
+  }
+} 

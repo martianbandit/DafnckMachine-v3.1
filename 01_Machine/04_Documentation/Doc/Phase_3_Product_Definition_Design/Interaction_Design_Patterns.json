@@ -1,0 +1,350 @@
+{
+  "interactionPatterns": {
+    "metadata": {
+      "version": "1.0.0",
+      "lastUpdated": "2025-01-27",
+      "owner": "@ux-researcher-agent",
+      "description": "Comprehensive interaction design patterns for DafnckMachine v3.1"
+    },
+    "gesturePatterns": {
+      "touch": {
+        "tap": {
+          "description": "Single finger tap for primary actions",
+          "minTargetSize": "44px",
+          "feedback": "Visual highlight + haptic feedback",
+          "timing": "Immediate response < 100ms"
+        },
+        "doubleTap": {
+          "description": "Quick succession taps for secondary actions",
+          "timing": "< 300ms between taps",
+          "feedback": "Distinct visual confirmation",
+          "usage": "Zoom, like, favorite actions"
+        },
+        "longPress": {
+          "description": "Extended touch for contextual menus",
+          "duration": "500ms minimum",
+          "feedback": "Progressive visual indicator + haptic",
+          "usage": "Context menus, drag initiation"
+        },
+        "swipe": {
+          "horizontal": {
+            "description": "Left/right navigation and actions",
+            "minDistance": "50px",
+            "velocity": "Minimum 0.5px/ms",
+            "usage": "Card dismissal, navigation, pagination"
+          },
+          "vertical": {
+            "description": "Up/down scrolling and refresh",
+            "minDistance": "30px",
+            "usage": "Scroll, pull-to-refresh, drawer reveal"
+          }
+        },
+        "pinch": {
+          "description": "Two-finger zoom and scale operations",
+          "minScale": "0.5x",
+          "maxScale": "3.0x",
+          "feedback": "Real-time scale preview"
+        }
+      },
+      "mouse": {
+        "click": {
+          "description": "Primary selection and activation",
+          "feedback": "Visual state change + cursor feedback",
+          "timing": "< 100ms response"
+        },
+        "doubleClick": {
+          "description": "Quick edit or detailed view",
+          "timing": "< 400ms between clicks",
+          "usage": "Edit mode, expand details"
+        },
+        "rightClick": {
+          "description": "Context menu activation",
+          "feedback": "Context menu appearance",
+          "fallback": "Long press equivalent on touch"
+        },
+        "hover": {
+          "description": "Preview and additional information",
+          "timing": "300ms delay before activation",
+          "feedback": "Subtle visual enhancement",
+          "usage": "Tooltips, previews, button states"
+        },
+        "drag": {
+          "description": "Move and reorder operations",
+          "feedback": "Visual drag indicator + ghost element",
+          "constraints": "Defined drop zones and boundaries"
+        }
+      },
+      "keyboard": {
+        "shortcuts": {
+          "global": {
+            "search": "Ctrl/Cmd + K",
+            "help": "?",
+            "navigation": "Arrow keys",
+            "selection": "Space/Enter",
+            "escape": "Esc"
+          },
+          "contextual": {
+            "save": "Ctrl/Cmd + S",
+            "copy": "Ctrl/Cmd + C",
+            "paste": "Ctrl/Cmd + V",
+            "undo": "Ctrl/Cmd + Z",
+            "redo": "Ctrl/Cmd + Shift + Z"
+          }
+        },
+        "navigation": {
+          "tab": "Sequential focus movement",
+          "shiftTab": "Reverse focus movement",
+          "arrow": "Directional navigation within components",
+          "home": "Move to beginning",
+          "end": "Move to end"
+        }
+      }
+    },
+    "animationSpecifications": {
+      "transitions": {
+        "pageTransition": {
+          "duration": "300ms",
+          "easing": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+          "properties": ["opacity", "transform"],
+          "direction": "slide-in from right"
+        },
+        "modalTransition": {
+          "duration": "200ms",
+          "easing": "ease-out",
+          "properties": ["opacity", "scale"],
+          "backdrop": "fade-in 150ms"
+        },
+        "drawerTransition": {
+          "duration": "250ms",
+          "easing": "cubic-bezier(0.0, 0.0, 0.2, 1)",
+          "properties": ["transform"],
+          "direction": "slide-in from edge"
+        }
+      },
+      "microInteractions": {
+        "buttonPress": {
+          "duration": "150ms",
+          "easing": "ease-in-out",
+          "scale": "0.95",
+          "feedback": "immediate"
+        },
+        "cardHover": {
+          "duration": "200ms",
+          "easing": "ease-out",
+          "elevation": "4px shadow",
+          "scale": "1.02"
+        },
+        "inputFocus": {
+          "duration": "150ms",
+          "easing": "ease-out",
+          "properties": ["border-color", "box-shadow"],
+          "indicator": "2px outline"
+        },
+        "loadingSpinner": {
+          "duration": "1000ms",
+          "easing": "linear",
+          "rotation": "360deg",
+          "infinite": true
+        }
+      },
+      "stateTransitions": {
+        "loading": {
+          "enter": "fade-in 150ms",
+          "exit": "fade-out 100ms",
+          "skeleton": "pulse animation 1.5s infinite"
+        },
+        "error": {
+          "enter": "slide-down 200ms + shake 300ms",
+          "exit": "fade-out 150ms",
+          "color": "error red with fade"
+        },
+        "success": {
+          "enter": "scale-in 200ms + checkmark draw",
+          "exit": "fade-out 2000ms",
+          "color": "success green"
+        }
+      }
+    },
+    "feedbackMechanisms": {
+      "visual": {
+        "stateChanges": {
+          "hover": "Subtle color/shadow change",
+          "active": "Pressed state visual",
+          "focus": "Clear focus indicator",
+          "disabled": "Reduced opacity + cursor change"
+        },
+        "progress": {
+          "loading": "Spinner or progress bar",
+          "completion": "Checkmark or success indicator",
+          "error": "Error icon with color change"
+        },
+        "validation": {
+          "success": "Green border + checkmark",
+          "error": "Red border + error icon + message",
+          "warning": "Yellow border + warning icon"
+        }
+      },
+      "haptic": {
+        "mobile": {
+          "lightTap": "Button press confirmation",
+          "mediumTap": "Action completion",
+          "heavyTap": "Error or important notification"
+        },
+        "timing": "Synchronized with visual feedback"
+      },
+      "audio": {
+        "optional": true,
+        "types": {
+          "success": "Subtle positive chime",
+          "error": "Gentle error tone",
+          "notification": "Soft notification sound"
+        },
+        "volume": "Respectful and adjustable"
+      }
+    },
+    "stateManagement": {
+      "componentStates": {
+        "button": {
+          "default": "Base appearance",
+          "hover": "Enhanced visual state",
+          "active": "Pressed appearance",
+          "focus": "Keyboard focus indicator",
+          "disabled": "Inactive appearance",
+          "loading": "Progress indicator"
+        },
+        "input": {
+          "empty": "Placeholder text visible",
+          "filled": "Content with clear formatting",
+          "focus": "Active editing state",
+          "error": "Validation error display",
+          "success": "Validation success indicator",
+          "disabled": "Non-interactive state"
+        },
+        "card": {
+          "default": "Standard elevation and spacing",
+          "hover": "Enhanced elevation",
+          "selected": "Highlighted border/background",
+          "loading": "Skeleton content",
+          "error": "Error state indication"
+        }
+      },
+      "pageStates": {
+        "loading": "Initial page load with skeleton",
+        "loaded": "Full content display",
+        "error": "Error page with recovery options",
+        "empty": "No content state with guidance",
+        "offline": "Offline mode indication"
+      }
+    },
+    "microInteractions": {
+      "formInteractions": {
+        "fieldValidation": {
+          "realTime": "Validate on blur or after typing pause",
+          "timing": "500ms delay after last keystroke",
+          "feedback": "Inline error/success messages"
+        },
+        "submitButton": {
+          "states": "Default → Loading → Success/Error",
+          "feedback": "Visual state change + text update",
+          "timing": "Immediate response to click"
+        }
+      },
+      "navigationInteractions": {
+        "menuToggle": {
+          "animation": "Hamburger to X transformation",
+          "duration": "200ms",
+          "easing": "ease-in-out"
+        },
+        "breadcrumbs": {
+          "hover": "Underline animation",
+          "active": "Bold weight + color change"
+        }
+      },
+      "contentInteractions": {
+        "cardExpansion": {
+          "trigger": "Click on expand icon",
+          "animation": "Height transition + content fade-in",
+          "duration": "300ms"
+        },
+        "imageZoom": {
+          "trigger": "Click or pinch gesture",
+          "animation": "Scale and position transition",
+          "controls": "Zoom in/out + pan"
+        }
+      }
+    },
+    "accessibilityPatterns": {
+      "focusManagement": {
+        "tabOrder": "Logical sequential navigation",
+        "focusTrapping": "Modal and drawer focus containment",
+        "focusRestoration": "Return focus after modal close",
+        "skipLinks": "Bypass navigation for screen readers"
+      },
+      "ariaPatterns": {
+        "liveRegions": "Dynamic content announcements",
+        "labelAssociation": "Proper form label connections",
+        "stateAnnouncement": "Interactive element state changes",
+        "roleDefinition": "Clear semantic roles"
+      },
+      "keyboardPatterns": {
+        "customComponents": "Arrow key navigation for complex widgets",
+        "shortcuts": "Consistent keyboard shortcuts",
+        "escape": "Universal escape key behavior"
+      }
+    },
+    "responsivePatterns": {
+      "breakpointBehaviors": {
+        "mobile": {
+          "navigation": "Collapsible hamburger menu",
+          "interactions": "Touch-optimized targets",
+          "content": "Single column layout"
+        },
+        "tablet": {
+          "navigation": "Hybrid menu approach",
+          "interactions": "Touch and mouse support",
+          "content": "Flexible grid layout"
+        },
+        "desktop": {
+          "navigation": "Full horizontal menu",
+          "interactions": "Mouse and keyboard optimized",
+          "content": "Multi-column layout"
+        }
+      },
+      "adaptiveComponents": {
+        "dataTable": "Horizontal scroll → Card layout",
+        "navigation": "Horizontal menu → Hamburger menu",
+        "sidebar": "Fixed sidebar → Overlay drawer"
+      }
+    }
+  },
+  "implementationGuidelines": {
+    "cssClasses": {
+      "prefix": "dm-",
+      "stateModifiers": "--hover, --active, --focus, --disabled",
+      "sizeModifiers": "--small, --medium, --large",
+      "variantModifiers": "--primary, --secondary, --tertiary"
+    },
+    "javascriptEvents": {
+      "customEvents": "dm:interaction, dm:stateChange, dm:validation",
+      "eventDelegation": "Use for dynamic content",
+      "debouncing": "Apply to rapid-fire events"
+    },
+    "performanceConsiderations": {
+      "animations": "Use transform and opacity for performance",
+      "eventListeners": "Clean up on component unmount",
+      "throttling": "Apply to scroll and resize events"
+    }
+  },
+  "testingCriteria": {
+    "interactionTesting": {
+      "manual": "Test all interaction patterns across devices",
+      "automated": "Interaction flow automation tests",
+      "accessibility": "Keyboard and screen reader testing"
+    },
+    "performanceTesting": {
+      "animationFrameRate": "Maintain 60fps for animations",
+      "responseTime": "< 100ms for immediate feedback",
+      "memoryUsage": "Monitor for memory leaks"
+    }
+  }
+} 

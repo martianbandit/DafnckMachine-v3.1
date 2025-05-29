@@ -1,0 +1,758 @@
+{
+  "specType": "advanced_component_specifications",
+  "version": "3.1.0",
+  "lastUpdated": "2025-01-27",
+  "relatedWorkflow": "12_Frontend_Development.md",
+  
+  "complexComponents": {
+    "VirtualizedList": {
+      "description": "High-performance virtualized list for large datasets",
+      "features": [
+        "virtual scrolling",
+        "dynamic item heights",
+        "infinite scrolling",
+        "keyboard navigation",
+        "selection management"
+      ],
+      "props": {
+        "items": {
+          "type": "array",
+          "required": true,
+          "description": "Array of items to render"
+        },
+        "itemHeight": {
+          "type": "number|function",
+          "required": false,
+          "description": "Fixed height or function to calculate height"
+        },
+        "renderItem": {
+          "type": "function",
+          "required": true,
+          "description": "Function to render each item"
+        },
+        "overscan": {
+          "type": "number",
+          "default": 5,
+          "description": "Number of items to render outside viewport"
+        },
+        "onLoadMore": {
+          "type": "function",
+          "required": false,
+          "description": "Callback for infinite scrolling"
+        },
+        "loading": {
+          "type": "boolean",
+          "default": false
+        },
+        "hasNextPage": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "performance": {
+        "maxItems": "100,000+",
+        "renderTime": "<16ms per frame",
+        "memoryUsage": "O(viewport size)"
+      },
+      "accessibility": {
+        "role": "listbox",
+        "ariaSetsize": "total item count",
+        "ariaPosinset": "current item position",
+        "keyboardSupport": ["Arrow keys", "Home", "End", "Page Up", "Page Down"]
+      }
+    },
+    "DataVisualization": {
+      "description": "Interactive chart and graph components",
+      "chartTypes": [
+        "LineChart",
+        "BarChart",
+        "PieChart",
+        "ScatterPlot",
+        "Heatmap",
+        "TreeMap"
+      ],
+      "props": {
+        "data": {
+          "type": "array",
+          "required": true,
+          "description": "Chart data array"
+        },
+        "config": {
+          "type": "object",
+          "required": true,
+          "description": "Chart configuration object"
+        },
+        "width": {
+          "type": "number",
+          "required": false,
+          "description": "Chart width in pixels"
+        },
+        "height": {
+          "type": "number",
+          "required": false,
+          "description": "Chart height in pixels"
+        },
+        "responsive": {
+          "type": "boolean",
+          "default": true
+        },
+        "interactive": {
+          "type": "boolean",
+          "default": true
+        },
+        "onDataPointClick": {
+          "type": "function",
+          "required": false
+        },
+        "onDataPointHover": {
+          "type": "function",
+          "required": false
+        }
+      },
+      "features": [
+        "responsive design",
+        "interactive tooltips",
+        "zoom and pan",
+        "data point selection",
+        "animation transitions",
+        "export functionality"
+      ],
+      "accessibility": {
+        "role": "img",
+        "ariaLabel": "descriptive chart title",
+        "dataTable": "alternative data representation",
+        "keyboardNavigation": "for interactive elements"
+      },
+      "library": "D3.js + React"
+    },
+    "RichTextEditor": {
+      "description": "WYSIWYG rich text editor with extensible plugins",
+      "features": [
+        "rich text formatting",
+        "block-level elements",
+        "inline formatting",
+        "undo/redo",
+        "keyboard shortcuts",
+        "plugin system"
+      ],
+      "props": {
+        "value": {
+          "type": "string",
+          "required": false,
+          "description": "Editor content"
+        },
+        "onChange": {
+          "type": "function",
+          "required": true,
+          "description": "Content change callback"
+        },
+        "placeholder": {
+          "type": "string",
+          "required": false
+        },
+        "readOnly": {
+          "type": "boolean",
+          "default": false
+        },
+        "plugins": {
+          "type": "array",
+          "required": false,
+          "description": "Array of enabled plugins"
+        },
+        "toolbar": {
+          "type": "object",
+          "required": false,
+          "description": "Toolbar configuration"
+        },
+        "maxLength": {
+          "type": "number",
+          "required": false
+        }
+      },
+      "plugins": [
+        "bold",
+        "italic",
+        "underline",
+        "strikethrough",
+        "link",
+        "image",
+        "list",
+        "blockquote",
+        "code",
+        "table"
+      ],
+      "accessibility": {
+        "role": "textbox",
+        "ariaMultiline": "true",
+        "ariaLabel": "rich text editor",
+        "keyboardShortcuts": "standard text editing shortcuts"
+      },
+      "library": "Slate.js"
+    },
+    "FileUpload": {
+      "description": "Advanced file upload component with drag-and-drop",
+      "features": [
+        "drag and drop",
+        "multiple file selection",
+        "file type validation",
+        "size validation",
+        "progress tracking",
+        "preview generation",
+        "chunked upload"
+      ],
+      "props": {
+        "accept": {
+          "type": "string",
+          "required": false,
+          "description": "Accepted file types"
+        },
+        "multiple": {
+          "type": "boolean",
+          "default": false
+        },
+        "maxSize": {
+          "type": "number",
+          "required": false,
+          "description": "Maximum file size in bytes"
+        },
+        "maxFiles": {
+          "type": "number",
+          "required": false
+        },
+        "onUpload": {
+          "type": "function",
+          "required": true,
+          "description": "Upload handler function"
+        },
+        "onProgress": {
+          "type": "function",
+          "required": false
+        },
+        "onError": {
+          "type": "function",
+          "required": false
+        },
+        "preview": {
+          "type": "boolean",
+          "default": true
+        },
+        "chunked": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable chunked upload for large files"
+        }
+      },
+      "validation": {
+        "fileType": "MIME type validation",
+        "fileSize": "size limit enforcement",
+        "fileName": "sanitization and validation"
+      },
+      "accessibility": {
+        "role": "button",
+        "ariaLabel": "file upload area",
+        "keyboardSupport": ["Enter", "Space"],
+        "screenReader": "upload progress announcements"
+      }
+    },
+    "InfiniteScroll": {
+      "description": "Infinite scroll container with loading states",
+      "features": [
+        "automatic loading",
+        "threshold detection",
+        "loading indicators",
+        "error handling",
+        "retry mechanism"
+      ],
+      "props": {
+        "hasNextPage": {
+          "type": "boolean",
+          "required": true
+        },
+        "loadMore": {
+          "type": "function",
+          "required": true
+        },
+        "loading": {
+          "type": "boolean",
+          "required": true
+        },
+        "threshold": {
+          "type": "number",
+          "default": 100,
+          "description": "Pixels from bottom to trigger load"
+        },
+        "loader": {
+          "type": "node",
+          "required": false,
+          "description": "Custom loading component"
+        },
+        "endMessage": {
+          "type": "node",
+          "required": false
+        },
+        "error": {
+          "type": "string",
+          "required": false
+        },
+        "onRetry": {
+          "type": "function",
+          "required": false
+        }
+      },
+      "performance": {
+        "debouncing": "prevents rapid fire requests",
+        "intersection observer": "efficient scroll detection"
+      },
+      "accessibility": {
+        "ariaLive": "polite for loading announcements",
+        "focusManagement": "maintain focus during updates"
+      }
+    }
+  },
+  
+  "interactiveComponents": {
+    "DragAndDrop": {
+      "description": "Drag and drop interface for reordering and organizing",
+      "features": [
+        "sortable lists",
+        "drag between containers",
+        "visual feedback",
+        "touch support",
+        "keyboard accessibility"
+      ],
+      "props": {
+        "items": {
+          "type": "array",
+          "required": true
+        },
+        "onReorder": {
+          "type": "function",
+          "required": true
+        },
+        "direction": {
+          "type": "string",
+          "options": ["vertical", "horizontal", "grid"],
+          "default": "vertical"
+        },
+        "disabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "handle": {
+          "type": "string",
+          "required": false,
+          "description": "CSS selector for drag handle"
+        },
+        "placeholder": {
+          "type": "node",
+          "required": false
+        }
+      },
+      "accessibility": {
+        "role": "listbox",
+        "ariaGrabbed": "dynamic based on drag state",
+        "keyboardSupport": ["Arrow keys", "Space", "Enter"],
+        "announcements": "screen reader feedback for moves"
+      },
+      "library": "react-beautiful-dnd"
+    },
+    "ResizablePanel": {
+      "description": "Resizable panel component for flexible layouts",
+      "features": [
+        "mouse resize",
+        "touch resize",
+        "keyboard resize",
+        "min/max constraints",
+        "snap to grid"
+      ],
+      "props": {
+        "defaultSize": {
+          "type": "number",
+          "required": false,
+          "description": "Initial size percentage"
+        },
+        "minSize": {
+          "type": "number",
+          "default": 10
+        },
+        "maxSize": {
+          "type": "number",
+          "default": 90
+        },
+        "onResize": {
+          "type": "function",
+          "required": false
+        },
+        "direction": {
+          "type": "string",
+          "options": ["horizontal", "vertical"],
+          "default": "horizontal"
+        },
+        "disabled": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "accessibility": {
+        "role": "separator",
+        "ariaOrientation": "based on direction",
+        "keyboardSupport": ["Arrow keys"],
+        "ariaValuenow": "current size percentage"
+      }
+    },
+    "ColorPicker": {
+      "description": "Advanced color picker with multiple input methods",
+      "features": [
+        "color wheel",
+        "RGB/HSL/HEX inputs",
+        "color swatches",
+        "eyedropper tool",
+        "color history"
+      ],
+      "props": {
+        "value": {
+          "type": "string",
+          "required": false,
+          "description": "Current color value"
+        },
+        "onChange": {
+          "type": "function",
+          "required": true
+        },
+        "format": {
+          "type": "string",
+          "options": ["hex", "rgb", "hsl"],
+          "default": "hex"
+        },
+        "presets": {
+          "type": "array",
+          "required": false,
+          "description": "Predefined color swatches"
+        },
+        "showAlpha": {
+          "type": "boolean",
+          "default": false
+        },
+        "disabled": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "accessibility": {
+        "role": "slider",
+        "ariaLabel": "color picker",
+        "keyboardSupport": ["Arrow keys", "Home", "End"],
+        "colorContrast": "ensure picker is accessible"
+      }
+    }
+  },
+  
+  "dataComponents": {
+    "AdvancedDataTable": {
+      "description": "Enterprise-grade data table with advanced features",
+      "features": [
+        "virtual scrolling",
+        "column resizing",
+        "column reordering",
+        "row grouping",
+        "aggregation",
+        "export functionality",
+        "inline editing",
+        "bulk operations"
+      ],
+      "props": {
+        "data": {
+          "type": "array",
+          "required": true
+        },
+        "columns": {
+          "type": "array",
+          "required": true,
+          "description": "Enhanced column definitions"
+        },
+        "virtualScrolling": {
+          "type": "boolean",
+          "default": true
+        },
+        "resizable": {
+          "type": "boolean",
+          "default": true
+        },
+        "reorderable": {
+          "type": "boolean",
+          "default": true
+        },
+        "groupBy": {
+          "type": "array",
+          "required": false
+        },
+        "aggregations": {
+          "type": "object",
+          "required": false
+        },
+        "editable": {
+          "type": "boolean",
+          "default": false
+        },
+        "selection": {
+          "type": "object",
+          "required": false,
+          "description": "Selection configuration"
+        },
+        "onEdit": {
+          "type": "function",
+          "required": false
+        },
+        "onBulkAction": {
+          "type": "function",
+          "required": false
+        }
+      },
+      "performance": {
+        "maxRows": "1,000,000+",
+        "renderTime": "<16ms per frame",
+        "memoryUsage": "O(viewport size)"
+      },
+      "accessibility": {
+        "role": "grid",
+        "ariaRowcount": "total row count",
+        "ariaColcount": "total column count",
+        "keyboardNavigation": "full grid navigation support"
+      }
+    },
+    "TreeView": {
+      "description": "Hierarchical tree view component with lazy loading",
+      "features": [
+        "lazy loading",
+        "virtual scrolling",
+        "drag and drop",
+        "multi-selection",
+        "search and filter",
+        "custom icons"
+      ],
+      "props": {
+        "data": {
+          "type": "array",
+          "required": true,
+          "description": "Hierarchical data structure"
+        },
+        "onExpand": {
+          "type": "function",
+          "required": false
+        },
+        "onSelect": {
+          "type": "function",
+          "required": false
+        },
+        "multiSelect": {
+          "type": "boolean",
+          "default": false
+        },
+        "searchable": {
+          "type": "boolean",
+          "default": false
+        },
+        "draggable": {
+          "type": "boolean",
+          "default": false
+        },
+        "lazyLoad": {
+          "type": "boolean",
+          "default": false
+        },
+        "renderNode": {
+          "type": "function",
+          "required": false,
+          "description": "Custom node renderer"
+        }
+      },
+      "accessibility": {
+        "role": "tree",
+        "ariaExpanded": "for expandable nodes",
+        "ariaSelected": "for selected nodes",
+        "keyboardSupport": ["Arrow keys", "Enter", "Space", "*"]
+      }
+    }
+  },
+  
+  "mediaComponents": {
+    "VideoPlayer": {
+      "description": "Custom video player with advanced controls",
+      "features": [
+        "custom controls",
+        "playback speed",
+        "quality selection",
+        "subtitles/captions",
+        "picture-in-picture",
+        "fullscreen",
+        "keyboard shortcuts"
+      ],
+      "props": {
+        "src": {
+          "type": "string|array",
+          "required": true,
+          "description": "Video source(s)"
+        },
+        "poster": {
+          "type": "string",
+          "required": false
+        },
+        "autoPlay": {
+          "type": "boolean",
+          "default": false
+        },
+        "controls": {
+          "type": "boolean",
+          "default": true
+        },
+        "subtitles": {
+          "type": "array",
+          "required": false
+        },
+        "onTimeUpdate": {
+          "type": "function",
+          "required": false
+        },
+        "onEnded": {
+          "type": "function",
+          "required": false
+        }
+      },
+      "accessibility": {
+        "role": "application",
+        "ariaLabel": "video player",
+        "keyboardShortcuts": ["Space", "Arrow keys", "M", "F"],
+        "captions": "support for closed captions"
+      }
+    },
+    "ImageGallery": {
+      "description": "Interactive image gallery with lightbox",
+      "features": [
+        "thumbnail grid",
+        "lightbox view",
+        "zoom functionality",
+        "navigation controls",
+        "touch gestures",
+        "lazy loading"
+      ],
+      "props": {
+        "images": {
+          "type": "array",
+          "required": true,
+          "description": "Array of image objects"
+        },
+        "columns": {
+          "type": "number",
+          "default": 3
+        },
+        "spacing": {
+          "type": "number",
+          "default": 8
+        },
+        "lightbox": {
+          "type": "boolean",
+          "default": true
+        },
+        "lazyLoad": {
+          "type": "boolean",
+          "default": true
+        },
+        "onImageClick": {
+          "type": "function",
+          "required": false
+        }
+      },
+      "accessibility": {
+        "role": "grid",
+        "ariaLabel": "image gallery",
+        "keyboardNavigation": "arrow key navigation",
+        "altText": "descriptive image alternatives"
+      }
+    }
+  },
+  
+  "performanceOptimizations": {
+    "virtualization": {
+      "components": ["VirtualizedList", "AdvancedDataTable", "TreeView"],
+      "benefits": ["reduced DOM nodes", "constant memory usage", "smooth scrolling"]
+    },
+    "lazyLoading": {
+      "strategies": ["intersection observer", "dynamic imports", "image lazy loading"],
+      "implementation": "React.lazy + Suspense"
+    },
+    "memoization": {
+      "techniques": ["React.memo", "useMemo", "useCallback"],
+      "criteria": ["expensive calculations", "stable references", "pure components"]
+    },
+    "codesplitting": {
+      "granularity": "component level",
+      "strategy": "route-based + component-based"
+    }
+  },
+  
+  "accessibilityFeatures": {
+    "keyboardNavigation": {
+      "required": true,
+      "patterns": ["arrow keys", "tab navigation", "escape key", "enter/space activation"]
+    },
+    "screenReaderSupport": {
+      "ariaLabels": "descriptive labels for all interactive elements",
+      "liveRegions": "dynamic content announcements",
+      "landmarks": "proper semantic structure"
+    },
+    "focusManagement": {
+      "visibleFocus": "clear focus indicators",
+      "focusTrapping": "in modals and overlays",
+      "focusRestoration": "return focus after interactions"
+    },
+    "colorAndContrast": {
+      "minimumContrast": "4.5:1 for normal text",
+      "enhancedContrast": "7:1 for small text",
+      "colorIndependence": "not relying solely on color"
+    }
+  },
+  
+  "testingStrategy": {
+    "unitTesting": {
+      "framework": "Jest + React Testing Library",
+      "coverage": "minimum 90% for complex components",
+      "focus": ["user interactions", "edge cases", "error states"]
+    },
+    "integrationTesting": {
+      "framework": "Jest + React Testing Library",
+      "focus": ["component composition", "data flow", "user workflows"]
+    },
+    "visualTesting": {
+      "framework": "Storybook + Chromatic",
+      "coverage": "all states and variants"
+    },
+    "performanceTesting": {
+      "tools": ["React DevTools Profiler", "Lighthouse"],
+      "metrics": ["render time", "memory usage", "bundle size"]
+    },
+    "accessibilityTesting": {
+      "automated": "jest-axe",
+      "manual": "screen reader testing",
+      "tools": ["axe-core", "WAVE", "Lighthouse"]
+    }
+  },
+  
+  "documentationRequirements": {
+    "storybook": {
+      "required": true,
+      "includes": ["all variants", "interactive demos", "code examples", "accessibility notes"]
+    },
+    "apiDocumentation": {
+      "required": true,
+      "includes": ["prop definitions", "method descriptions", "event handlers", "examples"]
+    },
+    "usageGuides": {
+      "required": true,
+      "includes": ["implementation examples", "best practices", "common patterns", "troubleshooting"]
+    },
+    "performanceNotes": {
+      "required": true,
+      "includes": ["optimization tips", "memory considerations", "bundle impact"]
+    }
+  }
+} 

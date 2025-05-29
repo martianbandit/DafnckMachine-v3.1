@@ -1,0 +1,384 @@
+{
+  "metadata": {
+    "version": "3.1.0",
+    "lastUpdated": "2025-01-27",
+    "relatedWorkflow": "12_Frontend_Development.md",
+    "purpose": "Analytics and monitoring configuration for frontend application"
+  },
+  "webAnalytics": {
+    "googleAnalytics": {
+      "enabled": true,
+      "trackingId": "${GA_TRACKING_ID}",
+      "version": "GA4",
+      "configuration": {
+        "anonymizeIp": true,
+        "cookieExpires": 63072000,
+        "sampleRate": 100,
+        "siteSpeedSampleRate": 10
+      },
+      "events": {
+        "pageViews": {
+          "enabled": true,
+          "enhanced": true,
+          "customDimensions": ["userType", "deviceType", "referralSource"]
+        },
+        "customEvents": [
+          "button_click",
+          "form_submission",
+          "file_download",
+          "video_play",
+          "search_query",
+          "error_occurrence"
+        ],
+        "ecommerce": {
+          "enabled": false,
+          "enhancedEcommerce": false
+        }
+      }
+    },
+    "googleTagManager": {
+      "enabled": true,
+      "containerId": "${GTM_CONTAINER_ID}",
+      "dataLayer": {
+        "enabled": true,
+        "variables": ["userId", "sessionId", "pageCategory", "userSegment"]
+      },
+      "triggers": [
+        "page_view",
+        "click_all_elements",
+        "form_submission",
+        "scroll_depth",
+        "timer"
+      ]
+    }
+  },
+  "performanceMonitoring": {
+    "webVitals": {
+      "enabled": true,
+      "metrics": [
+        "FCP",
+        "LCP",
+        "FID",
+        "CLS",
+        "TTFB",
+        "TTI"
+      ],
+      "reporting": {
+        "endpoint": "/api/analytics/web-vitals",
+        "batchSize": 10,
+        "flushInterval": 5000
+      }
+    },
+    "realUserMonitoring": {
+      "enabled": true,
+      "provider": "custom",
+      "metrics": {
+        "navigationTiming": true,
+        "resourceTiming": true,
+        "paintTiming": true,
+        "longTasks": true,
+        "memoryUsage": true
+      },
+      "sampling": {
+        "rate": 0.1,
+        "strategy": "random"
+      }
+    },
+    "lighthouse": {
+      "enabled": true,
+      "schedule": "daily",
+      "thresholds": {
+        "performance": 90,
+        "accessibility": 95,
+        "bestPractices": 90,
+        "seo": 90,
+        "pwa": 80
+      },
+      "reporting": {
+        "webhook": "${LIGHTHOUSE_WEBHOOK_URL}",
+        "storage": "cloud-storage"
+      }
+    }
+  },
+  "errorTracking": {
+    "sentry": {
+      "enabled": true,
+      "dsn": "${SENTRY_DSN}",
+      "environment": "${NODE_ENV}",
+      "configuration": {
+        "tracesSampleRate": 0.1,
+        "replaysSessionSampleRate": 0.1,
+        "replaysOnErrorSampleRate": 1.0,
+        "beforeSend": "filterSensitiveData",
+        "ignoreErrors": [
+          "Non-Error promise rejection captured",
+          "ResizeObserver loop limit exceeded",
+          "Script error"
+        ]
+      },
+      "integrations": [
+        "BrowserTracing",
+        "Replay",
+        "CaptureConsole"
+      ],
+      "tags": {
+        "component": "frontend",
+        "version": "${APP_VERSION}",
+        "feature": "dynamic"
+      }
+    },
+    "customErrorTracking": {
+      "enabled": true,
+      "endpoint": "/api/errors",
+      "categories": [
+        "javascript_error",
+        "network_error",
+        "validation_error",
+        "authentication_error",
+        "permission_error"
+      ],
+      "metadata": [
+        "userAgent",
+        "url",
+        "timestamp",
+        "userId",
+        "sessionId",
+        "stackTrace"
+      ]
+    }
+  },
+  "userBehaviorAnalytics": {
+    "heatmaps": {
+      "enabled": true,
+      "provider": "hotjar",
+      "siteId": "${HOTJAR_SITE_ID}",
+      "configuration": {
+        "trackClicks": true,
+        "trackMovement": true,
+        "trackScrolling": true,
+        "recordingSampleRate": 0.05
+      }
+    },
+    "sessionRecording": {
+      "enabled": true,
+      "provider": "logrocket",
+      "appId": "${LOGROCKET_APP_ID}",
+      "configuration": {
+        "console": true,
+        "network": true,
+        "dom": true,
+        "privacy": {
+          "maskInputs": true,
+          "maskText": false,
+          "maskImages": true
+        }
+      },
+      "sampling": {
+        "rate": 0.1,
+        "errorSessions": 1.0
+      }
+    },
+    "userJourney": {
+      "enabled": true,
+      "tracking": {
+        "pageViews": true,
+        "clicks": true,
+        "formInteractions": true,
+        "scrollDepth": true,
+        "timeOnPage": true
+      },
+      "funnels": [
+        {
+          "name": "user_registration",
+          "steps": ["landing", "signup_form", "email_verification", "profile_setup"]
+        },
+        {
+          "name": "feature_adoption",
+          "steps": ["feature_discovery", "first_use", "regular_use"]
+        }
+      ]
+    }
+  },
+  "businessMetrics": {
+    "conversionTracking": {
+      "enabled": true,
+      "goals": [
+        {
+          "name": "user_registration",
+          "type": "event",
+          "value": 10,
+          "currency": "USD"
+        },
+        {
+          "name": "feature_usage",
+          "type": "event",
+          "value": 5,
+          "currency": "USD"
+        }
+      ]
+    },
+    "cohortAnalysis": {
+      "enabled": true,
+      "metrics": ["retention", "engagement", "revenue"],
+      "timeframes": ["daily", "weekly", "monthly"],
+      "segments": ["acquisition_channel", "user_type", "geographic_location"]
+    },
+    "abTesting": {
+      "enabled": true,
+      "provider": "optimizely",
+      "projectId": "${OPTIMIZELY_PROJECT_ID}",
+      "experiments": [
+        {
+          "name": "homepage_cta",
+          "variations": ["control", "variant_a", "variant_b"],
+          "trafficAllocation": 0.5
+        }
+      ]
+    }
+  },
+  "privacyCompliance": {
+    "gdpr": {
+      "enabled": true,
+      "consentManagement": {
+        "provider": "cookiebot",
+        "categories": ["necessary", "analytics", "marketing", "preferences"],
+        "granularConsent": true
+      },
+      "dataProcessing": {
+        "anonymization": true,
+        "pseudonymization": true,
+        "dataMinimization": true,
+        "retentionPeriod": "24 months"
+      }
+    },
+    "ccpa": {
+      "enabled": true,
+      "doNotSell": true,
+      "optOutLink": "/privacy/opt-out"
+    },
+    "cookiePolicy": {
+      "enabled": true,
+      "categories": {
+        "essential": {
+          "required": true,
+          "description": "Necessary for basic website functionality"
+        },
+        "analytics": {
+          "required": false,
+          "description": "Help us understand how visitors use our website"
+        },
+        "marketing": {
+          "required": false,
+          "description": "Used to deliver relevant advertisements"
+        }
+      }
+    }
+  },
+  "dataCollection": {
+    "userIdentification": {
+      "anonymousId": true,
+      "userId": "authenticated users only",
+      "sessionId": true,
+      "deviceFingerprinting": false
+    },
+    "customEvents": {
+      "schema": {
+        "eventName": "string",
+        "timestamp": "ISO 8601",
+        "userId": "string|null",
+        "sessionId": "string",
+        "properties": "object",
+        "context": "object"
+      },
+      "validation": true,
+      "batching": {
+        "enabled": true,
+        "batchSize": 50,
+        "flushInterval": 10000
+      }
+    },
+    "dataQuality": {
+      "validation": true,
+      "deduplication": true,
+      "enrichment": true,
+      "sampling": {
+        "strategy": "stratified",
+        "rate": 1.0
+      }
+    }
+  },
+  "reporting": {
+    "dashboards": {
+      "realTime": {
+        "enabled": true,
+        "metrics": ["active_users", "page_views", "errors", "performance"],
+        "refreshInterval": 30000
+      },
+      "daily": {
+        "enabled": true,
+        "metrics": ["users", "sessions", "bounce_rate", "conversion_rate"],
+        "delivery": "email"
+      },
+      "weekly": {
+        "enabled": true,
+        "metrics": ["user_growth", "feature_adoption", "performance_trends"],
+        "delivery": "slack"
+      }
+    },
+    "alerts": {
+      "errorRate": {
+        "threshold": "5%",
+        "timeWindow": "5 minutes",
+        "notification": "slack"
+      },
+      "performanceDegradation": {
+        "threshold": "20% increase in LCP",
+        "timeWindow": "15 minutes",
+        "notification": "email"
+      },
+      "trafficSpike": {
+        "threshold": "200% of normal",
+        "timeWindow": "10 minutes",
+        "notification": "pagerduty"
+      }
+    }
+  },
+  "integration": {
+    "dataWarehouse": {
+      "enabled": true,
+      "provider": "bigquery",
+      "dataset": "${BQ_DATASET}",
+      "tables": {
+        "events": "frontend_events",
+        "users": "frontend_users",
+        "sessions": "frontend_sessions"
+      },
+      "schedule": "hourly"
+    },
+    "apis": {
+      "internal": {
+        "endpoint": "/api/analytics",
+        "authentication": "bearer_token",
+        "rateLimit": "1000/hour"
+      },
+      "external": {
+        "webhook": "${ANALYTICS_WEBHOOK_URL}",
+        "authentication": "api_key",
+        "retries": 3
+      }
+    }
+  },
+  "development": {
+    "debugMode": {
+      "enabled": "${NODE_ENV === 'development'}",
+      "console": true,
+      "overlay": true,
+      "verbose": true
+    },
+    "testing": {
+      "mockData": true,
+      "disableTracking": true,
+      "localEndpoints": true
+    }
+  }
+} 

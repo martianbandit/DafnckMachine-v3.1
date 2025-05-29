@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "version": "3.1.0",
+    "lastUpdated": "2025-01-27",
+    "relatedWorkflow": "12_Frontend_Development.md",
+    "purpose": "Component testing specifications and strategies for frontend application"
+  },
+  "testingFramework": {
+    "primary": {
+      "framework": "Jest",
+      "version": "^29.0.0",
+      "testRunner": "jest-circus",
+      "environment": "jsdom"
+    },
+    "reactTesting": {
+      "library": "@testing-library/react",
+      "version": "^13.0.0",
+      "utilities": [
+        "@testing-library/jest-dom",
+        "@testing-library/user-event"
+      ]
+    },
+    "configuration": {
+      "setupFiles": ["<rootDir>/src/setupTests.js"],
+      "testMatch": [
+        "**/__tests__/**/*.(js|jsx|ts|tsx)",
+        "**/*.(test|spec).(js|jsx|ts|tsx)"
+      ],
+      "collectCoverageFrom": [
+        "src/**/*.{js,jsx,ts,tsx}",
+        "!src/**/*.d.ts",
+        "!src/index.tsx",
+        "!src/serviceWorker.ts"
+      ],
+      "coverageThreshold": {
+        "global": {
+          "branches": 80,
+          "functions": 80,
+          "lines": 80,
+          "statements": 80
+        }
+      }
+    }
+  },
+  "componentCategories": {
+    "atomic": {
+      "description": "Basic building blocks (buttons, inputs, labels)",
+      "testingStrategy": {
+        "focus": ["rendering", "props", "accessibility", "styling"],
+        "complexity": "low",
+        "coverage": "95%"
+      },
+      "testTypes": [
+        "snapshot",
+        "props_validation",
+        "accessibility",
+        "visual_regression"
+      ],
+      "examples": [
+        {
+          "component": "Button",
+          "tests": [
+            "renders with default props",
+            "renders with custom text",
+            "handles click events",
+            "applies correct variant styles",
+            "is accessible via keyboard",
+            "has proper ARIA attributes"
+          ]
+        },
+        {
+          "component": "Input",
+          "tests": [
+            "renders with placeholder",
+            "handles value changes",
+            "validates input format",
+            "shows error states",
+            "supports different input types",
+            "has proper labels and descriptions"
+          ]
+        }
+      ]
+    },
+    "molecular": {
+      "description": "Combinations of atomic components (forms, cards, modals)",
+      "testingStrategy": {
+        "focus": ["interaction", "state_management", "validation", "integration"],
+        "complexity": "medium",
+        "coverage": "85%"
+      },
+      "testTypes": [
+        "integration",
+        "user_interaction",
+        "state_management",
+        "form_validation"
+      ],
+      "examples": [
+        {
+          "component": "LoginForm",
+          "tests": [
+            "submits form with valid data",
+            "shows validation errors",
+            "handles loading states",
+            "manages form state correctly",
+            "integrates with authentication",
+            "supports keyboard navigation"
+          ]
+        },
+        {
+          "component": "SearchBar",
+          "tests": [
+            "filters results on input",
+            "handles empty states",
+            "debounces search queries",
+            "shows search suggestions",
+            "clears search on reset",
+            "maintains search history"
+          ]
+        }
+      ]
+    },
+    "organism": {
+      "description": "Complex components (headers, sidebars, data tables)",
+      "testingStrategy": {
+        "focus": ["business_logic", "data_flow", "performance", "edge_cases"],
+        "complexity": "high",
+        "coverage": "80%"
+      },
+      "testTypes": [
+        "integration",
+        "performance",
+        "data_flow",
+        "edge_cases",
+        "error_handling"
+      ],
+      "examples": [
+        {
+          "component": "DataTable",
+          "tests": [
+            "renders large datasets efficiently",
+            "handles sorting and filtering",
+            "manages pagination correctly",
+            "supports row selection",
+            "handles loading and error states",
+            "exports data functionality"
+          ]
+        },
+        {
+          "component": "Navigation",
+          "tests": [
+            "renders correct menu items",
+            "handles route navigation",
+            "shows active states",
+            "supports mobile responsive design",
+            "manages user permissions",
+            "handles logout functionality"
+          ]
+        }
+      ]
+    }
+  },
+  "testingPatterns": {
+    "renderingTests": {
+      "description": "Verify component renders correctly",
+      "pattern": "render + screen queries",
+      "examples": [
+        "expect(screen.getByRole('button')).toBeInTheDocument()",
+        "expect(screen.getByText('Submit')).toBeVisible()",
+        "expect(container.firstChild).toMatchSnapshot()"
+      ]
+    },
+    "interactionTests": {
+      "description": "Test user interactions and events",
+      "pattern": "user-event + assertions",
+      "examples": [
+        "await user.click(screen.getByRole('button'))",
+        "await user.type(screen.getByLabelText('Email'), 'test@example.com')",
+        "await user.selectOptions(screen.getByRole('combobox'), 'option1')"
+      ]
+    },
+    "stateTests": {
+      "description": "Verify state changes and updates",
+      "pattern": "initial state + action + assertion",
+      "examples": [
+        "expect(screen.getByText('Loading...')).toBeInTheDocument()",
+        "expect(screen.queryByText('Error')).not.toBeInTheDocument()",
+        "expect(mockOnChange).toHaveBeenCalledWith(expectedValue)"
+      ]
+    },
+    "accessibilityTests": {
+      "description": "Ensure components are accessible",
+      "pattern": "axe + screen reader testing",
+      "examples": [
+        "expect(await axe(container)).toHaveNoViolations()",
+        "expect(screen.getByRole('button')).toHaveAttribute('aria-label')",
+        "expect(screen.getByLabelText('Password')).toBeRequired()"
+      ]
+    }
+  },
+  "mockingStrategies": {
+    "apiCalls": {
+      "strategy": "MSW (Mock Service Worker)",
+      "configuration": {
+        "setupFile": "src/mocks/server.js",
+        "handlers": "src/mocks/handlers.js",
+        "resetHandlers": "afterEach"
+      },
+      "examples": [
+        "rest.get('/api/users', (req, res, ctx) => res(ctx.json(mockUsers)))",
+        "rest.post('/api/login', (req, res, ctx) => res(ctx.status(200)))"
+      ]
+    },
+    "externalLibraries": {
+      "strategy": "Jest mocks",
+      "configuration": {
+        "moduleNameMapper": {
+          "^@/components/(.*)$": "<rootDir>/src/components/$1",
+          "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+        }
+      },
+      "examples": [
+        "jest.mock('react-router-dom', () => ({ useNavigate: jest.fn() }))",
+        "jest.mock('@/services/api', () => ({ fetchUser: jest.fn() }))"
+      ]
+    },
+    "contextProviders": {
+      "strategy": "Custom render with providers",
+      "implementation": "renderWithProviders utility",
+      "examples": [
+        "renderWithProviders(<Component />, { initialState })",
+        "renderWithTheme(<Component />, { theme: 'dark' })"
+      ]
+    }
+  },
+  "testUtilities": {
+    "customRenders": {
+      "renderWithProviders": {
+        "description": "Render component with Redux and Router providers",
+        "usage": "renderWithProviders(<Component />, { preloadedState })"
+      },
+      "renderWithTheme": {
+        "description": "Render component with theme provider",
+        "usage": "renderWithTheme(<Component />, { theme: 'dark' })"
+      },
+      "renderWithIntl": {
+        "description": "Render component with internationalization",
+        "usage": "renderWithIntl(<Component />, { locale: 'en' })"
+      }
+    },
+    "customMatchers": {
+      "toBeAccessible": {
+        "description": "Check component accessibility",
+        "usage": "expect(component).toBeAccessible()"
+      },
+      "toHaveValidationError": {
+        "description": "Check form validation errors",
+        "usage": "expect(form).toHaveValidationError('email')"
+      },
+      "toBeLoading": {
+        "description": "Check loading state",
+        "usage": "expect(component).toBeLoading()"
+      }
+    },
+    "testHelpers": {
+      "waitForLoadingToFinish": {
+        "description": "Wait for async operations to complete",
+        "usage": "await waitForLoadingToFinish()"
+      },
+      "fillForm": {
+        "description": "Fill form with test data",
+        "usage": "await fillForm(formData)"
+      },
+      "mockApiResponse": {
+        "description": "Mock API response for testing",
+        "usage": "mockApiResponse('/api/users', mockUsers)"
+      }
+    }
+  },
+  "testDataManagement": {
+    "fixtures": {
+      "location": "src/__fixtures__/",
+      "naming": "componentName.fixture.js",
+      "structure": {
+        "minimal": "minimum required props",
+        "complete": "all possible props",
+        "error": "error state data"
+      }
+    },
+    "factories": {
+      "library": "factory-bot",
+      "location": "src/__factories__/",
+      "examples": [
+        "UserFactory.build()",
+        "ProductFactory.buildList(5)",
+        "OrderFactory.build({ status: 'pending' })"
+      ]
+    },
+    "builders": {
+      "pattern": "builder pattern for complex objects",
+      "examples": [
+        "new UserBuilder().withEmail('test@example.com').build()",
+        "new FormBuilder().withValidation().withSubmitHandler().build()"
+      ]
+    }
+  },
+  "performanceTesting": {
+    "renderPerformance": {
+      "tool": "@testing-library/react-hooks",
+      "metrics": ["render time", "re-render count", "memory usage"],
+      "thresholds": {
+        "renderTime": "< 16ms",
+        "reRenderCount": "< 5",
+        "memoryUsage": "< 10MB"
+      }
+    },
+    "virtualization": {
+      "tool": "react-window-testing-library",
+      "focus": ["large lists", "infinite scroll", "virtual grids"],
+      "tests": [
+        "renders visible items only",
+        "handles scrolling correctly",
+        "maintains performance with large datasets"
+      ]
+    }
+  },
+  "visualTesting": {
+    "snapshotTesting": {
+      "tool": "Jest snapshots",
+      "strategy": "component + props combinations",
+      "maintenance": "review and update regularly"
+    },
+    "visualRegression": {
+      "tool": "Chromatic",
+      "configuration": {
+        "projectToken": "${CHROMATIC_PROJECT_TOKEN}",
+        "buildScriptName": "build-storybook"
+      },
+      "workflow": "automated on PR"
+    },
+    "crossBrowser": {
+      "tools": ["Playwright", "Puppeteer"],
+      "browsers": ["Chrome", "Firefox", "Safari", "Edge"],
+      "viewports": ["mobile", "tablet", "desktop"]
+    }
+  },
+  "continuousIntegration": {
+    "pipeline": {
+      "stages": ["lint", "test", "coverage", "visual"],
+      "parallelization": true,
+      "caching": "node_modules and test results"
+    },
+    "coverage": {
+      "reporting": "codecov",
+      "threshold": "80%",
+      "failOnDecrease": true
+    },
+    "testExecution": {
+      "watch": "development mode",
+      "ci": "single run with coverage",
+      "debug": "node --inspect-brk"
+    }
+  },
+  "bestPractices": {
+    "testStructure": {
+      "arrange": "Set up test data and mocks",
+      "act": "Execute the action being tested",
+      "assert": "Verify the expected outcome"
+    },
+    "testNaming": {
+      "pattern": "should [expected behavior] when [condition]",
+      "examples": [
+        "should display error message when validation fails",
+        "should call onSubmit when form is valid",
+        "should disable button when loading"
+      ]
+    },
+    "testMaintenance": {
+      "refactoring": "Update tests when components change",
+      "cleanup": "Remove obsolete tests",
+      "documentation": "Comment complex test logic"
+    }
+  }
+} 

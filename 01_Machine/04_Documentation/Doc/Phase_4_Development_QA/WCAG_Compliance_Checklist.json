@@ -1,0 +1,392 @@
+{
+  "metadata": {
+    "version": "3.1.0",
+    "lastUpdated": "2025-01-27",
+    "relatedWorkflow": "12_Frontend_Development.md",
+    "purpose": "WCAG 2.1 AA compliance checklist and accessibility standards",
+    "wcagVersion": "2.1",
+    "complianceLevel": "AA"
+  },
+  "perceivable": {
+    "principle": "Information and user interface components must be presentable to users in ways they can perceive",
+    "guidelines": {
+      "textAlternatives": {
+        "guideline": "1.1 - Provide text alternatives for any non-text content",
+        "successCriteria": [
+          {
+            "criterion": "1.1.1 Non-text Content (A)",
+            "description": "All non-text content has text alternative",
+            "checkpoints": [
+              "Images have descriptive alt text",
+              "Decorative images have empty alt attributes",
+              "Complex images have detailed descriptions",
+              "Icons have accessible names",
+              "Charts and graphs have text summaries"
+            ],
+            "testMethods": ["Screen reader testing", "Automated scanning", "Manual review"],
+            "status": "pending"
+          }
+        ]
+      },
+      "timeBasedMedia": {
+        "guideline": "1.2 - Provide alternatives for time-based media",
+        "successCriteria": [
+          {
+            "criterion": "1.2.1 Audio-only and Video-only (A)",
+            "description": "Alternatives for audio-only and video-only content",
+            "checkpoints": [
+              "Audio content has transcripts",
+              "Video content has audio descriptions or transcripts"
+            ],
+            "testMethods": ["Manual review", "Content audit"],
+            "status": "pending"
+          },
+          {
+            "criterion": "1.2.2 Captions (A)",
+            "description": "Captions for all prerecorded audio in synchronized media",
+            "checkpoints": [
+              "Videos have accurate captions",
+              "Captions include speaker identification",
+              "Sound effects are described in captions"
+            ],
+            "testMethods": ["Manual review", "Caption accuracy testing"],
+            "status": "pending"
+          }
+        ]
+      },
+      "adaptable": {
+        "guideline": "1.3 - Create content that can be presented in different ways without losing information or structure",
+        "successCriteria": [
+          {
+            "criterion": "1.3.1 Info and Relationships (A)",
+            "description": "Information, structure, and relationships can be programmatically determined",
+            "checkpoints": [
+              "Proper heading hierarchy (h1-h6)",
+              "Lists use proper markup (ul, ol, dl)",
+              "Tables have proper headers and captions",
+              "Form labels are associated with inputs",
+              "Semantic HTML elements are used correctly"
+            ],
+            "testMethods": ["Screen reader testing", "HTML validation", "Automated scanning"],
+            "status": "pending"
+          },
+          {
+            "criterion": "1.3.2 Meaningful Sequence (A)",
+            "description": "Content order makes sense when presented sequentially",
+            "checkpoints": [
+              "Reading order is logical",
+              "Tab order follows visual layout",
+              "CSS positioning doesn't break content flow"
+            ],
+            "testMethods": ["Keyboard navigation", "Screen reader testing", "CSS disabled testing"],
+            "status": "pending"
+          },
+          {
+            "criterion": "1.3.3 Sensory Characteristics (A)",
+            "description": "Instructions don't rely solely on sensory characteristics",
+            "checkpoints": [
+              "Instructions don't rely only on shape, size, or position",
+              "Color is not the only way to convey information",
+              "Sound cues have visual alternatives"
+            ],
+            "testMethods": ["Manual review", "Color blindness simulation"],
+            "status": "pending"
+          }
+        ]
+      },
+      "distinguishable": {
+        "guideline": "1.4 - Make it easier for users to see and hear content",
+        "successCriteria": [
+          {
+            "criterion": "1.4.1 Use of Color (A)",
+            "description": "Color is not the only means of conveying information",
+            "checkpoints": [
+              "Links are distinguishable without color",
+              "Form validation doesn't rely only on color",
+              "Charts use patterns in addition to color"
+            ],
+            "testMethods": ["Color blindness simulation", "Grayscale testing"],
+            "status": "pending"
+          },
+          {
+            "criterion": "1.4.3 Contrast (AA)",
+            "description": "Text has sufficient contrast ratio",
+            "checkpoints": [
+              "Normal text has 4.5:1 contrast ratio",
+              "Large text has 3:1 contrast ratio",
+              "UI components have 3:1 contrast ratio"
+            ],
+            "testMethods": ["Contrast analyzer tools", "Automated scanning"],
+            "status": "pending"
+          },
+          {
+            "criterion": "1.4.4 Resize Text (AA)",
+            "description": "Text can be resized up to 200% without loss of functionality",
+            "checkpoints": [
+              "Text scales properly at 200% zoom",
+              "No horizontal scrolling at 200% zoom",
+              "All functionality remains available"
+            ],
+            "testMethods": ["Browser zoom testing", "Manual testing"],
+            "status": "pending"
+          }
+        ]
+      }
+    }
+  },
+  "operable": {
+    "principle": "User interface components and navigation must be operable",
+    "guidelines": {
+      "keyboardAccessible": {
+        "guideline": "2.1 - Make all functionality available from a keyboard",
+        "successCriteria": [
+          {
+            "criterion": "2.1.1 Keyboard (A)",
+            "description": "All functionality is available via keyboard",
+            "checkpoints": [
+              "All interactive elements are keyboard accessible",
+              "Custom controls have keyboard support",
+              "No keyboard traps exist"
+            ],
+            "testMethods": ["Keyboard-only navigation", "Tab order testing"],
+            "status": "pending"
+          },
+          {
+            "criterion": "2.1.2 No Keyboard Trap (A)",
+            "description": "Keyboard focus is not trapped",
+            "checkpoints": [
+              "Users can navigate away from any component",
+              "Modal dialogs have proper focus management",
+              "Escape key closes overlays"
+            ],
+            "testMethods": ["Keyboard navigation testing", "Focus trap testing"],
+            "status": "pending"
+          }
+        ]
+      },
+      "enoughTime": {
+        "guideline": "2.2 - Provide users enough time to read and use content",
+        "successCriteria": [
+          {
+            "criterion": "2.2.1 Timing Adjustable (A)",
+            "description": "Time limits can be turned off, adjusted, or extended",
+            "checkpoints": [
+              "Session timeouts have warnings",
+              "Users can extend time limits",
+              "Auto-refresh can be disabled"
+            ],
+            "testMethods": ["Manual testing", "Timeout testing"],
+            "status": "pending"
+          },
+          {
+            "criterion": "2.2.2 Pause, Stop, Hide (A)",
+            "description": "Moving, blinking, or auto-updating content can be controlled",
+            "checkpoints": [
+              "Carousels have pause controls",
+              "Auto-playing media can be stopped",
+              "Animations can be paused"
+            ],
+            "testMethods": ["Manual testing", "Animation testing"],
+            "status": "pending"
+          }
+        ]
+      },
+      "seizuresPhysicalReactions": {
+        "guideline": "2.3 - Do not design content that causes seizures or physical reactions",
+        "successCriteria": [
+          {
+            "criterion": "2.3.1 Three Flashes or Below Threshold (A)",
+            "description": "Content doesn't flash more than three times per second",
+            "checkpoints": [
+              "No content flashes more than 3 times per second",
+              "Flashing content is below general flash threshold"
+            ],
+            "testMethods": ["Flash analysis tools", "Manual review"],
+            "status": "pending"
+          }
+        ]
+      },
+      "navigable": {
+        "guideline": "2.4 - Provide ways to help users navigate, find content, and determine where they are",
+        "successCriteria": [
+          {
+            "criterion": "2.4.1 Bypass Blocks (A)",
+            "description": "Skip links are available to bypass repeated content",
+            "checkpoints": [
+              "Skip to main content link exists",
+              "Skip links are keyboard accessible",
+              "Skip links are visible when focused"
+            ],
+            "testMethods": ["Keyboard navigation", "Screen reader testing"],
+            "status": "pending"
+          },
+          {
+            "criterion": "2.4.2 Page Titled (A)",
+            "description": "Pages have descriptive titles",
+            "checkpoints": [
+              "All pages have unique, descriptive titles",
+              "Titles describe page purpose or content"
+            ],
+            "testMethods": ["Manual review", "Automated scanning"],
+            "status": "pending"
+          },
+          {
+            "criterion": "2.4.3 Focus Order (A)",
+            "description": "Focus order is logical and intuitive",
+            "checkpoints": [
+              "Tab order follows visual layout",
+              "Focus moves logically through content",
+              "Hidden content is not in tab order"
+            ],
+            "testMethods": ["Keyboard navigation", "Tab order testing"],
+            "status": "pending"
+          }
+        ]
+      }
+    }
+  },
+  "understandable": {
+    "principle": "Information and the operation of user interface must be understandable",
+    "guidelines": {
+      "readable": {
+        "guideline": "3.1 - Make text content readable and understandable",
+        "successCriteria": [
+          {
+            "criterion": "3.1.1 Language of Page (A)",
+            "description": "Primary language of page is programmatically determined",
+            "checkpoints": [
+              "HTML lang attribute is set",
+              "Language changes are marked up",
+              "Language codes are valid"
+            ],
+            "testMethods": ["HTML validation", "Screen reader testing"],
+            "status": "pending"
+          }
+        ]
+      },
+      "predictable": {
+        "guideline": "3.2 - Make web pages appear and operate in predictable ways",
+        "successCriteria": [
+          {
+            "criterion": "3.2.1 On Focus (A)",
+            "description": "Focus doesn't trigger unexpected context changes",
+            "checkpoints": [
+              "Focus doesn't automatically submit forms",
+              "Focus doesn't open new windows",
+              "Focus doesn't change page content unexpectedly"
+            ],
+            "testMethods": ["Keyboard navigation", "Manual testing"],
+            "status": "pending"
+          },
+          {
+            "criterion": "3.2.2 On Input (A)",
+            "description": "Input doesn't trigger unexpected context changes",
+            "checkpoints": [
+              "Form inputs don't auto-submit",
+              "Dropdown changes don't navigate away",
+              "Input changes are predictable"
+            ],
+            "testMethods": ["Form testing", "Manual testing"],
+            "status": "pending"
+          }
+        ]
+      },
+      "inputAssistance": {
+        "guideline": "3.3 - Help users avoid and correct mistakes",
+        "successCriteria": [
+          {
+            "criterion": "3.3.1 Error Identification (A)",
+            "description": "Input errors are identified and described",
+            "checkpoints": [
+              "Form validation errors are clearly identified",
+              "Error messages are descriptive",
+              "Required fields are indicated"
+            ],
+            "testMethods": ["Form testing", "Error scenario testing"],
+            "status": "pending"
+          },
+          {
+            "criterion": "3.3.2 Labels or Instructions (A)",
+            "description": "Labels and instructions are provided for user input",
+            "checkpoints": [
+              "All form inputs have labels",
+              "Instructions are provided when needed",
+              "Format requirements are explained"
+            ],
+            "testMethods": ["Form review", "Screen reader testing"],
+            "status": "pending"
+          }
+        ]
+      }
+    }
+  },
+  "robust": {
+    "principle": "Content must be robust enough to be interpreted reliably by a wide variety of user agents",
+    "guidelines": {
+      "compatible": {
+        "guideline": "4.1 - Maximize compatibility with current and future assistive technologies",
+        "successCriteria": [
+          {
+            "criterion": "4.1.1 Parsing (A)",
+            "description": "Markup is valid and well-formed",
+            "checkpoints": [
+              "HTML validates without errors",
+              "Elements have complete start and end tags",
+              "IDs are unique",
+              "Attributes are properly quoted"
+            ],
+            "testMethods": ["HTML validation", "Automated scanning"],
+            "status": "pending"
+          },
+          {
+            "criterion": "4.1.2 Name, Role, Value (A)",
+            "description": "UI components have accessible names, roles, and values",
+            "checkpoints": [
+              "Custom controls have proper ARIA labels",
+              "Interactive elements have defined roles",
+              "State changes are announced",
+              "Form controls have accessible names"
+            ],
+            "testMethods": ["Screen reader testing", "ARIA validation"],
+            "status": "pending"
+          }
+        ]
+      }
+    }
+  },
+  "testingTools": {
+    "automated": [
+      "axe-core",
+      "WAVE",
+      "Lighthouse Accessibility Audit",
+      "Pa11y",
+      "Accessibility Insights"
+    ],
+    "manual": [
+      "Screen reader testing (NVDA, JAWS, VoiceOver)",
+      "Keyboard navigation testing",
+      "Color contrast analyzers",
+      "Focus indicator testing",
+      "Zoom testing"
+    ],
+    "assistiveTechnologies": [
+      "NVDA (Windows)",
+      "JAWS (Windows)",
+      "VoiceOver (macOS/iOS)",
+      "TalkBack (Android)",
+      "Dragon NaturallySpeaking"
+    ]
+  },
+  "reportingTemplate": {
+    "summary": {
+      "totalCriteria": 0,
+      "passed": 0,
+      "failed": 0,
+      "notApplicable": 0,
+      "compliancePercentage": 0
+    },
+    "criticalIssues": [],
+    "recommendations": [],
+    "nextSteps": []
+  }
+} 

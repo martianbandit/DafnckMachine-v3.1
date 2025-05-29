@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "version": "3.1.0",
+    "lastUpdated": "2025-01-27",
+    "relatedWorkflow": "12_Frontend_Development.md",
+    "purpose": "Security implementation specifications for frontend application"
+  },
+  "clientSideSecurity": {
+    "xssProtection": {
+      "strategy": "Input sanitization and output encoding",
+      "implementation": {
+        "library": "DOMPurify",
+        "version": "^3.0.0",
+        "configuration": {
+          "allowedTags": ["b", "i", "em", "strong", "a", "p", "br"],
+          "allowedAttributes": {
+            "a": ["href", "title"],
+            "*": ["class"]
+          },
+          "forbiddenTags": ["script", "object", "embed", "iframe"],
+          "stripIgnoreTag": true
+        }
+      },
+      "practices": [
+        "Sanitize all user input before rendering",
+        "Use textContent instead of innerHTML when possible",
+        "Validate and encode data from APIs",
+        "Implement Content Security Policy (CSP)",
+        "Use template literals safely"
+      ]
+    },
+    "csrfProtection": {
+      "strategy": "Token-based protection",
+      "implementation": {
+        "tokenGeneration": "Server-generated CSRF tokens",
+        "tokenStorage": "HTTP-only cookies",
+        "tokenValidation": "Server-side validation",
+        "tokenRefresh": "On session renewal"
+      },
+      "headers": {
+        "X-CSRF-Token": "Required for state-changing requests",
+        "SameSite": "Strict",
+        "Secure": true
+      }
+    },
+    "contentSecurityPolicy": {
+      "enabled": true,
+      "directives": {
+        "default-src": "'self'",
+        "script-src": "'self' 'unsafe-inline' https://trusted-cdn.com",
+        "style-src": "'self' 'unsafe-inline' https://fonts.googleapis.com",
+        "img-src": "'self' data: https:",
+        "font-src": "'self' https://fonts.gstatic.com",
+        "connect-src": "'self' https://api.example.com",
+        "frame-ancestors": "'none'",
+        "base-uri": "'self'",
+        "form-action": "'self'"
+      },
+      "reportUri": "/api/csp-report",
+      "reportOnly": false
+    }
+  },
+  "authentication": {
+    "strategy": "JWT with refresh tokens",
+    "implementation": {
+      "accessToken": {
+        "storage": "memory (React state)",
+        "expiration": "15 minutes",
+        "algorithm": "RS256",
+        "claims": ["sub", "iat", "exp", "aud", "iss", "roles"]
+      },
+      "refreshToken": {
+        "storage": "HTTP-only secure cookie",
+        "expiration": "7 days",
+        "rotation": "on each use",
+        "revocation": "server-side blacklist"
+      },
+      "tokenRefresh": {
+        "automatic": true,
+        "threshold": "5 minutes before expiration",
+        "retryAttempts": 3,
+        "fallback": "redirect to login"
+      }
+    },
+    "sessionManagement": {
+      "timeout": "30 minutes of inactivity",
+      "warning": "5 minutes before timeout",
+      "multipleDevices": "allowed with device tracking",
+      "concurrentSessions": "maximum 5 per user"
+    }
+  },
+  "authorization": {
+    "roleBasedAccess": {
+      "roles": ["admin", "user", "guest"],
+      "permissions": {
+        "admin": ["read", "write", "delete", "manage_users"],
+        "user": ["read", "write_own", "delete_own"],
+        "guest": ["read_public"]
+      },
+      "implementation": "Higher-Order Components (HOCs)",
+      "fallback": "redirect to unauthorized page"
+    },
+    "routeProtection": {
+      "strategy": "Route guards",
+      "implementation": "ProtectedRoute component",
+      "checks": [
+        "Authentication status",
+        "Required permissions",
+        "Account status",
+        "Feature flags"
+      ]
+    },
+    "componentLevelSecurity": {
+      "strategy": "Conditional rendering",
+      "implementation": "usePermissions hook",
+      "granularity": "button/field level",
+      "caching": "session-based permission cache"
+    }
+  },
+  "dataProtection": {
+    "sensitiveDataHandling": {
+      "classification": {
+        "public": "No special handling required",
+        "internal": "Logged access, encrypted in transit",
+        "confidential": "Encrypted at rest and in transit",
+        "restricted": "Additional access controls"
+      },
+      "masking": {
+        "creditCards": "Show only last 4 digits",
+        "ssn": "Show only last 4 digits",
+        "emails": "Mask middle characters",
+        "phoneNumbers": "Mask middle digits"
+      }
+    },
+    "encryption": {
+      "inTransit": {
+        "protocol": "TLS 1.3",
+        "cipherSuites": "ECDHE-RSA-AES256-GCM-SHA384",
+        "certificateValidation": "strict",
+        "pinning": "public key pinning for API"
+      },
+      "clientSide": {
+        "library": "Web Crypto API",
+        "algorithm": "AES-GCM",
+        "keyManagement": "derived from user credentials",
+        "usage": "sensitive form data before transmission"
+      }
+    },
+    "dataMinimization": {
+      "collection": "Only collect necessary data",
+      "storage": "Minimize client-side storage",
+      "transmission": "Send only required fields",
+      "retention": "Clear data on logout"
+    }
+  },
+  "secureStorage": {
+    "localStorage": {
+      "usage": "Non-sensitive data only",
+      "encryption": "Not recommended for sensitive data",
+      "expiration": "Manual cleanup required",
+      "examples": ["user preferences", "theme settings"]
+    },
+    "sessionStorage": {
+      "usage": "Temporary session data",
+      "encryption": "For sensitive temporary data",
+      "expiration": "Automatic on tab close",
+      "examples": ["form drafts", "navigation state"]
+    },
+    "cookies": {
+      "usage": "Authentication tokens only",
+      "attributes": {
+        "HttpOnly": true,
+        "Secure": true,
+        "SameSite": "Strict",
+        "Path": "/",
+        "Domain": ".example.com"
+      },
+      "encryption": "Server-side encryption"
+    },
+    "indexedDB": {
+      "usage": "Large datasets with encryption",
+      "encryption": "Client-side encryption required",
+      "keyManagement": "User-derived keys",
+      "cleanup": "On logout or expiration"
+    }
+  },
+  "apiSecurity": {
+    "requestSecurity": {
+      "authentication": "Bearer token in Authorization header",
+      "validation": "Request payload validation",
+      "sanitization": "Input sanitization before sending",
+      "timeout": "30 seconds maximum",
+      "retries": "Maximum 3 attempts with exponential backoff"
+    },
+    "responseSecurity": {
+      "validation": "Response schema validation",
+      "sanitization": "Output sanitization",
+      "errorHandling": "Generic error messages to client",
+      "logging": "Security events logged server-side"
+    },
+    "rateLimiting": {
+      "clientSide": "Request throttling",
+      "implementation": "Token bucket algorithm",
+      "limits": {
+        "login": "5 attempts per minute",
+        "api": "100 requests per minute",
+        "upload": "10 uploads per hour"
+      }
+    }
+  },
+  "inputValidation": {
+    "clientSide": {
+      "library": "Yup or Joi",
+      "strategy": "Schema-based validation",
+      "realTime": "On blur and submit",
+      "sanitization": "Before processing"
+    },
+    "patterns": {
+      "email": "RFC 5322 compliant regex",
+      "password": "Minimum 8 chars, mixed case, numbers, symbols",
+      "phone": "E.164 international format",
+      "url": "Valid URL with allowed protocols"
+    },
+    "fileUpload": {
+      "typeValidation": "MIME type and extension checking",
+      "sizeLimit": "10MB maximum",
+      "scanning": "Client-side virus scanning",
+      "preview": "Safe preview generation"
+    }
+  },
+  "errorHandling": {
+    "securityErrors": {
+      "logging": "Client-side error logging",
+      "reporting": "Security incident reporting",
+      "userFeedback": "Generic error messages",
+      "debugging": "Detailed logs in development only"
+    },
+    "informationDisclosure": {
+      "prevention": "Generic error messages",
+      "stackTraces": "Hidden in production",
+      "systemInfo": "No system information exposed",
+      "debugging": "Development mode only"
+    }
+  },
+  "securityHeaders": {
+    "implementation": "Server-side configuration",
+    "headers": {
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "X-XSS-Protection": "1; mode=block",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Permissions-Policy": "geolocation=(), microphone=(), camera=()"
+    }
+  },
+  "thirdPartyIntegrations": {
+    "vendorSecurity": {
+      "assessment": "Security review before integration",
+      "monitoring": "Regular security updates",
+      "isolation": "Sandboxed execution when possible",
+      "fallback": "Graceful degradation on failure"
+    },
+    "cdnSecurity": {
+      "integrity": "Subresource Integrity (SRI) hashes",
+      "fallback": "Local fallback for critical resources",
+      "monitoring": "CDN availability monitoring",
+      "validation": "Resource validation before execution"
+    }
+  },
+  "securityMonitoring": {
+    "clientSideMonitoring": {
+      "cspViolations": "Content Security Policy violation reporting",
+      "xssAttempts": "Cross-site scripting attempt detection",
+      "unauthorizedAccess": "Failed authentication attempts",
+      "suspiciousActivity": "Unusual user behavior patterns"
+    },
+    "logging": {
+      "securityEvents": "Authentication, authorization, data access",
+      "errorEvents": "Security-related errors and exceptions",
+      "userActivity": "High-privilege user actions",
+      "systemEvents": "Configuration changes, updates"
+    },
+    "alerting": {
+      "realTime": "Critical security events",
+      "thresholds": "Configurable alert thresholds",
+      "escalation": "Automated escalation procedures",
+      "response": "Incident response workflows"
+    }
+  },
+  "complianceFrameworks": {
+    "gdpr": {
+      "dataProcessing": "Lawful basis for processing",
+      "consent": "Explicit consent management",
+      "rights": "Data subject rights implementation",
+      "breach": "Breach notification procedures"
+    },
+    "ccpa": {
+      "disclosure": "Data collection disclosure",
+      "optOut": "Do not sell opt-out mechanism",
+      "deletion": "Data deletion procedures",
+      "access": "Data access request handling"
+    },
+    "sox": {
+      "controls": "Internal controls over financial reporting",
+      "audit": "Audit trail maintenance",
+      "segregation": "Segregation of duties",
+      "documentation": "Control documentation"
+    }
+  },
+  "securityTesting": {
+    "staticAnalysis": {
+      "tools": ["ESLint Security Plugin", "Semgrep", "CodeQL"],
+      "frequency": "Every commit",
+      "coverage": "All JavaScript/TypeScript code",
+      "reporting": "Security dashboard"
+    },
+    "dynamicAnalysis": {
+      "tools": ["OWASP ZAP", "Burp Suite", "Acunetix"],
+      "frequency": "Weekly",
+      "scope": "Full application",
+      "reporting": "Vulnerability reports"
+    },
+    "dependencyScanning": {
+      "tools": ["npm audit", "Snyk", "WhiteSource"],
+      "frequency": "Daily",
+      "scope": "All dependencies",
+      "automation": "Automated PR creation for updates"
+    }
+  },
+  "incidentResponse": {
+    "preparation": {
+      "team": "Security incident response team",
+      "procedures": "Documented response procedures",
+      "tools": "Incident response tools and access",
+      "training": "Regular incident response training"
+    },
+    "detection": {
+      "monitoring": "24/7 security monitoring",
+      "alerting": "Automated alert systems",
+      "escalation": "Clear escalation procedures",
+      "validation": "Incident validation processes"
+    },
+    "response": {
+      "containment": "Immediate threat containment",
+      "investigation": "Forensic investigation procedures",
+      "communication": "Internal and external communication",
+      "recovery": "System recovery procedures"
+    },
+    "postIncident": {
+      "analysis": "Post-incident analysis",
+      "documentation": "Incident documentation",
+      "improvements": "Process improvements",
+      "training": "Updated training materials"
+    }
+  }
+} 

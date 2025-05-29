@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "version": "3.1.0",
+    "lastUpdated": "2025-01-27",
+    "relatedWorkflow": "12_Frontend_Development.md",
+    "purpose": "Mobile optimization and responsive design specifications"
+  },
+  "breakpoints": {
+    "mobile": {
+      "min": "0px",
+      "max": "767px",
+      "description": "Mobile devices (phones)",
+      "orientation": ["portrait", "landscape"]
+    },
+    "tablet": {
+      "min": "768px",
+      "max": "1023px",
+      "description": "Tablet devices",
+      "orientation": ["portrait", "landscape"]
+    },
+    "desktop": {
+      "min": "1024px",
+      "max": "1439px",
+      "description": "Desktop and laptop screens"
+    },
+    "largeDesktop": {
+      "min": "1440px",
+      "max": "none",
+      "description": "Large desktop screens and monitors"
+    }
+  },
+  "touchInteractions": {
+    "tapTargets": {
+      "minimumSize": "44px",
+      "recommendedSize": "48px",
+      "spacing": "8px",
+      "description": "Minimum touch target size for accessibility"
+    },
+    "gestures": {
+      "tap": {
+        "enabled": true,
+        "feedback": "visual",
+        "delay": "0ms"
+      },
+      "doubleTap": {
+        "enabled": false,
+        "description": "Disabled to prevent zoom conflicts"
+      },
+      "longPress": {
+        "enabled": true,
+        "duration": "500ms",
+        "feedback": "haptic"
+      },
+      "swipe": {
+        "enabled": true,
+        "directions": ["left", "right", "up", "down"],
+        "threshold": "50px"
+      },
+      "pinchZoom": {
+        "enabled": false,
+        "description": "Disabled for consistent UI experience"
+      }
+    },
+    "scrolling": {
+      "momentum": true,
+      "overscroll": "bounce",
+      "smoothScrolling": true,
+      "scrollSnap": {
+        "enabled": true,
+        "type": "mandatory",
+        "axis": "y"
+      }
+    }
+  },
+  "viewport": {
+    "metaTag": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">",
+    "settings": {
+      "width": "device-width",
+      "initialScale": 1.0,
+      "maximumScale": 1.0,
+      "userScalable": false,
+      "viewportFit": "cover"
+    }
+  },
+  "layoutStrategies": {
+    "flexbox": {
+      "usage": "Primary layout method",
+      "properties": {
+        "flexDirection": "column on mobile, row on desktop",
+        "flexWrap": "wrap",
+        "justifyContent": "space-between",
+        "alignItems": "stretch"
+      }
+    },
+    "grid": {
+      "usage": "Complex layouts and card grids",
+      "mobileColumns": 1,
+      "tabletColumns": 2,
+      "desktopColumns": 3,
+      "gap": "16px",
+      "autoFit": true
+    },
+    "stackingOrder": {
+      "mobile": ["header", "main", "sidebar", "footer"],
+      "desktop": ["header", "main+sidebar", "footer"]
+    }
+  },
+  "typography": {
+    "scalingStrategy": "fluid",
+    "baseFontSize": {
+      "mobile": "16px",
+      "tablet": "16px",
+      "desktop": "16px"
+    },
+    "scaleRatio": {
+      "mobile": 1.2,
+      "tablet": 1.25,
+      "desktop": 1.333
+    },
+    "lineHeight": {
+      "mobile": 1.4,
+      "tablet": 1.5,
+      "desktop": 1.6
+    },
+    "readingWidth": {
+      "mobile": "100%",
+      "tablet": "70ch",
+      "desktop": "65ch"
+    }
+  },
+  "spacing": {
+    "system": "8px base unit",
+    "mobile": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px"
+    },
+    "tablet": {
+      "xs": "6px",
+      "sm": "12px",
+      "md": "20px",
+      "lg": "32px",
+      "xl": "48px"
+    },
+    "desktop": {
+      "xs": "8px",
+      "sm": "16px",
+      "md": "24px",
+      "lg": "40px",
+      "xl": "64px"
+    }
+  },
+  "images": {
+    "responsive": {
+      "strategy": "srcset + sizes",
+      "formats": ["webp", "avif", "jpg"],
+      "densities": ["1x", "2x", "3x"],
+      "lazyLoading": true
+    },
+    "optimization": {
+      "compression": "85% quality",
+      "maxWidth": {
+        "mobile": "768px",
+        "tablet": "1024px",
+        "desktop": "1920px"
+      },
+      "placeholder": "blur",
+      "aspectRatio": "maintain"
+    }
+  },
+  "navigation": {
+    "mobile": {
+      "type": "hamburger",
+      "position": "top-right",
+      "animation": "slide-in",
+      "overlay": true,
+      "closeOnOutsideClick": true
+    },
+    "tablet": {
+      "type": "horizontal",
+      "position": "top",
+      "collapsible": true
+    },
+    "desktop": {
+      "type": "horizontal",
+      "position": "top",
+      "persistent": true
+    },
+    "breadcrumbs": {
+      "mobile": "hidden",
+      "tablet": "visible",
+      "desktop": "visible"
+    }
+  },
+  "forms": {
+    "inputSizing": {
+      "mobile": {
+        "height": "48px",
+        "fontSize": "16px",
+        "padding": "12px 16px"
+      },
+      "tablet": {
+        "height": "44px",
+        "fontSize": "16px",
+        "padding": "10px 14px"
+      },
+      "desktop": {
+        "height": "40px",
+        "fontSize": "14px",
+        "padding": "8px 12px"
+      }
+    },
+    "layout": {
+      "mobile": "single-column",
+      "tablet": "two-column",
+      "desktop": "multi-column"
+    },
+    "validation": {
+      "realTime": true,
+      "position": "below-field",
+      "style": "inline"
+    }
+  },
+  "performance": {
+    "criticalCSS": {
+      "inline": true,
+      "aboveFold": true,
+      "maxSize": "14KB"
+    },
+    "resourceHints": {
+      "preload": ["fonts", "critical-images"],
+      "prefetch": ["next-page-resources"],
+      "preconnect": ["api-domains", "cdn-domains"]
+    },
+    "bundleOptimization": {
+      "codeSplitting": true,
+      "treeshaking": true,
+      "compression": "gzip + brotli"
+    }
+  },
+  "accessibility": {
+    "focusManagement": {
+      "visibleFocusIndicator": true,
+      "skipLinks": true,
+      "focusTrap": "modals and overlays"
+    },
+    "screenReader": {
+      "landmarks": true,
+      "headingStructure": "hierarchical",
+      "altText": "descriptive"
+    },
+    "colorContrast": {
+      "minimum": "4.5:1",
+      "enhanced": "7:1",
+      "testing": "automated + manual"
+    }
+  },
+  "testing": {
+    "devices": [
+      {
+        "name": "iPhone 14 Pro",
+        "viewport": "393x852",
+        "dpr": 3
+      },
+      {
+        "name": "Samsung Galaxy S23",
+        "viewport": "360x780",
+        "dpr": 3
+      },
+      {
+        "name": "iPad Air",
+        "viewport": "820x1180",
+        "dpr": 2
+      },
+      {
+        "name": "iPad Pro 12.9",
+        "viewport": "1024x1366",
+        "dpr": 2
+      }
+    ],
+    "orientations": ["portrait", "landscape"],
+    "networkConditions": ["3G", "4G", "WiFi"],
+    "tools": ["Chrome DevTools", "BrowserStack", "Lighthouse"]
+  },
+  "progressiveEnhancement": {
+    "coreExperience": {
+      "description": "Basic functionality without JavaScript",
+      "features": ["navigation", "content reading", "form submission"]
+    },
+    "enhancedExperience": {
+      "description": "Full interactive experience with JavaScript",
+      "features": ["animations", "real-time updates", "advanced interactions"]
+    },
+    "fallbacks": {
+      "noJS": "server-side rendering",
+      "slowConnection": "reduced animations",
+      "oldBrowsers": "polyfills"
+    }
+  },
+  "offlineSupport": {
+    "serviceWorker": {
+      "enabled": true,
+      "strategy": "cache-first",
+      "resources": ["app-shell", "critical-data"]
+    },
+    "caching": {
+      "static": "cache-first",
+      "dynamic": "network-first",
+      "api": "network-first with fallback"
+    },
+    "offlineIndicator": {
+      "enabled": true,
+      "position": "top",
+      "style": "banner"
+    }
+  },
+  "monitoring": {
+    "metrics": [
+      "First Contentful Paint",
+      "Largest Contentful Paint",
+      "Cumulative Layout Shift",
+      "First Input Delay",
+      "Time to Interactive"
+    ],
+    "tools": ["Google Analytics", "Core Web Vitals", "Real User Monitoring"],
+    "thresholds": {
+      "FCP": "< 1.8s",
+      "LCP": "< 2.5s",
+      "CLS": "< 0.1",
+      "FID": "< 100ms",
+      "TTI": "< 3.8s"
+    }
+  }
+} 

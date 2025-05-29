@@ -1,0 +1,286 @@
+{
+  "template_metadata": {
+    "status": "Template Created - Awaiting Population",
+    "created": "2024-12-19",
+    "agent_assignment": "@market-research-agent",
+    "completion_criteria": "Complete competitive positioning map with visual representation of market positioning",
+    "integration_points": [
+      "01_Machine/04_Documentation/Doc/Phase_2_Discovery_Strategy/Competitor_Profiles.md",
+      "01_Machine/04_Documentation/Doc/Phase_2_Discovery_Strategy/Strategic_Positioning_Framework.md",
+      "01_Machine/04_Documentation/Doc/Phase_2_Discovery_Strategy/Competitive_Intelligence_Matrix.json"
+    ]
+  },
+  "positioning_framework": {
+    "map_type": "[Agent to populate: Type of positioning map - 2D matrix, perceptual map, etc.]",
+    "primary_axis": {
+      "axis_name": "[Agent to populate: Name of primary axis]",
+      "axis_description": "[Agent to populate: Description of what this axis represents]",
+      "low_end_label": "[Agent to populate: Label for low end of axis]",
+      "high_end_label": "[Agent to populate: Label for high end of axis]",
+      "measurement_criteria": "[Agent to populate: How this axis is measured]"
+    },
+    "secondary_axis": {
+      "axis_name": "[Agent to populate: Name of secondary axis]",
+      "axis_description": "[Agent to populate: Description of what this axis represents]",
+      "low_end_label": "[Agent to populate: Label for low end of axis]",
+      "high_end_label": "[Agent to populate: Label for high end of axis]",
+      "measurement_criteria": "[Agent to populate: How this axis is measured]"
+    },
+    "map_dimensions": {
+      "x_axis_range": "[Agent to populate: Range for x-axis (e.g., 1-10)]",
+      "y_axis_range": "[Agent to populate: Range for y-axis (e.g., 1-10)]",
+      "quadrant_definitions": {
+        "quadrant_1": {
+          "name": "[Agent to populate: Name of quadrant 1 (high x, high y)]",
+          "description": "[Agent to populate: Description of this positioning]",
+          "strategic_implications": "[Agent to populate: Strategic implications for companies in this quadrant]"
+        },
+        "quadrant_2": {
+          "name": "[Agent to populate: Name of quadrant 2 (low x, high y)]",
+          "description": "[Agent to populate: Description of this positioning]",
+          "strategic_implications": "[Agent to populate: Strategic implications for companies in this quadrant]"
+        },
+        "quadrant_3": {
+          "name": "[Agent to populate: Name of quadrant 3 (low x, low y)]",
+          "description": "[Agent to populate: Description of this positioning]",
+          "strategic_implications": "[Agent to populate: Strategic implications for companies in this quadrant]"
+        },
+        "quadrant_4": {
+          "name": "[Agent to populate: Name of quadrant 4 (high x, low y)]",
+          "description": "[Agent to populate: Description of this positioning]",
+          "strategic_implications": "[Agent to populate: Strategic implications for companies in this quadrant]"
+        }
+      }
+    }
+  },
+  "competitor_positions": [
+    {
+      "company_id": "COMP001",
+      "company_name": "[Agent to populate: Company name]",
+      "position": {
+        "x_coordinate": "[Agent to populate: X-axis position (numeric)]",
+        "y_coordinate": "[Agent to populate: Y-axis position (numeric)]",
+        "quadrant": "[Agent to populate: Which quadrant (1-4)]"
+      },
+      "positioning_rationale": {
+        "x_axis_justification": "[Agent to populate: Why this x-axis position]",
+        "y_axis_justification": "[Agent to populate: Why this y-axis position]",
+        "supporting_evidence": "[Agent to populate: Evidence supporting this positioning]"
+      },
+      "market_characteristics": {
+        "market_share": "[Agent to populate: Estimated market share]",
+        "brand_strength": "[Agent to populate: Brand strength assessment]",
+        "customer_loyalty": "[Agent to populate: Customer loyalty level]",
+        "growth_trajectory": "[Agent to populate: Growth trajectory]"
+      },
+      "competitive_strengths": [
+        "[Agent to populate: Key competitive strength 1]",
+        "[Agent to populate: Key competitive strength 2]",
+        "[Agent to populate: Key competitive strength 3]"
+      ],
+      "competitive_weaknesses": [
+        "[Agent to populate: Key competitive weakness 1]",
+        "[Agent to populate: Key competitive weakness 2]",
+        "[Agent to populate: Key competitive weakness 3]"
+      ],
+      "strategic_moves": {
+        "recent_moves": "[Agent to populate: Recent strategic moves]",
+        "anticipated_moves": "[Agent to populate: Anticipated future moves]",
+        "positioning_changes": "[Agent to populate: Expected positioning changes]"
+      }
+    }
+  ],
+  "dafnck_machine_positioning": {
+    "current_position": {
+      "x_coordinate": "[Agent to populate: Current X-axis position]",
+      "y_coordinate": "[Agent to populate: Current Y-axis position]",
+      "quadrant": "[Agent to populate: Current quadrant]"
+    },
+    "target_position": {
+      "x_coordinate": "[Agent to populate: Target X-axis position]",
+      "y_coordinate": "[Agent to populate: Target Y-axis position]",
+      "quadrant": "[Agent to populate: Target quadrant]",
+      "timeline": "[Agent to populate: Timeline to achieve target position]"
+    },
+    "positioning_strategy": {
+      "differentiation_approach": "[Agent to populate: How to differentiate from competitors]",
+      "value_proposition": "[Agent to populate: Unique value proposition]",
+      "competitive_advantages": "[Agent to populate: Key competitive advantages to leverage]",
+      "positioning_message": "[Agent to populate: Core positioning message]"
+    },
+    "movement_strategy": {
+      "required_capabilities": "[Agent to populate: Capabilities needed to reach target position]",
+      "investment_priorities": "[Agent to populate: Investment priorities for positioning]",
+      "timeline_milestones": "[Agent to populate: Key milestones for positioning journey]",
+      "success_metrics": "[Agent to populate: Metrics to measure positioning success]"
+    }
+  },
+  "market_gaps": {
+    "unoccupied_positions": [
+      {
+        "gap_id": "GAP001",
+        "position": {
+          "x_coordinate": "[Agent to populate: X-axis position of gap]",
+          "y_coordinate": "[Agent to populate: Y-axis position of gap]",
+          "quadrant": "[Agent to populate: Quadrant of gap]"
+        },
+        "gap_description": "[Agent to populate: Description of the market gap]",
+        "opportunity_size": "[Agent to populate: Size of opportunity]",
+        "barriers_to_entry": "[Agent to populate: Barriers to entering this position]",
+        "strategic_attractiveness": "[Agent to populate: How attractive this position is]",
+        "required_capabilities": "[Agent to populate: Capabilities needed to occupy this position]"
+      }
+    ],
+    "underserved_segments": [
+      {
+        "segment_id": "SEG001",
+        "segment_name": "[Agent to populate: Name of underserved segment]",
+        "positioning_opportunity": "[Agent to populate: Positioning opportunity for this segment]",
+        "competitive_intensity": "[Agent to populate: Level of competition for this segment]",
+        "market_size": "[Agent to populate: Size of this segment]",
+        "growth_potential": "[Agent to populate: Growth potential of segment]"
+      }
+    ]
+  },
+  "competitive_dynamics": {
+    "competitive_clusters": [
+      {
+        "cluster_id": "CLUSTER001",
+        "cluster_name": "[Agent to populate: Name of competitive cluster]",
+        "cluster_description": "[Agent to populate: Description of this cluster]",
+        "companies_in_cluster": "[Agent to populate: Companies in this cluster]",
+        "cluster_characteristics": "[Agent to populate: Common characteristics of cluster]",
+        "competitive_intensity": "[Agent to populate: Intensity of competition within cluster]",
+        "differentiation_opportunities": "[Agent to populate: Opportunities to differentiate from cluster]"
+      }
+    ],
+    "competitive_movements": {
+      "recent_movements": [
+        {
+          "company": "[Agent to populate: Company name]",
+          "movement_description": "[Agent to populate: Description of positioning movement]",
+          "impact_on_market": "[Agent to populate: Impact on overall market dynamics]",
+          "implications_for_dafnck": "[Agent to populate: Implications for DafnckMachine]"
+        }
+      ],
+      "anticipated_movements": [
+        {
+          "company": "[Agent to populate: Company name]",
+          "anticipated_movement": "[Agent to populate: Expected positioning movement]",
+          "probability": "[Agent to populate: Probability of movement]",
+          "timeline": "[Agent to populate: Expected timeline]",
+          "strategic_response": "[Agent to populate: Recommended strategic response]"
+        }
+      ]
+    }
+  },
+  "positioning_scenarios": {
+    "scenario_1": {
+      "scenario_name": "[Agent to populate: Name of positioning scenario]",
+      "scenario_description": "[Agent to populate: Description of scenario]",
+      "dafnck_position": {
+        "x_coordinate": "[Agent to populate: DafnckMachine position in this scenario]",
+        "y_coordinate": "[Agent to populate: DafnckMachine position in this scenario]"
+      },
+      "competitive_implications": "[Agent to populate: Competitive implications of this positioning]",
+      "market_response": "[Agent to populate: Expected market response]",
+      "success_probability": "[Agent to populate: Probability of success]",
+      "required_investments": "[Agent to populate: Investments required for this positioning]"
+    },
+    "scenario_2": {
+      "scenario_name": "[Agent to populate: Name of alternative positioning scenario]",
+      "scenario_description": "[Agent to populate: Description of alternative scenario]",
+      "dafnck_position": {
+        "x_coordinate": "[Agent to populate: DafnckMachine position in this scenario]",
+        "y_coordinate": "[Agent to populate: DafnckMachine position in this scenario]"
+      },
+      "competitive_implications": "[Agent to populate: Competitive implications of this positioning]",
+      "market_response": "[Agent to populate: Expected market response]",
+      "success_probability": "[Agent to populate: Probability of success]",
+      "required_investments": "[Agent to populate: Investments required for this positioning]"
+    }
+  },
+  "strategic_recommendations": {
+    "optimal_positioning": {
+      "recommended_position": {
+        "x_coordinate": "[Agent to populate: Recommended X position]",
+        "y_coordinate": "[Agent to populate: Recommended Y position]",
+        "quadrant": "[Agent to populate: Recommended quadrant]"
+      },
+      "positioning_rationale": "[Agent to populate: Rationale for recommended positioning]",
+      "competitive_advantages": "[Agent to populate: Competitive advantages of this positioning]",
+      "market_opportunity": "[Agent to populate: Market opportunity from this positioning]",
+      "differentiation_strategy": "[Agent to populate: How to differentiate in this position]"
+    },
+    "positioning_roadmap": {
+      "phase_1": {
+        "timeline": "[Agent to populate: Timeline for phase 1]",
+        "objectives": "[Agent to populate: Positioning objectives for phase 1]",
+        "key_initiatives": "[Agent to populate: Key initiatives for phase 1]",
+        "success_metrics": "[Agent to populate: Success metrics for phase 1]"
+      },
+      "phase_2": {
+        "timeline": "[Agent to populate: Timeline for phase 2]",
+        "objectives": "[Agent to populate: Positioning objectives for phase 2]",
+        "key_initiatives": "[Agent to populate: Key initiatives for phase 2]",
+        "success_metrics": "[Agent to populate: Success metrics for phase 2]"
+      },
+      "phase_3": {
+        "timeline": "[Agent to populate: Timeline for phase 3]",
+        "objectives": "[Agent to populate: Positioning objectives for phase 3]",
+        "key_initiatives": "[Agent to populate: Key initiatives for phase 3]",
+        "success_metrics": "[Agent to populate: Success metrics for phase 3]"
+      }
+    },
+    "risk_mitigation": {
+      "positioning_risks": [
+        {
+          "risk_name": "[Agent to populate: Name of positioning risk]",
+          "risk_description": "[Agent to populate: Description of risk]",
+          "probability": "[Agent to populate: Risk probability]",
+          "impact": "[Agent to populate: Risk impact]",
+          "mitigation_strategy": "[Agent to populate: Strategy to mitigate risk]"
+        }
+      ],
+      "competitive_response_preparation": "[Agent to populate: How to prepare for competitive responses]",
+      "contingency_plans": "[Agent to populate: Contingency plans for positioning challenges]"
+    }
+  },
+  "monitoring_framework": {
+    "positioning_metrics": [
+      {
+        "metric_name": "[Agent to populate: Name of positioning metric]",
+        "metric_description": "[Agent to populate: Description of what this metric measures]",
+        "measurement_method": "[Agent to populate: How this metric is measured]",
+        "target_value": "[Agent to populate: Target value for this metric]",
+        "monitoring_frequency": "[Agent to populate: How often to monitor this metric]"
+      }
+    ],
+    "competitive_intelligence": {
+      "monitoring_priorities": "[Agent to populate: Priority areas for competitive monitoring]",
+      "data_sources": "[Agent to populate: Sources of competitive positioning data]",
+      "analysis_frequency": "[Agent to populate: Frequency of positioning analysis updates]",
+      "reporting_schedule": "[Agent to populate: Schedule for positioning reports]"
+    },
+    "market_feedback": {
+      "customer_perception_tracking": "[Agent to populate: How to track customer perception of positioning]",
+      "brand_positioning_research": "[Agent to populate: Research methods for brand positioning]",
+      "market_response_indicators": "[Agent to populate: Indicators of market response to positioning]"
+    }
+  },
+  "visualization_specifications": {
+    "chart_type": "[Agent to populate: Type of chart/visualization recommended]",
+    "visual_elements": {
+      "company_markers": "[Agent to populate: How to represent companies visually]",
+      "size_indicators": "[Agent to populate: What size of markers represents]",
+      "color_coding": "[Agent to populate: Color coding system]",
+      "movement_arrows": "[Agent to populate: How to show positioning movements]"
+    },
+    "interactive_features": {
+      "hover_information": "[Agent to populate: Information shown on hover]",
+      "filtering_options": "[Agent to populate: Available filtering options]",
+      "time_slider": "[Agent to populate: Time-based visualization features]",
+      "scenario_comparison": "[Agent to populate: Scenario comparison features]"
+    }
+  }
+} 

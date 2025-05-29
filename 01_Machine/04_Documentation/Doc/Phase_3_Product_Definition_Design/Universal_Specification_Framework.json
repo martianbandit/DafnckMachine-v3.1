@@ -1,0 +1,712 @@
+{
+  "documentMetadata": {
+    "documentType": "Universal Specification Framework",
+    "version": "3.1.0",
+    "lastUpdated": "2025-01-27",
+    "phase": "Phase 3 - Product Definition & Design",
+    "agentAssignment": "@prd-architect-agent",
+    "capabilities": ["universal-specification", "project-initialization"],
+    "integrationPoints": [
+      "Project_Initialization_Protocol.md",
+      "Automated_Analysis_Framework.md",
+      "Technology_Stack_Matrix.md"
+    ],
+    "status": "Template - Ready for Implementation"
+  },
+  "missionStatement": "Define the universal specification framework that enables autonomous project configuration for any software development type through structured data formats and validation schemas.",
+  "specificationSchema": {
+    "projectIdentification": {
+      "projectId": {
+        "type": "string",
+        "required": true,
+        "pattern": "^[a-zA-Z0-9-_]+$",
+        "description": "Unique project identifier"
+      },
+      "projectName": {
+        "type": "string",
+        "required": true,
+        "minLength": 3,
+        "maxLength": 100,
+        "description": "Human-readable project name"
+      },
+      "projectType": {
+        "type": "string",
+        "required": true,
+        "enum": [
+          "web-application",
+          "mobile-application",
+          "desktop-application",
+          "game-development",
+          "data-science",
+          "blockchain-web3",
+          "enterprise-system",
+          "api-service",
+          "library-framework",
+          "hybrid-multi-platform"
+        ],
+        "description": "Primary project classification"
+      },
+      "projectSubtype": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Secondary project characteristics"
+      },
+      "description": {
+        "type": "string",
+        "required": true,
+        "minLength": 50,
+        "maxLength": 2000,
+        "description": "Comprehensive project description"
+      },
+      "objectives": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1,
+        "description": "Primary project objectives and goals"
+      }
+    },
+    "technicalSpecifications": {
+      "platformTargets": {
+        "type": "object",
+        "properties": {
+          "web": {
+            "type": "object",
+            "properties": {
+              "enabled": {"type": "boolean"},
+              "browsers": {
+                "type": "array",
+                "items": {"type": "string"},
+                "default": ["chrome", "firefox", "safari", "edge"]
+              },
+              "responsiveDesign": {"type": "boolean", "default": true},
+              "pwa": {"type": "boolean", "default": false}
+            }
+          },
+          "mobile": {
+            "type": "object",
+            "properties": {
+              "enabled": {"type": "boolean"},
+              "platforms": {
+                "type": "array",
+                "items": {"type": "string", "enum": ["ios", "android"]},
+                "default": ["ios", "android"]
+              },
+              "approach": {
+                "type": "string",
+                "enum": ["native", "cross-platform", "hybrid"],
+                "default": "cross-platform"
+              }
+            }
+          },
+          "desktop": {
+            "type": "object",
+            "properties": {
+              "enabled": {"type": "boolean"},
+              "platforms": {
+                "type": "array",
+                "items": {"type": "string", "enum": ["windows", "macos", "linux"]},
+                "default": ["windows", "macos", "linux"]
+              },
+              "approach": {
+                "type": "string",
+                "enum": ["native", "cross-platform", "web-based"],
+                "default": "cross-platform"
+              }
+            }
+          }
+        }
+      },
+      "technologyStack": {
+        "type": "object",
+        "properties": {
+          "frontend": {
+            "type": "object",
+            "properties": {
+              "framework": {
+                "type": "string",
+                "enum": [
+                  "react", "vue", "angular", "svelte", "next.js", "nuxt.js",
+                  "sveltekit", "gatsby", "remix", "astro", "vanilla"
+                ]
+              },
+              "language": {
+                "type": "string",
+                "enum": ["javascript", "typescript", "dart", "swift", "kotlin"],
+                "default": "typescript"
+              },
+              "styling": {
+                "type": "string",
+                "enum": ["tailwindcss", "styled-components", "emotion", "sass", "css-modules", "vanilla-css"],
+                "default": "tailwindcss"
+              },
+              "uiLibrary": {
+                "type": "string",
+                "enum": ["shadcn-ui", "material-ui", "ant-design", "chakra-ui", "mantine", "custom"],
+                "default": "shadcn-ui"
+              }
+            }
+          },
+          "backend": {
+            "type": "object",
+            "properties": {
+              "framework": {
+                "type": "string",
+                "enum": [
+                  "node.js", "express", "fastify", "nest.js", "django", "fastapi",
+                  "flask", "laravel", "rails", "asp.net", "spring-boot", "serverless"
+                ]
+              },
+              "language": {
+                "type": "string",
+                "enum": ["javascript", "typescript", "python", "php", "ruby", "c#", "java", "go", "rust"],
+                "default": "typescript"
+              },
+              "architecture": {
+                "type": "string",
+                "enum": ["monolithic", "microservices", "serverless", "jamstack"],
+                "default": "monolithic"
+              }
+            }
+          },
+          "database": {
+            "type": "object",
+            "properties": {
+              "primary": {
+                "type": "string",
+                "enum": ["postgresql", "mysql", "mongodb", "sqlite", "redis", "firebase", "supabase"]
+              },
+              "caching": {
+                "type": "string",
+                "enum": ["redis", "memcached", "in-memory", "none"],
+                "default": "redis"
+              },
+              "orm": {
+                "type": "string",
+                "enum": ["prisma", "typeorm", "sequelize", "mongoose", "sqlalchemy", "eloquent", "none"]
+              }
+            }
+          },
+          "deployment": {
+            "type": "object",
+            "properties": {
+              "platform": {
+                "type": "string",
+                "enum": ["vercel", "netlify", "aws", "google-cloud", "azure", "digitalocean", "heroku", "railway"]
+              },
+              "containerization": {
+                "type": "boolean",
+                "default": false
+              },
+              "cicd": {
+                "type": "boolean",
+                "default": true
+              }
+            }
+          }
+        }
+      },
+      "performanceRequirements": {
+        "type": "object",
+        "properties": {
+          "loadTime": {
+            "type": "object",
+            "properties": {
+              "target": {"type": "number", "minimum": 0.5, "maximum": 10, "default": 3},
+              "unit": {"type": "string", "enum": ["seconds"], "default": "seconds"}
+            }
+          },
+          "responseTime": {
+            "type": "object",
+            "properties": {
+              "target": {"type": "number", "minimum": 50, "maximum": 5000, "default": 200},
+              "unit": {"type": "string", "enum": ["milliseconds"], "default": "milliseconds"}
+            }
+          },
+          "throughput": {
+            "type": "object",
+            "properties": {
+              "target": {"type": "number", "minimum": 10, "maximum": 100000, "default": 1000},
+              "unit": {"type": "string", "enum": ["requests-per-second"], "default": "requests-per-second"}
+            }
+          },
+          "scalability": {
+            "type": "object",
+            "properties": {
+              "expectedUsers": {"type": "number", "minimum": 1, "default": 1000},
+              "peakLoad": {"type": "number", "minimum": 1, "default": 5000},
+              "scalingStrategy": {
+                "type": "string",
+                "enum": ["horizontal", "vertical", "auto-scaling"],
+                "default": "auto-scaling"
+              }
+            }
+          }
+        }
+      },
+      "securityRequirements": {
+        "type": "object",
+        "properties": {
+          "authentication": {
+            "type": "object",
+            "properties": {
+              "method": {
+                "type": "string",
+                "enum": ["jwt", "oauth", "saml", "session-based", "passwordless"],
+                "default": "jwt"
+              },
+              "providers": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": ["google", "github", "facebook", "twitter", "microsoft", "apple", "custom"]
+                }
+              },
+              "mfa": {"type": "boolean", "default": false}
+            }
+          },
+          "authorization": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string",
+                "enum": ["rbac", "abac", "simple", "custom"],
+                "default": "rbac"
+              },
+              "roles": {
+                "type": "array",
+                "items": {"type": "string"},
+                "default": ["admin", "user"]
+              }
+            }
+          },
+          "dataProtection": {
+            "type": "object",
+            "properties": {
+              "encryption": {"type": "boolean", "default": true},
+              "gdprCompliance": {"type": "boolean", "default": false},
+              "dataRetention": {"type": "string", "default": "indefinite"}
+            }
+          }
+        }
+      },
+      "accessibilityRequirements": {
+        "type": "object",
+        "properties": {
+          "wcagLevel": {
+            "type": "string",
+            "enum": ["A", "AA", "AAA"],
+            "default": "AA"
+          },
+          "screenReader": {"type": "boolean", "default": true},
+          "keyboardNavigation": {"type": "boolean", "default": true},
+          "colorContrast": {"type": "boolean", "default": true},
+          "internationalization": {"type": "boolean", "default": false}
+        }
+      }
+    },
+    "businessRequirements": {
+      "userExperience": {
+        "type": "object",
+        "properties": {
+          "targetAudience": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Primary user demographics and characteristics"
+          },
+          "userJourneys": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {"type": "string"},
+                "steps": {"type": "array", "items": {"type": "string"}},
+                "priority": {"type": "string", "enum": ["high", "medium", "low"]}
+              }
+            }
+          },
+          "conversionGoals": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "metric": {"type": "string"},
+                "target": {"type": "number"},
+                "timeframe": {"type": "string"}
+              }
+            }
+          }
+        }
+      },
+      "businessLogic": {
+        "type": "object",
+        "properties": {
+          "coreFeatures": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {"type": "string"},
+                "description": {"type": "string"},
+                "priority": {"type": "string", "enum": ["critical", "high", "medium", "low"]},
+                "complexity": {"type": "string", "enum": ["simple", "moderate", "complex"]}
+              }
+            }
+          },
+          "workflows": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {"type": "string"},
+                "steps": {"type": "array", "items": {"type": "string"}},
+                "automation": {"type": "boolean", "default": false}
+              }
+            }
+          },
+          "integrations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "service": {"type": "string"},
+                "type": {"type": "string", "enum": ["api", "webhook", "database", "file"]},
+                "required": {"type": "boolean"}
+              }
+            }
+          }
+        }
+      },
+      "monetization": {
+        "type": "object",
+        "properties": {
+          "model": {
+            "type": "string",
+            "enum": ["free", "freemium", "subscription", "one-time", "usage-based", "advertising"],
+            "default": "free"
+          },
+          "paymentProcessing": {
+            "type": "object",
+            "properties": {
+              "enabled": {"type": "boolean", "default": false},
+              "providers": {
+                "type": "array",
+                "items": {"type": "string", "enum": ["stripe", "paypal", "square", "braintree"]}
+              },
+              "currencies": {
+                "type": "array",
+                "items": {"type": "string"},
+                "default": ["USD"]
+              }
+            }
+          }
+        }
+      },
+      "analytics": {
+        "type": "object",
+        "properties": {
+          "userBehavior": {"type": "boolean", "default": true},
+          "performanceMonitoring": {"type": "boolean", "default": true},
+          "businessIntelligence": {"type": "boolean", "default": false},
+          "providers": {
+            "type": "array",
+            "items": {"type": "string", "enum": ["google-analytics", "mixpanel", "amplitude", "hotjar", "custom"]}
+          }
+        }
+      },
+      "compliance": {
+        "type": "object",
+        "properties": {
+          "regulations": {
+            "type": "array",
+            "items": {"type": "string", "enum": ["gdpr", "ccpa", "hipaa", "sox", "pci-dss", "none"]}
+          },
+          "industryStandards": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "auditRequirements": {"type": "boolean", "default": false}
+        }
+      }
+    },
+    "developmentConstraints": {
+      "timeline": {
+        "type": "object",
+        "properties": {
+          "launchDeadline": {"type": "string", "format": "date"},
+          "milestones": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {"type": "string"},
+                "deadline": {"type": "string", "format": "date"},
+                "deliverables": {"type": "array", "items": {"type": "string"}}
+              }
+            }
+          },
+          "developmentPhases": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "phase": {"type": "string"},
+                "duration": {"type": "string"},
+                "dependencies": {"type": "array", "items": {"type": "string"}}
+              }
+            }
+          }
+        }
+      },
+      "budget": {
+        "type": "object",
+        "properties": {
+          "developmentCost": {"type": "number", "minimum": 0},
+          "infrastructureCost": {"type": "number", "minimum": 0},
+          "licensingCost": {"type": "number", "minimum": 0},
+          "maintenanceCost": {"type": "number", "minimum": 0},
+          "currency": {"type": "string", "default": "USD"}
+        }
+      },
+      "team": {
+        "type": "object",
+        "properties": {
+          "size": {"type": "number", "minimum": 1, "default": 1},
+          "skillSets": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "availability": {"type": "string", "enum": ["full-time", "part-time", "contract"]},
+          "experience": {"type": "string", "enum": ["junior", "mid-level", "senior", "mixed"]}
+        }
+      },
+      "technology": {
+        "type": "object",
+        "properties": {
+          "legacySystems": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "system": {"type": "string"},
+                "integrationRequired": {"type": "boolean"},
+                "migrationNeeded": {"type": "boolean"}
+              }
+            }
+          },
+          "platformLimitations": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "vendorRequirements": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        }
+      },
+      "maintenance": {
+        "type": "object",
+        "properties": {
+          "supportLevel": {"type": "string", "enum": ["basic", "standard", "premium"]},
+          "updateFrequency": {"type": "string", "enum": ["weekly", "monthly", "quarterly", "as-needed"]},
+          "technicalDebtTolerance": {"type": "string", "enum": ["low", "medium", "high"]}
+        }
+      }
+    },
+    "qualityAssurance": {
+      "testing": {
+        "type": "object",
+        "properties": {
+          "strategy": {
+            "type": "string",
+            "enum": ["manual", "automated", "hybrid"],
+            "default": "hybrid"
+          },
+          "coverage": {
+            "type": "object",
+            "properties": {
+              "unit": {"type": "number", "minimum": 0, "maximum": 100, "default": 80},
+              "integration": {"type": "number", "minimum": 0, "maximum": 100, "default": 70},
+              "e2e": {"type": "number", "minimum": 0, "maximum": 100, "default": 50}
+            }
+          },
+          "frameworks": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        }
+      },
+      "codeQuality": {
+        "type": "object",
+        "properties": {
+          "linting": {"type": "boolean", "default": true},
+          "formatting": {"type": "boolean", "default": true},
+          "typeChecking": {"type": "boolean", "default": true},
+          "codeReview": {"type": "boolean", "default": true}
+        }
+      },
+      "monitoring": {
+        "type": "object",
+        "properties": {
+          "errorTracking": {"type": "boolean", "default": true},
+          "performanceMonitoring": {"type": "boolean", "default": true},
+          "uptime": {"type": "boolean", "default": true},
+          "logging": {"type": "string", "enum": ["basic", "detailed", "comprehensive"], "default": "detailed"}
+        }
+      }
+    },
+    "deploymentConfiguration": {
+      "environments": {
+        "type": "object",
+        "properties": {
+          "development": {
+            "type": "object",
+            "properties": {
+              "type": {"type": "string", "enum": ["local", "cloud", "hybrid"], "default": "local"},
+              "autoDeployment": {"type": "boolean", "default": true}
+            }
+          },
+          "staging": {
+            "type": "object",
+            "properties": {
+              "required": {"type": "boolean", "default": true},
+              "type": {"type": "string", "enum": ["cloud", "on-premise"], "default": "cloud"}
+            }
+          },
+          "production": {
+            "type": "object",
+            "properties": {
+              "type": {"type": "string", "enum": ["cloud", "on-premise", "hybrid"], "default": "cloud"},
+              "redundancy": {"type": "boolean", "default": false},
+              "backupStrategy": {"type": "string", "enum": ["daily", "weekly", "real-time"], "default": "daily"}
+            }
+          }
+        }
+      },
+      "cicd": {
+        "type": "object",
+        "properties": {
+          "enabled": {"type": "boolean", "default": true},
+          "platform": {"type": "string", "enum": ["github-actions", "gitlab-ci", "jenkins", "azure-devops"]},
+          "triggers": {
+            "type": "array",
+            "items": {"type": "string", "enum": ["push", "pull-request", "schedule", "manual"]}
+          },
+          "qualityGates": {"type": "boolean", "default": true}
+        }
+      },
+      "scaling": {
+        "type": "object",
+        "properties": {
+          "strategy": {"type": "string", "enum": ["manual", "auto-scaling"], "default": "auto-scaling"},
+          "metrics": {
+            "type": "array",
+            "items": {"type": "string", "enum": ["cpu", "memory", "requests", "custom"]}
+          },
+          "limits": {
+            "type": "object",
+            "properties": {
+              "minInstances": {"type": "number", "minimum": 1, "default": 1},
+              "maxInstances": {"type": "number", "minimum": 1, "default": 10}
+            }
+          }
+        }
+      }
+    }
+  },
+  "validationRules": {
+    "required": [
+      "projectIdentification",
+      "technicalSpecifications",
+      "businessRequirements",
+      "developmentConstraints"
+    ],
+    "conditionalRequirements": {
+      "if": {"properties": {"projectType": {"const": "web-application"}}},
+      "then": {"required": ["technicalSpecifications.platformTargets.web"]}
+    }
+  },
+  "defaultTemplates": {
+    "webApplication": {
+      "projectType": "web-application",
+      "technicalSpecifications": {
+        "platformTargets": {"web": {"enabled": true}},
+        "technologyStack": {
+          "frontend": {"framework": "react", "language": "typescript", "styling": "tailwindcss", "uiLibrary": "shadcn-ui"},
+          "backend": {"framework": "node.js", "language": "typescript"},
+          "database": {"primary": "postgresql", "orm": "prisma"}
+        }
+      }
+    },
+    "mobileApplication": {
+      "projectType": "mobile-application",
+      "technicalSpecifications": {
+        "platformTargets": {"mobile": {"enabled": true, "approach": "cross-platform"}},
+        "technologyStack": {
+          "frontend": {"framework": "react-native", "language": "typescript"}
+        }
+      }
+    },
+    "fullStackApplication": {
+      "projectType": "web-application",
+      "technicalSpecifications": {
+        "platformTargets": {"web": {"enabled": true}, "mobile": {"enabled": true}},
+        "technologyStack": {
+          "frontend": {"framework": "next.js", "language": "typescript", "styling": "tailwindcss"},
+          "backend": {"framework": "next.js", "language": "typescript"},
+          "database": {"primary": "postgresql", "orm": "prisma"}
+        }
+      }
+    }
+  },
+  "automationConfiguration": {
+    "analysisLevel": {
+      "type": "string",
+      "enum": ["basic", "comprehensive", "research-backed"],
+      "default": "comprehensive"
+    },
+    "optimizationTargets": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["performance", "security", "maintainability", "scalability", "cost"]},
+      "default": ["performance", "maintainability"]
+    },
+    "interventionPoints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "stage": {"type": "string"},
+          "required": {"type": "boolean"},
+          "estimatedTime": {"type": "number"}
+        }
+      }
+    }
+  },
+  "integrationPoints": {
+    "projectInitialization": "Project_Initialization_Protocol.md",
+    "automatedAnalysis": "Automated_Analysis_Framework.md",
+    "technologyMatrix": "Technology_Stack_Matrix.md",
+    "agentCoordination": "Agent_Coordination_Protocol.md",
+    "qualityAssurance": "QA_Automation_Framework.md"
+  },
+  "successMetrics": {
+    "specificationCompleteness": {
+      "target": 95,
+      "unit": "percentage",
+      "description": "Percentage of required fields completed"
+    },
+    "validationAccuracy": {
+      "target": 98,
+      "unit": "percentage",
+      "description": "Accuracy of automated validation"
+    },
+    "configurationTime": {
+      "target": 15,
+      "unit": "minutes",
+      "description": "Time to complete project specification"
+    }
+  }
+} 

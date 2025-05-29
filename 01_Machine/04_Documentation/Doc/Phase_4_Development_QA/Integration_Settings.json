@@ -1,0 +1,278 @@
+{
+  "configType": "integration_settings",
+  "version": "3.1.0",
+  "lastUpdated": "2025-01-27",
+  "relatedWorkflow": "12_Frontend_Development.md",
+  
+  "frameworkIntegration": {
+    "primaryFramework": "React",
+    "version": "18.2.0",
+    "typescript": {
+      "enabled": true,
+      "version": "5.0.0",
+      "strict": true,
+      "configFile": "tsconfig.json"
+    },
+    "routing": {
+      "library": "react-router-dom",
+      "version": "6.8.0",
+      "mode": "browser",
+      "basename": "/",
+      "hashRouter": false
+    },
+    "stateManagement": {
+      "library": "redux-toolkit",
+      "version": "1.9.0",
+      "middleware": ["redux-thunk", "redux-logger"],
+      "devTools": true,
+      "persistence": true
+    }
+  },
+  
+  "buildToolIntegration": {
+    "bundler": "webpack",
+    "version": "5.75.0",
+    "configFile": "webpack.config.js",
+    "plugins": [
+      "html-webpack-plugin",
+      "mini-css-extract-plugin",
+      "terser-webpack-plugin",
+      "webpack-bundle-analyzer"
+    ],
+    "loaders": [
+      "babel-loader",
+      "css-loader",
+      "sass-loader",
+      "file-loader",
+      "url-loader"
+    ]
+  },
+  
+  "cssIntegration": {
+    "preprocessor": "scss",
+    "framework": "tailwindcss",
+    "version": "3.2.0",
+    "configFile": "tailwind.config.js",
+    "postCSS": {
+      "enabled": true,
+      "plugins": ["autoprefixer", "cssnano"]
+    },
+    "cssModules": {
+      "enabled": true,
+      "localIdentName": "[name]__[local]___[hash:base64:5]"
+    }
+  },
+  
+  "testingIntegration": {
+    "unitTesting": {
+      "framework": "jest",
+      "version": "29.3.0",
+      "testingLibrary": "@testing-library/react",
+      "setupFiles": ["src/setupTests.js"],
+      "coverage": true
+    },
+    "e2eTesting": {
+      "framework": "cypress",
+      "version": "12.3.0",
+      "configFile": "cypress.config.js",
+      "baseUrl": "http://localhost:3000"
+    },
+    "visualTesting": {
+      "framework": "storybook",
+      "version": "6.5.0",
+      "addons": [
+        "@storybook/addon-essentials",
+        "@storybook/addon-a11y",
+        "@storybook/addon-viewport"
+      ]
+    }
+  },
+  
+  "lintingIntegration": {
+    "eslint": {
+      "version": "8.30.0",
+      "configFile": ".eslintrc.js",
+      "extends": [
+        "eslint:recommended",
+        "@typescript-eslint/recommended",
+        "react-hooks/recommended"
+      ],
+      "plugins": ["react", "@typescript-eslint", "react-hooks"]
+    },
+    "prettier": {
+      "version": "2.8.0",
+      "configFile": ".prettierrc",
+      "integration": "eslint-config-prettier"
+    },
+    "husky": {
+      "version": "8.0.0",
+      "hooks": {
+        "pre-commit": "lint-staged",
+        "pre-push": "npm run test"
+      }
+    }
+  },
+  
+  "apiIntegration": {
+    "httpClient": "axios",
+    "version": "1.2.0",
+    "baseURL": "${REACT_APP_API_BASE_URL}",
+    "timeout": 10000,
+    "interceptors": {
+      "request": true,
+      "response": true,
+      "error": true
+    },
+    "authentication": {
+      "type": "bearer",
+      "tokenStorage": "localStorage",
+      "refreshToken": true
+    }
+  },
+  
+  "uiLibraryIntegration": {
+    "componentLibrary": "material-ui",
+    "version": "5.11.0",
+    "theme": {
+      "customization": true,
+      "darkMode": true,
+      "responsive": true
+    },
+    "icons": {
+      "library": "@mui/icons-material",
+      "customIcons": true
+    }
+  },
+  
+  "formIntegration": {
+    "library": "react-hook-form",
+    "version": "7.41.0",
+    "validation": {
+      "library": "yup",
+      "version": "0.32.0"
+    },
+    "features": {
+      "asyncValidation": true,
+      "fieldArrays": true,
+      "watchFields": true
+    }
+  },
+  
+  "animationIntegration": {
+    "library": "framer-motion",
+    "version": "8.5.0",
+    "features": {
+      "pageTransitions": true,
+      "componentAnimations": true,
+      "gestureHandling": true
+    }
+  },
+  
+  "internalizationIntegration": {
+    "library": "react-i18next",
+    "version": "12.1.0",
+    "defaultLanguage": "en",
+    "supportedLanguages": ["en", "es", "fr", "de"],
+    "namespaces": ["common", "navigation", "forms", "errors"],
+    "interpolation": true,
+    "pluralization": true
+  },
+  
+  "analyticsIntegration": {
+    "googleAnalytics": {
+      "enabled": true,
+      "trackingId": "${REACT_APP_GA_TRACKING_ID}",
+      "version": "gtag"
+    },
+    "customAnalytics": {
+      "enabled": true,
+      "endpoint": "/api/analytics",
+      "events": ["page_view", "user_interaction", "error"]
+    }
+  },
+  
+  "monitoringIntegration": {
+    "errorTracking": {
+      "service": "sentry",
+      "dsn": "${REACT_APP_SENTRY_DSN}",
+      "environment": "${NODE_ENV}",
+      "release": "${REACT_APP_VERSION}"
+    },
+    "performanceMonitoring": {
+      "webVitals": true,
+      "customMetrics": true,
+      "realUserMonitoring": true
+    }
+  },
+  
+  "pwaIntegration": {
+    "enabled": true,
+    "serviceWorker": {
+      "enabled": true,
+      "caching": "runtime",
+      "updateStrategy": "immediate"
+    },
+    "manifest": {
+      "name": "DafnckMachine",
+      "shortName": "DafnckMachine",
+      "theme_color": "#000000",
+      "background_color": "#ffffff",
+      "display": "standalone"
+    },
+    "offlineSupport": {
+      "enabled": true,
+      "fallbackPage": "/offline.html",
+      "cacheStrategy": "cache-first"
+    }
+  },
+  
+  "securityIntegration": {
+    "contentSecurityPolicy": {
+      "enabled": true,
+      "directives": {
+        "default-src": ["'self'"],
+        "script-src": ["'self'", "'unsafe-inline'"],
+        "style-src": ["'self'", "'unsafe-inline'"],
+        "img-src": ["'self'", "data:", "https:"]
+      }
+    },
+    "cors": {
+      "enabled": true,
+      "allowedOrigins": ["http://localhost:3000", "https://dafnckmachine.com"],
+      "allowedMethods": ["GET", "POST", "PUT", "DELETE"],
+      "allowedHeaders": ["Content-Type", "Authorization"]
+    }
+  },
+  
+  "deploymentIntegration": {
+    "platform": "vercel",
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "environmentVariables": {
+      "production": {
+        "REACT_APP_API_BASE_URL": "https://api.dafnckmachine.com",
+        "REACT_APP_ENABLE_DEBUG": "false"
+      },
+      "staging": {
+        "REACT_APP_API_BASE_URL": "https://staging-api.dafnckmachine.com",
+        "REACT_APP_ENABLE_DEBUG": "true"
+      }
+    }
+  },
+  
+  "developmentIntegration": {
+    "hotReload": true,
+    "fastRefresh": true,
+    "devServer": {
+      "port": 3000,
+      "proxy": {
+        "/api": "http://localhost:8000"
+      }
+    },
+    "debugging": {
+      "sourceMap": true,
+      "reactDevTools": true,
+      "reduxDevTools": true
+    }
+  }
+} 

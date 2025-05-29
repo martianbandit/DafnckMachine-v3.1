@@ -1,0 +1,306 @@
+{
+  "documentInfo": {
+    "title": "Business Viability Analysis - DafnckMachine v3.1",
+    "version": "3.1.0",
+    "created": "2025-01-27",
+    "status": "template",
+    "phase": "2 - Discovery & Strategy",
+    "step": "02 - Problem Validation"
+  },
+  "businessModel": {
+    "valueProposition": {
+      "coreValue": "",
+      "targetCustomers": [],
+      "problemSolved": "",
+      "uniqueSellingPoints": [],
+      "competitiveAdvantages": []
+    },
+    "revenueModel": {
+      "primaryRevenueStreams": [
+        {
+          "streamName": "",
+          "description": "",
+          "pricingModel": "",
+          "targetMarket": "",
+          "revenueProjection": {
+            "year1": 0,
+            "year2": 0,
+            "year3": 0,
+            "year5": 0
+          }
+        }
+      ],
+      "secondaryRevenueStreams": [
+        {
+          "streamName": "",
+          "description": "",
+          "pricingModel": "",
+          "targetMarket": "",
+          "revenueProjection": {
+            "year1": 0,
+            "year2": 0,
+            "year3": 0,
+            "year5": 0
+          }
+        }
+      ]
+    },
+    "customerSegments": [
+      {
+        "segmentName": "",
+        "description": "",
+        "size": 0,
+        "willingness_to_pay": 0,
+        "acquisition_cost": 0,
+        "lifetime_value": 0,
+        "churn_rate": 0
+      }
+    ]
+  },
+  "marketAnalysis": {
+    "marketSize": {
+      "tam": 0,
+      "sam": 0,
+      "som": 0,
+      "currency": "USD",
+      "timeframe": "annual"
+    },
+    "marketGrowth": {
+      "historicalGrowthRate": 0,
+      "projectedGrowthRate": 0,
+      "growthDrivers": [],
+      "marketBarriers": []
+    },
+    "competitivePosition": {
+      "marketShare": 0,
+      "competitiveAdvantages": [],
+      "differentiationFactors": [],
+      "barriers_to_entry": []
+    }
+  },
+  "financialProjections": {
+    "revenueProjections": {
+      "year1": {
+        "totalRevenue": 0,
+        "revenueByStream": {},
+        "customerCount": 0,
+        "averageRevenuePerUser": 0
+      },
+      "year2": {
+        "totalRevenue": 0,
+        "revenueByStream": {},
+        "customerCount": 0,
+        "averageRevenuePerUser": 0
+      },
+      "year3": {
+        "totalRevenue": 0,
+        "revenueByStream": {},
+        "customerCount": 0,
+        "averageRevenuePerUser": 0
+      },
+      "year5": {
+        "totalRevenue": 0,
+        "revenueByStream": {},
+        "customerCount": 0,
+        "averageRevenuePerUser": 0
+      }
+    },
+    "costStructure": {
+      "developmentCosts": {
+        "personnel": 0,
+        "technology": 0,
+        "infrastructure": 0,
+        "research": 0,
+        "total": 0
+      },
+      "operationalCosts": {
+        "personnel": 0,
+        "infrastructure": 0,
+        "marketing": 0,
+        "sales": 0,
+        "support": 0,
+        "administration": 0,
+        "total": 0
+      },
+      "variableCosts": {
+        "costPerUser": 0,
+        "costPerTransaction": 0,
+        "scalingCosts": []
+      }
+    },
+    "profitabilityAnalysis": {
+      "grossMargin": 0,
+      "operatingMargin": 0,
+      "netMargin": 0,
+      "breakEvenPoint": {
+        "timeToBreakEven": "",
+        "revenueAtBreakEven": 0,
+        "customersAtBreakEven": 0
+      },
+      "unitEconomics": {
+        "customerAcquisitionCost": 0,
+        "customerLifetimeValue": 0,
+        "paybackPeriod": 0,
+        "ltv_cac_ratio": 0
+      }
+    }
+  },
+  "investmentRequirements": {
+    "initialInvestment": {
+      "seedFunding": 0,
+      "seriesA": 0,
+      "totalRequired": 0,
+      "useOfFunds": []
+    },
+    "ongoingInvestment": {
+      "workingCapital": 0,
+      "growthCapital": 0,
+      "contingencyFunds": 0
+    },
+    "fundingSources": [
+      {
+        "source": "",
+        "amount": 0,
+        "terms": "",
+        "probability": 0,
+        "timeline": ""
+      }
+    ],
+    "returnOnInvestment": {
+      "expectedROI": 0,
+      "paybackPeriod": 0,
+      "irr": 0,
+      "npv": 0
+    }
+  },
+  "riskAssessment": {
+    "businessRisks": [
+      {
+        "risk": "",
+        "category": "",
+        "probability": "",
+        "impact": "",
+        "mitigation": "",
+        "monitoring": ""
+      }
+    ],
+    "marketRisks": [
+      {
+        "risk": "",
+        "probability": "",
+        "impact": "",
+        "mitigation": "",
+        "monitoring": ""
+      }
+    ],
+    "financialRisks": [
+      {
+        "risk": "",
+        "probability": "",
+        "impact": "",
+        "mitigation": "",
+        "monitoring": ""
+      }
+    ],
+    "operationalRisks": [
+      {
+        "risk": "",
+        "probability": "",
+        "impact": "",
+        "mitigation": "",
+        "monitoring": ""
+      }
+    ]
+  },
+  "scenarioAnalysis": {
+    "conservativeScenario": {
+      "assumptions": [],
+      "revenueProjections": {},
+      "profitability": {},
+      "probability": 0
+    },
+    "realisticScenario": {
+      "assumptions": [],
+      "revenueProjections": {},
+      "profitability": {},
+      "probability": 0
+    },
+    "optimisticScenario": {
+      "assumptions": [],
+      "revenueProjections": {},
+      "profitability": {},
+      "probability": 0
+    }
+  },
+  "goToMarketStrategy": {
+    "customerAcquisition": {
+      "acquisitionChannels": [],
+      "acquisitionCosts": {},
+      "conversionRates": {},
+      "scalabilityAssessment": ""
+    },
+    "pricingStrategy": {
+      "pricingModel": "",
+      "pricePoints": [],
+      "competitivePricing": "",
+      "valueBasedPricing": ""
+    },
+    "salesStrategy": {
+      "salesModel": "",
+      "salesCycle": "",
+      "salesTeamRequirements": [],
+      "partnerChannels": []
+    }
+  },
+  "viabilityScoring": {
+    "marketViability": {
+      "score": 0,
+      "weight": 0.3,
+      "rationale": ""
+    },
+    "financialViability": {
+      "score": 0,
+      "weight": 0.4,
+      "rationale": ""
+    },
+    "operationalViability": {
+      "score": 0,
+      "weight": 0.3,
+      "rationale": ""
+    },
+    "overallViability": {
+      "score": 0,
+      "recommendation": "",
+      "confidence": ""
+    }
+  },
+  "recommendations": {
+    "businessModelOptimization": [],
+    "revenueOptimization": [],
+    "costOptimization": [],
+    "riskMitigation": [],
+    "nextSteps": []
+  },
+  "integrationPoints": {
+    "relatedDocuments": [
+      "Market_Opportunity_Analysis.json",
+      "Competitive_Analysis.md",
+      "Revenue_Model.md",
+      "Risk_Assessment_Matrix.json"
+    ],
+    "dataFlows": [],
+    "systemConnections": []
+  },
+  "populationInstructions": {
+    "assignedAgent": "@market-research-agent",
+    "supportingAgents": [],
+    "completionCriteria": [
+      "Business model clearly defined",
+      "Revenue projections completed with scenarios",
+      "Cost structure analysis finished",
+      "Investment requirements calculated",
+      "Risk assessment comprehensive",
+      "Viability score calculated with recommendation"
+    ]
+  }
+} 

@@ -1,0 +1,71 @@
+{
+  "documentInfo": {
+    "title": "System Overview & Vision - DafnckMachine v3.1 AutoPilot",
+    "version": "3.1.0",
+    "created": "2025-01-27",
+    "status": "template",
+    "phase": "3 - Product Definition & Design",
+    "step": "05 - PRD Generator"
+  },
+  "systemOverview": {
+    "coreMission": {
+      "description": "To be populated by @prd-architect-agent",
+      "primaryObjective": "",
+      "keyDifferentiator": "",
+      "targetUsers": []
+    },
+    "autonomousArchitecture": {
+      "systemType": "Fully Autonomous Agentic AI-Driven Software Delivery System",
+      "agentSwarmModel": {
+        "description": "",
+        "coreAgentTypes": [],
+        "coordinationProtocols": [],
+        "stateManagement": ""
+      },
+      "workflowEngine": {
+        "documentCentricApproach": true,
+        "workflowStates": [],
+        "validationGates": [],
+        "rollbackMechanisms": []
+      }
+    }
+  },
+  "systemVision": {
+    "automationLevel": {
+      "targetAutomation": "95%+ autonomous operation",
+      "humanInterventionPoints": [],
+      "transparencyMechanisms": []
+    },
+    "universalSupport": {
+      "technologyStacks": "Any technology Claude 4 has been trained on",
+      "projectTypes": [],
+      "platformSupport": []
+    },
+    "qualityFramework": {
+      "continuousQuality": true,
+      "automatedTesting": true,
+      "securityFirst": true,
+      "performanceOptimization": true
+    }
+  },
+  "integrationPoints": {
+    "relatedDocuments": [
+      "Agent_Swarm_Architecture.json",
+      "Technology_Stack_Matrix.md",
+      "User_Interaction_Model.md",
+      "Product_Requirements_Document.md"
+    ],
+    "systemConnections": [],
+    "dataFlows": []
+  },
+  "populationInstructions": {
+    "assignedAgent": "@prd-architect-agent",
+    "supportingAgents": ["@system-architect-agent"],
+    "completionCriteria": [
+      "Core mission clearly defined",
+      "Agent swarm architecture specified",
+      "Automation levels quantified",
+      "Integration points mapped"
+    ]
+  }
+} 

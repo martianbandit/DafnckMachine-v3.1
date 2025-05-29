@@ -1,0 +1,489 @@
+{
+  "documentInfo": {
+    "title": "Resource Assessment - DafnckMachine v3.1",
+    "version": "3.1.0",
+    "created": "2025-01-27",
+    "status": "template",
+    "phase": "2 - Discovery & Strategy",
+    "step": "02 - Problem Validation"
+  },
+  "humanResources": {
+    "currentTeam": {
+      "teamSize": 0,
+      "roles": [
+        {
+          "role": "",
+          "count": 0,
+          "skillLevel": "",
+          "experience": "",
+          "availability": "",
+          "cost": 0
+        }
+      ],
+      "skillMatrix": [
+        {
+          "skill": "",
+          "currentLevel": "",
+          "requiredLevel": "",
+          "gap": "",
+          "priority": ""
+        }
+      ],
+      "teamStrengths": [],
+      "teamWeaknesses": [],
+      "teamCapacity": {
+        "hoursPerWeek": 0,
+        "utilizationRate": 0,
+        "availableCapacity": 0
+      }
+    },
+    "requiredTeam": {
+      "estimatedTeamSize": 0,
+      "coreRoles": [
+        {
+          "role": "",
+          "count": 0,
+          "skillLevel": "",
+          "experience": "",
+          "responsibilities": [],
+          "estimatedCost": 0,
+          "priority": "",
+          "timeline": ""
+        }
+      ],
+      "specializedRoles": [
+        {
+          "role": "",
+          "count": 0,
+          "skillLevel": "",
+          "experience": "",
+          "responsibilities": [],
+          "estimatedCost": 0,
+          "priority": "",
+          "timeline": ""
+        }
+      ],
+      "consultantRoles": [
+        {
+          "role": "",
+          "duration": "",
+          "skillLevel": "",
+          "responsibilities": [],
+          "estimatedCost": 0,
+          "priority": "",
+          "timeline": ""
+        }
+      ]
+    },
+    "gapAnalysis": {
+      "skillGaps": [
+        {
+          "skill": "",
+          "currentLevel": "",
+          "requiredLevel": "",
+          "gapSeverity": "",
+          "impact": "",
+          "mitigation": ""
+        }
+      ],
+      "roleGaps": [
+        {
+          "role": "",
+          "currentCount": 0,
+          "requiredCount": 0,
+          "gapSeverity": "",
+          "impact": "",
+          "mitigation": ""
+        }
+      ],
+      "capacityGaps": [
+        {
+          "area": "",
+          "currentCapacity": 0,
+          "requiredCapacity": 0,
+          "gapSeverity": "",
+          "impact": "",
+          "mitigation": ""
+        }
+      ]
+    },
+    "recruitmentPlan": {
+      "hiringStrategy": "",
+      "recruitmentTimeline": [
+        {
+          "role": "",
+          "startDate": "",
+          "targetDate": "",
+          "recruitmentMethod": "",
+          "cost": 0
+        }
+      ],
+      "onboardingPlan": {
+        "duration": "",
+        "process": [],
+        "cost": 0
+      },
+      "retentionStrategy": {
+        "factors": [],
+        "initiatives": [],
+        "cost": 0
+      }
+    },
+    "trainingPlan": {
+      "skillDevelopment": [
+        {
+          "skill": "",
+          "targetAudience": "",
+          "trainingMethod": "",
+          "duration": "",
+          "cost": 0,
+          "provider": ""
+        }
+      ],
+      "certifications": [
+        {
+          "certification": "",
+          "targetAudience": "",
+          "cost": 0,
+          "timeline": ""
+        }
+      ],
+      "totalTrainingCost": 0,
+      "trainingTimeline": ""
+    }
+  },
+  "technicalResources": {
+    "developmentInfrastructure": {
+      "hardware": [
+        {
+          "item": "",
+          "quantity": 0,
+          "specifications": "",
+          "cost": 0,
+          "lifespan": "",
+          "purpose": ""
+        }
+      ],
+      "software": [
+        {
+          "software": "",
+          "licenses": 0,
+          "cost": 0,
+          "renewalCycle": "",
+          "purpose": ""
+        }
+      ],
+      "cloudServices": [
+        {
+          "service": "",
+          "provider": "",
+          "configuration": "",
+          "monthlyCost": 0,
+          "scalingCost": "",
+          "purpose": ""
+        }
+      ],
+      "totalInfrastructureCost": 0
+    },
+    "productionInfrastructure": {
+      "hosting": {
+        "provider": "",
+        "configuration": "",
+        "baseCost": 0,
+        "scalingModel": "",
+        "estimatedCost": {
+          "year1": 0,
+          "year2": 0,
+          "year3": 0
+        }
+      },
+      "databases": [
+        {
+          "database": "",
+          "configuration": "",
+          "cost": 0,
+          "scalingCost": "",
+          "backup": ""
+        }
+      ],
+      "monitoring": [
+        {
+          "tool": "",
+          "configuration": "",
+          "cost": 0,
+          "purpose": ""
+        }
+      ],
+      "security": [
+        {
+          "tool": "",
+          "configuration": "",
+          "cost": 0,
+          "purpose": ""
+        }
+      ],
+      "totalProductionCost": 0
+    },
+    "thirdPartyServices": [
+      {
+        "service": "",
+        "provider": "",
+        "purpose": "",
+        "cost": 0,
+        "scalingModel": "",
+        "contractTerms": ""
+      }
+    ]
+  },
+  "financialResources": {
+    "budgetRequirements": {
+      "developmentBudget": {
+        "personnel": 0,
+        "infrastructure": 0,
+        "software": 0,
+        "training": 0,
+        "consulting": 0,
+        "other": 0,
+        "total": 0
+      },
+      "operationalBudget": {
+        "personnel": 0,
+        "infrastructure": 0,
+        "software": 0,
+        "marketing": 0,
+        "support": 0,
+        "other": 0,
+        "total": 0
+      },
+      "contingencyBudget": {
+        "percentage": 0,
+        "amount": 0,
+        "rationale": ""
+      },
+      "totalBudget": 0
+    },
+    "fundingRequirements": {
+      "initialFunding": 0,
+      "ongoingFunding": 0,
+      "fundingSources": [
+        {
+          "source": "",
+          "amount": 0,
+          "terms": "",
+          "probability": 0,
+          "timeline": ""
+        }
+      ],
+      "fundingGap": 0,
+      "fundingStrategy": ""
+    },
+    "costBreakdown": {
+      "byPhase": [
+        {
+          "phase": "",
+          "duration": "",
+          "cost": 0,
+          "breakdown": {}
+        }
+      ],
+      "byCategory": [
+        {
+          "category": "",
+          "cost": 0,
+          "percentage": 0
+        }
+      ],
+      "byTimeframe": [
+        {
+          "timeframe": "",
+          "cost": 0,
+          "cumulative": 0
+        }
+      ]
+    }
+  },
+  "timeResources": {
+    "projectTimeline": {
+      "totalDuration": "",
+      "phases": [
+        {
+          "phase": "",
+          "duration": "",
+          "startDate": "",
+          "endDate": "",
+          "dependencies": [],
+          "resources": []
+        }
+      ],
+      "criticalPath": [],
+      "bufferTime": ""
+    },
+    "resourceAllocation": {
+      "byPhase": [
+        {
+          "phase": "",
+          "resources": [
+            {
+              "resource": "",
+              "allocation": 0,
+              "duration": ""
+            }
+          ]
+        }
+      ],
+      "conflicts": [
+        {
+          "resource": "",
+          "conflict": "",
+          "impact": "",
+          "resolution": ""
+        }
+      ]
+    },
+    "timeConstraints": [
+      {
+        "constraint": "",
+        "impact": "",
+        "mitigation": ""
+      }
+    ]
+  },
+  "externalResources": {
+    "vendors": [
+      {
+        "vendor": "",
+        "service": "",
+        "cost": 0,
+        "contractTerms": "",
+        "reliability": "",
+        "alternatives": []
+      }
+    ],
+    "partners": [
+      {
+        "partner": "",
+        "contribution": "",
+        "value": 0,
+        "terms": "",
+        "reliability": ""
+      }
+    ],
+    "consultants": [
+      {
+        "consultant": "",
+        "expertise": "",
+        "duration": "",
+        "cost": 0,
+        "deliverables": []
+      }
+    ]
+  },
+  "riskAssessment": {
+    "resourceRisks": [
+      {
+        "risk": "",
+        "category": "",
+        "probability": "",
+        "impact": "",
+        "mitigation": "",
+        "contingency": ""
+      }
+    ],
+    "availabilityRisks": [
+      {
+        "resource": "",
+        "risk": "",
+        "probability": "",
+        "impact": "",
+        "mitigation": ""
+      }
+    ],
+    "costRisks": [
+      {
+        "category": "",
+        "risk": "",
+        "probability": "",
+        "impact": "",
+        "mitigation": ""
+      }
+    ]
+  },
+  "optimizationOpportunities": {
+    "costOptimization": [
+      {
+        "opportunity": "",
+        "savings": 0,
+        "implementation": "",
+        "risk": ""
+      }
+    ],
+    "efficiencyGains": [
+      {
+        "opportunity": "",
+        "benefit": "",
+        "implementation": "",
+        "cost": 0
+      }
+    ],
+    "resourceSharing": [
+      {
+        "opportunity": "",
+        "benefit": "",
+        "implementation": "",
+        "constraints": []
+      }
+    ]
+  },
+  "recommendations": {
+    "resourceStrategy": "",
+    "priorityActions": [
+      {
+        "action": "",
+        "priority": "",
+        "timeline": "",
+        "cost": 0,
+        "impact": ""
+      }
+    ],
+    "alternativeApproaches": [
+      {
+        "approach": "",
+        "pros": [],
+        "cons": [],
+        "cost": 0,
+        "feasibility": ""
+      }
+    ],
+    "contingencyPlans": [
+      {
+        "scenario": "",
+        "plan": "",
+        "resources": [],
+        "cost": 0
+      }
+    ]
+  },
+  "integrationPoints": {
+    "relatedDocuments": [
+      "Technical_Feasibility_Report.md",
+      "Business_Viability_Analysis.json",
+      "Implementation_Timeline.md"
+    ],
+    "dataFlows": [],
+    "systemConnections": []
+  },
+  "populationInstructions": {
+    "assignedAgent": "@technology-advisor-agent",
+    "supportingAgents": ["@market-research-agent"],
+    "completionCriteria": [
+      "Current team assessment completed",
+      "Required team structure defined",
+      "Skill and role gaps identified",
+      "Technical infrastructure requirements specified",
+      "Budget requirements calculated",
+      "Timeline and resource allocation planned",
+      "Risk assessment comprehensive",
+      "Optimization opportunities identified"
+    ]
+  }
+} 
