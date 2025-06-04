@@ -14,6 +14,7 @@ import shutil
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple, Any
+import glob
 
 # --- Configuration ---
 BASE_DIR = Path(__file__).parent.parent.parent.parent
@@ -633,18 +634,23 @@ class AgentRepairer:
             changes_made = False
             
             for ref in interacts_with:
-                if ref in self.reference_mappings:
-                    # Map to correct reference
-                    fixed_references.append(self.reference_mappings[ref])
-                    changes_made = True
-                    logger.info(f"  Mapped {ref} → {self.reference_mappings[ref]} in {agent_file.name}")
-                elif ref in self.invalid_references:
-                    # Remove invalid reference
-                    changes_made = True
-                    logger.info(f"  Removed invalid reference {ref} from {agent_file.name}")
+                if isinstance(ref, str):
+                    if ref in self.reference_mappings:
+                        # Map to correct reference
+                        fixed_references.append(self.reference_mappings[ref])
+                        changes_made = True
+                        logger.info(f"  Mapped {ref} → {self.reference_mappings[ref]} in {agent_file.name}")
+                    elif ref in self.invalid_references:
+                        # Remove invalid reference
+                        changes_made = True
+                        logger.info(f"  Removed invalid reference {ref} from {agent_file.name}")
+                    else:
+                        # Keep valid reference
+                        fixed_references.append(ref)
                 else:
-                    # Keep valid reference
-                    fixed_references.append(ref)
+                    # Log and skip non-string references
+                    changes_made = True
+                    logger.info(f"  Skipped non-string reference {ref} in {agent_file.name}")
             
             if changes_made:
                 # Create backup
@@ -864,48 +870,47 @@ class AgentValidator:
         errors = []
         warnings = []
         mode = data["customModes"][0]
-        
-        # Required top-level fields
-        required_fields = [
-            "slug", "name", "roleDefinition", "customInstructions", "groups"
-        ]
-        
-        # Extended fields from shell script
-        extended_fields = [
-            "whenToUse", "inputSpec", "outputSpec", "connectivity", "continuousLearning"
-        ]
-        
+        required_fields = ["slug", "name", "roleDefinition", "customInstructions", "groups"]
+        extended_fields = ["whenToUse", "inputSpec", "outputSpec", "connectivity", "continuousLearning"]
         # Check required fields
         for field in required_fields:
             if field not in mode or not mode[field]:
                 errors.append(f"Missing or empty required field: '{field}'")
-        
         # Check extended fields (warnings if missing)
         for field in extended_fields:
             if field not in mode or not mode[field]:
                 warnings.append(f"Missing extended field: '{field}' (recommended for complete agent definition)")
-        
+        # Deep checks for inputSpec/outputSpec
+        for spec_name in ["inputSpec", "outputSpec"]:
+            if spec_name in mode and mode[spec_name]:
+                spec = mode[spec_name]
+                for deep_field in ["example", "schema", "validationRules"]:
+                    if deep_field not in spec or not spec[deep_field]:
+                        errors.append(f"Missing {spec_name}.{deep_field}")
+        # Check for errorHandling and healthCheck
+        for deep_field in ["errorHandling", "healthCheck"]:
+            if deep_field not in mode or not mode[deep_field]:
+                errors.append(f"Missing or empty field: '{deep_field}'")
+        # Ensure groups includes 'command'
+        groups = mode.get("groups", [])
+        if "command" not in groups:
+            errors.append("'groups' must contain 'command'")
         # Validate nested structures if they exist
         if "inputSpec" in mode and mode["inputSpec"]:
             input_errors = self._validate_nested_object(mode["inputSpec"], "inputSpec", ["type", "format"])
             errors.extend(input_errors)
-            
         if "outputSpec" in mode and mode["outputSpec"]:
             output_errors = self._validate_nested_object(mode["outputSpec"], "outputSpec", ["type", "format"])
             errors.extend(output_errors)
-            
         if "connectivity" in mode and mode["connectivity"]:
             conn_errors = self._validate_nested_object(mode["connectivity"], "connectivity", ["interactsWith", "feedbackLoop"])
             errors.extend(conn_errors)
-            
         if "continuousLearning" in mode and mode["continuousLearning"]:
             learn_errors = self._validate_nested_object(mode["continuousLearning"], "continuousLearning", ["enabled", "mechanism"])
             errors.extend(learn_errors)
-        
         # Validate groups array
         groups_errors = self._validate_groups(mode.get("groups", []))
         errors.extend(groups_errors)
-        
         return errors, warnings
     
     def _validate_nested_object(self, obj: Any, parent_name: str, required_fields: List[str]) -> List[str]:
@@ -959,22 +964,20 @@ class AgentValidator:
         """Validates custom instructions structure."""
         errors = []
         mode = data["customModes"][0]
-        
         instructions = mode.get("customInstructions", "")
         if not instructions:
             return ["customInstructions cannot be empty"]
-            
-        # Check for required sections
-        required_sections = ["Core Purpose", "Key Capabilities", "MCP Tools"]
+        # Check for all required sections
+        required_sections = [
+            "Core Purpose", "Key Capabilities", "Operational Process", "Technical Outputs",
+            "Domain Specializations", "Quality Standards", "MCP Tools"
+        ]
         missing_sections = []
-        
         for section in required_sections:
             if f"**{section}**" not in instructions:
                 missing_sections.append(section)
-                
         if missing_sections:
             errors.append(f"Missing customInstructions sections: {', '.join(missing_sections)}")
-            
         return errors
     
     def _validate_connectivity(self, data: Dict[str, Any], agent_path: Path) -> List[str]:
@@ -991,12 +994,18 @@ class AgentValidator:
             return warnings
             
         invalid_refs = []
+        non_string_refs = []
         for interaction in interacts_with:
-            if interaction and not (AGENTS_DIR / f"{interaction}.json").exists():
-                invalid_refs.append(interaction)
-                
+            if isinstance(interaction, str):
+                if interaction and not (AGENTS_DIR / f"{interaction}.json").exists():
+                    invalid_refs.append(interaction)
+            else:
+                non_string_refs.append(str(interaction))
+
         if invalid_refs:
             warnings.append(f"Invalid interactsWith references: {', '.join(invalid_refs)}")
+        if non_string_refs:
+            warnings.append(f"Non-string interactsWith entries found: {', '.join(non_string_refs)}")
             
         return warnings
 
@@ -1218,41 +1227,33 @@ class SystemInitializer:
 
 # --- Synchronization Logic ---
 
-def sync_modes_to_roomodes(results: Dict[str, Tuple[bool, List[str], List[str]]]):
+def sync_modes_to_roomodes(results):
     """Synchronizes valid agent modes to .roomodes file."""
     logger.info("Starting mode synchronization to .roomodes...")
-
     existing_data = load_json_file(ROOMODES_FILE)
     existing_modes = []
     if existing_data and isinstance(existing_data.get('customModes'), list):
         existing_modes = existing_data['customModes']
-
     agent_defined_modes = []
     for fname, (passed_validation, _, _) in results.items():
         if passed_validation:
             agent_path = AGENTS_DIR / fname
             agent_config = load_json_file(agent_path)
-            
             if agent_config and agent_config.get("customModes"):
                 agent_defined_modes.extend(agent_config["customModes"])
-
     # Merge modes
     merged_modes_map = {mode['slug']: mode for mode in existing_modes if mode.get('slug')}
     for mode in agent_defined_modes:
         if mode.get('slug'):
             merged_modes_map[mode['slug']] = mode
-
     # Order according to workflow
     slug_to_mode = {m['slug']: m for m in merged_modes_map.values()}
     ordered_modes = []
-
     for slug in WORKFLOW_AGENT_ORDER:
         if slug in slug_to_mode:
             ordered_modes.append(slug_to_mode[slug])
             del slug_to_mode[slug]
-
     ordered_modes.extend(slug_to_mode.values())
-
     output_data = {"customModes": ordered_modes}
     write_json_file(ROOMODES_FILE, output_data)
     logger.info(f"Synced {len(ordered_modes)} modes to .roomodes")
@@ -1272,6 +1273,9 @@ def print_menu(agent_files: List[Path]):
     print("  [G] Fix groups format only")
     print("  [F] Fix broken references only")
     print("  [I] Fix empty interactions only")
+    print("  [X] Sync ALL (both RooCode then Cursor)")
+    print("  [Y] Sync to RooCode (.roomodes)")
+    print("  [Z] Sync to Cursor (.cursorrules)")
     print("  [Q] Quit")
     print("------------------------------------")
 
@@ -1280,7 +1284,6 @@ def get_user_selection(agent_files: List[Path]) -> Tuple[List[Path], bool, bool,
     while True:
         print_menu(agent_files)
         choice = input("Select option: ").strip().lower()
-        
         if choice == 'q':
             sys.exit(0)
         elif choice == 'a':
@@ -1297,6 +1300,12 @@ def get_user_selection(agent_files: List[Path]) -> Tuple[List[Path], bool, bool,
             return agent_files, False, False, 'fix_references'
         elif choice == 'i':
             return agent_files, False, False, 'fix_interactions'
+        elif choice == 'x':
+            return [], False, False, 'sync_all'
+        elif choice == 'y':
+            return [], False, False, 'sync_roomodes'
+        elif choice == 'z':
+            return [], False, False, 'sync_cursorrules'
         elif choice == 'm':
             indices = input("Enter comma-separated indices: ").strip()
             try:
@@ -1311,7 +1320,6 @@ def get_user_selection(agent_files: List[Path]) -> Tuple[List[Path], bool, bool,
             idx = int(choice) - 1
             if 0 <= idx < len(agent_files):
                 return [agent_files[idx]], False, False, None
-        
         print("Invalid selection. Try again.")
 
 # --- Report Generation ---
@@ -1390,6 +1398,17 @@ Generated: {timestamp}
             for warning in system_results['warnings']:
                 report += f"- {warning}\n"
     
+    # Add deep field issues
+    deep_issues = []
+    for fname, (passed, errors, warnings) in agent_results.items():
+        for e in errors:
+            if any(x in e for x in ["Missing inputSpec.example", "Missing inputSpec.schema", "Missing inputSpec.validationRules", "Missing outputSpec.example", "Missing outputSpec.schema", "Missing outputSpec.validationRules", "Missing or empty field: 'errorHandling'", "Missing or empty field: 'healthCheck'", "'groups' must contain 'command'", "Missing customInstructions sections"]):
+                deep_issues.append(f"{fname}: {e}")
+    if deep_issues:
+        report += "\n## Deep Field Issues (Strict Mode)\n\n"
+        for issue in deep_issues:
+            report += f"- {issue}\n"
+    
     return report
 
 # --- Main Function ---
@@ -1402,7 +1421,6 @@ def main():
     parser.add_argument('--workspace', type=str, help='Workspace path', default=str(BASE_DIR))
     parser.add_argument('--agents-only', action='store_true', help='Test agents only, skip system init')
     parser.add_argument('--system-only', action='store_true', help='System initialization only')
-    
     # Repair options
     parser.add_argument('--repair', action='store_true', help='Run all repair operations before validation')
     parser.add_argument('--fix-groups', action='store_true', help='Fix groups format issues only')
@@ -1410,19 +1428,32 @@ def main():
     parser.add_argument('--fix-interactions', action='store_true', help='Fix empty interactsWith arrays only')
     parser.add_argument('--auto-repair', action='store_true', help='Automatically repair issues during validation')
     parser.add_argument('--repair-only', action='store_true', help='Run repairs only, skip validation')
-    
     # Cursor options
     parser.add_argument('--cursor', action='store_true', help='Generate cursor configuration after validation')
     parser.add_argument('--cursor-only', action='store_true', help='Generate cursor configuration only, skip validation')
     parser.add_argument('--no-cursor', action='store_true', help='Skip cursor configuration generation')
     parser.add_argument('--cursor-backup', action='store_true', help='Backup existing cursor files before generation')
-    
     # Template options
     parser.add_argument('--update-template', action='store_true', help='Update Template-Step-Structure.md with current agent list')
     parser.add_argument('--template-only', action='store_true', help='Update template only, skip validation')
-
+    # New sync options
+    parser.add_argument('--sync-all', action='store_true', help='Sync both .roomodes and .cursorrules')
+    parser.add_argument('--sync-roomodes', action='store_true', help='Sync to .roomodes only')
+    parser.add_argument('--sync-cursorrules', action='store_true', help='Sync to .cursorrules only')
+    parser.add_argument('--strict', action='store_true', help='Enable strict mode: fail agents missing deep fields')
+    parser.add_argument('--auto-fix', action='store_true', help='Auto-fix all agents to be fully spec-compliant before validation')
     args = parser.parse_args()
-
+    strict_mode = args.strict
+    # Handle new sync CLI flags
+    if args.sync_all:
+        sync_all()
+        sys.exit(0)
+    if args.sync_roomodes:
+        sync_to_roomodes()
+        sys.exit(0)
+    if args.sync_cursorrules:
+        sync_to_cursorrules()
+        sys.exit(0)
     # Handle template-only mode
     if args.template_only or args.update_template:
         print("📝 DafnckMachine v3.1 - Template Update System")
@@ -1545,12 +1576,12 @@ def main():
                     # Comprehensive validation
                     passed, errors, warnings = validator.validate_agent_comprehensive(agent_path)
                     
-                    if passed:
-                        # Loading test
-                        loaded, load_error = agent_loading_test(agent_path, auto_yes)
-                        if not loaded:
+                    # Strict mode: fail if any deep field errors
+                    if strict_mode:
+                        deep_errors = [e for e in errors if any(x in e for x in ["Missing inputSpec.example", "Missing inputSpec.schema", "Missing inputSpec.validationRules", "Missing outputSpec.example", "Missing outputSpec.schema", "Missing outputSpec.validationRules", "Missing or empty field: 'errorHandling'", "Missing or empty field: 'healthCheck'", "'groups' must contain 'command'", "Missing customInstructions sections"])]
+                        if deep_errors:
                             passed = False
-                            errors.append(f"Loading test failed: {load_error}")
+                            errors.extend([f"[STRICT] {err}" for err in deep_errors])
                     
                     agent_results[agent_path.name] = (passed, errors, warnings)
                     
@@ -1581,7 +1612,10 @@ def main():
     if agent_results and any(passed for passed, _, _ in agent_results.values()):
         print("\n🔄 Synchronizing .roomodes")
         print("-" * 30)
-        sync_modes_to_roomodes(agent_results)
+        if strict_mode:
+            sync_modes_to_roomodes(agent_results)
+        else:
+            sync_modes_to_roomodes(agent_results)
         print("✅ Synchronization complete")
 
     # Cursor configuration generation

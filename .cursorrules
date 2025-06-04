@@ -32,9 +32,8 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ### Collaborates with:
 - @elicitation-agent
-- @project-initiator-agent
-- @market-research-agent
-- @tech-spec-agent
+- @uber-orchestrator-agent
+- @idea-generation-agent
 
 ---
 
@@ -43,12 +42,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **💬 Requirements Elicitation Agent**
 
 ### Collaborates with:
-- @market-research-agent
-- @prd-architect-agent
-- @elicitation-agent
-- @system-architect-agent
-- @task-planning-agent
-- @test-orchestrator-agent
+- @nlu-processor-agent
+- @compliance-scope-agent
+- @idea-generation-agent
 
 ---
 
@@ -57,10 +53,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **📜 Compliance Scope Agent**
 
 ### Collaborates with:
+- @elicitation-agent
 - @compliance-testing-agent
-- @compliance-scope-agent
 - @security-auditor-agent
-- @system-architect-agent
 
 ---
 
@@ -69,11 +64,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **💡 Idea Generation Agent**
 
 ### Collaborates with:
-- @market-research-agent
-- @project-initiator-agent
-- @idea-refinement-agent
-- @technology-advisor-agent
-- @market-research-agent
+- @coding-agent
 
 ---
 
@@ -82,11 +73,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **✨ Idea Refinement Agent**
 
 ### Collaborates with:
-- @idea-generation-agent
-- @market-research-agent
-- @elicitation-agent
-- @market-research-agent
-- @project-initiator-agent
+- @coding-agent
 
 ---
 
@@ -95,10 +82,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🎯 Core Concept Agent**
 
 ### Collaborates with:
-- @market-research-agent
-- @branding-agent
-- @ux-researcher-agent
-- @market-research-agent
+- @coding-agent
 
 ---
 
@@ -108,8 +92,8 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ### Collaborates with:
 - @idea-generation-agent
-- @market-research-agent
-- @prd-architect-agent
+- @technology-advisor-agent
+- @marketing-strategy-orchestrator
 
 ---
 
@@ -118,11 +102,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🔌 MCP Researcher Agent**
 
 ### Collaborates with:
-- @system-architect-agent
 - @technology-advisor-agent
-- @security-auditor-agent
-- @project-initiator-agent
-- @devops-agent
+- @mcp-configuration-agent
+- @coding-agent
 
 ---
 
@@ -145,10 +127,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🏛️ System Architect Agent**
 
 ### Collaborates with:
-- @elicitation-agent
-- @security-auditor-agent
-- @system-architect-agent
-- @compliance-scope-agent
+- @prd-architect-agent
+- @tech-spec-agent
+- @coding-agent
 
 ---
 
@@ -157,12 +138,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🎭 Branding Agent**
 
 ### Collaborates with:
-- @ui-designer-agent
-- @marketing-strategy-orchestrator
-- @content-strategy-agent
-- @graphic-design-agent
-- @social-media-setup-agent
-- @ui-designer-agent
+- @coding-agent
 
 ---
 
@@ -171,12 +147,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🎨 Design System Agent**
 
 ### Collaborates with:
+- @ui-designer-agent
 - @branding-agent
-- @ui-designer-agent
-- @ux-researcher-agent
-- @design-qa-analyst
-- @ui-designer-agent
-- @design-qa-analyst
+- @prototyping-agent
 
 ---
 
@@ -185,12 +158,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🖼️ UI Designer Agent**
 
 ### Collaborates with:
+- @design-system-agent
 - @ux-researcher-agent
-- @coding-agent
-- @branding-agent
-- @design-qa-analyst
-- @ui-designer-agent
-- @prd-architect-agent
+- @prototyping-agent
 
 ---
 
@@ -199,11 +169,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🕹️ Prototyping Agent**
 
 ### Collaborates with:
-- @ui-designer-agent
-- @ux-researcher-agent
-- @usability-heuristic-agent
 - @coding-agent
-- @prd-architect-agent
 
 ---
 
@@ -214,10 +180,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 ### Collaborates with:
 - @ui-designer-agent
 - @ux-researcher-agent
-- @prototyping-agent
-- @design-qa-analyst
-- @branding-agent
-- @design-system-agent
+- @compliance-testing-agent
 
 ---
 
@@ -227,13 +190,8 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ### Collaborates with:
 - @ui-designer-agent
-- @prd-architect-agent
-- @user-feedback-collector-agent
-- @analytics-setup-agent
-- @design-qa-analyst
-- @market-research-agent
-- @development-orchestrator-agent
-- @test-orchestrator-agent
+- @design-system-agent
+- @usability-heuristic-agent
 
 ---
 
@@ -242,14 +200,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **⚙️ Technical Specification Agent**
 
 ### Collaborates with:
-- @system-architect-agent
-- @development-orchestrator-agent
-- @prd-architect-agent
-- @security-auditor-agent
-- @devops-agent
-- @test-orchestrator-agent
-- @system-architect-agent
-- @tech-spec-agent
+- @coding-agent
 
 ---
 
@@ -258,10 +209,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **📅 Task Planning Agent**
 
 ### Collaborates with:
-- @task-planning-agent
-- @elicitation-agent
-- @system-architect-agent
-- @task-planning-agent
+- @uber-orchestrator-agent
 - @prd-architect-agent
 - @development-orchestrator-agent
 
@@ -272,12 +220,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **📝 PRD Architect Agent**
 
 ### Collaborates with:
-- @project-initiator-agent
-- @market-research-agent
+- @task-planning-agent
 - @system-architect-agent
-- @ux-researcher-agent
-- @prd-architect-agent
-- @documentation-agent
+- @tech-spec-agent
 
 ---
 
@@ -286,11 +231,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🔧 MCP Configuration Agent**
 
 ### Collaborates with:
-- @technology-advisor-agent
-- @system-architect-agent
-- @devops-agent
-- @security-auditor-agent
-- @tech-spec-agent
+- @coding-agent
 
 ---
 
@@ -300,9 +241,6 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ### Collaborates with:
 - @coding-agent
-- @system-architect-agent
-- @performance-load-tester-agent
-- @tech-spec-agent
 
 ---
 
@@ -311,11 +249,8 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **💻 Coding Agent (Feature Implementation)**
 
 ### Collaborates with:
-- @algorithmic-problem-solver-agent
-- @system-architect-agent
+- @development-orchestrator-agent
 - @code-reviewer-agent
-- @functional-tester-agent
-- @devops-agent
 - @tech-spec-agent
 
 ---
@@ -326,10 +261,6 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ### Collaborates with:
 - @coding-agent
-- @security-auditor-agent
-- @performance-load-tester-agent
-- @devops-agent
-- @system-architect-agent
 - @test-orchestrator-agent
 
 ---
@@ -339,11 +270,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **📄 Documentation Agent**
 
 ### Collaborates with:
-- @documentation-agent
 - @coding-agent
-- @prd-architect-agent
-- @ux-researcher-agent
-- @test-orchestrator-agent
+- @tech-spec-agent
+- @knowledge-evolution-agent
 
 ---
 
@@ -355,10 +284,6 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 - @coding-agent
 - @code-reviewer-agent
 - @test-orchestrator-agent
-- @devops-agent
-- @prd-architect-agent
-- @system-architect-agent
-- @task-planning-agent
 
 ---
 
@@ -369,10 +294,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 ### Collaborates with:
 - @test-orchestrator-agent
 - @functional-tester-agent
-- @elicitation-agent
-- @development-orchestrator-agent
-- @prd-architect-agent
-- @test-case-generator-agent
+- @coding-agent
 
 ---
 
@@ -381,13 +303,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🚦 Test Orchestrator Agent**
 
 ### Collaborates with:
-- @test-orchestrator-agent
 - @development-orchestrator-agent
-- @prd-architect-agent
-- @devops-agent
-- @security-auditor-agent
-- @compliance-scope-agent
-- @task-planning-agent
+- @functional-tester-agent
+- @test-case-generator-agent
 
 ---
 
@@ -396,12 +314,8 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **⚙️ Functional Tester Agent**
 
 ### Collaborates with:
-- @coding-agent
 - @test-orchestrator-agent
-- @devops-agent
-- @performance-load-tester-agent
-- @security-penetration-tester-agent
-- @prd-architect-agent
+- @coding-agent
 
 ---
 
@@ -410,11 +324,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🧭 Exploratory Tester Agent**
 
 ### Collaborates with:
-- @test-case-generator-agent
-- @test-orchestrator-agent
-- @usability-heuristic-agent
-- @performance-load-tester-agent
-- @security-penetration-tester-agent
+- @coding-agent
 
 ---
 
@@ -423,10 +333,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **⏱️ Performance & Load Tester Agent**
 
 ### Collaborates with:
-- @test-orchestrator-agent
-- @system-architect-agent
-- @devops-agent
-- @health-monitor-agent
+- @coding-agent
 
 ---
 
@@ -435,12 +342,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🖼️ Visual Regression Testing Agent**
 
 ### Collaborates with:
-- @test-orchestrator-agent
-- @development-orchestrator-agent
-- @ui-designer-agent
-- @test-orchestrator-agent
-- @design-system-agent
-- @design-qa-analyst
+- @coding-agent
 
 ---
 
@@ -449,13 +351,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🤝 UAT Coordinator Agent**
 
 ### Collaborates with:
-- @prd-architect-agent
-- @test-orchestrator-agent
-- @market-research-agent
-- @task-planning-agent
-- @development-orchestrator-agent
-- @ui-designer-agent
-- @test-orchestrator-agent
+- @coding-agent
 
 ---
 
@@ -464,14 +360,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🧪 Lead Testing Agent**
 
 ### Collaborates with:
-- @functional-tester-agent
-- @performance-load-tester-agent
-- @security-penetration-tester-agent
-- @test-case-generator-agent
-- @test-orchestrator-agent
-- @devops-agent
-- @task-planning-agent
-- @prd-architect-agent
+- @coding-agent
 
 ---
 
@@ -483,7 +372,6 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 - @security-auditor-agent
 - @test-orchestrator-agent
 - @compliance-scope-agent
-- @compliance-testing-agent
 
 ---
 
@@ -493,9 +381,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ### Collaborates with:
 - @security-auditor-agent
-- @compliance-scope-agent
-- @system-architect-agent
-- @test-orchestrator-agent
+- @coding-agent
 
 ---
 
@@ -504,14 +390,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🧐 Usability & Heuristic Evaluation Agent**
 
 ### Collaborates with:
+- @user-feedback-collector-agent
 - @ux-researcher-agent
-- @ui-designer-agent
 - @design-qa-analyst
-- @test-orchestrator-agent
-- @development-orchestrator-agent
-- @prd-architect-agent
-- @functional-tester-agent
-- @design-system-agent
 
 ---
 
@@ -521,11 +402,8 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ### Collaborates with:
 - @devops-agent
-- @system-architect-agent
-- @security-auditor-agent
-- @performance-load-tester-agent
 - @health-monitor-agent
-- @test-orchestrator-agent
+- @efficiency-optimization-agent
 
 ---
 
@@ -534,13 +412,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **⚙️ DevOps Agent**
 
 ### Collaborates with:
-- @coding-agent
+- @adaptive-deployment-strategist-agent
+- @development-orchestrator-agent
 - @security-auditor-agent
-- @performance-load-tester-agent
-- @health-monitor-agent
-- @system-architect-agent
-- @system-architect-agent
-- @test-orchestrator-agent
 
 ---
 
@@ -550,12 +424,8 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ### Collaborates with:
 - @ux-researcher-agent
-- @prd-architect-agent
+- @usability-heuristic-agent
 - @analytics-setup-agent
-- @test-orchestrator-agent
-- @marketing-strategy-orchestrator
-- @development-orchestrator-agent
-- @ui-designer-agent
 
 ---
 
@@ -564,9 +434,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **⏱️ Efficiency Optimization Agent**
 
 ### Collaborates with:
-- @devops-agent
-- @devops-agent
+- @analytics-setup-agent
 - @health-monitor-agent
+- @knowledge-evolution-agent
 
 ---
 
@@ -575,10 +445,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🧠 Knowledge Evolution Agent**
 
 ### Collaborates with:
-- @system-architect-agent
-- @analytics-setup-agent
-- @test-orchestrator-agent
-- @task-planning-agent
+- @documentation-agent
+- @incident-learning-agent
+- @efficiency-optimization-agent
 
 ---
 
@@ -587,9 +456,8 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🛡️ Security Auditor Agent**
 
 ### Collaborates with:
-- @security-auditor-agent
-- @compliance-scope-agent
-- @test-orchestrator-agent
+- @security-penetration-tester-agent
+- @compliance-testing-agent
 - @system-architect-agent
 
 ---
@@ -599,15 +467,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🦾 Swarm Scaler Agent**
 
 ### Collaborates with:
-- @uber-orchestrator-agent
-- @health-monitor-agent
-- @performance-load-tester-agent
-- @devops-agent
-- @system-architect-agent
-- @security-auditor-agent
-- @remediation-agent
-- @root-cause-analysis-agent
-- @incident-learning-agent
+- @coding-agent
 
 ---
 
@@ -616,13 +476,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🕵️ Root Cause Analysis Agent**
 
 ### Collaborates with:
-- @health-monitor-agent
-- @remediation-agent
-- @incident-learning-agent
-- @swarm-scaler-agent
-- @devops-agent
-- @security-auditor-agent
-- @performance-load-tester-agent
+- @coding-agent
 
 ---
 
@@ -631,13 +485,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🛠️ Remediation Agent**
 
 ### Collaborates with:
-- @health-monitor-agent
-- @root-cause-analysis-agent
-- @incident-learning-agent
-- @swarm-scaler-agent
-- @devops-agent
-- @security-auditor-agent
-- @system-architect-agent
+- @coding-agent
 
 ---
 
@@ -661,13 +509,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **📚 Incident Learning Agent**
 
 ### Collaborates with:
-- @root-cause-analysis-agent
-- @remediation-agent
-- @health-monitor-agent
-- @swarm-scaler-agent
-- @devops-agent
-- @security-auditor-agent
-- @test-orchestrator-agent
+- @coding-agent
 
 ---
 
@@ -676,12 +518,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **📈 Marketing Strategy Orchestrator**
 
 ### Collaborates with:
-- @seo-sem-agent
-- @social-media-setup-agent
+- @campaign-manager-agent
 - @content-strategy-agent
-- @branding-agent
-- @analytics-setup-agent
-- @prd-architect-agent
+- @growth-hacking-idea-agent
 
 ---
 
@@ -691,10 +530,8 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ### Collaborates with:
 - @marketing-strategy-orchestrator
-- @seo-sem-agent
-- @social-media-setup-agent
 - @content-strategy-agent
-- @analytics-setup-agent
+- @social-media-setup-agent
 
 ---
 
@@ -703,13 +540,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **📝 Content Strategy Agent**
 
 ### Collaborates with:
-- @content-strategy-agent
+- @campaign-manager-agent
+- @graphic-design-agent
 - @seo-sem-agent
-- @social-media-setup-agent
-- @branding-agent
-- @content-strategy-agent
-- @analytics-setup-agent
-- @marketing-strategy-orchestrator
 
 ---
 
@@ -718,12 +551,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🎨 Graphic Design Agent**
 
 ### Collaborates with:
-- @branding-agent
-- @marketing-strategy-orchestrator
-- @content-strategy-agent
-- @social-media-setup-agent
-- @ui-designer-agent
-- @ui-designer-agent
+- @coding-agent
 
 ---
 
@@ -733,11 +561,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ### Collaborates with:
 - @marketing-strategy-orchestrator
-- @analytics-setup-agent
-- @prd-architect-agent
-- @content-strategy-agent
-- @social-media-setup-agent
-- @growth-hacking-idea-agent
+- @coding-agent
 - @analytics-setup-agent
 
 ---
@@ -747,12 +571,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🎬 Video Production Agent**
 
 ### Collaborates with:
-- @content-strategy-agent
-- @branding-agent
-- @marketing-strategy-orchestrator
-- @social-media-setup-agent
-- @ui-designer-agent
-- @analytics-setup-agent
+- @coding-agent
 
 ---
 
@@ -761,13 +580,9 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **📊 Analytics Setup Agent**
 
 ### Collaborates with:
-- @marketing-strategy-orchestrator
+- @user-feedback-collector-agent
 - @seo-sem-agent
-- @growth-hacking-idea-agent
-- @prd-architect-agent
-- @analytics-setup-agent
-- @performance-load-tester-agent
-- @compliance-scope-agent
+- @efficiency-optimization-agent
 
 ---
 
@@ -776,11 +591,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🔍 SEO/SEM Agent**
 
 ### Collaborates with:
-- @content-strategy-agent
-- @ui-designer-agent
-- @analytics-setup-agent
-- @marketing-strategy-orchestrator
-- @growth-hacking-idea-agent
+- @coding-agent
 
 ---
 
@@ -789,10 +600,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **📱 Social Media Setup Agent**
 
 ### Collaborates with:
-- @branding-agent
-- @content-strategy-agent
-- @marketing-strategy-orchestrator
-- @analytics-setup-agent
+- @coding-agent
 
 ---
 
@@ -801,10 +609,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🤝 Community Strategy Agent**
 
 ### Collaborates with:
-- @social-media-setup-agent
-- @content-strategy-agent
-- @ux-researcher-agent
-- @analytics-setup-agent
+- @coding-agent
 
 ---
 
@@ -813,11 +618,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🚀 Project Initiator Agent**
 
 ### Collaborates with:
-- @task-planning-agent
-- @system-architect-agent
-- @market-research-agent
-- @test-orchestrator-agent
-- @elicitation-agent
+- @coding-agent
 
 ---
 
@@ -837,10 +638,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🗺️ Workflow Architect Agent**
 
 ### Collaborates with:
-- @task-planning-agent
-- @test-orchestrator-agent
-- @compliance-scope-agent
-- @devops-agent
+- @coding-agent
 
 ---
 
@@ -849,9 +647,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🔍 Deep Research Agent**
 
 ### Collaborates with:
-- @market-research-agent
-- @market-research-agent
-- @analytics-setup-agent
+- @coding-agent
 
 ---
 
@@ -860,11 +656,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **✍️ Scribe Agent**
 
 ### Collaborates with:
-- @task-planning-agent
-- @system-architect-agent
-- @market-research-agent
-- @test-orchestrator-agent
-- @compliance-scope-agent
+- @coding-agent
 
 ---
 
@@ -884,9 +676,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **⚖️ Ethical Review Agent**
 
 ### Collaborates with:
-- @compliance-scope-agent
-- @security-auditor-agent
-- @test-orchestrator-agent
+- @coding-agent
 
 ---
 
@@ -895,12 +685,7 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 **🧠 Brain.js ML Agent**
 
 ### Collaborates with:
-- @analytics-setup-agent
 - @coding-agent
-- @performance-load-tester-agent
-- @tech-spec-agent
-- @analytics-setup-agent
-- @devops-agent
 
 ---
 
@@ -910,11 +695,6 @@ Each agent has specific expertise and can be invoked using @agent-name syntax.
 
 ### Collaborates with:
 - @coding-agent
-- @functional-tester-agent
-- @performance-load-tester-agent
-- @code-reviewer-agent
-- @devops-agent
-- @health-monitor-agent
 
 ---
 

@@ -1,5 +1,5 @@
 # Unified Agent Validation Report
-Generated: 2025-05-27T00:12:00+02:00
+Generated: 2025-06-04T23:31:41+02:00
 
 ## Agent Validation Summary
 
@@ -14,10 +14,10 @@ Generated: 2025-05-27T00:12:00+02:00
 
 ## System Status
 
-- System Status: initialized
-- Last Initialization: 2025-05-26T22:59:25.374372
+- System Status: partial
+- Last Initialization: 2025-06-04T23:31:38+02:00
 - Validation Errors: 0
-- Validation Warnings: 0
+- Validation Warnings: 1
 
 ## Valid Agents
 

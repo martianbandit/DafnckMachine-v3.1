@@ -155,7 +155,9 @@
       "07_User_Experience_Design",
       "08_User_Interface_Design",
       "09_Technical_Architecture",
-      "10_Detailed_Framework_Selection"
+      "10_Detailed_Framework_Selection",
+      "11_Task_Breakdown_Management",
+      "12_Frontend_Development"
     ],
     "auto_progression": true,
     "require_completion_confirmation": true
@@ -238,6 +240,20 @@
       "task_id": "FRAME-SEL-011",
       "file_path": "01_Machine/01_Workflow/Phase 3: Product Definition & Design/10_Detailed_Framework_Selection.md",
       "estimated_duration_minutes": 60
+    },
+    "11_Task_Breakdown_Management": {
+      "agent": "task-planning-agent",
+      "phase": "phase_4",
+      "task_id": "PHASE4-TASK-011",
+      "file_path": "01_Machine/01_Workflow/Phase 4: Development & Quality Assurance/11_Task_Breakdown_Management.md",
+      "estimated_duration_minutes": 240
+    },
+    "12_Frontend_Development": {
+      "agent": "coding-agent",
+      "phase": "phase_4",
+      "task_id": "PHASE4-FRONTEND-012",
+      "file_path": "01_Machine/01_Workflow/Phase 4: Development & Quality Assurance/12_Frontend_Development.md",
+      "estimated_duration_minutes": 720
     }
   },
   

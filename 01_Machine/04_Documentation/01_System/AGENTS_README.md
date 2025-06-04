@@ -69,16 +69,15 @@ Utilisez `@nom-de-l-agent` suivi de votre demande pour activer un agent spécifi
 ## Exemples d'utilisation
 
 ### Planification de projet
-```
+
 @uber-orchestrator-agent Je veux créer une application de gestion de tâches. 
 Peux-tu m'aider à planifier le projet et identifier les agents nécessaires ?
-```
+
 
 ### Développement
-```
+
 @coding-agent Crée une fonction React pour afficher une liste de tâches 
-avec possibilité de les marquer comme terminées
-```
+
 
 ### Design
 ```
