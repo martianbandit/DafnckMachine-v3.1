@@ -5,7 +5,7 @@ task: T08
 task_id: P02-S03-T08
 title: Research Synthesis and Strategic Recommendations
 previous_task: P02-S03-T07
-next_task: P03-S01-T01
+next_task: P02-S04-T01
 version: 3.1.0
 source: Step.json
 agent: "@market-research-agent"

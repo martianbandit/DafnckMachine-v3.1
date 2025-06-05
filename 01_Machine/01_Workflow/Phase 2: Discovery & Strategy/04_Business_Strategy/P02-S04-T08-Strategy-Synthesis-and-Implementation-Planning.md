@@ -5,7 +5,7 @@ task: T08
 task_id: P02-S04-T08
 title: Strategy Synthesis and Implementation Planning
 previous_task: P02-S04-T07
-next_task: P03-S01-T01
+next_task: P03-S05-T01
 version: 3.1.0
 source: Step.json
 agent: "@market-research-agent"

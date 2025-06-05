@@ -5,7 +5,7 @@ task: T07
 task_id: P02-S02-T07
 title: Validation Synthesis Recommendation
 previous_task: P02-S02-T06
-next_task: P03-S01-T01
+next_task: P02-S03-T01
 version: 3.1.0
 source: Step.json
 agent: "@market-research-agent"
