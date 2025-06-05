@@ -11,6 +11,11 @@ source: Step.json
 agent: "@technology-advisor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Implementation_Roadmap.md — Implementation_Roadmap.md: Implementation_Roadmap.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Framework_Adoption_Plan.json — Framework_Adoption_Plan.json: Framework_Adoption_Plan.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Framework_Documentation_Package.md — Framework_Documentation_Package.md: Framework_Documentation_Package.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Training_Materials_Collection.json — Training_Materials_Collection.json: Training_Materials_Collection.json (missing)
 
 ## Mission Statement
 Develop an implementation roadmap and prepare documentation and training materials for the development team, ensuring readiness for Phase 4 execution.
@@ -33,10 +38,10 @@ You are @technology-advisor-agent. Your mission is to develop an implementation 
 - Implementation roadmap and training package rationale
 
 ## Documentation & Templates
-- [Implementation_Roadmap.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Implementation_Roadmap.md)
-- [Framework_Adoption_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Framework_Adoption_Plan.json)
-- [Framework_Documentation_Package.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Framework_Documentation_Package.md)
-- [Training_Materials_Collection.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Training_Materials_Collection.json)
+- [Implementation_Roadmap.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Implementation_Roadmap.md)
+- [Framework_Adoption_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Framework_Adoption_Plan.json)
+- [Framework_Documentation_Package.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Framework_Documentation_Package.md)
+- [Training_Materials_Collection.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Training_Materials_Collection.json)
 
 ## Primary Responsible Agent
 @technology-advisor-agent
@@ -95,10 +100,10 @@ You are @technology-advisor-agent. Your mission is to develop an implementation 
 - Update plans/resources as new requirements emerge
 
 ## Output Artifacts
-- [Implementation_Roadmap.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Implementation_Roadmap.md)
-- [Framework_Adoption_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Framework_Adoption_Plan.json)
-- [Framework_Documentation_Package.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Framework_Documentation_Package.md)
-- [Training_Materials_Collection.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Training_Materials_Collection.json)
+- [Implementation_Roadmap.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Implementation_Roadmap.md)
+- [Framework_Adoption_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Framework_Adoption_Plan.json)
+- [Framework_Documentation_Package.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Framework_Documentation_Package.md)
+- [Training_Materials_Collection.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Training_Materials_Collection.json)
 
 ## Next Action
 Initiate implementation roadmap and documentation/training package development with @technology-advisor-agent.

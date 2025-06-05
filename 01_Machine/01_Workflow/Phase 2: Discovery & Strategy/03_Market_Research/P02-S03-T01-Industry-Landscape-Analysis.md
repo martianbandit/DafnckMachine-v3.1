@@ -11,6 +11,9 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Industry_Analysis_Report.md — Industry_Analysis_Report.md: Industry_Analysis_Report.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Market_Structure_Map.json — Market_Structure_Map.json: Market_Structure_Map.json (missing)
 
 ## Mission Statement
 Conduct comprehensive analysis of industry structure, market dynamics, and competitive landscape to establish foundational market understanding.

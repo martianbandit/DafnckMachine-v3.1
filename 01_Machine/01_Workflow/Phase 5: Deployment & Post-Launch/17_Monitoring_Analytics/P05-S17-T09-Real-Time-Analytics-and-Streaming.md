@@ -11,6 +11,11 @@ source: Step.json
 agent: "@analytics-setup-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Real_Time_Analytics_Implementation.md — Real_Time_Analytics_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Streaming_Processing_Setup.json — Streaming_Processing_Setup.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Live_Dashboard_Implementation.md — Live_Dashboard_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Real_Time_Monitoring_Setup.json — Real_Time_Monitoring_Setup.json (missing)
 
 # Mission Statement
 Implement real-time data processing and streaming analytics for immediate insights and live monitoring in DafnckMachine v3.1.
@@ -40,10 +45,10 @@ You are @analytics-setup-agent. Your mission is to implement real-time analytics
 - Alert triggers and dynamic update mechanisms
 
 # Documentation & Templates
-- [Real_Time_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Real_Time_Analytics_Implementation.md)
-- [Streaming_Processing_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Streaming_Processing_Setup.json)
-- [Live_Dashboard_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Live_Dashboard_Implementation.md)
-- [Real_Time_Monitoring_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Real_Time_Monitoring_Setup.json)
+- [Real_Time_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Real_Time_Analytics_Implementation.md)
+- [Streaming_Processing_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Streaming_Processing_Setup.json)
+- [Live_Dashboard_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Live_Dashboard_Implementation.md)
+- [Real_Time_Monitoring_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Real_Time_Monitoring_Setup.json)
 
 # Supporting Agents
 - @health-monitor-agent
@@ -63,8 +68,8 @@ The @analytics-setup-agent is chosen for its expertise in real-time analytics, s
 - **Description**: Implement streaming data processing pipelines, set up real-time dashboards, configure live metrics display, and enable instant insight generation.
 - **Agent**: @analytics-setup-agent
 - **Documentation Links**:
-  - [Real_Time_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Real_Time_Analytics_Implementation.md)
-  - [Streaming_Processing_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Streaming_Processing_Setup.json)
+  - [Real_Time_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Real_Time_Analytics_Implementation.md)
+  - [Streaming_Processing_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Streaming_Processing_Setup.json)
 - **Steps**:
   1. Configure real-time analytics and streaming data processing pipelines in Streaming_Processing_Setup.json, detailing data sources, transformation logic, real-time dashboard configurations, live metrics, and instant insight rules.
      - Tool: edit_file
@@ -86,8 +91,8 @@ The @analytics-setup-agent is chosen for its expertise in real-time analytics, s
 - **Description**: Create live dashboards for real-time visualization of metrics, display of instant alerts, and dynamic updates based on streaming data.
 - **Agent**: @health-monitor-agent
 - **Documentation Links**:
-  - [Live_Dashboard_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Live_Dashboard_Implementation.md)
-  - [Real_Time_Monitoring_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Real_Time_Monitoring_Setup.json)
+  - [Live_Dashboard_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Live_Dashboard_Implementation.md)
+  - [Real_Time_Monitoring_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Real_Time_Monitoring_Setup.json)
 - **Steps**:
   1. Configure live dashboard elements and real-time monitoring parameters in Real_Time_Monitoring_Setup.json, including real-time visualization components, live metrics display configurations, instant alert triggers, and dynamic update mechanisms.
      - Tool: edit_file
@@ -124,8 +129,8 @@ The @analytics-setup-agent is chosen for its expertise in real-time analytics, s
 - Alert fatigue reduction and intelligent thresholds
 
 # Output Artifacts
-- [Streaming_Processing_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Streaming_Processing_Setup.json)
-- [Real_Time_Monitoring_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Real_Time_Monitoring_Setup.json)
+- [Streaming_Processing_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Streaming_Processing_Setup.json)
+- [Real_Time_Monitoring_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Real_Time_Monitoring_Setup.json)
 
 # Next Action
 Implement real-time analytics and live dashboards with @analytics-setup-agent and @health-monitor-agent

@@ -11,6 +11,11 @@ source: Step.json
 agent: "@analytics-setup-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Advanced_Analytics_Implementation.md — Advanced_Analytics_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Data_Insights_Framework.json — Data_Insights_Framework.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/ML_Analytics_Implementation.md — ML_Analytics_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Predictive_Modeling_Framework.json — Predictive_Modeling_Framework.json (missing)
 
 # Mission Statement
 Implement an advanced data analytics and insights platform to derive deeper understanding from collected data, enabling data-driven decision-making and predictive capabilities for DafnckMachine v3.1.
@@ -40,10 +45,10 @@ You are @analytics-setup-agent. Your mission is to implement an advanced data an
 - Anomaly detection and automated insights rules
 
 # Documentation & Templates
-- [Advanced_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Advanced_Analytics_Implementation.md)
-- [Data_Insights_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Data_Insights_Framework.json)
-- [ML_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/ML_Analytics_Implementation.md)
-- [Predictive_Modeling_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Predictive_Modeling_Framework.json)
+- [Advanced_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Advanced_Analytics_Implementation.md)
+- [Data_Insights_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Data_Insights_Framework.json)
+- [ML_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/ML_Analytics_Implementation.md)
+- [Predictive_Modeling_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Predictive_Modeling_Framework.json)
 
 # Primary Responsible Agent
 @analytics-setup-agent
@@ -67,8 +72,8 @@ The @analytics-setup-agent is chosen for its expertise in advanced analytics, da
 - **Prerequisites**: P05-T06-S02 must be `SUCCEEDED`
 - **Agent Assignment**: `@analytics-setup-agent` (advanced-analytics, data-insights)
 - **Documentation Links**:
-  - [Advanced_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Advanced_Analytics_Implementation.md)
-  - [Data_Insights_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Data_Insights_Framework.json)
+  - [Advanced_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Advanced_Analytics_Implementation.md)
+  - [Data_Insights_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Data_Insights_Framework.json)
 - **Max Retries**: 3
 - **On Failure**: ESCALATE_TO_HUMAN (@team-lead) with logs
 - **Steps**:
@@ -96,8 +101,8 @@ The @analytics-setup-agent is chosen for its expertise in advanced analytics, da
 - **Prerequisites**: P05-T07-S01 must be `SUCCEEDED`
 - **Agent Assignment**: `@brainjs-ml-agent` (ml-analytics, predictive-modeling)
 - **Documentation Links**:
-  - [ML_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/ML_Analytics_Implementation.md)
-  - [Predictive_Modeling_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Predictive_Modeling_Framework.json)
+  - [ML_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/ML_Analytics_Implementation.md)
+  - [Predictive_Modeling_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Predictive_Modeling_Framework.json)
 - **Max Retries**: 3
 - **On Failure**: ESCALATE_TO_HUMAN (@team-lead) with logs
 - **Steps**:
@@ -140,8 +145,8 @@ The @analytics-setup-agent is chosen for its expertise in advanced analytics, da
 - Model performance monitoring and retraining
 
 # Output Artifacts
-- [Data_Insights_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Data_Insights_Framework.json)
-- [Predictive_Modeling_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Predictive_Modeling_Framework.json)
+- [Data_Insights_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Data_Insights_Framework.json)
+- [Predictive_Modeling_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Predictive_Modeling_Framework.json)
 
 # Next Action
 Implement advanced analytics and ML analytics with @analytics-setup-agent and @brainjs-ml-agent

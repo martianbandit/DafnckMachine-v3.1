@@ -11,6 +11,8 @@ source: Step.json
 agent: "@marketing-strategy-orchestrator"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Brand_Awareness_Campaign.md — Brand_Awareness_Campaign.md: Brand positioning and visibility optimization (missing)
 
 ## Workflow Metadata
 - **Workflow-Step**: Marketing Outreach
@@ -50,10 +52,10 @@ Create and execute brand positioning strategies, messaging frameworks, and aware
 - **Brand Awareness**: Campaigns, metrics, optimization
 
 ## Documentation & Templates
-- [Brand Positioning Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Brand_Positioning_Strategy.md)
-- [Messaging Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Messaging_Framework.json)
-- [Brand Awareness Campaigns](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Brand_Awareness_Campaigns.md)
-- [Visibility Optimization Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Visibility_Optimization_Framework.json)
+- [Brand Positioning Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Brand_Positioning_Strategy.md)
+- [Messaging Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Messaging_Framework.json)
+- [Brand Awareness Campaigns](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Brand_Awareness_Campaigns.md)
+- [Visibility Optimization Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Visibility_Optimization_Framework.json)
 
 ## Primary Responsible Agent
 @marketing-strategy-orchestrator
@@ -77,8 +79,8 @@ The Marketing Strategy Orchestrator is chosen for expertise in brand positioning
 - **Description**: Develop brand messaging, value proposition, and competitive positioning.
 - **Agent Assignment**: @marketing-strategy-orchestrator
 - **Documentation Links**:
-  - [Brand Positioning Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Brand_Positioning_Strategy.md)
-  - [Messaging Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Messaging_Framework.json)
+  - [Brand Positioning Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Brand_Positioning_Strategy.md)
+  - [Messaging Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Messaging_Framework.json)
 - **Steps**:
     1. Define/refine core brand messaging and value proposition.
     2. Analyze competitive positioning and identify market differentiation.
@@ -93,8 +95,8 @@ The Marketing Strategy Orchestrator is chosen for expertise in brand positioning
 - **Description**: Launch and optimize brand awareness campaigns, track metrics, and enhance visibility.
 - **Agent Assignment**: @campaign-manager-agent
 - **Documentation Links**:
-  - [Brand Awareness Campaigns](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Brand_Awareness_Campaigns.md)
-  - [Visibility Optimization Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Visibility_Optimization_Framework.json)
+  - [Brand Awareness Campaigns](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Brand_Awareness_Campaigns.md)
+  - [Visibility Optimization Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Visibility_Optimization_Framework.json)
 - **Steps**:
     1. Design and launch brand awareness campaigns.
     2. Define and track key awareness metrics.
@@ -127,7 +129,7 @@ The Marketing Strategy Orchestrator is chosen for expertise in brand positioning
 - Campaign Underperformance: Adjust or pause campaigns
 
 ## Output Artifacts
-- [Brand_Awareness_Campaign](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/Brand_Awareness_Campaign.md): Brand positioning and visibility optimization
+- [Brand_Awareness_Campaign](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Brand_Awareness_Campaign.md): Brand positioning and visibility optimization
 
 ## Next Action
 Define brand messaging and launch awareness campaign with @marketing-strategy-orchestrator

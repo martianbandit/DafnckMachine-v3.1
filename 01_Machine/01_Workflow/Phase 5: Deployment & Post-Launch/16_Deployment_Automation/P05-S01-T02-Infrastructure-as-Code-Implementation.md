@@ -11,6 +11,9 @@ source: Step.json
 agent: "@devops-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Infrastructure_Architecture_Implementation.md — Infrastructure_Architecture_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/IaC_Templates.json — IaC_Templates.json (missing)
 
 # Mission Statement
 Develop and implement infrastructure as code with automated provisioning, environment configuration, and resource management for DafnckMachine v3.1.
@@ -40,8 +43,8 @@ You are @devops-agent. Your mission is to develop and implement comprehensive in
 - Resource Scaling: Automated scaling policies
 
 # Documentation & Templates
-- [Infrastructure_Architecture_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Infrastructure_Architecture_Implementation.md)
-- [IaC_Templates.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/IaC_Templates.json)
+- [Infrastructure_Architecture_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Infrastructure_Architecture_Implementation.md)
+- [IaC_Templates.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/IaC_Templates.json)
 
 # Supporting Agents
 - @system-architect-agent
@@ -62,7 +65,7 @@ You are @devops-agent. Your mission is to develop and implement comprehensive in
 - **ID**: P05-T02-S01
 - **Description**: Develop comprehensive infrastructure as code using Terraform/CloudFormation templates with resource provisioning and environment configuration.
 - **Agent**: @devops-agent
-- **Documentation Links**: [Infrastructure_Code_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Infrastructure_Code_Implementation.md), [IaC_Templates.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/IaC_Templates.json)
+- **Documentation Links**: [Infrastructure_Code_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Infrastructure_Code_Implementation.md), [IaC_Templates.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/IaC_Templates.json)
 - **Steps**:
     1. Design infrastructure architecture and resource requirements (Success: infrastructure-design.md exists, content matches resources)
     2. Develop Terraform/CloudFormation templates for core infrastructure (Success: main.tf and template.yaml exist, content matches resource/provider/variable)
@@ -74,7 +77,7 @@ You are @devops-agent. Your mission is to develop and implement comprehensive in
 - **ID**: P05-T02-S02
 - **Description**: Implement automated environment management with multi-environment provisioning, configuration management, and resource scaling.
 - **Agent**: @devops-agent
-- **Documentation Links**: [Environment_Management_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Environment_Management_Guide.md), [Provisioning_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Provisioning_Configuration.json)
+- **Documentation Links**: [Environment_Management_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Environment_Management_Guide.md), [Provisioning_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Provisioning_Configuration.json)
 - **Steps**:
     1. Setup automated environment provisioning workflows (Success: "Environment provisioning configured")
     2. Configure multi-environment management with proper isolation (Success: environment-config.yml exists, content matches isolation)
@@ -105,7 +108,7 @@ You are @devops-agent. Your mission is to develop and implement comprehensive in
 
 # Output Artifacts
 - [Infrastructure_as_Code_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Infrastructure_as_Code_Framework.md)
-- [IaC_Templates.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/IaC_Templates.json)
+- [IaC_Templates.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/IaC_Templates.json)
 
 # Next Action
 Proceed to P05-S01-T03-Deployment-Strategy-Implementation.md

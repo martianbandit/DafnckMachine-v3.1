@@ -11,6 +11,11 @@ source: Step.json
 agent: "@coding-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Responsive_Design_Guide.md — Responsive_Design_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Breakpoint_Specifications.json — Breakpoint_Specifications.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Accessibility_Implementation_Guide.md — Accessibility_Implementation_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/WCAG_Compliance_Checklist.json — WCAG_Compliance_Checklist.json (missing)
 
 # Mission Statement
 Ensure the DafnckMachine v3.1 frontend is fully responsive and accessible, providing an optimal user experience across devices and for all users.
@@ -39,10 +44,10 @@ You are @coding-agent responsible for responsive design and accessibility in Daf
 - Adaptive layouts and device optimization
 
 # Documentation & Templates
-- [Responsive_Design_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Responsive_Design_Guide.md)
-- [Breakpoint_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Breakpoint_Specifications.json)
-- [Accessibility_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Accessibility_Implementation_Guide.md)
-- [WCAG_Compliance_Checklist.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/WCAG_Compliance_Checklist.json)
+- [Responsive_Design_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Responsive_Design_Guide.md)
+- [Breakpoint_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Breakpoint_Specifications.json)
+- [Accessibility_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Accessibility_Implementation_Guide.md)
+- [WCAG_Compliance_Checklist.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/WCAG_Compliance_Checklist.json)
 
 # Primary Responsible Agent
 @coding-agent - responsive-design, accessibility
@@ -67,8 +72,8 @@ You are @coding-agent responsible for responsive design and accessibility in Daf
 - **Description**: Implement responsive design system with mobile-first approach, breakpoint management, and adaptive layouts for optimal user experience across devices.
 - **Agent Assignment**: @coding-agent
 - **Documentation Links**:
-  - [Responsive_Design_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Responsive_Design_Guide.md)
-  - [Breakpoint_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Breakpoint_Specifications.json)
+  - [Responsive_Design_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Responsive_Design_Guide.md)
+  - [Breakpoint_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Breakpoint_Specifications.json)
 - **Steps**:
     1. Configure responsive design system and breakpoints (edit_file)
     2. Implement adaptive layouts and component responsiveness (edit_file)
@@ -92,8 +97,8 @@ You are @coding-agent responsible for responsive design and accessibility in Daf
 - **Description**: Implement comprehensive accessibility features with WCAG compliance, screen reader support, and inclusive design for universal application access.
 - **Agent Assignment**: @usability-heuristic-agent
 - **Documentation Links**:
-  - [Accessibility_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Accessibility_Implementation_Guide.md)
-  - [WCAG_Compliance_Checklist.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/WCAG_Compliance_Checklist.json)
+  - [Accessibility_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Accessibility_Implementation_Guide.md)
+  - [WCAG_Compliance_Checklist.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/WCAG_Compliance_Checklist.json)
 - **Steps**:
     1. Implement accessibility features and ARIA attributes (edit_file)
     2. Implement keyboard navigation and focus management (edit_file)

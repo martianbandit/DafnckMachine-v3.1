@@ -11,6 +11,9 @@ source: Step.json
 agent: "@documentation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Automation_Scripts.md — Automation_Scripts.md: Automation_Scripts.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/CI_CD_Documentation_Workflow.md — CI_CD_Documentation_Workflow.md: CI_CD_Documentation_Workflow.md (missing)
 
 ## Mission Statement
 Automate the generation and maintenance of technical documentation to ensure accuracy, consistency, and up-to-date information across the project lifecycle.
@@ -36,8 +39,8 @@ Implement tools and workflows for automated documentation generation, including 
 - Documentation automation workflows, scripts, and integration points
 
 ## Documentation & Templates
-- [Automation_Scripts.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Automation_Scripts.md)
-- [CI_CD_Documentation_Workflow.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/CI_CD_Documentation_Workflow.md)
+- [Automation_Scripts.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Automation_Scripts.md)
+- [CI_CD_Documentation_Workflow.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/CI_CD_Documentation_Workflow.md)
 
 ## Primary Responsible Agent
 @documentation-agent, @devops-agent
@@ -60,7 +63,7 @@ The Documentation Agent and DevOps Agent are chosen for their expertise in docum
 - **Description**: Set up and configure tools for automated documentation generation (e.g., JSDoc, Sphinx, Docusaurus, etc.)
 - **Agent Assignment**: @documentation-agent
 - **Documentation Links**:
-  - [Automation_Scripts.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Automation_Scripts.md)
+  - [Automation_Scripts.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Automation_Scripts.md)
 - **Steps**:
     1. Select and configure documentation generation tools (edit_file)
     2. Create scripts for automated documentation builds (edit_file)
@@ -75,7 +78,7 @@ The Documentation Agent and DevOps Agent are chosen for their expertise in docum
 - **Description**: Integrate documentation generation into CI/CD pipelines for continuous updates
 - **Agent Assignment**: @devops-agent
 - **Documentation Links**:
-  - [CI_CD_Documentation_Workflow.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/CI_CD_Documentation_Workflow.md)
+  - [CI_CD_Documentation_Workflow.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/CI_CD_Documentation_Workflow.md)
 - **Steps**:
     1. Update CI/CD configuration to include documentation generation (edit_file)
     2. Test and validate automated documentation updates (run_terminal_cmd)
@@ -101,8 +104,8 @@ The Documentation Agent and DevOps Agent are chosen for their expertise in docum
 - Regular review and monitoring of automation scripts and CI/CD workflows
 
 ## Output Artifacts
-- [Automation_Scripts.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Automation_Scripts.md)
-- [CI_CD_Documentation_Workflow.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/CI_CD_Documentation_Workflow.md)
+- [Automation_Scripts.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Automation_Scripts.md)
+- [CI_CD_Documentation_Workflow.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/CI_CD_Documentation_Workflow.md)
 
 ## Next Action
 Implement and test documentation automation tools and CI/CD integration with @documentation-agent and @devops-agent

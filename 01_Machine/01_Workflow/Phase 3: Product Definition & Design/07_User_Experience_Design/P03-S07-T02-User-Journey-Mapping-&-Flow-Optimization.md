@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ux-researcher-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/User_Journey_Maps.json — User_Journey_Maps.json: User_Journey_Maps.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Flow_Optimization_Analysis.md — Flow_Optimization_Analysis.md: Flow_Optimization_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Touchpoint_Optimization.md — Touchpoint_Optimization.md: Touchpoint_Optimization.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Interaction_Enhancement_Plan.json — Interaction_Enhancement_Plan.json: Interaction_Enhancement_Plan.json (missing)
 
 # Previous Task: P03-S07-T01-User-Research-Integration-&-Persona-Refinement.md
 # Current Task: P03-S07-T02-User-Journey-Mapping-&-Flow-Optimization.md
@@ -47,10 +52,10 @@ You are @ux-researcher-agent. Your mission is to design end-to-end user journey 
 - Flow optimization analysis and documentation
 
 ## Documentation & Templates
-- [User_Journey_Maps.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/User_Journey_Maps.json)
-- [Flow_Optimization_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Flow_Optimization_Analysis.md)
-- [Touchpoint_Optimization.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Touchpoint_Optimization.md)
-- [Interaction_Enhancement_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Interaction_Enhancement_Plan.json)
+- [User_Journey_Maps.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/User_Journey_Maps.json)
+- [Flow_Optimization_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Flow_Optimization_Analysis.md)
+- [Touchpoint_Optimization.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Touchpoint_Optimization.md)
+- [Interaction_Enhancement_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Interaction_Enhancement_Plan.json)
 
 ## Primary Responsible Agent
 @ux-researcher-agent
@@ -76,8 +81,8 @@ The @ux-researcher-agent is selected for its expertise in journey mapping, flow 
 - **Description**: Create detailed user journey maps covering all user interactions from initial engagement to goal completion, including touchpoint identification and interaction sequence optimization.
 - **Agent Assignment**: @ux-researcher-agent
 - **Documentation Links**:
-  - [User_Journey_Maps.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/User_Journey_Maps.json)
-  - [Flow_Optimization_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Flow_Optimization_Analysis.md)
+  - [User_Journey_Maps.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/User_Journey_Maps.json)
+  - [Flow_Optimization_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Flow_Optimization_Analysis.md)
 - **Steps**:
     1. Design end-to-end user journey maps with complete flow mapping (Tool: file_search)
     2. Optimize interaction sequences and identify decision points (Tool: edit_file)
@@ -91,8 +96,8 @@ The @ux-researcher-agent is selected for its expertise in journey mapping, flow 
 - **Description**: Optimize all interaction touchpoints to reduce friction, enhance user engagement, and improve conversion rates while ensuring accessibility integration.
 - **Agent Assignment**: @ux-researcher-agent
 - **Documentation Links**:
-  - [Touchpoint_Optimization.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Touchpoint_Optimization.md)
-  - [Interaction_Enhancement_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Interaction_Enhancement_Plan.json)
+  - [Touchpoint_Optimization.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Touchpoint_Optimization.md)
+  - [Interaction_Enhancement_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Interaction_Enhancement_Plan.json)
 - **Steps**:
     1. Identify and analyze friction points in user interactions (Tool: edit_file)
     2. Design enhanced interaction patterns with accessibility integration (Tool: edit_file)
@@ -116,10 +121,10 @@ The @ux-researcher-agent is selected for its expertise in journey mapping, flow 
 - Continuous user journey testing and feedback integration throughout mapping and optimization
 
 ## Output Artifacts
-- [User_Journey_Maps.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/User_Journey_Maps.json)
-- [Flow_Optimization_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Flow_Optimization_Analysis.md)
-- [Touchpoint_Optimization.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Touchpoint_Optimization.md)
-- [Interaction_Enhancement_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Interaction_Enhancement_Plan.json)
+- [User_Journey_Maps.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/User_Journey_Maps.json)
+- [Flow_Optimization_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Flow_Optimization_Analysis.md)
+- [Touchpoint_Optimization.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Touchpoint_Optimization.md)
+- [Interaction_Enhancement_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Interaction_Enhancement_Plan.json)
 
 ## Next Action
 Initiate user journey mapping and flow optimization with @ux-researcher-agent

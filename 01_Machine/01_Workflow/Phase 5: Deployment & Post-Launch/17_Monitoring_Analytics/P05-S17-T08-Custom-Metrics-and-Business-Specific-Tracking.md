@@ -11,6 +11,11 @@ source: Step.json
 agent: "@analytics-setup-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Custom_Metrics_Development.md — Custom_Metrics_Development.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Business_Tracking_Framework.json — Business_Tracking_Framework.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Industry_Analytics_Framework.md — Industry_Analytics_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Domain_Insights_Configuration.json — Domain_Insights_Configuration.json (missing)
 
 # Mission Statement
 Develop and implement custom metrics and tracking tailored to specific business needs and industry requirements for DafnckMachine v3.1.
@@ -41,10 +46,10 @@ You are @analytics-setup-agent. Your mission is to implement custom metrics and 
 - Compliance tracking and regulatory reporting
 
 # Documentation & Templates
-- [Custom_Metrics_Development.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Custom_Metrics_Development.md)
-- [Business_Tracking_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Business_Tracking_Framework.json)
-- [Industry_Analytics_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Industry_Analytics_Framework.md)
-- [Domain_Insights_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Domain_Insights_Configuration.json)
+- [Custom_Metrics_Development.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Custom_Metrics_Development.md)
+- [Business_Tracking_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Business_Tracking_Framework.json)
+- [Industry_Analytics_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Industry_Analytics_Framework.md)
+- [Domain_Insights_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Domain_Insights_Configuration.json)
 
 # Primary Responsible Agent
 @analytics-setup-agent
@@ -68,8 +73,8 @@ The @analytics-setup-agent is chosen for its expertise in custom metrics, busine
 - **Description**: Develop and implement business-specific metrics, custom tracking solutions, domain-specific analytics, and specialized Key Performance Indicators (KPIs).
 - **Agent**: @analytics-setup-agent
 - **Documentation Links**:
-  - [Custom_Metrics_Development.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Custom_Metrics_Development.md)
-  - [Business_Tracking_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Business_Tracking_Framework.json)
+  - [Custom_Metrics_Development.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Custom_Metrics_Development.md)
+  - [Business_Tracking_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Business_Tracking_Framework.json)
 - **Steps**:
   1. Define custom metrics and tracking requirements in Business_Tracking_Framework.json, including definitions for business-specific metrics, custom tracking implementation details, domain-specific analytics needs, and specialized KPI calculations.
      - Tool: edit_file
@@ -91,8 +96,8 @@ The @analytics-setup-agent is chosen for its expertise in custom metrics, busine
 - **Description**: Implement analytics tailored to industry-specific requirements, including compliance tracking, regulatory reporting, and domain benchmarks.
 - **Agent**: @compliance-scope-agent
 - **Documentation Links**:
-  - [Industry_Analytics_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Industry_Analytics_Framework.md)
-  - [Domain_Insights_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Domain_Insights_Configuration.json)
+  - [Industry_Analytics_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Industry_Analytics_Framework.md)
+  - [Domain_Insights_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Domain_Insights_Configuration.json)
 - **Steps**:
   1. Configure industry-specific analytics, compliance tracking, and regulatory reporting parameters in Domain_Insights_Configuration.json and Industry_Analytics_Framework.md.
      - Tool: edit_file
@@ -125,9 +130,9 @@ The @analytics-setup-agent is chosen for its expertise in custom metrics, busine
 - Compliance and regulatory checks
 
 # Output Artifacts
-- [Business_Tracking_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Business_Tracking_Framework.json)
-- [Industry_Analytics_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Industry_Analytics_Framework.md)
-- [Domain_Insights_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Domain_Insights_Configuration.json)
+- [Business_Tracking_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Business_Tracking_Framework.json)
+- [Industry_Analytics_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Industry_Analytics_Framework.md)
+- [Domain_Insights_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Domain_Insights_Configuration.json)
 
 # Next Action
 Implement custom metrics and industry analytics with @analytics-setup-agent and @compliance-scope-agent

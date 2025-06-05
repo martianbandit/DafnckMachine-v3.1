@@ -11,6 +11,11 @@ source: Step.json
 agent: "@technology-advisor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Testing_Framework_Analysis.md — Testing_Framework_Analysis.md: Testing_Framework_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/QA_Tools_Comparison.json — QA_Tools_Comparison.json: QA_Tools_Comparison.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Code_Quality_Tools_Selection.md — Code_Quality_Tools_Selection.md: Code_Quality_Tools_Selection.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Analysis_Tools_Specifications.json — Analysis_Tools_Specifications.json: Analysis_Tools_Specifications.json (missing)
 
 ## Mission Statement
 Evaluate and select testing frameworks and quality assurance tools for DafnckMachine v3.1, ensuring code quality, reliability, and security.
@@ -33,10 +38,10 @@ You are @technology-advisor-agent. Your mission is to evaluate and select testin
 - Testing and QA tool selection criteria and rationale
 
 ## Documentation & Templates
-- [Testing_Framework_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Testing_Framework_Analysis.md)
-- [QA_Tools_Comparison.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/QA_Tools_Comparison.json)
-- [Code_Quality_Tools_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Code_Quality_Tools_Selection.md)
-- [Analysis_Tools_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Analysis_Tools_Specifications.json)
+- [Testing_Framework_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Testing_Framework_Analysis.md)
+- [QA_Tools_Comparison.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/QA_Tools_Comparison.json)
+- [Code_Quality_Tools_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Code_Quality_Tools_Selection.md)
+- [Analysis_Tools_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Analysis_Tools_Specifications.json)
 
 ## Primary Responsible Agent
 @technology-advisor-agent
@@ -95,10 +100,10 @@ You are @technology-advisor-agent. Your mission is to evaluate and select testin
 - Update selection as new QA requirements emerge
 
 ## Output Artifacts
-- [Testing_Framework_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Testing_Framework_Analysis.md)
-- [QA_Tools_Comparison.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/QA_Tools_Comparison.json)
-- [Code_Quality_Tools_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Code_Quality_Tools_Selection.md)
-- [Analysis_Tools_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Analysis_Tools_Specifications.json)
+- [Testing_Framework_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Testing_Framework_Analysis.md)
+- [QA_Tools_Comparison.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/QA_Tools_Comparison.json)
+- [Code_Quality_Tools_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Code_Quality_Tools_Selection.md)
+- [Analysis_Tools_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Analysis_Tools_Specifications.json)
 
 ## Next Action
 Initiate testing framework and QA tool evaluation with @technology-advisor-agent.

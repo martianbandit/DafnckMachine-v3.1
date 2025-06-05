@@ -11,6 +11,11 @@ source: Step.json
 agent: "@performance-load-tester-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Analytics_Optimization_Guide.md — Analytics_Optimization_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Scaling_Strategy_Framework.json — Scaling_Strategy_Framework.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Maintenance_Procedures_Guide.md — Maintenance_Procedures_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Continuous_Improvement_Framework.json — Continuous_Improvement_Framework.json (missing)
 
 # Mission Statement
 Optimize the performance of the analytics systems and establish procedures for ongoing maintenance and continuous improvement in DafnckMachine v3.1.
@@ -40,10 +45,10 @@ You are @performance-load-tester-agent. Your mission is to optimize analytics pe
 - Maintenance schedules and improvement frameworks
 
 # Documentation & Templates
-- [Analytics_Optimization_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Analytics_Optimization_Guide.md)
-- [Scaling_Strategy_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Scaling_Strategy_Framework.json)
-- [Maintenance_Procedures_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Maintenance_Procedures_Guide.md)
-- [Continuous_Improvement_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Continuous_Improvement_Framework.json)
+- [Analytics_Optimization_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Analytics_Optimization_Guide.md)
+- [Scaling_Strategy_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Scaling_Strategy_Framework.json)
+- [Maintenance_Procedures_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Maintenance_Procedures_Guide.md)
+- [Continuous_Improvement_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Continuous_Improvement_Framework.json)
 
 # Primary Responsible Agent
 @performance-load-tester-agent
@@ -65,8 +70,8 @@ The @performance-load-tester-agent is chosen for its expertise in analytics opti
 - **Description**: Optimize analytics performance through query tuning, data pipeline scaling, storage optimization, and improving processing efficiency.
 - **Agent**: @performance-load-tester-agent
 - **Documentation Links**:
-  - [Analytics_Optimization_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Analytics_Optimization_Guide.md)
-  - [Scaling_Strategy_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Scaling_Strategy_Framework.json)
+  - [Analytics_Optimization_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Analytics_Optimization_Guide.md)
+  - [Scaling_Strategy_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Scaling_Strategy_Framework.json)
 - **Steps**:
   1. Define analytics optimization and scaling strategies in Scaling_Strategy_Framework.json, detailing query optimization techniques, data pipeline scaling methods, storage optimization approaches, and processing efficiency improvements.
      - Tool: edit_file
@@ -88,8 +93,8 @@ The @performance-load-tester-agent is chosen for its expertise in analytics opti
 - **Description**: Establish procedures for ongoing maintenance of monitoring and analytics systems, including updates, performance tuning, and a framework for continuous improvement.
 - **Agent**: @health-monitor-agent
 - **Documentation Links**:
-  - [Maintenance_Procedures_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Maintenance_Procedures_Guide.md)
-  - [Continuous_Improvement_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Continuous_Improvement_Framework.json)
+  - [Maintenance_Procedures_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Maintenance_Procedures_Guide.md)
+  - [Continuous_Improvement_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Continuous_Improvement_Framework.json)
 - **Steps**:
   1. Document maintenance procedures and continuous improvement framework in Maintenance_Procedures_Guide.md and Continuous_Improvement_Framework.json. This includes schedules for monitoring system maintenance, analytics updates, performance tuning cycles, and feedback loops for improvement.
      - Tool: edit_file
@@ -122,9 +127,9 @@ The @performance-load-tester-agent is chosen for its expertise in analytics opti
 - Scheduled maintenance and improvement cycles
 
 # Output Artifacts
-- [Scaling_Strategy_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Scaling_Strategy_Framework.json)
-- [Maintenance_Procedures_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Maintenance_Procedures_Guide.md)
-- [Continuous_Improvement_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Continuous_Improvement_Framework.json)
+- [Scaling_Strategy_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Scaling_Strategy_Framework.json)
+- [Maintenance_Procedures_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Maintenance_Procedures_Guide.md)
+- [Continuous_Improvement_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Continuous_Improvement_Framework.json)
 
 # Next Action
 Optimize analytics performance and establish maintenance with @performance-load-tester-agent and @health-monitor-agent

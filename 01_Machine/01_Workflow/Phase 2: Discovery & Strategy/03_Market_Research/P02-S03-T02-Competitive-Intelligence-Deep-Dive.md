@@ -11,6 +11,11 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Competitive_Intelligence_Matrix.json — Competitive_Intelligence_Matrix.json: Competitive_Intelligence_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Competitor_Profiles.md — Competitor_Profiles.md: Competitor_Profiles.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Competitive_Positioning_Map.json — Competitive_Positioning_Map.json: Competitive_Positioning_Map.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Feature_Comparison_Matrix.md — Feature_Comparison_Matrix.md: Feature_Comparison_Matrix.md (missing)
 
 ## Mission Statement
 Conduct detailed competitive analysis including competitor profiling and positioning analysis to identify competitive advantages and market gaps.

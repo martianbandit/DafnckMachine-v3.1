@@ -11,6 +11,11 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Customer_Segmentation_Analysis.md — Customer_Segmentation_Analysis.md: Customer_Segmentation_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Segment_Attractiveness_Matrix.json — Segment_Attractiveness_Matrix.json: Segment_Attractiveness_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Customer_Personas.md — Customer_Personas.md: Customer_Personas.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Customer_Journey_Maps.json — Customer_Journey_Maps.json: Customer_Journey_Maps.json (missing)
 
 ## Mission Statement
 Conduct comprehensive customer segmentation analysis and develop detailed customer personas to guide product development and marketing strategy.

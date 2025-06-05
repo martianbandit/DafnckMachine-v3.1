@@ -11,6 +11,8 @@ source: Step.json
 agent: "@tech-spec-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Technical_Constraints.md — Technical_Constraints.md: Documented technical constraints and limitations (missing)
 
 ## Mission Statement
 Identify platform preferences, technology stack, security, scalability, and integration limitations, and document technical constraints for the project.
@@ -33,8 +35,8 @@ You are @tech-spec-agent responsible for eliciting and documenting platform pref
 - Constraints Matrix: Platform preferences, technology stack, security, scalability, and integration limitations
 
 ## Documentation & Templates
-- [Constraints_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Constraints_Matrix.json): Comprehensive project constraints and limitations
-- [Requirements_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Requirements_Matrix.json): Structured requirements and constraints
+- [Constraints_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Constraints_Matrix.json): Comprehensive project constraints and limitations
+- [Requirements_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Requirements_Matrix.json): Structured requirements and constraints
 
 ## Primary Responsible Agent
 @tech-spec-agent
@@ -57,8 +59,8 @@ The @tech-spec-agent is chosen for its expertise in constraint analysis, technic
 - **Description**: Identify and document all technical constraints, including platform and technology preferences, security and scalability requirements, and integration limitations.
 - **Agent Assignment**: @tech-spec-agent
 - **Documentation Links**:
-  - [Constraints_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Constraints_Matrix.json)
-  - [Requirements_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Requirements_Matrix.json)
+  - [Constraints_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Constraints_Matrix.json)
+  - [Requirements_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Requirements_Matrix.json)
 - **Steps**:
     1. Elicit from the user and technical documentation any platform preferences, technology stack requirements, security requirements (e.g., compliance), scalability needs, and integration limitations.
     2. Document these in Constraints_Matrix.json as at least 5 distinct technical constraints, each with ID, type, description, severity, and feasibility_assessment.

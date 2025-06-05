@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ui-designer-agent, @branding-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Color_Palette_Specifications.md — Color Palette Specifications (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Color_System_Guidelines.json — Color System Guidelines (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Visual_Identity_Integration.md — Visual Identity Integration Guide (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Brand_Guidelines_Application.json — Brand Guidelines Application (missing)
 
 # Mission Statement
 Develop the project's color system and integrate the overall visual identity for DafnckMachine v3.1.
@@ -36,10 +41,10 @@ You are @ui-designer-agent. Your mission is to create a robust, accessible, and 
 - Accessibility Standards
 
 # Documentation & Templates
-- [Color Palette Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Color_Palette_Specifications.md)
-- [Color System Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Color_System_Guidelines.json)
-- [Visual Identity Integration Guide](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Visual_Identity_Integration.md)
-- [Brand Guidelines Application](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Brand_Guidelines_Application.json)
+- [Color Palette Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Color_Palette_Specifications.md)
+- [Color System Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Color_System_Guidelines.json)
+- [Visual Identity Integration Guide](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Visual_Identity_Integration.md)
+- [Brand Guidelines Application](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Brand_Guidelines_Application.json)
 
 # Primary Responsible Agent
 @ui-designer-agent
@@ -60,8 +65,8 @@ The UI Designer Agent is chosen for its expertise in color design, palette devel
 - **Description**: Develop a comprehensive color palette, ensuring accessibility compliance and defining color variations.
 - **Agent**: @ui-designer-agent
 - **Documentation Links**:
-  - [Color Palette Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Color_Palette_Specifications.md)
-  - [Color System Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Color_System_Guidelines.json)
+  - [Color Palette Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Color_Palette_Specifications.md)
+  - [Color System Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Color_System_Guidelines.json)
 - **Steps**:
   1. Define primary, secondary, neutral, and semantic colors. Ensure WCAG AA accessibility for color contrast. (edit_file, web_search)
   2. Document color variations and usage guidelines. (edit_file)
@@ -76,8 +81,8 @@ The UI Designer Agent is chosen for its expertise in color design, palette devel
 - **Description**: Integrate the established visual identity, including brand elements, logo usage, visual consistency, brand personality expression, and style guidelines.
 - **Agent**: @branding-agent
 - **Documentation Links**:
-  - [Visual Identity Integration Guide](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Visual_Identity_Integration.md)
-  - [Brand Guidelines Application](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Brand_Guidelines_Application.json)
+  - [Visual Identity Integration Guide](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Visual_Identity_Integration.md)
+  - [Brand Guidelines Application](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Brand_Guidelines_Application.json)
 - **Steps**:
   1. Incorporate brand elements (logo, brand colors, etc.) into the UI design and document usage. (edit_file)
   2. Define and document how the brand's personality is expressed visually through the UI. (edit_file)

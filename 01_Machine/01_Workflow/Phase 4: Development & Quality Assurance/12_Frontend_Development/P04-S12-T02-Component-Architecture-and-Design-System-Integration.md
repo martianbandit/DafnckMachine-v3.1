@@ -11,6 +11,11 @@ source: Step.json
 agent: "@coding-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Component_Architecture_Design.md — Component_Architecture_Design.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Component_Structure_Specs.json — Component_Structure_Specs.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Design_System_Integration.md — Design_System_Integration.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Styling_Configuration.json — Styling_Configuration.json (missing)
 
 # Mission Statement
 Design and implement scalable component architecture with design system integration for consistent, reusable, and maintainable UI components in DafnckMachine v3.1.
@@ -40,10 +45,10 @@ You are @coding-agent responsible for designing the component architecture and i
 - Responsive breakpoints and layout system
 
 # Documentation & Templates
-- [Component_Architecture_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Component_Architecture_Design.md)
-- [Component_Structure_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Component_Structure_Specs.json)
-- [Design_System_Integration.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Design_System_Integration.md)
-- [Styling_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Styling_Configuration.json)
+- [Component_Architecture_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Component_Architecture_Design.md)
+- [Component_Structure_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Component_Structure_Specs.json)
+- [Design_System_Integration.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Design_System_Integration.md)
+- [Styling_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Styling_Configuration.json)
 
 # Primary Responsible Agent
 @coding-agent - frontend-development
@@ -69,8 +74,8 @@ You are @coding-agent responsible for designing the component architecture and i
 - **Description**: Design comprehensive component architecture with hierarchy patterns, reusability strategies, and composition guidelines for scalable UI development.
 - **Agent Assignment**: @coding-agent
 - **Documentation Links**:
-  - [Component_Architecture_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Component_Architecture_Design.md)
-  - [Component_Structure_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Component_Structure_Specs.json)
+  - [Component_Architecture_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Component_Architecture_Design.md)
+  - [Component_Structure_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Component_Structure_Specs.json)
 - **Steps**:
     1. Design component hierarchy and folder structure (edit_file)
     2. Define component composition patterns and interfaces (edit_file)
@@ -96,8 +101,8 @@ You are @coding-agent responsible for designing the component architecture and i
 - **Description**: Integrate design system with design tokens, component styling, theme configuration, and responsive breakpoints for visual consistency.
 - **Agent Assignment**: @ui-designer-agent
 - **Documentation Links**:
-  - [Design_System_Integration.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Design_System_Integration.md)
-  - [Styling_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Styling_Configuration.json)
+  - [Design_System_Integration.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Design_System_Integration.md)
+  - [Styling_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Styling_Configuration.json)
 - **Steps**:
     1. Configure design tokens and theme system (edit_file)
     2. Implement responsive breakpoints and layout system (edit_file)

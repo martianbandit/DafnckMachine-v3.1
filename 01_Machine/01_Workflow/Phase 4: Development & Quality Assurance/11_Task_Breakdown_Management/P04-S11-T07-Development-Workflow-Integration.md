@@ -11,6 +11,9 @@ source: Step.json
 agent: "@development-orchestrator-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Development_Tool_Integration.md — Development_Tool_Integration.md: Development_Tool_Integration.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Team_Collaboration_Guidelines.md — Team_Collaboration_Guidelines.md: Team_Collaboration_Guidelines.md (missing)
 
 ## Mission Statement
 Integrate TaskMaster with development tools and establish team collaboration frameworks for DafnckMachine v3.1.
@@ -32,11 +35,11 @@ Integrate TaskMaster with IDEs, version control, CI/CD pipelines, and testing fr
 - Workflow Integration: TaskMaster integration with development tools and quality assurance processes
 
 ## Documentation & Templates
-- [Development_Tool_Integration.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Development_Tool_Integration.md)
-- [Workflow_Optimization_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Workflow_Optimization_Guide.md)
-- [Team_Collaboration_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Team_Collaboration_Framework.md)
-- [Coordination_Protocols.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Coordination_Protocols.json)
-- [Team_Collaboration_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Team_Collaboration_Guidelines.md)
+- [Development_Tool_Integration.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Development_Tool_Integration.md)
+- [Workflow_Optimization_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Workflow_Optimization_Guide.md)
+- [Team_Collaboration_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Team_Collaboration_Framework.md)
+- [Coordination_Protocols.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Coordination_Protocols.json)
+- [Team_Collaboration_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Team_Collaboration_Guidelines.md)
 
 ## Primary Responsible Agent
 @development-orchestrator-agent
@@ -58,13 +61,13 @@ Integrate TaskMaster with IDEs, version control, CI/CD pipelines, and testing fr
 - **Description:** Integrate TaskMaster with IDEs, version control, CI/CD pipelines, and testing frameworks.
 - **Agent:** @development-orchestrator-agent
 - **Documentation Links:**
-  - [Development_Tool_Integration.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Development_Tool_Integration.md)
-  - [Workflow_Optimization_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Workflow_Optimization_Guide.md)
+  - [Development_Tool_Integration.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Development_Tool_Integration.md)
+  - [Workflow_Optimization_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Workflow_Optimization_Guide.md)
 - **Steps:**
     1. Document procedures for developers to link TaskMaster tasks to Git commits/branches using edit_file.
     2. Outline how CI/CD pipelines can update task statuses or trigger notifications using edit_file.
 - **Success Criteria:**
-    - File Exists: 01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Development_Tool_Integration.md
+    - File Exists: 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Development_Tool_Integration.md
     - File Content Matches: Document includes Git-TaskMaster integration steps and CI/CD integration concepts
 - **On Failure:** NOTIFY_AND_CONTINUE (manual coordination will be required)
 - **Max Retries:** 1
@@ -76,13 +79,13 @@ Integrate TaskMaster with IDEs, version control, CI/CD pipelines, and testing fr
 - **Description:** Establish protocols for team collaboration, including task assignment, communication, and review processes.
 - **Agent:** @development-orchestrator-agent
 - **Documentation Links:**
-  - [Team_Collaboration_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Team_Collaboration_Framework.md)
-  - [Coordination_Protocols.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Coordination_Protocols.json)
-  - [Team_Collaboration_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Team_Collaboration_Guidelines.md)
+  - [Team_Collaboration_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Team_Collaboration_Framework.md)
+  - [Coordination_Protocols.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Coordination_Protocols.json)
+  - [Team_Collaboration_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Team_Collaboration_Guidelines.md)
 - **Steps:**
     1. Define and document task assignment process, review cycles, and communication channels using edit_file.
 - **Success Criteria:**
-    - File Exists: 01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Team_Collaboration_Guidelines.md
+    - File Exists: 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Team_Collaboration_Guidelines.md
     - File Content Matches: Guidelines document includes collaboration protocols
 - **On Failure:** NOTIFY_AND_CONTINUE (informal collaboration will occur)
 - **Max Retries:** 0
@@ -110,8 +113,8 @@ Integrate TaskMaster with IDEs, version control, CI/CD pipelines, and testing fr
 - Team Adoption Barriers: Comprehensive training and documentation with ongoing support
 
 ## Output Artifacts
-- [Development_Tool_Integration.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Development_Tool_Integration.md)
-- [Team_Collaboration_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Team_Collaboration_Guidelines.md)
+- [Development_Tool_Integration.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Development_Tool_Integration.md)
+- [Team_Collaboration_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Team_Collaboration_Guidelines.md)
 
 ## Next Action
 Proceed to P04-S11-T08-Quality-Assurance-Integration.md

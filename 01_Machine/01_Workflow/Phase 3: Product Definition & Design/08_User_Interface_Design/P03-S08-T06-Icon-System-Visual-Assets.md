@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ui-designer-agent, @graphic-design-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Icon_Library_Specifications.md — Icon Library Specifications (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Icon_Usage_Guidelines.json — Icon Usage Guidelines (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Design_Asset_Library.md — Design Asset Library (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Asset_Optimization_Guidelines.json — Asset Optimization Guidelines (missing)
 
 # Mission Statement
 Develop a comprehensive icon library and prepare all other visual assets for production for DafnckMachine v3.1.
@@ -35,10 +40,10 @@ You are @ui-designer-agent. Your mission is to develop a consistent icon system 
 - Asset Optimization Guidelines
 
 # Documentation & Templates
-- [Icon Library Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Icon_Library_Specifications.md)
-- [Icon Usage Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Icon_Usage_Guidelines.json)
-- [Design Asset Library](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Design_Asset_Library.md)
-- [Asset Optimization Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Asset_Optimization_Guidelines.json)
+- [Icon Library Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Icon_Library_Specifications.md)
+- [Icon Usage Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Icon_Usage_Guidelines.json)
+- [Design Asset Library](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Design_Asset_Library.md)
+- [Asset Optimization Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Asset_Optimization_Guidelines.json)
 
 # Primary Responsible Agent
 @ui-designer-agent
@@ -59,8 +64,8 @@ The UI Designer Agent is chosen for its expertise in icon design, symbol systems
 - **Description**: Develop a consistent icon library, defining icon style, size variations, usage guidelines, accessibility features, and scalability specifications.
 - **Agent**: @ui-designer-agent
 - **Documentation Links**:
-  - [Icon Library Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Icon_Library_Specifications.md)
-  - [Icon Usage Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Icon_Usage_Guidelines.json)
+  - [Icon Library Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Icon_Library_Specifications.md)
+  - [Icon Usage Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Icon_Usage_Guidelines.json)
 - **Steps**:
   1. Design icons with a consistent style and define size variations. (edit_file)
   2. Document usage guidelines, accessibility features, and scalability specifications. (edit_file)
@@ -75,8 +80,8 @@ The UI Designer Agent is chosen for its expertise in icon design, symbol systems
 - **Description**: Prepare all other visual assets (images, illustrations, etc.) for production, including optimization, format specifications, resolution variants, compression guidelines, and delivery optimization.
 - **Agent**: @graphic-design-agent
 - **Documentation Links**:
-  - [Design Asset Library](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Design_Asset_Library.md)
-  - [Asset Optimization Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Asset_Optimization_Guidelines.json)
+  - [Design Asset Library](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Design_Asset_Library.md)
+  - [Asset Optimization Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Asset_Optimization_Guidelines.json)
 - **Steps**:
   1. Optimize images and specify appropriate formats. (edit_file)
   2. Define resolution variants, compression guidelines, and delivery optimization strategies. (edit_file)

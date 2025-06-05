@@ -11,6 +11,9 @@ source: Step.json
 agent: "@devops-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Container_Orchestration_Guide.md — Container_Orchestration_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Kubernetes_Configuration.json — Kubernetes_Configuration.json (missing)
 
 # Mission Statement
 Configure and implement container orchestration with Kubernetes setup, Docker configuration, and service management for scalable application deployment in DafnckMachine v3.1.
@@ -40,8 +43,8 @@ You are @devops-agent. Your mission is to configure and implement container orch
 - Service Discovery: Automated discovery and management
 
 # Documentation & Templates
-- [Container_Orchestration_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Container_Orchestration_Guide.md)
-- [Kubernetes_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Kubernetes_Configuration.json)
+- [Container_Orchestration_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Container_Orchestration_Guide.md)
+- [Kubernetes_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Kubernetes_Configuration.json)
 
 # Supporting Agents
 - @system-architect-agent
@@ -61,7 +64,7 @@ You are @devops-agent. Your mission is to configure and implement container orch
 - **ID**: P05-T04-S01
 - **Description**: Configure container orchestration with Kubernetes setup, Docker configuration, and service management for scalable application deployment.
 - **Agent**: @devops-agent
-- **Documentation Links**: [Container_Orchestration_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Container_Orchestration_Implementation.md), [Kubernetes_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Kubernetes_Configuration.json)
+- **Documentation Links**: [Container_Orchestration_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Container_Orchestration_Implementation.md), [Kubernetes_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Kubernetes_Configuration.json)
 - **Steps**:
     1. Setup Kubernetes infrastructure and base configuration (Success: "Kubernetes infrastructure initialized")
     2. Configure Docker container registry and service management (Success: docker-registry.yml exists, content matches registry/docker/service)
@@ -73,7 +76,7 @@ You are @devops-agent. Your mission is to configure and implement container orch
 - **ID**: P05-T04-S02
 - **Description**: Implement service deployment with microservices deployment, auto-scaling configuration, load balancing, and service discovery.
 - **Agent**: @devops-agent
-- **Documentation Links**: [Service_Deployment_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Service_Deployment_Guide.md), [Scaling_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Scaling_Configuration.json)
+- **Documentation Links**: [Service_Deployment_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Service_Deployment_Guide.md), [Scaling_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Scaling_Configuration.json)
 - **Steps**:
     1. Setup service deployment infrastructure and base configuration (Success: "Service deployment infrastructure initialized")
     2. Configure microservices deployment with Kubernetes (Success: microservices-deployment.yml exists, content matches deployment/kubernetes/microservices)
@@ -105,7 +108,7 @@ You are @devops-agent. Your mission is to configure and implement container orch
 
 # Output Artifacts
 - [Container_Orchestration_Platform.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Container_Orchestration_Platform.md)
-- [Kubernetes_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Kubernetes_Configuration.json)
+- [Kubernetes_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Kubernetes_Configuration.json)
 
 # Next Action
 Proceed to P05-S01-T05-Deployment-Strategy-Advanced.md

@@ -11,6 +11,9 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Strategic_Positioning_Framework.md — Strategic_Positioning_Framework.md: Strategic_Positioning_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Competitive_Response_Plan.md — Competitive_Response_Plan.md: Competitive_Response_Plan.md (missing)
 
 ## Mission Statement
 Develop competitive positioning strategy with differentiation framework and competitive response planning for DafnckMachine v3.1.
@@ -37,10 +40,10 @@ This task develops a competitive positioning strategy, including differentiation
 - Competitive Response Plan
 
 ## Documentation & Templates
-- [Strategic_Positioning_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Strategic_Positioning_Framework.md)
-- [Differentiation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Differentiation_Framework.json)
-- [Competitive_Response_Plan.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Competitive_Response_Plan.md)
-- [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Risk_Assessment_Matrix.json)
+- [Strategic_Positioning_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Strategic_Positioning_Framework.md)
+- [Differentiation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Differentiation_Framework.json)
+- [Competitive_Response_Plan.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Competitive_Response_Plan.md)
+- [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Risk_Assessment_Matrix.json)
 
 ## Supporting Agents
 - @technology-advisor-agent
@@ -60,8 +63,8 @@ The @market-research-agent is chosen for its expertise in differentiation, compe
 - **Description**: Develop differentiation strategy with unique value propositions and competitive advantages.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Strategic_Positioning_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Strategic_Positioning_Framework.md)
-  - [Differentiation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Differentiation_Framework.json)
+  - [Strategic_Positioning_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Strategic_Positioning_Framework.md)
+  - [Differentiation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Differentiation_Framework.json)
 - **Steps**:
   1. Develop differentiation strategy (edit_file)
   2. Validate against competitive analysis data (file_search)
@@ -76,8 +79,8 @@ The @market-research-agent is chosen for its expertise in differentiation, compe
 - **Description**: Plan competitive responses including threat assessment and strategic options.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Competitive_Response_Plan.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Competitive_Response_Plan.md)
-  - [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Risk_Assessment_Matrix.json)
+  - [Competitive_Response_Plan.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Competitive_Response_Plan.md)
+  - [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Risk_Assessment_Matrix.json)
 - **Steps**:
   1. Develop competitive response framework (edit_file)
   2. Design competitive intelligence monitoring framework (edit_file)

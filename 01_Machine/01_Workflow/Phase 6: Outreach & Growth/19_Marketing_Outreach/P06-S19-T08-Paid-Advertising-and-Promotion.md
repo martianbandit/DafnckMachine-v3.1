@@ -11,6 +11,8 @@ source: Step.json
 agent: "@campaign-manager-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Paid_Advertising_Strategy.md — Paid_Advertising_Strategy.md: PPC, social ads, and paid promotion optimization (missing)
 
 ## Workflow Metadata
 - **Workflow-Step**: Marketing Outreach
@@ -49,10 +51,10 @@ Develop, launch, and optimize paid advertising strategies, including PPC, social
 - **Paid Advertising**: Strategy, creatives, campaigns, optimization
 
 ## Documentation & Templates
-- [Paid Advertising Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Paid_Advertising_Strategy.md)
-- [Promotion Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Promotion_Framework.json)
-- [Ad Performance Optimization](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Ad_Performance_Optimization.md)
-- [ROI Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/ROI_Framework.json)
+- [Paid Advertising Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Paid_Advertising_Strategy.md)
+- [Promotion Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Promotion_Framework.json)
+- [Ad Performance Optimization](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Ad_Performance_Optimization.md)
+- [ROI Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/ROI_Framework.json)
 
 ## Primary Responsible Agent
 @campaign-manager-agent
@@ -75,8 +77,8 @@ The Campaign Manager Agent is chosen for expertise in paid advertising, campaign
 - **Description**: Develop paid advertising strategy, creatives, and campaign setup.
 - **Agent Assignment**: @campaign-manager-agent
 - **Documentation Links**:
-  - [Paid Advertising Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Paid_Advertising_Strategy.md)
-  - [Promotion Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Promotion_Framework.json)
+  - [Paid Advertising Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Paid_Advertising_Strategy.md)
+  - [Promotion Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Promotion_Framework.json)
 - **Steps**:
     1. Define target audiences, platforms, and objectives.
     2. Develop ad creatives and set up campaigns.
@@ -93,8 +95,8 @@ The Campaign Manager Agent is chosen for expertise in paid advertising, campaign
 - **Description**: Optimize ad performance, analyze ROI, and refine targeting.
 - **Agent Assignment**: @analytics-setup-agent
 - **Documentation Links**:
-  - [Ad Performance Optimization](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Ad_Performance_Optimization.md)
-  - [ROI Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/ROI_Framework.json)
+  - [Ad Performance Optimization](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Ad_Performance_Optimization.md)
+  - [ROI Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/ROI_Framework.json)
 - **Steps**:
     1. Implement conversion tracking and dashboards.
     2. Analyze performance and refine targeting/bids.
@@ -129,7 +131,7 @@ The Campaign Manager Agent is chosen for expertise in paid advertising, campaign
 - Budget Overruns: Monitor and adjust spend
 
 ## Output Artifacts
-- [Paid_Advertising_Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/Paid_Advertising_Strategy.md): PPC, social ads, and paid promotion optimization
+- [Paid_Advertising_Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Paid_Advertising_Strategy.md): PPC, social ads, and paid promotion optimization
 
 ## Next Action
 Define paid advertising strategy and launch campaigns with @campaign-manager-agent

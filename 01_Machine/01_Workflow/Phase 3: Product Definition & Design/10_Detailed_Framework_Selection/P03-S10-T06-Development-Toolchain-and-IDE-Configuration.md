@@ -11,6 +11,11 @@ source: Step.json
 agent: "@development-orchestrator-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Development_Toolchain_Specifications.md — Development_Toolchain_Specifications.md: Development_Toolchain_Specifications.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/IDE_Configuration_Guide.json — IDE_Configuration_Guide.json: IDE_Configuration_Guide.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Build_Tools_Selection.md — Build_Tools_Selection.md: Build_Tools_Selection.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Package_Management_Strategy.json — Package_Management_Strategy.json: Package_Management_Strategy.json (missing)
 
 ## Mission Statement
 Select and configure the development toolchain, including IDEs, build tools, and package management for DafnckMachine v3.1, to optimize team productivity and workflow efficiency.
@@ -33,10 +38,10 @@ You are @development-orchestrator-agent. Your mission is to select and configure
 - Development toolchain and configuration rationale
 
 ## Documentation & Templates
-- [Development_Toolchain_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Development_Toolchain_Specifications.md)
-- [IDE_Configuration_Guide.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/IDE_Configuration_Guide.json)
-- [Build_Tools_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Build_Tools_Selection.md)
-- [Package_Management_Strategy.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Package_Management_Strategy.json)
+- [Development_Toolchain_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Development_Toolchain_Specifications.md)
+- [IDE_Configuration_Guide.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/IDE_Configuration_Guide.json)
+- [Build_Tools_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Build_Tools_Selection.md)
+- [Package_Management_Strategy.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Package_Management_Strategy.json)
 
 ## Primary Responsible Agent
 @development-orchestrator-agent
@@ -95,10 +100,10 @@ You are @development-orchestrator-agent. Your mission is to select and configure
 - Update selection as new workflow requirements emerge
 
 ## Output Artifacts
-- [Development_Toolchain_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Development_Toolchain_Specifications.md)
-- [IDE_Configuration_Guide.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/IDE_Configuration_Guide.json)
-- [Build_Tools_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Build_Tools_Selection.md)
-- [Package_Management_Strategy.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Package_Management_Strategy.json)
+- [Development_Toolchain_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Development_Toolchain_Specifications.md)
+- [IDE_Configuration_Guide.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/IDE_Configuration_Guide.json)
+- [Build_Tools_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Build_Tools_Selection.md)
+- [Package_Management_Strategy.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Package_Management_Strategy.json)
 
 ## Next Action
 Initiate development toolchain and IDE configuration with @development-orchestrator-agent.

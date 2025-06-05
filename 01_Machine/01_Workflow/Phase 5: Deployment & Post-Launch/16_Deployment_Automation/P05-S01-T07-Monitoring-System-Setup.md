@@ -11,6 +11,11 @@ source: Step.json
 agent: "@health-monitor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Monitoring_Alerting_Setup.md — Monitoring_Alerting_Setup.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Metrics_Dashboard_Configuration.json — Metrics_Dashboard_Configuration.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Alerting_System_Implementation.md — Alerting_System_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Notification_Channels_Configuration.json — Notification_Channels_Configuration.json (missing)
 
 # Mission Statement
 Setup production monitoring with metrics collection, performance monitoring, health checks, and dashboard creation for DafnckMachine v3.1.
@@ -40,10 +45,10 @@ You are @health-monitor-agent. Your mission is to setup comprehensive production
 - Dashboards: Performance metrics, visualization
 
 # Documentation & Templates
-- [Monitoring_Alerting_Setup.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Monitoring_Alerting_Setup.md)
-- [Metrics_Dashboard_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Metrics_Dashboard_Configuration.json)
-- [Alerting_System_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Alerting_System_Implementation.md)
-- [Notification_Channels_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Notification_Channels_Configuration.json)
+- [Monitoring_Alerting_Setup.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Monitoring_Alerting_Setup.md)
+- [Metrics_Dashboard_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Metrics_Dashboard_Configuration.json)
+- [Alerting_System_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Alerting_System_Implementation.md)
+- [Notification_Channels_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Notification_Channels_Configuration.json)
 
 # Primary Responsible Agent
 @health-monitor-agent
@@ -66,7 +71,7 @@ You are @health-monitor-agent. Your mission is to setup comprehensive production
 - **ID**: P05-T07-S01
 - **Description**: Setup production monitoring with metrics collection, performance monitoring, health checks, and dashboard creation.
 - **Agent**: @health-monitor-agent
-- **Documentation Links**: [Production_Monitoring_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Production_Monitoring_Implementation.md), [Metrics_Dashboard_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Metrics_Dashboard_Configuration.json)
+- **Documentation Links**: [Production_Monitoring_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Production_Monitoring_Implementation.md), [Metrics_Dashboard_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Metrics_Dashboard_Configuration.json)
 - **Steps**:
     1. Setup production monitoring infrastructure and base configuration (Success: "Production monitoring infrastructure initialized")
     2. Configure metrics collection with performance monitoring (Success: metrics-collection.yml exists, content matches metrics/collection/performance)
@@ -79,7 +84,7 @@ You are @health-monitor-agent. Your mission is to setup comprehensive production
 - **ID**: P05-T07-S02
 - **Description**: Implement alerting system with rule-based alerts, notification channels, incident management integration, and escalation policies.
 - **Agent**: @health-monitor-agent
-- **Documentation Links**: [Alerting_System_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Alerting_System_Implementation.md), [Notification_Channels_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Notification_Channels_Configuration.json)
+- **Documentation Links**: [Alerting_System_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Alerting_System_Implementation.md), [Notification_Channels_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Notification_Channels_Configuration.json)
 - **Steps**:
     1. Setup alerting system infrastructure and base configuration (Success: "Alerting system infrastructure initialized")
     2. Configure rule-based alerts with notification channels (Success: alert-rules.yml exists, content matches alerts/rules/notifications)
@@ -110,7 +115,7 @@ You are @health-monitor-agent. Your mission is to setup comprehensive production
 
 # Output Artifacts
 - [Monitoring_Alerting_Setup.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Monitoring_Alerting_Setup.md)
-- [Alerting_System_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Alerting_System_Implementation.md)
+- [Alerting_System_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Alerting_System_Implementation.md)
 
 # Next Action
 Proceed to P05-S01-T08-Rollback-and-Recovery-Automation.md

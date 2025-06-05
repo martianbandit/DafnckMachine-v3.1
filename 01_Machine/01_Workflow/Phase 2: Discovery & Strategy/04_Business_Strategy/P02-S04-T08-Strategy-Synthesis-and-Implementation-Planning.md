@@ -11,6 +11,9 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Business_Strategy_Summary.md — Business_Strategy_Summary.md: Business_Strategy_Summary.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Implementation_Roadmap.md — Implementation_Roadmap.md: Implementation_Roadmap.md (missing)
 
 ## Mission Statement
 Synthesize strategic frameworks and develop implementation planning with integrated roadmap for DafnckMachine v3.1.
@@ -36,10 +39,10 @@ This task integrates all strategic frameworks into a cohesive business strategy,
 - Strategic Milestones
 
 ## Documentation & Templates
-- [Business_Strategy_Summary.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Business_Strategy_Summary.md)
-- [Strategic_Framework_Integration.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Strategic_Framework_Integration.json)
-- [Implementation_Roadmap.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Implementation_Roadmap.md)
-- [Strategic_Milestones.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Strategic_Milestones.json)
+- [Business_Strategy_Summary.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Business_Strategy_Summary.md)
+- [Strategic_Framework_Integration.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Strategic_Framework_Integration.json)
+- [Implementation_Roadmap.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Implementation_Roadmap.md)
+- [Strategic_Milestones.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Strategic_Milestones.json)
 
 ## Primary Responsible Agent
 @market-research-agent
@@ -61,8 +64,8 @@ The @market-research-agent is chosen for its expertise in strategy synthesis, fr
 - **Description**: Integrate strategic frameworks and validate alignment.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Business_Strategy_Summary.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Business_Strategy_Summary.md)
-  - [Strategic_Framework_Integration.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Strategic_Framework_Integration.json)
+  - [Business_Strategy_Summary.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Business_Strategy_Summary.md)
+  - [Strategic_Framework_Integration.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Strategic_Framework_Integration.json)
 - **Steps**:
   1. Integrate all strategic frameworks (edit_file)
   2. Validate strategic coherence and alignment (file_search)
@@ -78,8 +81,8 @@ The @market-research-agent is chosen for its expertise in strategy synthesis, fr
 - **Description**: Develop implementation roadmap with milestones, resource requirements, and success metrics.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Implementation_Roadmap.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Implementation_Roadmap.md)
-  - [Strategic_Milestones.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Strategic_Milestones.json)
+  - [Implementation_Roadmap.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Implementation_Roadmap.md)
+  - [Strategic_Milestones.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Strategic_Milestones.json)
 - **Steps**:
   1. Develop implementation roadmap (edit_file)
   2. Define success metrics and monitoring framework (edit_file)

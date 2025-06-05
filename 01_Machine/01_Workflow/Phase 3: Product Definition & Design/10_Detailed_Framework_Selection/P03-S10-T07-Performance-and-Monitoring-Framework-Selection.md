@@ -11,6 +11,11 @@ source: Step.json
 agent: "@performance-optimization-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Performance_Monitoring_Tools.md — Performance_Monitoring_Tools.md: Performance_Monitoring_Tools.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Monitoring_Framework_Specs.json — Monitoring_Framework_Specs.json: Monitoring_Framework_Specs.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Optimization_Framework_Selection.md — Optimization_Framework_Selection.md: Optimization_Framework_Selection.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Caching_Solutions_Analysis.json — Caching_Solutions_Analysis.json: Caching_Solutions_Analysis.json (missing)
 
 ## Mission Statement
 Select frameworks and tools for performance monitoring, optimization, and caching for DafnckMachine v3.1, ensuring system health, responsiveness, and resource efficiency.
@@ -33,10 +38,10 @@ You are @performance-optimization-agent. Your mission is to select and document 
 - Performance and monitoring framework selection rationale
 
 ## Documentation & Templates
-- [Performance_Monitoring_Tools.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Performance_Monitoring_Tools.md)
-- [Monitoring_Framework_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Monitoring_Framework_Specs.json)
-- [Optimization_Framework_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Optimization_Framework_Selection.md)
-- [Caching_Solutions_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Caching_Solutions_Analysis.json)
+- [Performance_Monitoring_Tools.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Performance_Monitoring_Tools.md)
+- [Monitoring_Framework_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Monitoring_Framework_Specs.json)
+- [Optimization_Framework_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Optimization_Framework_Selection.md)
+- [Caching_Solutions_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Caching_Solutions_Analysis.json)
 
 ## Primary Responsible Agent
 @performance-optimization-agent
@@ -95,10 +100,10 @@ You are @performance-optimization-agent. Your mission is to select and document 
 - Update selection as new performance requirements emerge
 
 ## Output Artifacts
-- [Performance_Monitoring_Tools.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Performance_Monitoring_Tools.md)
-- [Monitoring_Framework_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Monitoring_Framework_Specs.json)
-- [Optimization_Framework_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Optimization_Framework_Selection.md)
-- [Caching_Solutions_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Caching_Solutions_Analysis.json)
+- [Performance_Monitoring_Tools.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Performance_Monitoring_Tools.md)
+- [Monitoring_Framework_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Monitoring_Framework_Specs.json)
+- [Optimization_Framework_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Optimization_Framework_Selection.md)
+- [Caching_Solutions_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Caching_Solutions_Analysis.json)
 
 ## Next Action
 Initiate performance and monitoring framework selection with @performance-optimization-agent.

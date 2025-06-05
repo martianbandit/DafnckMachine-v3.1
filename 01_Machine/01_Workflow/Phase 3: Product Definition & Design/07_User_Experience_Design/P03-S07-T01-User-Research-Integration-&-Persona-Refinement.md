@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ux-researcher-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Enhanced_User_Personas.json — Enhanced_User_Personas.json: Enhanced_User_Personas.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Persona_Validation_Report.md — Persona_Validation_Report.md: Persona_Validation_Report.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/User_Needs_Analysis.md — User_Needs_Analysis.md: User_Needs_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Goal_Mapping_Framework.json — Goal_Mapping_Framework.json: Goal_Mapping_Framework.json (missing)
 
 ## Mission Statement
 Validate and enhance user personas through comprehensive user research integration, ensuring accurate behavioral insights and needs analysis to guide UX design decisions.
@@ -33,8 +38,8 @@ You are @ux-researcher-agent. Your mission is to validate and enhance user perso
 - Persona validation and documentation
 
 ## Documentation & Templates
-- [Enhanced_User_Personas.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Enhanced_User_Personas.json)
-- [Persona_Validation_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Persona_Validation_Report.md)
+- [Enhanced_User_Personas.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Enhanced_User_Personas.json)
+- [Persona_Validation_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Persona_Validation_Report.md)
 
 ## Primary Responsible Agent
 @ux-researcher-agent
@@ -58,8 +63,8 @@ The @ux-researcher-agent is selected for its expertise in persona validation, us
 - **Description**: Validate existing user personas against current user research data and enhance them with detailed behavioral patterns, needs assessment, and pain point analysis.
 - **Agent Assignment**: @ux-researcher-agent
 - **Documentation Links**:
-  - [Enhanced_User_Personas.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Enhanced_User_Personas.json)
-  - [Persona_Validation_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Persona_Validation_Report.md)
+  - [Enhanced_User_Personas.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Enhanced_User_Personas.json)
+  - [Persona_Validation_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Persona_Validation_Report.md)
 - **Steps**:
     1. Analyze existing user personas and validate against current user research data (Tool: file_search)
     2. Enhance personas with behavioral patterns and detailed needs analysis (Tool: edit_file)
@@ -73,8 +78,8 @@ The @ux-researcher-agent is selected for its expertise in persona validation, us
 - **Description**: Conduct comprehensive analysis of user needs and goals, identifying primary objectives, secondary goals, success criteria, and motivation patterns.
 - **Agent Assignment**: @ux-researcher-agent
 - **Documentation Links**:
-  - [User_Needs_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/User_Needs_Analysis.md)
-  - [Goal_Mapping_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Goal_Mapping_Framework.json)
+  - [User_Needs_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/User_Needs_Analysis.md)
+  - [Goal_Mapping_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Goal_Mapping_Framework.json)
 - **Steps**:
     1. Analyze user needs hierarchy and identify primary objectives (Tool: edit_file)
     2. Map user goals and define success metrics (Tool: edit_file)
@@ -98,10 +103,10 @@ The @ux-researcher-agent is selected for its expertise in persona validation, us
 - Continuous user research and feedback integration throughout persona development
 
 ## Output Artifacts
-- [Enhanced_User_Personas.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Enhanced_User_Personas.json)
-- [Persona_Validation_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Persona_Validation_Report.md)
-- [User_Needs_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/User_Needs_Analysis.md)
-- [Goal_Mapping_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Goal_Mapping_Framework.json)
+- [Enhanced_User_Personas.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Enhanced_User_Personas.json)
+- [Persona_Validation_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Persona_Validation_Report.md)
+- [User_Needs_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/User_Needs_Analysis.md)
+- [Goal_Mapping_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Goal_Mapping_Framework.json)
 
 ## Next Action
 Initiate persona validation and enhancement with @ux-researcher-agent

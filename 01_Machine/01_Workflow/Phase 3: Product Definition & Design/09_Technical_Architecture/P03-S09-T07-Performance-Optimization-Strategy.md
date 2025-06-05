@@ -11,6 +11,11 @@ source: Step.json
 agent: "@devops-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Performance_Monitoring_Strategy.md — Performance_Monitoring_Strategy.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Metrics_Framework_Specifications.json — Metrics_Framework_Specifications.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Performance_Optimization_Strategy.md — Performance_Optimization_Strategy.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Caching_Implementation_Plan.json — Caching_Implementation_Plan.json (missing)
 
 # Mission Statement
 Define a strategy for ongoing performance monitoring and optimization for DafnckMachine v3.1.
@@ -33,10 +38,10 @@ You are @devops-agent responsible for defining the performance optimization stra
 - Optimization Strategies: Caching, CDN, database, code, resource compression
 
 # Documentation & Templates
-- [Performance_Monitoring_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Performance_Monitoring_Strategy.md)
-- [Metrics_Framework_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Metrics_Framework_Specifications.json)
-- [Performance_Optimization_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Performance_Optimization_Strategy.md)
-- [Caching_Implementation_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Caching_Implementation_Plan.json)
+- [Performance_Monitoring_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Performance_Monitoring_Strategy.md)
+- [Metrics_Framework_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Metrics_Framework_Specifications.json)
+- [Performance_Optimization_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Performance_Optimization_Strategy.md)
+- [Caching_Implementation_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Caching_Implementation_Plan.json)
 
 # Primary Responsible Agent
 @devops-agent
@@ -56,8 +61,8 @@ The @devops-agent is chosen for its expertise in performance monitoring, optimiz
 - **Description**: Design a performance monitoring system, including metrics collection, dashboards, alerting, and bottleneck identification processes.
 - **Agent Assignment**: @devops-agent (monitoring-design, metrics-framework)
 - **Documentation Links**:
-  - [Performance_Monitoring_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Performance_Monitoring_Strategy.md)
-  - [Metrics_Framework_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Metrics_Framework_Specifications.json)
+  - [Performance_Monitoring_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Performance_Monitoring_Strategy.md)
+  - [Metrics_Framework_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Metrics_Framework_Specifications.json)
 - **Steps**:
   1. Design performance monitoring strategy: identify KPIs, select monitoring tools, plan metrics collection, design dashboards, set up alerting, and define bottleneck identification processes (CognitiveProcessing)
   2. Document the performance monitoring strategy in Performance_Monitoring_Strategy.md (edit_file)
@@ -73,8 +78,8 @@ The @devops-agent is chosen for its expertise in performance monitoring, optimiz
 - **Description**: Design specific optimization strategies, including caching layers, CDN, database optimization, code optimization, and resource compression.
 - **Agent Assignment**: @devops-agent (caching-strategy, optimization-planning)
 - **Documentation Links**:
-  - [Performance_Optimization_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Performance_Optimization_Strategy.md)
-  - [Caching_Implementation_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Caching_Implementation_Plan.json)
+  - [Performance_Optimization_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Performance_Optimization_Strategy.md)
+  - [Caching_Implementation_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Caching_Implementation_Plan.json)
 - **Steps**:
   1. Design optimization strategies: identify opportunities for caching, plan CDN integration, define database query optimization, establish code optimization guidelines, and specify resource compression methods (CognitiveProcessing)
   2. Document the overall performance optimization strategy in Performance_Optimization_Strategy.md (edit_file)

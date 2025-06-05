@@ -11,6 +11,11 @@ source: Step.json
 agent: "@security-auditor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Security_Framework_Analysis.md — Security_Framework_Analysis.md: Security_Framework_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Authentication_System_Comparison.json — Authentication_System_Comparison.json: Authentication_System_Comparison.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Compliance_Framework_Selection.md — Compliance_Framework_Selection.md: Compliance_Framework_Selection.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Audit_Tools_Specifications.json — Audit_Tools_Specifications.json: Audit_Tools_Specifications.json (missing)
 
 ## Mission Statement
 Evaluate and select security frameworks, authentication systems, and compliance tools for DafnckMachine v3.1, ensuring data protection, user access control, and regulatory compliance.
@@ -34,10 +39,10 @@ You are @security-auditor-agent. Your mission is to evaluate and select security
 - Security and compliance framework selection rationale
 
 ## Documentation & Templates
-- [Security_Framework_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Security_Framework_Analysis.md)
-- [Authentication_System_Comparison.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Authentication_System_Comparison.json)
-- [Compliance_Framework_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Compliance_Framework_Selection.md)
-- [Audit_Tools_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Audit_Tools_Specifications.json)
+- [Security_Framework_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Security_Framework_Analysis.md)
+- [Authentication_System_Comparison.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Authentication_System_Comparison.json)
+- [Compliance_Framework_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Compliance_Framework_Selection.md)
+- [Audit_Tools_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Audit_Tools_Specifications.json)
 
 ## Primary Responsible Agent
 @security-auditor-agent
@@ -97,10 +102,10 @@ You are @security-auditor-agent. Your mission is to evaluate and select security
 - Update selection as new security requirements emerge
 
 ## Output Artifacts
-- [Security_Framework_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Security_Framework_Analysis.md)
-- [Authentication_System_Comparison.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Authentication_System_Comparison.json)
-- [Compliance_Framework_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Compliance_Framework_Selection.md)
-- [Audit_Tools_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Audit_Tools_Specifications.json)
+- [Security_Framework_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Security_Framework_Analysis.md)
+- [Authentication_System_Comparison.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Authentication_System_Comparison.json)
+- [Compliance_Framework_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Compliance_Framework_Selection.md)
+- [Audit_Tools_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Audit_Tools_Specifications.json)
 
 ## Next Action
 Initiate security and compliance framework evaluation with @security-auditor-agent.

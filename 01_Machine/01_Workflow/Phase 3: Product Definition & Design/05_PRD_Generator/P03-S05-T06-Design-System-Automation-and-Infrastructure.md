@@ -11,6 +11,9 @@ source: Step.json
 agent: "@prd-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Design_Automation_Framework.md — Design_Automation_Framework.md: Design_Automation_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Deployment_Automation_Framework.md — Deployment_Automation_Framework.md: Deployment_Automation_Framework.md (missing)
 
 ## Mission Statement
 Define autonomous design generation capabilities and deployment infrastructure automation including brand identity, component systems, and infrastructure management.
@@ -36,11 +39,11 @@ You are @prd-architect-agent responsible for defining design system automation a
 - **Deployment Automation**: Infrastructure as code, CI/CD pipelines, monitoring setup, scaling automation, security implementation, cost optimization
 
 ## Documentation & Templates
-- [PRD_Template.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/PRD_Template.md)
-- [Design_Automation_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Design_Automation_Framework.md)
-- [Autonomous_Design_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Autonomous_Design_Specifications.json)
-- [Deployment_Automation_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Deployment_Automation_Framework.md)
-- [Infrastructure_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Infrastructure_Specifications.json)
+- [PRD_Template.md](mdc:01_Machine/04_Documentation/vision/Phase_3/PRD_Template.md)
+- [Design_Automation_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Design_Automation_Framework.md)
+- [Autonomous_Design_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Autonomous_Design_Specifications.json)
+- [Deployment_Automation_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Deployment_Automation_Framework.md)
+- [Infrastructure_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Infrastructure_Specifications.json)
 
 ## Primary Responsible Agent
 @prd-architect-agent - design-automation, autonomous-generation, ux-optimization
@@ -59,7 +62,7 @@ The PRD Architect Agent is chosen for its expertise in design automation, autono
 - **ID**: P03-T06-S01
 - **Description**: Define design automation including brand identity generation, component design systems, UX optimization, accessibility compliance, responsive design, and animation systems.
 - **Agent Assignment**: @prd-architect-agent (design-automation, autonomous-generation, ux-optimization)
-- **Documentation Links**: [Design_Automation_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Design_Automation_Framework.md), [Autonomous_Design_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Autonomous_Design_Specifications.json)
+- **Documentation Links**: [Design_Automation_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Design_Automation_Framework.md), [Autonomous_Design_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Autonomous_Design_Specifications.json)
 - **Steps**:
     1. Define brand identity generation and component design system automation (edit_file)
     2. Specify UX optimization and accessibility compliance automation (edit_file)
@@ -73,7 +76,7 @@ The PRD Architect Agent is chosen for its expertise in design automation, autono
 - **ID**: P03-T06-S02
 - **Description**: Specify deployment automation including infrastructure as code, CI/CD pipelines, monitoring setup, scaling automation, security implementation, and cost optimization.
 - **Agent Assignment**: @system-architect-agent (deployment-automation, infrastructure-management, devops-orchestration)
-- **Documentation Links**: [Deployment_Automation_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Deployment_Automation_Framework.md), [Infrastructure_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Infrastructure_Specifications.json)
+- **Documentation Links**: [Deployment_Automation_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Deployment_Automation_Framework.md), [Infrastructure_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Infrastructure_Specifications.json)
 - **Steps**:
     1. Define infrastructure as code and CI/CD pipeline automation (edit_file)
     2. Specify monitoring setup and scaling automation with cost optimization (edit_file)

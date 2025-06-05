@@ -11,6 +11,9 @@ source: Step.json
 agent: "@task-planning-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Documentation_Package.md — Task_Documentation_Package.md: Task_Documentation_Package.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Workflow_Documentation_Package.md — Workflow_Documentation_Package.md: Workflow_Documentation_Package.md (missing)
 
 ## Mission Statement
 Generate comprehensive documentation for tasks and workflows, establishing a knowledge management system for DafnckMachine v3.1.
@@ -33,11 +36,11 @@ Generate individual task files and other documentation to create a comprehensive
 - Knowledge Management: Documentation and training systems supporting team efficiency
 
 ## Documentation & Templates
-- [Task_Documentation_Package.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Documentation_Package.md)
-- [Knowledge_Management_System.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Knowledge_Management_System.json)
-- [Documentation_Package.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Documentation_Package.md)
-- [Workflow_Documentation_Package.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Workflow_Documentation_Package.md)
-- [Training_Materials_Collection.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Training_Materials_Collection.json)
+- [Task_Documentation_Package.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Documentation_Package.md)
+- [Knowledge_Management_System.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Knowledge_Management_System.json)
+- [Documentation_Package.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Documentation_Package.md)
+- [Workflow_Documentation_Package.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Workflow_Documentation_Package.md)
+- [Training_Materials_Collection.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Training_Materials_Collection.json)
 
 ## Primary Responsible Agent
 @task-planning-agent
@@ -58,9 +61,9 @@ Generate individual task files and other documentation to create a comprehensive
 - **Description:** Generate individual task files and other documentation to create a comprehensive knowledge base.
 - **Agent:** @task-planning-agent
 - **Documentation Links:**
-  - [Task_Documentation_Package.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Documentation_Package.md)
-  - [Knowledge_Management_System.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Knowledge_Management_System.json)
-  - [Documentation_Package.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Documentation_Package.md)
+  - [Task_Documentation_Package.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Documentation_Package.md)
+  - [Knowledge_Management_System.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Knowledge_Management_System.json)
+  - [Documentation_Package.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Documentation_Package.md)
 - **Steps:**
     1. Generate individual markdown files for all tasks and subtasks in tasks.json using mcp_taskmaster-ai_generate.
 - **Success Criteria:**
@@ -76,12 +79,12 @@ Generate individual task files and other documentation to create a comprehensive
 - **Description:** Create documentation for workflows, processes, best practices, and training materials.
 - **Agent:** @task-planning-agent
 - **Documentation Links:**
-  - [Workflow_Documentation_Package.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Workflow_Documentation_Package.md)
-  - [Training_Materials_Collection.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Training_Materials_Collection.json)
+  - [Workflow_Documentation_Package.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Workflow_Documentation_Package.md)
+  - [Training_Materials_Collection.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Training_Materials_Collection.json)
 - **Steps:**
     1. Consolidate all previously created documentation (e.g., Strategy, Guidelines, Frameworks) into a central Workflow Documentation Package using edit_file.
 - **Success Criteria:**
-    - File Exists: 01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Workflow_Documentation_Package.md
+    - File Exists: 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Workflow_Documentation_Package.md
     - File Content Matches: Package document references all relevant workflow and process guides
 - **On Failure:** NOTIFY_AND_CONTINUE (training materials may be incomplete)
 - **Max Retries:** 0
@@ -107,8 +110,8 @@ Generate individual task files and other documentation to create a comprehensive
 - Documentation Issues: Refine and update documentation and training materials
 
 ## Output Artifacts
-- [Task_Documentation_Package.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Documentation_Package.md)
-- [Workflow_Documentation_Package.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Workflow_Documentation_Package.md)
+- [Task_Documentation_Package.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Documentation_Package.md)
+- [Workflow_Documentation_Package.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Workflow_Documentation_Package.md)
 
 ## Next Action
 Proceed to P04-S12-T01-Frontend-Development.md

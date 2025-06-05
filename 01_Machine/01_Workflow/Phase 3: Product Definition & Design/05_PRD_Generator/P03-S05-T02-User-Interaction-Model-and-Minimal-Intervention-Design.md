@@ -11,6 +11,9 @@ source: Step.json
 agent: "@prd-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/User_Interaction_Model.md — User_Interaction_Model.md: User_Interaction_Model.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Transparency_Framework.md — Transparency_Framework.md: Transparency_Framework.md (missing)
 
 # Previous Task: P03-S05-T01-System-Overview-and-Vision-Definition.md
 # Current Task: P03-S05-T02-User-Interaction-Model-and-Minimal-Intervention-Design.md
@@ -51,11 +54,11 @@ You are @prd-architect-agent responsible for designing the user interaction mode
 - **Transparency Framework**: Real-time dashboards, automated reporting, audit trails, emergency controls
 
 ## Documentation & Templates
-- [PRD_Template.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/PRD_Template.md)
-- [User_Interaction_Model.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/User_Interaction_Model.md)
-- [Intervention_Points_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Intervention_Points_Matrix.json)
-- [Transparency_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Transparency_Framework.md)
-- [Control_Mechanisms.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Control_Mechanisms.json)
+- [PRD_Template.md](mdc:01_Machine/04_Documentation/vision/Phase_3/PRD_Template.md)
+- [User_Interaction_Model.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/User_Interaction_Model.md)
+- [Intervention_Points_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Intervention_Points_Matrix.json)
+- [Transparency_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Transparency_Framework.md)
+- [Control_Mechanisms.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Control_Mechanisms.json)
 
 ## Primary Responsible Agent
 @prd-architect-agent - user-interaction, minimal-intervention, workflow-design
@@ -74,7 +77,7 @@ The PRD Architect Agent is chosen for its expertise in user interaction, workflo
 - **ID**: P03-T02-S01
 - **Description**: Design minimal intervention model with required user inputs (15-20 min project brief), strategic validation points (5 min each), and continuous transparency mechanisms.
 - **Agent Assignment**: @prd-architect-agent (user-interaction, minimal-intervention, workflow-design)
-- **Documentation Links**: [User_Interaction_Model.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/User_Interaction_Model.md), [Intervention_Points_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Intervention_Points_Matrix.json)
+- **Documentation Links**: [User_Interaction_Model.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/User_Interaction_Model.md), [Intervention_Points_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Intervention_Points_Matrix.json)
 - **Steps**:
     1. Define required user input points and time allocations for project briefing (edit_file)
     2. Specify strategic validation points with 5-minute time constraints (edit_file)
@@ -89,7 +92,7 @@ The PRD Architect Agent is chosen for its expertise in user interaction, workflo
 - **ID**: P03-T02-S02
 - **Description**: Define transparency mechanisms including real-time dashboards, automated reporting, decision audit trails, emergency controls, and quality milestone confirmations.
 - **Agent Assignment**: @prd-architect-agent (transparency-systems, user-control, monitoring-design)
-- **Documentation Links**: [Transparency_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Transparency_Framework.md), [Control_Mechanisms.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Control_Mechanisms.json)
+- **Documentation Links**: [Transparency_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Transparency_Framework.md), [Control_Mechanisms.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Control_Mechanisms.json)
 - **Steps**:
     1. Design real-time dashboard specifications for continuous transparency (edit_file)
     2. Specify emergency controls and quality milestone confirmation mechanisms (edit_file)

@@ -11,6 +11,9 @@ source: Step.json
 agent: "@documentation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/API_Documentation.md — API_Documentation.md: API_Documentation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/API_Examples.md — API_Examples.md: API_Examples.md (missing)
 
 ## Mission Statement
 Create comprehensive API documentation to ensure all endpoints, parameters, and responses are clearly described and accessible to developers and integrators.
@@ -34,8 +37,8 @@ You are @documentation-agent and @backend-developer-agent responsible for creati
 - API documentation, endpoint details, and usage examples
 
 ## Documentation & Templates
-- [API_Documentation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/API_Documentation.md)
-- [API_Examples.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/API_Examples.md)
+- [API_Documentation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/API_Documentation.md)
+- [API_Examples.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/API_Examples.md)
 
 ## Primary Responsible Agent
 @documentation-agent, @backend-developer-agent
@@ -58,7 +61,7 @@ The Documentation Agent and Backend Developer Agent are chosen for their experti
 - **Description**: Document all API endpoints, parameters, and response formats
 - **Agent Assignment**: @documentation-agent
 - **Documentation Links**:
-  - [API_Documentation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/API_Documentation.md)
+  - [API_Documentation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/API_Documentation.md)
 - **Steps**:
     1. List all API endpoints and parameters (edit_file)
     2. Document request/response formats (edit_file)
@@ -72,7 +75,7 @@ The Documentation Agent and Backend Developer Agent are chosen for their experti
 - **Description**: Provide usage examples and authentication details for all API endpoints
 - **Agent Assignment**: @backend-developer-agent
 - **Documentation Links**:
-  - [API_Examples.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/API_Examples.md)
+  - [API_Examples.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/API_Examples.md)
 - **Steps**:
     1. Create usage examples for each endpoint (edit_file)
     2. Document authentication and error handling (edit_file)
@@ -97,8 +100,8 @@ The Documentation Agent and Backend Developer Agent are chosen for their experti
 - Regular reviews and updates to documentation
 
 ## Output Artifacts
-- [API_Documentation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/API_Documentation.md)
-- [API_Examples.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/API_Examples.md)
+- [API_Documentation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/API_Documentation.md)
+- [API_Examples.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/API_Examples.md)
 
 ## Next Action
 Document all API endpoints and provide usage examples with @documentation-agent and @backend-developer-agent

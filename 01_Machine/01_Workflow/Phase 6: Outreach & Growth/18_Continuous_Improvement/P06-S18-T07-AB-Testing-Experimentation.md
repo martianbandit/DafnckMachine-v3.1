@@ -11,6 +11,9 @@ source: Step.json
 agent: "@analytics-setup-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/A_B_Testing_Framework.md — A_B_Testing_Framework.md: Experimentation platform and testing optimization (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feature_Testing_Validation.md — Feature_Testing_Validation.md: Feature validation and user testing (missing)
 
 # Workflow Metadata
 - **Workflow-Step**: Continuous Improvement
@@ -46,8 +49,8 @@ You are @analytics-setup-agent. Your mission is to set up an experimentation pla
 - **A/B Testing**: Experimentation platform and statistical analysis system
 
 # Documentation & Templates
-- [A_B_Testing_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/A_B_Testing_Framework.md): Experimentation platform and testing optimization
-- [Feature_Testing_Validation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Feature_Testing_Validation.md): Feature validation and user testing
+- [A_B_Testing_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/A_B_Testing_Framework.md): Experimentation platform and testing optimization
+- [Feature_Testing_Validation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feature_Testing_Validation.md): Feature validation and user testing
 
 # Primary Responsible Agent
 @analytics-setup-agent
@@ -67,7 +70,7 @@ The Analytics Setup Agent is chosen for its expertise in experimentation platfor
 - **ID**: P05-T07-S01
 - **Description**: Set up an A/B testing framework, including experiment design, statistical analysis, and result interpretation.
 - **Agent**: @analytics-setup-agent
-- **Documentation**: [A_B_Testing_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/A_B_Testing_Framework.md)
+- **Documentation**: [A_B_Testing_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/A_B_Testing_Framework.md)
 - **Steps**:
     1. Setup experimentation platform: A/B testing framework, experiment design, statistical analysis, result interpretation (Tool: edit_file)
         - Success: `config/ab_testing_platform_config.json` exists and contains `"defaultSignificanceLevel": 0.05`
@@ -81,7 +84,7 @@ The Analytics Setup Agent is chosen for its expertise in experimentation platfor
 - **ID**: P05-T07-S02
 - **Description**: Implement processes for feature validation, user testing, performance testing, and feedback collection.
 - **Agent**: @user-feedback-collector-agent
-- **Documentation**: [Feature_Testing_Validation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Feature_Testing_Validation.md)
+- **Documentation**: [Feature_Testing_Validation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feature_Testing_Validation.md)
 - **Steps**:
     1. Implement feature testing: feature validation, user testing, performance testing, feedback collection (Tool: edit_file)
         - Success: `config/feature_testing_config.json` exists and contains `"minTestersPerFeature": 10`
@@ -109,8 +112,8 @@ The Analytics Setup Agent is chosen for its expertise in experimentation platfor
 - Notify and continue on minor issues
 
 # Output Artifacts
-- [A_B_Testing_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/A_B_Testing_Framework.md)
-- [Feature_Testing_Validation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Feature_Testing_Validation.md)
+- [A_B_Testing_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/A_B_Testing_Framework.md)
+- [Feature_Testing_Validation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feature_Testing_Validation.md)
 
 # Next Action
 Set up experimentation platform and implement feature testing and validation with @analytics-setup-agent and @user-feedback-collector-agent

@@ -11,6 +11,11 @@ source: Step.json
 agent: "@coding-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/State_Management_Guide.md — State_Management_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Data_Flow_Architecture.json — Data_Flow_Architecture.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/API_Integration_Guide.md — API_Integration_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Data_Synchronization_Specs.json — Data_Synchronization_Specs.json (missing)
 
 # Mission Statement
 Implement comprehensive state management system with API integration, data synchronization, and real-time updates for scalable application architecture in DafnckMachine v3.1.
@@ -39,10 +44,10 @@ You are @coding-agent responsible for implementing state management and API inte
 - Data synchronization and real-time updates
 
 # Documentation & Templates
-- [State_Management_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/State_Management_Guide.md)
-- [Data_Flow_Architecture.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Data_Flow_Architecture.json)
-- [API_Integration_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/API_Integration_Guide.md)
-- [Data_Synchronization_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Data_Synchronization_Specs.json)
+- [State_Management_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/State_Management_Guide.md)
+- [Data_Flow_Architecture.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Data_Flow_Architecture.json)
+- [API_Integration_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/API_Integration_Guide.md)
+- [Data_Synchronization_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Data_Synchronization_Specs.json)
 
 # Primary Responsible Agent
 @coding-agent - frontend-development
@@ -67,8 +72,8 @@ You are @coding-agent responsible for implementing state management and API inte
 - **Description**: Implement state management system with global state, local state management, and data flow architecture for efficient application state handling.
 - **Agent Assignment**: @coding-agent
 - **Documentation Links**:
-  - [State_Management_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/State_Management_Guide.md)
-  - [Data_Flow_Architecture.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Data_Flow_Architecture.json)
+  - [State_Management_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/State_Management_Guide.md)
+  - [Data_Flow_Architecture.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Data_Flow_Architecture.json)
 - **Steps**:
     1. Configure state management system and store setup (edit_file)
     2. Implement state slices and reducers (edit_file)
@@ -92,8 +97,8 @@ You are @coding-agent responsible for implementing state management and API inte
 - **Description**: Implement comprehensive API integration with data fetching, caching, synchronization, and real-time updates for seamless backend communication.
 - **Agent Assignment**: @coding-agent
 - **Documentation Links**:
-  - [API_Integration_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/API_Integration_Guide.md)
-  - [Data_Synchronization_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Data_Synchronization_Specs.json)
+  - [API_Integration_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/API_Integration_Guide.md)
+  - [Data_Synchronization_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Data_Synchronization_Specs.json)
 - **Steps**:
     1. Implement API client and data fetching (edit_file)
     2. Implement data caching and synchronization (edit_file)

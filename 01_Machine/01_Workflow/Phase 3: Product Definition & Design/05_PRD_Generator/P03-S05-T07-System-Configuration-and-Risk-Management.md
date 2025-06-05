@@ -11,6 +11,9 @@ source: Step.json
 agent: "@prd-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/System_Configuration_Framework.md — System_Configuration_Framework.md: System_Configuration_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Risk_Management_Framework.md — Risk_Management_Framework.md: Risk_Management_Framework.md (missing)
 
 ## Mission Statement
 Define system configuration capabilities and comprehensive risk management including agent behavior customization, failure recovery protocols, and system resilience mechanisms.
@@ -36,11 +39,11 @@ You are @prd-architect-agent responsible for defining system configuration and r
 - **Risk Management**: Automated risk detection, mitigation strategies, failure recovery protocols, rollback mechanisms, emergency procedures, system resilience
 
 ## Documentation & Templates
-- [PRD_Template.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/PRD_Template.md)
-- [System_Configuration_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/System_Configuration_Framework.md)
-- [Agent_Customization_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Agent_Customization_Specifications.json)
-- [Risk_Management_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Risk_Management_Framework.md)
-- [Failure_Recovery_Protocols.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Failure_Recovery_Protocols.json)
+- [PRD_Template.md](mdc:01_Machine/04_Documentation/vision/Phase_3/PRD_Template.md)
+- [System_Configuration_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/System_Configuration_Framework.md)
+- [Agent_Customization_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Agent_Customization_Specifications.json)
+- [Risk_Management_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Risk_Management_Framework.md)
+- [Failure_Recovery_Protocols.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Failure_Recovery_Protocols.json)
 
 ## Primary Responsible Agent
 @prd-architect-agent - system-configuration, agent-customization, workflow-design, risk-management, failure-recovery, system-resilience
@@ -59,7 +62,7 @@ The PRD Architect Agent is chosen for its expertise in system configuration, age
 - **ID**: P03-T07-S01
 - **Description**: Define configuration system including agent behavior parameters, development standards, quality thresholds, technology constraints, workflow customization, and process modification.
 - **Agent Assignment**: @prd-architect-agent (system-configuration, agent-customization, workflow-design)
-- **Documentation Links**: [System_Configuration_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/System_Configuration_Framework.md), [Agent_Customization_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Agent_Customization_Specifications.json)
+- **Documentation Links**: [System_Configuration_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/System_Configuration_Framework.md), [Agent_Customization_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Agent_Customization_Specifications.json)
 - **Steps**:
     1. Define agent behavior parameters and development standards configuration (edit_file)
     2. Specify workflow customization and process modification capabilities (edit_file)
@@ -73,7 +76,7 @@ The PRD Architect Agent is chosen for its expertise in system configuration, age
 - **ID**: P03-T07-S02
 - **Description**: Specify risk management including automated risk detection, mitigation strategies, failure recovery protocols, rollback mechanisms, emergency procedures, and system resilience.
 - **Agent Assignment**: @prd-architect-agent (risk-management, failure-recovery, system-resilience)
-- **Documentation Links**: [Risk_Management_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Risk_Management_Framework.md), [Failure_Recovery_Protocols.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Failure_Recovery_Protocols.json)
+- **Documentation Links**: [Risk_Management_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Risk_Management_Framework.md), [Failure_Recovery_Protocols.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Failure_Recovery_Protocols.json)
 - **Steps**:
     1. Define automated risk detection and mitigation strategies (edit_file)
     2. Specify failure recovery protocols and emergency procedures (edit_file)

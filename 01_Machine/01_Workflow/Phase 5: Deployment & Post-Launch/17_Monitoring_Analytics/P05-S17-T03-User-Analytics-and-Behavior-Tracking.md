@@ -11,6 +11,11 @@ source: Step.json
 agent: "@analytics-setup-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/User_Analytics_Implementation.md — User_Analytics_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Behavior_Tracking_Setup.json — Behavior_Tracking_Setup.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Engagement_Analytics_Framework.md — Engagement_Analytics_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Optimization_Insights.json — Optimization_Insights.json (missing)
 
 # Mission Statement
 Set up user analytics and behavior tracking to understand how users interact with the application and optimize engagement for DafnckMachine v3.1.
@@ -42,10 +47,10 @@ You are @analytics-setup-agent. Your mission is to implement user analytics and 
 - Engagement metrics and A/B test setup
 
 # Documentation & Templates
-- [User_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/User_Analytics_Implementation.md)
-- [Behavior_Tracking_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Behavior_Tracking_Setup.json)
-- [Engagement_Analytics_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Engagement_Analytics_Framework.md)
-- [Optimization_Insights.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Optimization_Insights.json)
+- [User_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/User_Analytics_Implementation.md)
+- [Behavior_Tracking_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Behavior_Tracking_Setup.json)
+- [Engagement_Analytics_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Engagement_Analytics_Framework.md)
+- [Optimization_Insights.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Optimization_Insights.json)
 
 # Primary Responsible Agent
 @analytics-setup-agent
@@ -69,8 +74,8 @@ The @analytics-setup-agent is chosen for its expertise in user analytics, behavi
 - **Description**: Implement user tracking, configure event collection, and set up session analysis and conversion tracking within the chosen user analytics platform.
 - **Agent**: @analytics-setup-agent
 - **Documentation Links**:
-  - [User_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/User_Analytics_Implementation.md)
-  - [Behavior_Tracking_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Behavior_Tracking_Setup.json)
+  - [User_Analytics_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/User_Analytics_Implementation.md)
+  - [Behavior_Tracking_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Behavior_Tracking_Setup.json)
 - **Steps**:
   1. Configure user analytics settings in Behavior_Tracking_Setup.json, including user tracking implementation, event collection, session analysis, and conversion tracking.
      - Tool: edit_file
@@ -92,8 +97,8 @@ The @analytics-setup-agent is chosen for its expertise in user analytics, behavi
 - **Description**: Implement analytics to measure user engagement, retention, feature usage, and support A/B testing.
 - **Agent**: @analytics-setup-agent
 - **Documentation Links**:
-  - [Engagement_Analytics_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Engagement_Analytics_Framework.md)
-  - [Optimization_Insights.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Optimization_Insights.json)
+  - [Engagement_Analytics_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Engagement_Analytics_Framework.md)
+  - [Optimization_Insights.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Optimization_Insights.json)
 - **Steps**:
   1. Configure engagement analytics settings in Optimization_Insights.json, defining user engagement metrics, retention analysis parameters, feature usage tracking, and A/B testing analytics setup.
      - Tool: edit_file
@@ -124,8 +129,8 @@ The @analytics-setup-agent is chosen for its expertise in user analytics, behavi
 - Privacy compliance and user consent
 
 # Output Artifacts
-- [Behavior_Tracking_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Behavior_Tracking_Setup.json)
-- [Optimization_Insights.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Optimization_Insights.json)
+- [Behavior_Tracking_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Behavior_Tracking_Setup.json)
+- [Optimization_Insights.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Optimization_Insights.json)
 
 # Next Action
 Implement user analytics and engagement tracking with @analytics-setup-agent

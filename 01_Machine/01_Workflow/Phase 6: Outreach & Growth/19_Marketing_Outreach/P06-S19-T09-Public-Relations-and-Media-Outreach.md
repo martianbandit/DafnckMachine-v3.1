@@ -11,6 +11,8 @@ source: Step.json
 agent: "@marketing-strategy-orchestrator"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Public_Relations_Framework.md — Public_Relations_Framework.md: PR strategy and media relations management (missing)
 
 ## Workflow Metadata
 - **Workflow-Step**: Marketing Outreach
@@ -51,10 +53,10 @@ Create and implement PR strategies, media outreach, press releases, journalist r
 - **Reputation Management**: Crisis communication, monitoring
 
 ## Documentation & Templates
-- [PR Strategy Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/PR_Strategy_Framework.md)
-- [Media Relations Guide](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Media_Relations_Guide.json)
-- [Crisis Communication Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Crisis_Communication_Framework.md)
-- [Reputation Management Guide](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Reputation_Management_Guide.json)
+- [PR Strategy Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/PR_Strategy_Framework.md)
+- [Media Relations Guide](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Media_Relations_Guide.json)
+- [Crisis Communication Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Crisis_Communication_Framework.md)
+- [Reputation Management Guide](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Reputation_Management_Guide.json)
 
 ## Primary Responsible Agent
 @marketing-strategy-orchestrator
@@ -78,8 +80,8 @@ The Marketing Strategy Orchestrator is chosen for expertise in PR, media relatio
 - **Description**: Develop PR strategy, media outreach, and press releases.
 - **Agent Assignment**: @marketing-strategy-orchestrator
 - **Documentation Links**:
-  - [PR Strategy Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/PR_Strategy_Framework.md)
-  - [Media Relations Guide](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Media_Relations_Guide.json)
+  - [PR Strategy Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/PR_Strategy_Framework.md)
+  - [Media Relations Guide](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Media_Relations_Guide.json)
 - **Steps**:
     1. Identify key media outlets, journalists, and bloggers.
     2. Develop story angles and press release templates.
@@ -96,8 +98,8 @@ The Marketing Strategy Orchestrator is chosen for expertise in PR, media relatio
 - **Description**: Develop crisis communication plan and set up reputation monitoring.
 - **Agent Assignment**: @marketing-strategy-orchestrator
 - **Documentation Links**:
-  - [Crisis Communication Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Crisis_Communication_Framework.md)
-  - [Reputation Management Guide](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Reputation_Management_Guide.json)
+  - [Crisis Communication Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Crisis_Communication_Framework.md)
+  - [Reputation Management Guide](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Reputation_Management_Guide.json)
 - **Steps**:
     1. Develop crisis communication plan and response protocols.
     2. Set up reputation monitoring tools.
@@ -131,7 +133,7 @@ The Marketing Strategy Orchestrator is chosen for expertise in PR, media relatio
 - Crisis Events: Activate crisis plan
 
 ## Output Artifacts
-- [Public_Relations_Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/Public_Relations_Framework.md): PR strategy and media relations management
+- [Public_Relations_Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Public_Relations_Framework.md): PR strategy and media relations management
 
 ## Next Action
 Identify media contacts and develop outreach plan with @marketing-strategy-orchestrator

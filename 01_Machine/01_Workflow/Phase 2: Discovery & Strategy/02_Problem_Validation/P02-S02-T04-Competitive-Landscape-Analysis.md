@@ -11,6 +11,10 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Competitive_Analysis.md — Competitive_Analysis.md: Competitor landscape and positioning analysis (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Alternative_Solutions_Analysis.md — Alternative_Solutions_Analysis.md: Alternative solutions analysis (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Gap_Assessment.json — Market_Gap_Assessment.json: Market gap assessment (missing)
 
 ## Mission Statement
 Conduct comprehensive competitive analysis including direct competitors, indirect alternatives, and market positioning to identify differentiation opportunities and competitive advantages.
@@ -34,7 +38,7 @@ You are @market-research-agent responsible for competitive analysis. Your missio
 
 ## Documentation & Templates
 - [Competitive_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Competitive_Analysis.md): Competitor landscape and positioning analysis
-- [Competitor_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Competitor_Matrix.json): Competitor matrix
+- [Competitor_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Competitor_Matrix.json): Competitor matrix
 - [Alternative_Solutions_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Alternative_Solutions_Analysis.md): Alternative solutions analysis
 - [Market_Gap_Assessment.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Gap_Assessment.json): Market gap assessment
 
@@ -62,7 +66,7 @@ The Market Research Agent is chosen for its specialized capabilities in competit
 - **ID**: P02-T04-S02
 - **Description**: Identify and analyze direct competitors including their solutions, features, market positioning, strengths, weaknesses, and competitive strategies.
 - **Agent Assignment**: @market-research-agent
-- **Documentation Links**: [Competitive_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Competitive_Analysis.md), [Competitor_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Competitor_Matrix.json)
+- **Documentation Links**: [Competitive_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Competitive_Analysis.md), [Competitor_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Competitor_Matrix.json)
 - **Steps**:
     1. Research and identify key direct competitors in the market space (web_search)
     2. Analyze competitor solutions, features, and market positioning (web_search)

@@ -11,6 +11,8 @@ source: Step.json
 agent: "@elicitation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Requirements.md — Requirements.md: Documented user and system requirements (missing)
 
 ## Mission Statement
 Analyze and document functional requirements and technical constraints for the project.
@@ -33,8 +35,8 @@ You are @elicitation-agent responsible for eliciting detailed core features, use
 - Requirements Matrix: Functional requirements, technical constraints, and quality expectations
 
 ## Documentation & Templates
-- [Requirements_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Requirements_Matrix.json): Structured requirements and constraints
-- [Briefing_Summary.md](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Briefing_Summary.md): Briefing session summary
+- [Requirements_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Requirements_Matrix.json): Structured requirements and constraints
+- [Briefing_Summary.md](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Briefing_Summary.md): Briefing session summary
 
 ## Primary Responsible Agent
 @elicitation-agent
@@ -57,8 +59,8 @@ The @elicitation-agent is chosen for its expertise in functional analysis, requi
 - **Description**: Gather core features, user workflows, system capabilities, and integration needs.
 - **Agent Assignment**: @elicitation-agent
 - **Documentation Links**:
-  - [Requirements_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Requirements_Matrix.json)
-  - [Briefing_Summary.md](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Briefing_Summary.md)
+  - [Requirements_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Requirements_Matrix.json)
+  - [Briefing_Summary.md](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Briefing_Summary.md)
 - **Steps**:
     1. Elicit detailed core features, user workflows (e.g., user stories), system capabilities, integration needs, and performance expectations.
     2. Structure these within Requirements_Matrix.json as a list of at least 10 functional requirements, each with ID, description, priority, status, and dependencies (if applicable).

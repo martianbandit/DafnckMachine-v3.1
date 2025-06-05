@@ -11,6 +11,9 @@ source: Step.json
 agent: "@technology-advisor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Framework_Selection_Criteria.md — Framework_Selection_Criteria.md: Framework_Selection_Criteria.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Evaluation_Methodology.json — Evaluation_Methodology.json: Evaluation_Methodology.json (missing)
 
 ## Mission Statement
 Define the criteria and methodology for evaluating and selecting technology frameworks for DafnckMachine v3.1, ensuring all selections are systematic, justified, and aligned with technical and business requirements.
@@ -36,8 +39,8 @@ You are @technology-advisor-agent. Your mission is to define and document the cr
 - Framework selection criteria and methodology for all future framework decisions
 
 ## Documentation & Templates
-- [Framework_Selection_Criteria.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Framework_Selection_Criteria.md)
-- [Evaluation_Methodology.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Evaluation_Methodology.json)
+- [Framework_Selection_Criteria.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Framework_Selection_Criteria.md)
+- [Evaluation_Methodology.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Evaluation_Methodology.json)
 
 ## Primary Responsible Agent
 @technology-advisor-agent
@@ -97,8 +100,8 @@ You are @technology-advisor-agent. Your mission is to define and document the cr
 - Update criteria/methodology as new requirements emerge
 
 ## Output Artifacts
-- [Framework_Selection_Criteria.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Framework_Selection_Criteria.md)
-- [Evaluation_Methodology.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Evaluation_Methodology.json)
+- [Framework_Selection_Criteria.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Framework_Selection_Criteria.md)
+- [Evaluation_Methodology.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Evaluation_Methodology.json)
 
 ## Next Action
 Initiate architecture requirements search and criteria definition with @technology-advisor-agent.

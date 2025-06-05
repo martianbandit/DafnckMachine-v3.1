@@ -3,7 +3,7 @@ phase: P02
 step: S02
 task: T07
 task_id: P02-S02-T07
-title: Validation Synthesis Recommendation
+title: Validation Synthesis & Recommendation
 previous_task: P02-S02-T06
 next_task: P02-S03-T01
 version: 3.1.0
@@ -11,6 +11,8 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Validation_Synthesis.md — Validation_Synthesis.md: Synthesis of validation research and recommendations (missing)
 
 ## Mission Statement
 Synthesize all validation data, analyze findings against success criteria, and develop strategic recommendations with clear go/no-go decision and next steps.
@@ -34,7 +36,7 @@ You are @market-research-agent responsible for validation synthesis and strategi
 
 ## Documentation & Templates
 - [Validation_Summary.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Validation_Summary.md): Validation summary
-- [Data_Analysis_Report.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Data_Analysis_Report.json): Data analysis report
+- [Data_Analysis_Report.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Data_Analysis_Report.json): Data analysis report
 - [Strategic_Recommendation.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Strategic_Recommendation.md): Strategic recommendation
 - [Next_Steps_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Next_Steps_Plan.json): Next steps plan
 
@@ -61,7 +63,7 @@ The Market Research Agent is chosen for its specialized capabilities in data syn
 - **ID**: P02-T07-S02
 - **Description**: Consolidate all research findings, analyze validation metrics, identify key insights, and assess overall problem validation success against defined criteria.
 - **Agent Assignment**: @market-research-agent
-- **Documentation Links**: [Validation_Summary.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Validation_Summary.md), [Data_Analysis_Report.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Data_Analysis_Report.json)
+- **Documentation Links**: [Validation_Summary.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Validation_Summary.md), [Data_Analysis_Report.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Data_Analysis_Report.json)
 - **Steps**:
     1. Consolidate all validation research findings and data (file_search)
     2. Analyze validation metrics and assess success criteria (edit_file)
@@ -115,7 +117,7 @@ The Market Research Agent is chosen for its specialized capabilities in data syn
 
 ## Output Artifacts
 - [Validation_Summary.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Validation_Summary.md)
-- [Data_Analysis_Report.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Data_Analysis_Report.json)
+- [Data_Analysis_Report.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Data_Analysis_Report.json)
 - [Strategic_Recommendation.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Strategic_Recommendation.md)
 - [Next_Steps_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Next_Steps_Plan.json)
 

@@ -11,6 +11,11 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/Market_Gap_Analysis.md — Market_Gap_Analysis.md: Market_Gap_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2_Discovery_Strategy/Opportunity_Matrix.json — Opportunity_Matrix.json: Opportunity_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2_Discovery_Strategy/Strategic_Positioning_Framework.md — Strategic_Positioning_Framework.md: Strategic_Positioning_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2_Discovery_Strategy/Value_Proposition_Canvas.json — Value_Proposition_Canvas.json: Value_Proposition_Canvas.json (missing)
 
 ## Mission Statement
 Identify market gaps and develop strategic positioning framework based on comprehensive market intelligence to guide product positioning and differentiation.

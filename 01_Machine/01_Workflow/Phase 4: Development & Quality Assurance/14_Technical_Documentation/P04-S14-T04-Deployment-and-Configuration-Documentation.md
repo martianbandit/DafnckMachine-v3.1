@@ -11,6 +11,9 @@ source: Step.json
 agent: "@documentation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Deployment_Guide.md — Deployment_Guide.md: Deployment_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Configuration_Reference.md — Configuration_Reference.md: Configuration_Reference.md (missing)
 
 ## Mission Statement
 Create comprehensive deployment and configuration documentation to ensure smooth setup, deployment, and maintenance of DafnckMachine v3.1.
@@ -34,8 +37,8 @@ You are @documentation-agent and @devops-agent responsible for deployment and co
 - Deployment and configuration documentation, environment setup guides, and operational procedures
 
 ## Documentation & Templates
-- [Deployment_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Deployment_Guide.md)
-- [Configuration_Reference.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Configuration_Reference.md)
+- [Deployment_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Deployment_Guide.md)
+- [Configuration_Reference.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Configuration_Reference.md)
 
 ## Primary Responsible Agent
 @documentation-agent, @devops-agent
@@ -58,7 +61,7 @@ The Documentation Agent and DevOps Agent are chosen for their expertise in deplo
 - **Description**: Document all deployment steps and environment setup procedures
 - **Agent Assignment**: @devops-agent
 - **Documentation Links**:
-  - [Deployment_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Deployment_Guide.md)
+  - [Deployment_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Deployment_Guide.md)
 - **Steps**:
     1. List all deployment steps and environment setup procedures (edit_file)
     2. Document operational procedures and troubleshooting (edit_file)
@@ -72,7 +75,7 @@ The Documentation Agent and DevOps Agent are chosen for their expertise in deplo
 - **Description**: Document all configuration options, environment variables, and reference materials
 - **Agent Assignment**: @documentation-agent
 - **Documentation Links**:
-  - [Configuration_Reference.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Configuration_Reference.md)
+  - [Configuration_Reference.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Configuration_Reference.md)
 - **Steps**:
     1. List all configuration options and environment variables (edit_file)
     2. Document reference materials and update as needed (edit_file)
@@ -97,8 +100,8 @@ The Documentation Agent and DevOps Agent are chosen for their expertise in deplo
 - Regular reviews and updates to deployment and configuration documentation
 
 ## Output Artifacts
-- [Deployment_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Deployment_Guide.md)
-- [Configuration_Reference.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Configuration_Reference.md)
+- [Deployment_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Deployment_Guide.md)
+- [Configuration_Reference.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Configuration_Reference.md)
 
 ## Next Action
 Document all deployment steps and configuration options with @documentation-agent and @devops-agent

@@ -11,6 +11,8 @@ source: Step.json
 agent: "@health-monitor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- _No Output Artifacts section found_
 
 # Mission Statement
 

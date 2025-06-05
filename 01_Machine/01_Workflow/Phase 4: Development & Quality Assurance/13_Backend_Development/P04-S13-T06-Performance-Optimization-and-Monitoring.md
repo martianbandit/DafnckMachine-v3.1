@@ -11,6 +11,8 @@ source: Step.json
 agent: "@performance-load-tester-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- _No Output Artifacts section found_
 
 ## Mission Statement
 Implement performance optimization strategies with caching systems, monitoring integration, and scalability enhancements for high-performance backend operation.
@@ -34,10 +36,10 @@ You are @performance-load-tester-agent (performance optimization) and @health-mo
 - Performance Optimization: Caching, query optimization, resource management, monitoring, health checks, metrics collection, alerting
 
 ## Documentation & Templates
-- [Performance_Optimization_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Performance_Optimization_Guide.md)
-- [Caching_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Caching_Configuration.json)
-- [Monitoring_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Monitoring_Implementation.md)
-- [Health_Check_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Health_Check_Configuration.json)
+- [Performance_Optimization_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Performance_Optimization_Guide.md)
+- [Caching_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Caching_Configuration.json)
+- [Monitoring_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Monitoring_Implementation.md)
+- [Health_Check_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Health_Check_Configuration.json)
 
 ## Primary Responsible Agent
 @performance-load-tester-agent (performance optimization), @health-monitor-agent (monitoring)

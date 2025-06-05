@@ -11,6 +11,11 @@ source: Step.json
 agent: "@coding-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Security_Implementation_Guide.md — Security_Implementation_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Security_Audit_Checklist.json — Security_Audit_Checklist.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Deployment_Configuration_Guide.md — Deployment_Configuration_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Production_Deployment_Specs.json — Production_Deployment_Specs.json (missing)
 
 # Mission Statement
 Implement security best practices and deploy the frontend to production for DafnckMachine v3.1, ensuring a secure, stable, and scalable release.
@@ -39,10 +44,10 @@ You are @coding-agent responsible for frontend security and production deploymen
 - Monitoring and operational readiness
 
 # Documentation & Templates
-- [Security_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Security_Implementation_Guide.md)
-- [Security_Audit_Checklist.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Security_Audit_Checklist.json)
-- [Deployment_Configuration_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Deployment_Configuration_Guide.md)
-- [Production_Deployment_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Production_Deployment_Specs.json)
+- [Security_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Security_Implementation_Guide.md)
+- [Security_Audit_Checklist.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Security_Audit_Checklist.json)
+- [Deployment_Configuration_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Deployment_Configuration_Guide.md)
+- [Production_Deployment_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Production_Deployment_Specs.json)
 
 # Primary Responsible Agent
 @security-auditor-agent (Security), @devops-agent (Deployment)
@@ -67,8 +72,8 @@ You are @coding-agent responsible for frontend security and production deploymen
 - **Description**: Implement client-side security measures with data protection, authentication integration, and security best practices for secure application deployment.
 - **Agent Assignment**: @security-auditor-agent
 - **Documentation Links**:
-  - [Security_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Security_Implementation_Guide.md)
-  - [Security_Audit_Checklist.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Security_Audit_Checklist.json)
+  - [Security_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Security_Implementation_Guide.md)
+  - [Security_Audit_Checklist.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Security_Audit_Checklist.json)
 - **Steps**:
     1. Implement client-side security measures (edit_file)
     2. Implement authentication integration and session management (edit_file)
@@ -93,8 +98,8 @@ You are @coding-agent responsible for frontend security and production deploymen
 - **Description**: Configure production deployment with build optimization, hosting setup, monitoring integration, and deployment pipeline for scalable application delivery.
 - **Agent Assignment**: @devops-agent
 - **Documentation Links**:
-  - [Deployment_Configuration_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Deployment_Configuration_Guide.md)
-  - [Production_Deployment_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Production_Deployment_Specs.json)
+  - [Deployment_Configuration_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Deployment_Configuration_Guide.md)
+  - [Production_Deployment_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Production_Deployment_Specs.json)
 - **Steps**:
     1. Configure production build and optimization (edit_file)
     2. Configure hosting and deployment pipeline (edit_file)

@@ -11,6 +11,11 @@ source: Step.json
 agent: "@security-penetration-tester-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Security_Testing_Implementation.md — Security_Testing_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Vulnerability_Scanning_Setup.json — Vulnerability_Scanning_Setup.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Authentication_Testing_Framework.md — Authentication_Testing_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Access_Control_Validation.json — Access_Control_Validation.json (missing)
 
 # Mission Statement
 Implement comprehensive security testing with vulnerability scanning, penetration testing, security validation, and compliance testing for application security assurance in DafnckMachine v3.1.
@@ -33,10 +38,10 @@ You are @security-penetration-tester-agent responsible for implementing security
 - Security testing implementation and validation
 
 # Documentation & Templates
-- [Security_Testing_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Security_Testing_Implementation.md)
-- [Vulnerability_Scanning_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Vulnerability_Scanning_Setup.json)
-- [Authentication_Testing_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Authentication_Testing_Framework.md)
-- [Access_Control_Validation.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Access_Control_Validation.json)
+- [Security_Testing_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Security_Testing_Implementation.md)
+- [Vulnerability_Scanning_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Vulnerability_Scanning_Setup.json)
+- [Authentication_Testing_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Authentication_Testing_Framework.md)
+- [Access_Control_Validation.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Access_Control_Validation.json)
 
 # Supporting Agents
 - @test-orchestrator-agent
@@ -53,7 +58,7 @@ The @security-penetration-tester-agent is selected for its expertise in security
 - **ID**: P04-S15-T06-S01
 - **Description**: Develop security tests with vulnerability scanning, penetration testing, security validation, and compliance testing.
 - **Agent**: @security-penetration-tester-agent
-- **Documentation**: [Security_Testing_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Security_Testing_Implementation.md), [Vulnerability_Scanning_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Vulnerability_Scanning_Setup.json)
+- **Documentation**: [Security_Testing_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Security_Testing_Implementation.md), [Vulnerability_Scanning_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Vulnerability_Scanning_Setup.json)
 - **Steps**:
     1. Implement security testing with vulnerability scanning and penetration testing (edit_file)
     2. Execute security tests and vulnerability assessments (run_terminal_cmd)
@@ -65,7 +70,7 @@ The @security-penetration-tester-agent is selected for its expertise in security
 - **ID**: P04-S15-T06-S02
 - **Description**: Develop authentication tests with login validation, session testing, authorization testing, and access control validation.
 - **Agent**: @security-penetration-tester-agent
-- **Documentation**: [Authentication_Testing_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Authentication_Testing_Framework.md), [Access_Control_Validation.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Access_Control_Validation.json)
+- **Documentation**: [Authentication_Testing_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Authentication_Testing_Framework.md), [Access_Control_Validation.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Access_Control_Validation.json)
 - **Steps**:
     1. Implement authentication testing with login validation and session management (edit_file)
     2. Execute authorization tests and access control validation (run_terminal_cmd)
@@ -90,10 +95,10 @@ The @security-penetration-tester-agent is selected for its expertise in security
 - Escalate to @security-testing-lead or @auth-testing-lead if tests fail after 3 attempts
 
 # Output Artifacts
-- [Security_Testing_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Security_Testing_Implementation.md)
-- [Vulnerability_Scanning_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Vulnerability_Scanning_Setup.json)
-- [Authentication_Testing_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Authentication_Testing_Framework.md)
-- [Access_Control_Validation.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Access_Control_Validation.json)
+- [Security_Testing_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Security_Testing_Implementation.md)
+- [Vulnerability_Scanning_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Vulnerability_Scanning_Setup.json)
+- [Authentication_Testing_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Authentication_Testing_Framework.md)
+- [Access_Control_Validation.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Access_Control_Validation.json)
 
 # Next Action
 Develop and execute security and authentication tests with @security-penetration-tester-agent

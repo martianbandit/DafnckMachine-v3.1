@@ -11,6 +11,11 @@ source: Step.json
 agent: "@design-qa-analyst"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Design_Quality_Review.md — Design Quality Review Checklist (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Quality_Validation_Checklist.json — Quality Validation Checklist (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Specification_Validation_Report.md — Specification Validation Report (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Accuracy_Review_Results.json — Accuracy Review Results (missing)
 
 # Mission Statement
 Conduct thorough quality assurance reviews and validate the accuracy of design specifications for DafnckMachine v3.1.
@@ -37,10 +42,10 @@ You are @design-qa-analyst. Your mission is to conduct a rigorous quality review
 - Accuracy Review Results
 
 # Documentation & Templates
-- [Design Quality Review Checklist](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Design_Quality_Review.md)
-- [Quality Validation Checklist](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Quality_Validation_Checklist.json)
-- [Specification Validation Report](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Specification_Validation_Report.md)
-- [Accuracy Review Results](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Accuracy_Review_Results.json)
+- [Design Quality Review Checklist](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Design_Quality_Review.md)
+- [Quality Validation Checklist](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Quality_Validation_Checklist.json)
+- [Specification Validation Report](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Specification_Validation_Report.md)
+- [Accuracy Review Results](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Accuracy_Review_Results.json)
 
 # Primary Responsible Agent
 @design-qa-analyst
@@ -61,8 +66,8 @@ The Design QA Analyst is chosen for its expertise in quality review, design vali
 - **Description**: Conduct a comprehensive design quality review, validating consistency, accessibility compliance (WCAG AA or higher), usability, and adherence to visual quality standards.
 - **Agent**: @design-qa-analyst
 - **Documentation Links**:
-  - [Design Quality Review Checklist](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Design_Quality_Review.md)
-  - [Quality Validation Checklist](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Quality_Validation_Checklist.json)
+  - [Design Quality Review Checklist](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Design_Quality_Review.md)
+  - [Quality Validation Checklist](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Quality_Validation_Checklist.json)
 - **Steps**:
   1. Review all design artifacts for consistency with the design system and visual quality standards. (edit_file)
   2. Perform accessibility compliance checks and usability assessment. (web_search, edit_file)
@@ -77,8 +82,8 @@ The Design QA Analyst is chosen for its expertise in quality review, design vali
 - **Description**: Validate the accuracy of all design specifications, including measurement verification, component specifications, implementation feasibility, and overall technical accuracy.
 - **Agent**: @design-qa-analyst
 - **Documentation Links**:
-  - [Specification Validation Report](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Specification_Validation_Report.md)
-  - [Accuracy Review Results](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Accuracy_Review_Results.json)
+  - [Specification Validation Report](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Specification_Validation_Report.md)
+  - [Accuracy Review Results](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Accuracy_Review_Results.json)
 - **Steps**:
   1. Verify measurements, component specifications, and asset details for accuracy. (edit_file)
   2. Assess implementation feasibility and technical accuracy of the specifications. (edit_file)

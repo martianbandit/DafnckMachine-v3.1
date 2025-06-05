@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ui-designer-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Basic_Component_Library.md — Basic Component Library (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Component_Specifications.json — Component Specifications (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Complex_Component_Library.md — Complex Component Library (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Advanced_Component_Specs.json — Advanced Component Specifications (missing)
 
 # Mission Statement
 Develop a library of reusable UI components, covering both basic and complex elements for DafnckMachine v3.1.
@@ -34,10 +39,10 @@ You are @ui-designer-agent. Your mission is to design and document a comprehensi
 - Component Specifications
 
 # Documentation & Templates
-- [Basic Component Library](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Basic_Component_Library.md)
-- [Component Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Component_Specifications.json)
-- [Complex Component Library](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Complex_Component_Library.md)
-- [Advanced Component Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Advanced_Component_Specs.json)
+- [Basic Component Library](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Basic_Component_Library.md)
+- [Component Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Component_Specifications.json)
+- [Complex Component Library](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Complex_Component_Library.md)
+- [Advanced Component Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Advanced_Component_Specs.json)
 
 # Primary Responsible Agent
 @ui-designer-agent
@@ -58,8 +63,8 @@ The UI Designer Agent is chosen for its expertise in component design, basic and
 - **Description**: Design fundamental UI components such as buttons, inputs, labels, icons, cards, lists, navigation elements, and form components.
 - **Agent**: @ui-designer-agent
 - **Documentation Links**:
-  - [Basic Component Library](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Basic_Component_Library.md)
-  - [Component Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Component_Specifications.json)
+  - [Basic Component Library](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Basic_Component_Library.md)
+  - [Component Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Component_Specifications.json)
 - **Steps**:
   1. Design buttons, inputs, labels, and icons, specifying states (default, hover, active, disabled). (mcp_ui_Docs_search_ui_documentation, edit_file)
   2. Design cards, lists, navigation elements, and form components. (mcp_ui_Docs_search_ui_documentation, edit_file)
@@ -74,8 +79,8 @@ The UI Designer Agent is chosen for its expertise in component design, basic and
 - **Description**: Design more complex UI components such as modals, tables, charts, dashboards, multi-step forms, and data visualization elements.
 - **Agent**: @ui-designer-agent
 - **Documentation Links**:
-  - [Complex Component Library](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Complex_Component_Library.md)
-  - [Advanced Component Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Advanced_Component_Specs.json)
+  - [Complex Component Library](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Complex_Component_Library.md)
+  - [Advanced Component Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Advanced_Component_Specs.json)
 - **Steps**:
   1. Design modals, tables, and charts, specifying interactions and data display. (edit_file)
   2. Design dashboards, multi-step forms, and data visualization components. (edit_file)

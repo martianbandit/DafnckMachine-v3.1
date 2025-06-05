@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ux-researcher-agent, @ui-designer-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Information_Architecture.md — Information_Architecture.md: Information_Architecture.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Content_Hierarchy_Structure.json — Content_Hierarchy_Structure.json: Content_Hierarchy_Structure.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Navigation_System_Design.md — Navigation_System_Design.md: Navigation_System_Design.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Menu_Structure_Specifications.json — Menu_Structure_Specifications.json: Menu_Structure_Specifications.json (missing)
 
 ## Mission Statement
 Develop comprehensive information architecture and navigation systems to ensure optimal content organization, findability, and user wayfinding throughout the product.
@@ -33,10 +38,10 @@ You are @ux-researcher-agent and @ui-designer-agent. Your mission is to design i
 - Navigation system with menu structures, navigation patterns, and mobile optimization
 
 ## Documentation & Templates
-- [Information_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Information_Architecture.md)
-- [Content_Hierarchy_Structure.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Content_Hierarchy_Structure.json)
-- [Navigation_System_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Navigation_System_Design.md)
-- [Menu_Structure_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Menu_Structure_Specifications.json)
+- [Information_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Information_Architecture.md)
+- [Content_Hierarchy_Structure.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Content_Hierarchy_Structure.json)
+- [Navigation_System_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Navigation_System_Design.md)
+- [Menu_Structure_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Menu_Structure_Specifications.json)
 
 ## Primary Responsible Agent
 @ux-researcher-agent (Information Architecture)
@@ -62,8 +67,8 @@ The @ux-researcher-agent is selected for information architecture, hierarchy des
 - **Description**: Create logical information architecture with clear content hierarchy, categorization systems, and findability optimization.
 - **Agent Assignment**: @ux-researcher-agent
 - **Documentation Links**:
-  - [Information_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Information_Architecture.md)
-  - [Content_Hierarchy_Structure.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Content_Hierarchy_Structure.json)
+  - [Information_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Information_Architecture.md)
+  - [Content_Hierarchy_Structure.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Content_Hierarchy_Structure.json)
 - **Steps**:
     1. Design information architecture with logical content organization (Tool: edit_file)
     2. Optimize content findability and user mental model alignment (Tool: edit_file)
@@ -76,8 +81,8 @@ The @ux-researcher-agent is selected for information architecture, hierarchy des
 - **Description**: Design intuitive navigation systems including menu structures, navigation patterns, breadcrumb systems, search functionality, and mobile navigation optimization.
 - **Agent Assignment**: @ui-designer-agent
 - **Documentation Links**:
-  - [Navigation_System_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Navigation_System_Design.md)
-  - [Menu_Structure_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Menu_Structure_Specifications.json)
+  - [Navigation_System_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Navigation_System_Design.md)
+  - [Menu_Structure_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Menu_Structure_Specifications.json)
 - **Steps**:
     1. Design navigation menu structure and patterns (Tool: edit_file)
     2. Optimize mobile navigation and search functionality (Tool: edit_file)
@@ -102,10 +107,10 @@ The @ux-researcher-agent is selected for information architecture, hierarchy des
 - Continuous usability testing and feedback integration throughout architecture and navigation design
 
 ## Output Artifacts
-- [Information_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Information_Architecture.md)
-- [Content_Hierarchy_Structure.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Content_Hierarchy_Structure.json)
-- [Navigation_System_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Navigation_System_Design.md)
-- [Menu_Structure_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Menu_Structure_Specifications.json)
+- [Information_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Information_Architecture.md)
+- [Content_Hierarchy_Structure.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Content_Hierarchy_Structure.json)
+- [Navigation_System_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Navigation_System_Design.md)
+- [Menu_Structure_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Menu_Structure_Specifications.json)
 
 ## Next Action
 Initiate information architecture and navigation system design with @ux-researcher-agent and @ui-designer-agent

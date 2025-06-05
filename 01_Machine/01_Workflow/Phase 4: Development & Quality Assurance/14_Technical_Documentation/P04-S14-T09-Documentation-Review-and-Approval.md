@@ -11,6 +11,9 @@ source: Step.json
 agent: "@documentation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Review_Checklist.md — Documentation_Review_Checklist.md: Documentation_Review_Checklist.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Approval_Logs.json — Approval_Logs.json: Approval_Logs.json (missing)
 
 ## Mission Statement
 Establish a rigorous review and approval process for all technical documentation to ensure quality, accuracy, and completeness before deployment.
@@ -34,8 +37,8 @@ You are @documentation-agent and @test-orchestrator-agent responsible for review
 - Documentation review and approval workflows, checklists, and feedback logs
 
 ## Documentation & Templates
-- [Documentation_Review_Checklist.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Review_Checklist.md)
-- [Approval_Logs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Approval_Logs.json)
+- [Documentation_Review_Checklist.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Review_Checklist.md)
+- [Approval_Logs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Approval_Logs.json)
 
 ## Primary Responsible Agent
 @documentation-agent, @test-orchestrator-agent
@@ -58,7 +61,7 @@ The Documentation Agent and Test Orchestrator Agent are chosen for their experti
 - **Description**: Conduct peer review of all technical documentation using checklists and feedback forms
 - **Agent Assignment**: @documentation-agent
 - **Documentation Links**:
-  - [Documentation_Review_Checklist.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Review_Checklist.md)
+  - [Documentation_Review_Checklist.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Review_Checklist.md)
 - **Steps**:
     1. Review documentation using checklists (edit_file)
     2. Log feedback and required changes (edit_file)
@@ -73,7 +76,7 @@ The Documentation Agent and Test Orchestrator Agent are chosen for their experti
 - **Description**: Obtain lead approval, incorporate feedback, and finalize documentation for deployment
 - **Agent Assignment**: @test-orchestrator-agent
 - **Documentation Links**:
-  - [Approval_Logs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Approval_Logs.json)
+  - [Approval_Logs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Approval_Logs.json)
 - **Steps**:
     1. Review feedback and update documentation as needed (edit_file)
     2. Obtain lead approval and log approval status (edit_file)
@@ -99,8 +102,8 @@ The Documentation Agent and Test Orchestrator Agent are chosen for their experti
 - Multiple review stages and feedback incorporation to catch errors or omissions
 
 ## Output Artifacts
-- [Documentation_Review_Checklist.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Review_Checklist.md)
-- [Approval_Logs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Approval_Logs.json)
+- [Documentation_Review_Checklist.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Review_Checklist.md)
+- [Approval_Logs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Approval_Logs.json)
 
 ## Next Action
 Conduct peer review and obtain lead approval for all technical documentation with @documentation-agent and @test-orchestrator-agent

@@ -11,6 +11,11 @@ source: Step.json
 agent: "@branding-agent, @design-system-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Brand_Integration_Guidelines.md — Brand_Integration_Guidelines.md: Brand_Integration_Guidelines.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Visual_Identity_System.json — Visual_Identity_System.json: Visual_Identity_System.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Design_Token_System.json — Design_Token_System.json: Design_Token_System.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Token_Usage_Guidelines.md — Token_Usage_Guidelines.md: Token_Usage_Guidelines.md (missing)
 
 ## Mission Statement
 Develop comprehensive visual design system with brand integration, design tokens, and consistent styling framework to ensure cohesive visual identity across all interfaces.
@@ -33,10 +38,10 @@ You are @branding-agent and @design-system-agent. Your mission is to develop a v
 - Design token system and usage guidelines
 
 ## Documentation & Templates
-- [Brand_Integration_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Brand_Integration_Guidelines.md)
-- [Visual_Identity_System.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Visual_Identity_System.json)
-- [Design_Token_System.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Design_Token_System.json)
-- [Token_Usage_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Token_Usage_Guidelines.md)
+- [Brand_Integration_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Brand_Integration_Guidelines.md)
+- [Visual_Identity_System.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Visual_Identity_System.json)
+- [Design_Token_System.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Design_Token_System.json)
+- [Token_Usage_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Token_Usage_Guidelines.md)
 
 ## Primary Responsible Agent
 @branding-agent (Brand Integration)
@@ -62,8 +67,8 @@ The @branding-agent is selected for brand integration, visual identity, and bran
 - **Description**: Integrate brand identity into design system with consistent application of brand guidelines, color palette, typography system, and imagery style across all interfaces.
 - **Agent Assignment**: @branding-agent
 - **Documentation Links**:
-  - [Brand_Integration_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Brand_Integration_Guidelines.md)
-  - [Visual_Identity_System.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Visual_Identity_System.json)
+  - [Brand_Integration_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Brand_Integration_Guidelines.md)
+  - [Visual_Identity_System.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Visual_Identity_System.json)
 - **Steps**:
     1. Apply brand guidelines and establish visual consistency (Tool: edit_file)
     2. Develop typography system and imagery style guidelines (Tool: edit_file)
@@ -76,8 +81,8 @@ The @branding-agent is selected for brand integration, visual identity, and bran
 - **Description**: Create comprehensive design token system with color tokens, typography tokens, spacing tokens, component tokens, and theme variations for consistent styling and maintainability.
 - **Agent Assignment**: @design-system-agent
 - **Documentation Links**:
-  - [Design_Token_System.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Design_Token_System.json)
-  - [Token_Usage_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Token_Usage_Guidelines.md)
+  - [Design_Token_System.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Design_Token_System.json)
+  - [Token_Usage_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Token_Usage_Guidelines.md)
 - **Steps**:
     1. Create design token library with color, typography, and spacing tokens (Tool: edit_file)
     2. Establish token usage guidelines and theme variations (Tool: edit_file)
@@ -103,10 +108,10 @@ The @branding-agent is selected for brand integration, visual identity, and bran
 - Continuous usability testing and feedback integration throughout visual design and token system development
 
 ## Output Artifacts
-- [Brand_Integration_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Brand_Integration_Guidelines.md)
-- [Visual_Identity_System.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Visual_Identity_System.json)
-- [Design_Token_System.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Design_Token_System.json)
-- [Token_Usage_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Token_Usage_Guidelines.md)
+- [Brand_Integration_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Brand_Integration_Guidelines.md)
+- [Visual_Identity_System.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Visual_Identity_System.json)
+- [Design_Token_System.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Design_Token_System.json)
+- [Token_Usage_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Token_Usage_Guidelines.md)
 
 ## Next Action
 Initiate visual design system development with @branding-agent and @design-system-agent

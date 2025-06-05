@@ -11,6 +11,9 @@ source: Step.json
 agent: "@project-initiator-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/TaskMaster_Implementation_Guide.md — TaskMaster_Implementation_Guide.md: TaskMaster_Implementation_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Project_Setup_Configuration.json — Project_Setup_Configuration.json: Project_Setup_Configuration.json (missing)
 
 ## Mission Statement
 Implement comprehensive task breakdown and management system using TaskMaster to orchestrate development workflow, manage task dependencies, track progress, and ensure efficient development execution for DafnckMachine v3.1 with optimal resource allocation, timeline management, and quality assurance integration.
@@ -34,10 +37,10 @@ Initialize and configure the TaskMaster system for project management. This incl
 - Development Workflow: Optimized task-driven development process with dependency management and progress tracking
 
 ## Documentation & Templates
-- [TaskMaster_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/TaskMaster_Implementation_Guide.md)
-- [Project_Setup_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Project_Setup_Configuration.json)
-- [TaskMaster_Configuration_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/TaskMaster_Configuration_Guide.md)
-- [Environment_Settings.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Environment_Settings.json)
+- [TaskMaster_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/TaskMaster_Implementation_Guide.md)
+- [Project_Setup_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Project_Setup_Configuration.json)
+- [TaskMaster_Configuration_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/TaskMaster_Configuration_Guide.md)
+- [Environment_Settings.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Environment_Settings.json)
 
 ## Primary Responsible Agent
 @project-initiator-agent
@@ -58,8 +61,8 @@ Initialize and configure the TaskMaster system for project management. This incl
 - **Description:** Initialize the TaskMaster project, setting up configuration files, directory structure, and initial settings.
 - **Agent:** @project-initiator-agent
 - **Documentation Links:**
-  - [TaskMaster_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/TaskMaster_Implementation_Guide.md)
-  - [Project_Setup_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Project_Setup_Configuration.json)
+  - [TaskMaster_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/TaskMaster_Implementation_Guide.md)
+  - [Project_Setup_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Project_Setup_Configuration.json)
 - **Steps:**
     1. Initialize TaskMaster project with default settings for DafnckMachine-V3.1 using mcp_taskmaster-ai_initialize_project.
     2. Verify creation of tasks/tasks.json, .taskmasterconfig, tasks/, and scripts/.
@@ -78,8 +81,8 @@ Initialize and configure the TaskMaster system for project management. This incl
 - **Description:** Configure TaskMaster environment settings, including AI model selection, API keys, and workflow parameters.
 - **Agent:** @task-planning-agent
 - **Documentation Links:**
-  - [TaskMaster_Configuration_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/TaskMaster_Configuration_Guide.md)
-  - [Environment_Settings.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Environment_Settings.json)
+  - [TaskMaster_Configuration_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/TaskMaster_Configuration_Guide.md)
+  - [Environment_Settings.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Environment_Settings.json)
 - **Steps:**
     1. Set the main AI model for Taskmaster using mcp_taskmaster-ai_models.
     2. Set the research AI model for Taskmaster using mcp_taskmaster-ai_models.
@@ -109,8 +112,8 @@ Initialize and configure the TaskMaster system for project management. This incl
 - TaskMaster Configuration Issues: Comprehensive setup validation and configuration testing
 
 ## Output Artifacts
-- [TaskMaster_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/TaskMaster_Implementation_Guide.md)
-- [Project_Setup_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Project_Setup_Configuration.json)
+- [TaskMaster_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/TaskMaster_Implementation_Guide.md)
+- [Project_Setup_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Project_Setup_Configuration.json)
 
 ## Next Action
 Proceed to P04-S11-T02-PRD-Analysis-Task-Generation.md

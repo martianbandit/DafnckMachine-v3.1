@@ -8,9 +8,13 @@ previous_task: P02-S02-T04
 next_task: P02-S02-T06
 version: 3.1.0
 source: Step.json
-agent: "@technology-advisor-agent"
+agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Technical_Feasibility_Report.md — Technical_Feasibility_Report.md: Technology assessment and implementation roadmap (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Resource_Assessment.json — Resource_Assessment.json: Resource assessment (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Implementation_Timeline.md — Implementation_Timeline.md: Implementation timeline (missing)
 
 ## Mission Statement
 Evaluate technical feasibility including technology requirements, implementation complexity, resource needs, and technical risks to validate solution viability.
@@ -34,7 +38,7 @@ You are @technology-advisor-agent responsible for technical feasibility assessme
 
 ## Documentation & Templates
 - [Technical_Feasibility_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Technical_Feasibility_Report.md): Technology assessment and implementation roadmap
-- [Technology_Stack_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Technology_Stack_Analysis.json): Technology stack analysis
+- [Technology_Stack_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Technology_Stack_Analysis.json): Technology stack analysis
 - [Resource_Assessment.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Resource_Assessment.json): Resource assessment
 - [Implementation_Timeline.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Implementation_Timeline.md): Implementation timeline
 
@@ -60,7 +64,7 @@ The Technology Advisor Agent is chosen for its specialized capabilities in tech 
 - **ID**: P02-T05-S02
 - **Description**: Assess technology requirements, analyze implementation complexity, evaluate available tools and frameworks, and identify technical risks and constraints.
 - **Agent Assignment**: @technology-advisor-agent
-- **Documentation Links**: [Technical_Feasibility_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Technical_Feasibility_Report.md), [Technology_Stack_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Technology_Stack_Analysis.json)
+- **Documentation Links**: [Technical_Feasibility_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Technical_Feasibility_Report.md), [Technology_Stack_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Technology_Stack_Analysis.json)
 - **Steps**:
     1. Research technology requirements and available solutions (web_search)
     2. Evaluate implementation complexity and development effort (edit_file)

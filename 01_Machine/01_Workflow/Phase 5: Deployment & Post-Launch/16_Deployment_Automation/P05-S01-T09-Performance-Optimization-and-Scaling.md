@@ -11,6 +11,12 @@ source: Step.json
 agent: "@devops-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Performance_Optimization_Automation.md — Performance_Optimization_Automation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Auto_Scaling_Configuration.md — Auto_Scaling_Configuration.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Performance_Optimization.json — Performance_Optimization.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Resource_Optimization_Guide.md — Resource_Optimization_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Cost_Management_Configuration.json — Cost_Management_Configuration.json (missing)
 
 # Mission Statement
 Implement auto-scaling and resource optimization with horizontal scaling, vertical scaling, load-based scaling, and predictive scaling for DafnckMachine v3.1.
@@ -40,11 +46,11 @@ You are @devops-agent. Your mission is to implement automated performance optimi
 - Cost Management: Budget alerts, cost monitoring
 
 # Documentation & Templates
-- [Performance_Optimization_Automation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Performance_Optimization_Automation.md)
-- [Auto_Scaling_Configuration.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Auto_Scaling_Configuration.md)
-- [Performance_Optimization.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Performance_Optimization.json)
-- [Resource_Optimization_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Resource_Optimization_Guide.md)
-- [Cost_Management_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Cost_Management_Configuration.json)
+- [Performance_Optimization_Automation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Performance_Optimization_Automation.md)
+- [Auto_Scaling_Configuration.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Auto_Scaling_Configuration.md)
+- [Performance_Optimization.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Performance_Optimization.json)
+- [Resource_Optimization_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Resource_Optimization_Guide.md)
+- [Cost_Management_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Cost_Management_Configuration.json)
 
 # Primary Responsible Agent
 @devops-agent
@@ -66,7 +72,7 @@ You are @devops-agent. Your mission is to implement automated performance optimi
 - **ID**: P05-T09-S01
 - **Description**: Implement auto-scaling with horizontal scaling, vertical scaling, load-based scaling, and predictive scaling.
 - **Agent**: @devops-agent
-- **Documentation Links**: [Auto_Scaling_Configuration.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Auto_Scaling_Configuration.md), [Performance_Optimization.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Performance_Optimization.json)
+- **Documentation Links**: [Auto_Scaling_Configuration.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Auto_Scaling_Configuration.md), [Performance_Optimization.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Performance_Optimization.json)
 - **Steps**:
     1. Setup auto-scaling infrastructure and base configuration (Success: "Auto-scaling infrastructure initialized")
     2. Configure auto-scaling with horizontal scaling (Success: horizontal-scaling.yml exists, content matches horizontal/scaling)
@@ -80,7 +86,7 @@ You are @devops-agent. Your mission is to implement automated performance optimi
 - **ID**: P05-T09-S02
 - **Description**: Implement resource optimization with cost monitoring, resource rightsizing, usage optimization, and budget alerts.
 - **Agent**: @devops-agent
-- **Documentation Links**: [Resource_Optimization_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Resource_Optimization_Guide.md), [Cost_Management_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Cost_Management_Configuration.json)
+- **Documentation Links**: [Resource_Optimization_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Resource_Optimization_Guide.md), [Cost_Management_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Cost_Management_Configuration.json)
 - **Steps**:
     1. Setup resource optimization infrastructure and base configuration (Success: "Resource optimization infrastructure initialized")
     2. Configure cost monitoring with resource optimization (Success: cost-monitoring.yml exists, content matches cost/monitoring)
@@ -113,7 +119,7 @@ You are @devops-agent. Your mission is to implement automated performance optimi
 
 # Output Artifacts
 - [Performance_Optimization_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Performance_Optimization_Framework.md)
-- [Auto_Scaling_Configuration.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Auto_Scaling_Configuration.md)
+- [Auto_Scaling_Configuration.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Auto_Scaling_Configuration.md)
 
 # Next Action
 Proceed to P05-S01-T10-Documentation-and-Knowledge-Transfer.md

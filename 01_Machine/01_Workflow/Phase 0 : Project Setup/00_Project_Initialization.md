@@ -11,6 +11,12 @@ source: Step.json
 agent: "@project-initiator-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Environment_Status.json — Environment_Status.json: Environment Status (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Tool_Registry.md — Tool_Registry.md: Tool Registry (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Dependency_Matrix.json — Dependency_Matrix.json: Dependency Matrix (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Setup_Validation_Report.md — Setup_Validation_Report.md: Setup Validation Report (missing)
+
 # Project Initialization - DafnckMachine v3.1
 
 ## Mission Statement
@@ -37,15 +43,15 @@ This step focuses on establishing the core infrastructure for DafnckMachine v3.1
 ## Documentation & Templates
 
 ### Required Documents
-1. **Environment_Status.json**: [Environment Status](mdc:01_Machine/04_Documentation/Doc/Phase_0/00_Project_Initialization/Environment_Status.json) - System configuration and package inventory (simplified)
-2. **Tool_Registry.md**: [Tool Registry](mdc:01_Machine/04_Documentation/Doc/Phase_0/00_Project_Initialization/Tool_Registry.md) - Comprehensive list of installed tools and their purposes
-3. **Dependency_Matrix.json**: [Dependency Matrix](mdc:01_Machine/04_Documentation/Doc/Phase_0/00_Project_Initialization/Dependency_Matrix.json) - Package versions and compatibility information
-4. **Setup_Validation_Report.md**: [Setup Validation Report](mdc:01_Machine/04_Documentation/Doc/Phase_0/00_Project_Initialization/Setup_Validation_Report.md) - Installation verification and test results
+1. **Environment_Status.json**: [Environment Status](mdc:01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Environment_Status.json) - System configuration and package inventory (simplified)
+2. **Tool_Registry.md**: [Tool Registry](mdc:01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Tool_Registry.md) - Comprehensive list of installed tools and their purposes
+3. **Dependency_Matrix.json**: [Dependency Matrix](mdc:01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Dependency_Matrix.json) - Package versions and compatibility information
+4. **Setup_Validation_Report.md**: [Setup Validation Report](mdc:01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Setup_Validation_Report.md) - Installation verification and test results
 
 ### Optional Documents
-- **Troubleshooting_Guide.md**: [Troubleshooting Guide](mdc:01_Machine/04_Documentation/Doc/Phase_0/00_Project_Initialization/Troubleshooting_Guide.md) - Common setup issues and solutions
-- **Performance_Baseline.json**: [Performance Baseline](mdc:01_Machine/04_Documentation/Doc/Phase_0/00_Project_Initialization/Performance_Baseline.json) - Initial system performance metrics
-- **Security_Configuration.md**: [Security Configuration](mdc:01_Machine/04_Documentation/Doc/Phase_0/00_Project_Initialization/Security_Configuration.md) - Security settings and access controls
+- **Troubleshooting_Guide.md**: [Troubleshooting Guide](mdc:01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Troubleshooting_Guide.md) - Common setup issues and solutions
+- **Performance_Baseline.json**: [Performance Baseline](mdc:01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Performance_Baseline.json) - Initial system performance metrics
+- **Security_Configuration.md**: [Security Configuration](mdc:01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Security_Configuration.md) - Security settings and access controls
 
 ## Super-Prompt
 "You are the Project Initiator Agent responsible for establishing the core development environment for DafnckMachine v3.1. Your mission is to systematically install and configure required dependencies including Python packages (pip/pip3) and Node.js tools (npm). Ensure each installation is verified and document the basic configurations. Your output should include a simplified environment status."
@@ -86,7 +92,7 @@ The Project Initiator Agent is chosen for its specialized capabilities in system
 - Prerequisites: None
 - Agent Assignment: `@project-initiator-agent` - Primary capabilities: `codebase-analysis`, `workflow-mapping`, `documentation`.
 - Documentation Links:
-  - [Environment Status](mdc:01_Machine/04_Documentation/Doc/Phase_0/00_Project_Initialization/Environment_Status.json)
+  - [Environment Status](mdc:01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Environment_Status.json)
 - Max Retries: 2
 - On Failure: `ESCALATE_TO_HUMAN (@system-architect-agent) with scan logs and summary.`
 - Steps:
@@ -112,7 +118,7 @@ The Project Initiator Agent is chosen for its specialized capabilities in system
 - Prerequisites: None
 - Agent Assignment: `@project-initiator-agent` - Primary capabilities: `system-setup`, `dependency-management`, `terminal-execution`.
 - Documentation Links:
-  - [Environment Status](mdc:01_Machine/04_Documentation/Doc/Phase_0/00_Project_Initialization/Environment_Status.json)
+  - [Environment Status](mdc:01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Environment_Status.json)
 - Max Retries: 3
 - On Failure: `ESCALATE_TO_HUMAN (@dev-ops-team) with full command logs and error output.`
 - Steps:
@@ -134,7 +140,7 @@ The Project Initiator Agent is chosen for its specialized capabilities in system
 - Prerequisites: P01-T01-S01 must be `SUCCEEDED`.
 - Agent Assignment: `@project-initiator-agent` - Primary capabilities: `system-setup`, `tool-installation`, `terminal-execution`.
 - Documentation Links:
-  - [Environment Status](mdc:01_Machine/04_Documentation/Doc/Phase_0/00_Project_Initialization/Environment_Status.json)
+  - [Environment Status](mdc:01_Machine/04_Documentation/vision/Phase_0/00_Project_Initialization/Environment_Status.json)
 - Max Retries: 3
 - On Failure: `ESCALATE_TO_HUMAN (@dev-ops-team) with full command logs and error output.`
 - Steps:

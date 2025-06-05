@@ -11,6 +11,9 @@ source: Step.json
 agent: "@analytics-setup-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Data_Driven_Improvement_Platform.md — Data_Driven_Improvement_Platform.md: Analytics platform and improvement tracking (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Metrics_Based_Optimization.md — Metrics_Based_Optimization.md: KPI tracking and metrics optimization (missing)
 
 # Mission Statement
 Implement an analytics platform for tracking improvements and enable metrics-based optimization in DafnckMachine v3.1.
@@ -36,8 +39,8 @@ You are @analytics-setup-agent. Your mission is to implement an analytics platfo
 - **Data-Driven Improvement**: Metrics-based optimization with analytics insights and performance tracking
 
 # Documentation & Templates
-- [Data_Driven_Improvement_Platform.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Data_Driven_Improvement_Platform.md): Analytics platform and improvement tracking
-- [Metrics_Based_Optimization.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Metrics_Based_Optimization.md): KPI tracking and metrics optimization
+- [Data_Driven_Improvement_Platform.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Data_Driven_Improvement_Platform.md): Analytics platform and improvement tracking
+- [Metrics_Based_Optimization.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Metrics_Based_Optimization.md): KPI tracking and metrics optimization
 
 # Supporting Agents
 - @performance-optimizer-agent
@@ -54,7 +57,7 @@ The Analytics Setup Agent is chosen for its expertise in analytics platform impl
 - **ID**: P05-T06-S01
 - **Description**: Implement a platform for tracking improvement metrics, enhancement analysis, and ROI measurement.
 - **Agent**: @analytics-setup-agent
-- **Documentation**: [Data_Driven_Improvement_Platform.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Data_Driven_Improvement_Platform.md)
+- **Documentation**: [Data_Driven_Improvement_Platform.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Data_Driven_Improvement_Platform.md)
 - **Steps**:
     1. Implement improvement analytics: improvement tracking, optimization metrics, enhancement analysis, ROI measurement (Tool: edit_file)
         - Success: `config/analytics_platform_config.json` exists and contains `"roiTrackingEnabled": true`
@@ -68,7 +71,7 @@ The Analytics Setup Agent is chosen for its expertise in analytics platform impl
 - **ID**: P05-T06-S02
 - **Description**: Implement KPI tracking, performance metrics analysis, and data-driven enhancement strategies.
 - **Agent**: @performance-optimizer-agent
-- **Documentation**: [Metrics_Based_Optimization.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Metrics_Based_Optimization.md)
+- **Documentation**: [Metrics_Based_Optimization.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Metrics_Based_Optimization.md)
 - **Steps**:
     1. Implement metrics-based optimization: KPI tracking, performance metrics, optimization indicators, improvement measurement (Tool: edit_file)
         - Success: `config/metrics_optimization_config.json` exists and contains `"alertOnKpiDropPercent": 5`
@@ -96,8 +99,8 @@ The Analytics Setup Agent is chosen for its expertise in analytics platform impl
 - Notify and continue on minor issues
 
 # Output Artifacts
-- [Data_Driven_Improvement_Platform.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Data_Driven_Improvement_Platform.md)
-- [Metrics_Based_Optimization.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Metrics_Based_Optimization.md)
+- [Data_Driven_Improvement_Platform.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Data_Driven_Improvement_Platform.md)
+- [Metrics_Based_Optimization.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Metrics_Based_Optimization.md)
 
 # Next Action
 Implement analytics platform and metrics-based optimization with @analytics-setup-agent and @performance-optimizer-agent

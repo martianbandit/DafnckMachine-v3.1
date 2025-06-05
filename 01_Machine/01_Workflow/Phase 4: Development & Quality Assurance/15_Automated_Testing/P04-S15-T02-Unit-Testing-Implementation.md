@@ -11,6 +11,9 @@ source: Step.json
 agent: "@functional-tester-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Unit_Testing_Implementation.md — Unit_Testing_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.json — Test_Coverage_Analysis.json (missing)
 
 # Mission Statement
 Implement comprehensive unit testing with test case development, code coverage analysis, mocking frameworks, and assertion libraries for foundational quality validation in DafnckMachine v3.1.
@@ -33,8 +36,8 @@ You are @functional-tester-agent responsible for implementing unit testing for D
 - Unit testing implementation and coverage analysis
 
 # Documentation & Templates
-- [Unit_Testing_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Unit_Testing_Implementation.md)
-- [Test_Coverage_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.json)
+- [Unit_Testing_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Unit_Testing_Implementation.md)
+- [Test_Coverage_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.json)
 
 # Primary Responsible Agent
 @functional-tester-agent
@@ -54,7 +57,7 @@ The @functional-tester-agent is selected for its expertise in unit testing, test
 - **ID**: P04-S15-T02-S01
 - **Description**: Develop unit tests with comprehensive coverage and validation.
 - **Agent**: @functional-tester-agent
-- **Documentation**: [Unit_Testing_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Unit_Testing_Implementation.md), [Test_Coverage_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.json)
+- **Documentation**: [Unit_Testing_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Unit_Testing_Implementation.md), [Test_Coverage_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.json)
 - **Steps**:
     1. Implement comprehensive unit testing with test case development and coverage analysis (edit_file)
     2. Execute unit tests and generate coverage reports (run_terminal_cmd)
@@ -67,7 +70,7 @@ The @functional-tester-agent is selected for its expertise in unit testing, test
 - **ID**: P04-S15-T02-S02
 - **Description**: Implement test automation with automated test execution, test scheduling, parallel testing, and result reporting for continuous quality validation.
 - **Agent**: @test-orchestrator-agent
-- **Documentation**: [Test_Automation_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Automation_Implementation.md), [Continuous_Testing_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Continuous_Testing_Setup.json)
+- **Documentation**: [Test_Automation_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Automation_Implementation.md), [Continuous_Testing_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Continuous_Testing_Setup.json)
 - **Steps**:
     1. Implement automated test execution with scheduling and parallel testing (run_terminal_cmd)
     2. Configure result reporting and continuous testing integration (edit_file)
@@ -93,8 +96,8 @@ The @functional-tester-agent is selected for its expertise in unit testing, test
 - Escalate to @unit-testing-lead if tests fail after 3 attempts
 
 # Output Artifacts
-- [Unit_Testing_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Unit_Testing_Implementation.md)
-- [Test_Coverage_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.json)
+- [Unit_Testing_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Unit_Testing_Implementation.md)
+- [Test_Coverage_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.json)
 
 # Next Action
 Develop and execute unit tests with @functional-tester-agent

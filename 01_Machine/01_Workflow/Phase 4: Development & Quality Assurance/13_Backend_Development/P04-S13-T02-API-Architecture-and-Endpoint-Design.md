@@ -11,6 +11,8 @@ source: Step.json
 agent: "@system-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- _No Output Artifacts section found_
 
 ## Mission Statement
 Design and implement comprehensive API architecture with RESTful endpoints, GraphQL integration, and documentation for scalable backend services.
@@ -37,10 +39,10 @@ You are @system-architect-agent (API architecture) and @coding-agent (documentat
 - API Documentation: OpenAPI specifications, endpoint documentation, usage examples
 
 ## Documentation & Templates
-- [API_Architecture_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/API_Architecture_Design.md)
-- [Endpoint_Structure_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Endpoint_Structure_Specs.json)
-- [API_Documentation_Complete.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/API_Documentation_Complete.md)
-- [OpenAPI_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/OpenAPI_Specifications.json)
+- [API_Architecture_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/API_Architecture_Design.md)
+- [Endpoint_Structure_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Endpoint_Structure_Specs.json)
+- [API_Documentation_Complete.md](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/API_Documentation_Complete.md)
+- [OpenAPI_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/OpenAPI_Specifications.json)
 
 ## Primary Responsible Agent
 @system-architect-agent (API architecture), @coding-agent (documentation/specs)

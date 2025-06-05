@@ -11,6 +11,11 @@ source: Step.json
 agent: "@system-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/API_Design_Specifications.md — API_Design_Specifications.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Endpoint_Documentation.json — Endpoint_Documentation.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Integration_Architecture_Plan.md — Integration_Architecture_Plan.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Service_Communication_Specs.json — Service_Communication_Specs.json (missing)
 
 # Mission Statement
 Design the API architecture and plan for system integrations, ensuring seamless communication between components and third-party services.
@@ -34,10 +39,10 @@ You are @system-architect-agent responsible for designing the API architecture a
 - Integration Architecture: Service communication, message queuing, event-driven design, data synchronization
 
 # Documentation & Templates
-- [API_Design_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/API_Design_Specifications.md)
-- [Endpoint_Documentation.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Endpoint_Documentation.json)
-- [Integration_Architecture_Plan.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Integration_Architecture_Plan.md)
-- [Service_Communication_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Service_Communication_Specs.json)
+- [API_Design_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/API_Design_Specifications.md)
+- [Endpoint_Documentation.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Endpoint_Documentation.json)
+- [Integration_Architecture_Plan.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Integration_Architecture_Plan.md)
+- [Service_Communication_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Service_Communication_Specs.json)
 
 # Primary Responsible Agent
 @system-architect-agent
@@ -58,8 +63,8 @@ The @system-architect-agent is chosen for its expertise in API and integration d
 - **Description**: Design the API architecture, including endpoint design, request/response specifications, authentication, rate limiting, and versioning.
 - **Agent Assignment**: @system-architect-agent (api-design, interface-specification)
 - **Documentation Links**:
-  - [API_Design_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/API_Design_Specifications.md)
-  - [Endpoint_Documentation.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Endpoint_Documentation.json)
+  - [API_Design_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/API_Design_Specifications.md)
+  - [Endpoint_Documentation.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Endpoint_Documentation.json)
 - **Steps**:
   1. Design API architecture: define RESTful/GraphQL endpoints, request/response payloads, HTTP methods, status codes, authentication/authorization mechanisms, rate limiting, and versioning (CognitiveProcessing)
   2. Document the API design specifications in API_Design_Specifications.md (edit_file)
@@ -75,8 +80,8 @@ The @system-architect-agent is chosen for its expertise in API and integration d
 - **Description**: Plan the integration architecture, including service communication patterns, message queuing, event-driven approaches, third-party integrations, and data synchronization.
 - **Agent Assignment**: @system-architect-agent (integration-design, service-communication)
 - **Documentation Links**:
-  - [Integration_Architecture_Plan.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Integration_Architecture_Plan.md)
-  - [Service_Communication_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Service_Communication_Specs.json)
+  - [Integration_Architecture_Plan.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Integration_Architecture_Plan.md)
+  - [Service_Communication_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Service_Communication_Specs.json)
 - **Steps**:
   1. Plan integration architecture: identify inter-service communication needs, evaluate message queuing systems, design event-driven architecture patterns, define strategies for integrating with third-party services, and plan data synchronization mechanisms (CognitiveProcessing)
   2. Document the integration architecture plan in Integration_Architecture_Plan.md (edit_file)

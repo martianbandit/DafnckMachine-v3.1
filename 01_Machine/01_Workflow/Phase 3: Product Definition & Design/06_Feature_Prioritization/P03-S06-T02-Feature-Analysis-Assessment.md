@@ -11,6 +11,13 @@ source: Step.json
 agent: "@market-research-agent, @ux-researcher-agent, @system-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Business_Value_Assessment.md — Business_Value_Assessment.md: Business_Value_Assessment.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Revenue_Impact_Analysis.json — Revenue_Impact_Analysis.json: Revenue_Impact_Analysis.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/User_Impact_Evaluation.md — User_Impact_Evaluation.md: User_Impact_Evaluation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Experience_Enhancement_Matrix.json — Experience_Enhancement_Matrix.json: Experience_Enhancement_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Technical_Complexity_Analysis.md — Technical_Complexity_Analysis.md: Technical_Complexity_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Development_Effort_Matrix.json — Development_Effort_Matrix.json: Development_Effort_Matrix.json (missing)
 
 ## Mission Statement
 Conduct comprehensive feature analysis including business value assessment, user impact evaluation, and technical complexity analysis.
@@ -36,12 +43,12 @@ Analyze all features for business value, user impact, and technical complexity. 
 - **Technical Complexity Analysis**: Development effort, technical risk, dependency complexity, integration requirements
 
 ## Documentation & Templates
-- [Business_Value_Assessment.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Business_Value_Assessment.md)
-- [Revenue_Impact_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Revenue_Impact_Analysis.json)
-- [User_Impact_Evaluation.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/User_Impact_Evaluation.md)
-- [Experience_Enhancement_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Experience_Enhancement_Matrix.json)
-- [Technical_Complexity_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Technical_Complexity_Analysis.md)
-- [Development_Effort_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Development_Effort_Matrix.json)
+- [Business_Value_Assessment.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Business_Value_Assessment.md)
+- [Revenue_Impact_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Revenue_Impact_Analysis.json)
+- [User_Impact_Evaluation.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/User_Impact_Evaluation.md)
+- [Experience_Enhancement_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Experience_Enhancement_Matrix.json)
+- [Technical_Complexity_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Technical_Complexity_Analysis.md)
+- [Development_Effort_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Development_Effort_Matrix.json)
 
 ## Primary Responsible Agent
 @market-research-agent, @ux-researcher-agent, @system-architect-agent
@@ -64,8 +71,8 @@ Analyze all features for business value, user impact, and technical complexity. 
 - **Description**: Assess business value for all features including revenue impact, market opportunity, competitive advantage, strategic alignment, customer acquisition, and retention impact.
 - **Agent Assignment**: @market-research-agent
 - **Documentation Links**:
-  - [Business_Value_Assessment.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Business_Value_Assessment.md)
-  - [Revenue_Impact_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Revenue_Impact_Analysis.json)
+  - [Business_Value_Assessment.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Business_Value_Assessment.md)
+  - [Revenue_Impact_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Revenue_Impact_Analysis.json)
 - **Steps**:
   1. Analyze business value for each feature including revenue impact, market opportunity, and competitive advantage (file_search)
   2. Create comprehensive business value assessment with quantified impact projections (edit_file)
@@ -81,8 +88,8 @@ Analyze all features for business value, user impact, and technical complexity. 
 - **Description**: Evaluate user impact for all features including user satisfaction, usability improvement, pain point resolution, user journey enhancement, and adoption likelihood.
 - **Agent Assignment**: @ux-researcher-agent
 - **Documentation Links**:
-  - [User_Impact_Evaluation.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/User_Impact_Evaluation.md)
-  - [Experience_Enhancement_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Experience_Enhancement_Matrix.json)
+  - [User_Impact_Evaluation.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/User_Impact_Evaluation.md)
+  - [Experience_Enhancement_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Experience_Enhancement_Matrix.json)
 - **Steps**:
   1. Analyze user research data to evaluate feature impact on user satisfaction and experience (file_search)
   2. Create detailed user impact evaluation with experience improvement metrics (edit_file)
@@ -98,8 +105,8 @@ Analyze all features for business value, user impact, and technical complexity. 
 - **Description**: Analyze technical complexity for all features including development effort, technical risk, dependency complexity, integration requirements, and maintenance overhead.
 - **Agent Assignment**: @system-architect-agent
 - **Documentation Links**:
-  - [Technical_Complexity_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Technical_Complexity_Analysis.md)
-  - [Development_Effort_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Development_Effort_Matrix.json)
+  - [Technical_Complexity_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Technical_Complexity_Analysis.md)
+  - [Development_Effort_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Development_Effort_Matrix.json)
 - **Steps**:
   1. Analyze technical requirements to assess feature complexity and development effort (file_search)
   2. Create comprehensive technical complexity analysis with effort estimation (edit_file)

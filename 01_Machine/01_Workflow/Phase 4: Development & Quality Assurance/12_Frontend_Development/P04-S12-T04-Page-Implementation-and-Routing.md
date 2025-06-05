@@ -11,6 +11,11 @@ source: Step.json
 agent: "@coding-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Page_Implementation_Guide.md — Page_Implementation_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Layout_Specifications.json — Layout_Specifications.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Routing_Implementation_Guide.md — Routing_Implementation_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Navigation_Configuration.json — Navigation_Configuration.json (missing)
 
 # Mission Statement
 Implement application pages and configure routing for DafnckMachine v3.1, ensuring seamless navigation and modular page structure.
@@ -39,10 +44,10 @@ You are @coding-agent responsible for implementing pages and routing for DafnckM
 - Protected routes and access control
 
 # Documentation & Templates
-- [Page_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Page_Implementation_Guide.md)
-- [Layout_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Layout_Specifications.json)
-- [Routing_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Routing_Implementation_Guide.md)
-- [Navigation_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Navigation_Configuration.json)
+- [Page_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Page_Implementation_Guide.md)
+- [Layout_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Layout_Specifications.json)
+- [Routing_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Routing_Implementation_Guide.md)
+- [Navigation_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Navigation_Configuration.json)
 
 # Primary Responsible Agent
 @coding-agent - frontend-development
@@ -65,8 +70,8 @@ You are @coding-agent responsible for implementing pages and routing for DafnckM
 - **Description**: Implement essential application pages including home, dashboard, user profile, and settings with responsive layouts and navigation integration.
 - **Agent Assignment**: @coding-agent
 - **Documentation Links**:
-  - [Page_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Page_Implementation_Guide.md)
-  - [Layout_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Layout_Specifications.json)
+  - [Page_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Page_Implementation_Guide.md)
+  - [Layout_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Layout_Specifications.json)
 - **Steps**:
     1. Implement home and dashboard pages with layouts (edit_file)
     2. Implement user profile and settings pages (edit_file)
@@ -93,8 +98,8 @@ You are @coding-agent responsible for implementing pages and routing for DafnckM
 - **Description**: Implement comprehensive routing system with navigation components, protected routes, deep linking, and seamless application flow.
 - **Agent Assignment**: @coding-agent
 - **Documentation Links**:
-  - [Routing_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Routing_Implementation_Guide.md)
-  - [Navigation_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Navigation_Configuration.json)
+  - [Routing_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Routing_Implementation_Guide.md)
+  - [Navigation_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Navigation_Configuration.json)
 - **Steps**:
     1. Configure routing system and route definitions (edit_file)
     2. Implement protected routes and authentication guards (edit_file)

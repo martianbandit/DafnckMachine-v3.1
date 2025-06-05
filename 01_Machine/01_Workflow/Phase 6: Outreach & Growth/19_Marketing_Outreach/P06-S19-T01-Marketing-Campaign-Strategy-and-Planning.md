@@ -11,6 +11,8 @@ source: Step.json
 agent: "@marketing-strategy-orchestrator"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Marketing_Campaign_Strategy.md — Marketing_Campaign_Strategy.md: Multi-channel campaign planning and execution framework (missing)
 
 ## Workflow Metadata
 - **Workflow-Step**: Marketing Outreach
@@ -56,8 +58,8 @@ Develop and plan comprehensive marketing campaigns, including campaign strategy 
 - **Customer Acquisition**: Lead generation with conversion optimization and retention strategies
 
 ## Documentation & Templates
-- [Marketing Campaign Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Marketing_Campaign_Strategy.md)
-- [Campaign Planning Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Campaign_Planning_Framework.json)
+- [Marketing Campaign Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Marketing_Campaign_Strategy.md)
+- [Campaign Planning Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Campaign_Planning_Framework.json)
 
 ## Primary Responsible Agent
 @marketing-strategy-orchestrator
@@ -82,8 +84,8 @@ The Marketing Strategy Orchestrator is chosen for its specialized expertise in c
 - **Description**: Develop marketing campaign strategy including audience analysis, campaign objectives, channel selection, messaging framework, and budget allocation.
 - **Agent Assignment**: @marketing-strategy-orchestrator
 - **Documentation Links**:
-  - [Marketing Campaign Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Marketing_Campaign_Strategy.md)
-  - [Campaign Planning Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Campaign_Planning_Framework.json)
+  - [Marketing Campaign Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Marketing_Campaign_Strategy.md)
+  - [Campaign Planning Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Campaign_Planning_Framework.json)
 - **Steps**:
     1. Analyze target audience and define campaign objectives.
     2. Select appropriate marketing channels and develop messaging framework.
@@ -100,8 +102,8 @@ The Marketing Strategy Orchestrator is chosen for its specialized expertise in c
 - **Description**: Setup multi-channel campaigns including channel integration, campaign coordination, cross-platform messaging, and performance tracking.
 - **Agent Assignment**: @campaign-manager-agent
 - **Documentation Links**:
-  - [Multi-Channel Campaign Setup](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Multi_Channel_Campaign_Setup.md)
-  - [Channel Integration Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Channel_Integration_Framework.json)
+  - [Multi-Channel Campaign Setup](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Multi_Channel_Campaign_Setup.md)
+  - [Channel Integration Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Channel_Integration_Framework.json)
 - **Steps**:
     1. Integrate selected marketing channels.
     2. Set up cross-platform messaging and coordination workflows.
@@ -150,7 +152,7 @@ The Marketing Strategy Orchestrator is chosen for its specialized expertise in c
 - Reputation Risks: Crisis communication protocols with reputation monitoring and protection
 
 ## Output Artifacts
-- [Marketing_Campaign_Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/Marketing_Campaign_Strategy.md): Multi-channel campaign planning and execution framework
+- [Marketing_Campaign_Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Marketing_Campaign_Strategy.md): Multi-channel campaign planning and execution framework
 
 ## Next Action
 Develop marketing campaign strategy with @marketing-strategy-orchestrator

@@ -11,6 +11,11 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Regulatory_Environment_Analysis.md — Regulatory_Environment_Analysis.md: Regulatory_Environment_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Compliance_Requirements_Matrix.json — Compliance_Requirements_Matrix.json: Compliance_Requirements_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/Macro_Environment_Analysis.md — Macro_Environment_Analysis.md: Macro_Environment_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/03_Market_Research/PESTLE_Analysis.json — PESTLE_Analysis.json: PESTLE_Analysis.json (missing)
 
 ## Mission Statement
 Assess regulatory environment and macro-environmental factors to identify compliance requirements and external influences on market strategy.

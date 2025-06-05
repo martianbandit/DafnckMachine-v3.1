@@ -11,6 +11,9 @@ source: Step.json
 agent: "@knowledge-evolution-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Process_Optimization_Framework.md — Process_Optimization_Framework.md: Improvement process optimization and maintenance procedures (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Improvement_Maintenance_Guide.md — Improvement_Maintenance_Guide.md: Maintenance routines and sustainability (missing)
 
 # Workflow Metadata
 - **Workflow-Step**: Continuous Improvement
@@ -46,8 +49,8 @@ You are @knowledge-evolution-agent. Your mission is to optimize improvement proc
 - **Process Optimization**: Improvement process optimization and maintenance procedures
 
 # Documentation & Templates
-- [Process_Optimization_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Process_Optimization_Framework.md): Improvement process optimization and maintenance procedures
-- [Improvement_Maintenance_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Improvement_Maintenance_Guide.md): Maintenance routines and sustainability
+- [Process_Optimization_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Process_Optimization_Framework.md): Improvement process optimization and maintenance procedures
+- [Improvement_Maintenance_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Improvement_Maintenance_Guide.md): Maintenance routines and sustainability
 
 # Primary Responsible Agent
 @knowledge-evolution-agent
@@ -67,7 +70,7 @@ The Knowledge Evolution Agent is chosen for its expertise in process optimizatio
 - **ID**: P05-T10-S01
 - **Description**: Optimize improvement processes for efficiency, enhance automation, and optimize resource use.
 - **Agent**: @knowledge-evolution-agent
-- **Documentation**: [Process_Optimization_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Process_Optimization_Framework.md)
+- **Documentation**: [Process_Optimization_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Process_Optimization_Framework.md)
 - **Steps**:
     1. Optimize improvement processes: process efficiency, workflow optimization, automation enhancement, resource optimization (Tool: edit_file)
         - Success: `config/process_optimization_config.json` exists and contains `"automationLevel": "high"`
@@ -81,7 +84,7 @@ The Knowledge Evolution Agent is chosen for its expertise in process optimizatio
 - **ID**: P05-T10-S02
 - **Description**: Establish routines for maintaining improvement systems, ensuring sustainability and continuous enhancement.
 - **Agent**: @performance-optimizer-agent
-- **Documentation**: [Improvement_Maintenance_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Improvement_Maintenance_Guide.md)
+- **Documentation**: [Improvement_Maintenance_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Improvement_Maintenance_Guide.md)
 - **Steps**:
     1. Maintain improvement systems: system maintenance, process sustainability, optimization monitoring, continuous enhancement (Tool: edit_file)
         - Success: `config/improvement_maintenance_config.json` exists and contains `"monthlyReviewScheduled": true`
@@ -109,8 +112,8 @@ The Knowledge Evolution Agent is chosen for its expertise in process optimizatio
 - Escalate to human on repeated maintenance failures
 
 # Output Artifacts
-- [Process_Optimization_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Process_Optimization_Framework.md)
-- [Improvement_Maintenance_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Improvement_Maintenance_Guide.md)
+- [Process_Optimization_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Process_Optimization_Framework.md)
+- [Improvement_Maintenance_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Improvement_Maintenance_Guide.md)
 
 # Next Action
 Optimize improvement processes and establish maintenance routines with @knowledge-evolution-agent and @performance-optimizer-agent

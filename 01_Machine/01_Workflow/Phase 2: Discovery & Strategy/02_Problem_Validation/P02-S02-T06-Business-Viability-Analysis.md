@@ -11,6 +11,11 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Business_Viability_Analysis.json — Business_Viability_Analysis.json: Business viability analysis (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Revenue_Model.md — Revenue_Model.md: Revenue model (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Risk_Assessment_Matrix.json — Risk_Assessment_Matrix.json: Risk assessment matrix (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Mitigation_Strategies.md — Mitigation_Strategies.md: Mitigation strategies (missing)
 
 ## Mission Statement
 Validate business model viability including revenue potential, cost structure, pricing strategies, and comprehensive risk assessment with mitigation strategies.
@@ -32,10 +37,10 @@ You are @market-research-agent responsible for business viability analysis. Your
 - Business Viability: Revenue model and cost structure analysis
 
 ## Documentation & Templates
-- [Business_Viability_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Business_Viability_Analysis.json): Business viability analysis
-- [Revenue_Model.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Revenue_Model.md): Revenue model
-- [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Risk_Assessment_Matrix.json): Risk assessment matrix
-- [Mitigation_Strategies.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Mitigation_Strategies.md): Mitigation strategies
+- [Business_Viability_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Business_Viability_Analysis.json): Business viability analysis
+- [Revenue_Model.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Revenue_Model.md): Revenue model
+- [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Risk_Assessment_Matrix.json): Risk assessment matrix
+- [Mitigation_Strategies.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Mitigation_Strategies.md): Mitigation strategies
 
 ## Primary Responsible Agent
 @market-research-agent
@@ -60,7 +65,7 @@ The Market Research Agent is chosen for its specialized capabilities in business
 - **ID**: P02-T06-S02
 - **Description**: Analyze revenue potential, assess cost structure, evaluate pricing strategies, and identify monetization opportunities to validate business model viability.
 - **Agent Assignment**: @market-research-agent
-- **Documentation Links**: [Business_Viability_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Business_Viability_Analysis.json), [Revenue_Model.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Revenue_Model.md)
+- **Documentation Links**: [Business_Viability_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Business_Viability_Analysis.json), [Revenue_Model.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Revenue_Model.md)
 - **Steps**:
     1. Analyze revenue potential and monetization opportunities (edit_file)
     2. Assess cost structure and operational expenses (edit_file)
@@ -76,14 +81,14 @@ The Market Research Agent is chosen for its specialized capabilities in business
 - **ID**: P02-T06-S03
 - **Description**: Conduct comprehensive risk assessment identifying market, technical, business, and competitive risks, and develop prioritized mitigation strategies.
 - **Agent Assignment**: @market-research-agent
-- **Documentation Links**: [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Risk_Assessment_Matrix.json), [Mitigation_Strategies.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Mitigation_Strategies.md)
+- **Documentation Links**: [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Risk_Assessment_Matrix.json), [Mitigation_Strategies.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Mitigation_Strategies.md)
 - **Steps**:
     1. Identify and categorize all project risks (edit_file)
     2. Assess risk probability and impact levels (edit_file)
     3. Develop mitigation strategies and contingency plans (edit_file)
 - **Success Criteria**:
-    - File Created: 01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Risk_Assessment_Matrix.json
-    - File Created: 01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Mitigation_Strategies.md
+    - File Created: 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Risk_Assessment_Matrix.json
+    - File Created: 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Mitigation_Strategies.md
     - File Content Contains: market_risks, technical_risks, business_risks, competitive_risks, risk_probability, impact_assessment, risk_priority, mitigation_strategies, contingency_plans, risk_monitoring
 - **Integration Points**: Risk assessment informs project planning, resource allocation, and contingency strategies for implementation.
 - **Next Subtask**: P02-S02-T07-Validation-Synthesis-Recommendation.md
@@ -111,10 +116,10 @@ The Market Research Agent is chosen for its specialized capabilities in business
 - Escalate to human if analysis fails after 3 retries
 
 ## Output Artifacts
-- [Business_Viability_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Business_Viability_Analysis.json)
-- [Revenue_Model.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Revenue_Model.md)
-- [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Risk_Assessment_Matrix.json)
-- [Mitigation_Strategies.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Mitigation_Strategies.md)
+- [Business_Viability_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Business_Viability_Analysis.json)
+- [Revenue_Model.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Revenue_Model.md)
+- [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Risk_Assessment_Matrix.json)
+- [Mitigation_Strategies.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Mitigation_Strategies.md)
 
 ## Next Action
 Initiate business model validation and risk assessment with @market-research-agent

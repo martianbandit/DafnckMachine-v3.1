@@ -11,6 +11,11 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/User_Research_Plan.md — User_Research_Plan.md: User research plan (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Interview_Guide.json — Interview_Guide.json: Interview guide (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/User_Validation_Report.md — User_Validation_Report.md: User validation report (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Interview_Transcripts.md — Interview_Transcripts.md: Interview transcripts (missing)
 
 ## Mission Statement
 Design and execute primary user research including interviews and surveys to validate problem significance, frequency, and impact with target user segments.
@@ -31,8 +36,8 @@ You are @market-research-agent responsible for user validation research. Your mi
 - User Validation: Primary research findings and user pain point confirmation
 
 ## Documentation & Templates
-- [User_Research_Plan.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/User_Research_Plan.md): User research plan
-- [Interview_Guide.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Interview_Guide.json): Interview guide
+- [User_Research_Plan.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/User_Research_Plan.md): User research plan
+- [Interview_Guide.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Interview_Guide.json): Interview guide
 - [User_Validation_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/User_Validation_Report.md): User validation report
 - [Interview_Transcripts.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Interview_Transcripts.md): Interview transcripts
 
@@ -59,7 +64,7 @@ The Market Research Agent is chosen for its specialized capabilities in research
 - **ID**: P02-T03-S02
 - **Description**: Design comprehensive user validation research methodology including target segment definition, interview guides, survey design, and validation metrics framework.
 - **Agent Assignment**: @market-research-agent
-- **Documentation Links**: [User_Research_Plan.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/User_Research_Plan.md), [Interview_Guide.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Interview_Guide.json)
+- **Documentation Links**: [User_Research_Plan.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/User_Research_Plan.md), [Interview_Guide.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Interview_Guide.json)
 - **Steps**:
     1. Define target user segments and research participant criteria (edit_file)
     2. Create structured interview guides and survey questionnaires (edit_file)

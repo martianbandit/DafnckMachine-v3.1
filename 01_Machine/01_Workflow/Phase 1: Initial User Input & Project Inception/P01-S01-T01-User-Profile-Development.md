@@ -11,12 +11,14 @@ source: Step.json
 agent: "@nlu-processor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/User_Profile.json — User_Profile.json: Complete user background and preferences (missing)
 
 ## Mission Statement
 Develop a comprehensive profile of the user to tailor agent interaction and project approach for DafnckMachine v3.1.
 
 ## Description
-This task focuses on assessing the user's technical expertise, industry experience, and preferred working styles. The resulting user profile will inform agent selection and communication strategies throughout the project.
+This task focuses on assessing the user's technical expertise, industry experience, and preferred working styles. The resulting user profile will inform agent selection throughout the project.
 
 ## Super-Prompt
 You are @nlu-processor-agent.json responsible for conducting a structured elicitation session to gather information on the user's technical expertise, industry experience, previous project involvement, and preferred working styles. Document all findings in structured formats and validate completeness.
@@ -33,8 +35,8 @@ You are @nlu-processor-agent.json responsible for conducting a structured elicit
 - User Profile: Background, experience level, technical expertise, and preferences
 
 ## Documentation & Templates
-- [User_Profile.json](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/User_Profile.json): User background, expertise, and preferences
-- [Briefing_Summary.md](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Briefing_Summary.md): Briefing session summary
+- [User_Profile.json](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/User_Profile.json): User background, expertise, and preferences
+- [Briefing_Summary.md](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Briefing_Summary.md): Briefing session summary
 
 ## Primary Responsible Agent
 @"nlu-processor-agent.json"
@@ -49,7 +51,7 @@ You are @nlu-processor-agent.json responsible for conducting a structured elicit
 The @nlu-processor-agent is chosen for its expertise in user profiling, background analysis, and document editing. Supporting agents provide advanced requirement gathering, project setup, industry context, and technical validation.
 
 ## Tasks (Summary)
-- Develop a comprehensive user profile to inform agent selection and communication strategies.
+- Develop a comprehensive user profile to inform agent selection strategies.
 
 ## Subtasks (Detailed)
 ### Subtask-01: Background Assessment
@@ -57,8 +59,8 @@ The @nlu-processor-agent is chosen for its expertise in user profiling, backgrou
 - **Description**: Assess user's technical expertise, industry experience, and preferred working styles.
 - **Agent Assignment**: @nlu-processor-agent
 - **Documentation Links**:
-  - [User_Profile.json](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/User_Profile.json)
-  - [Briefing_Summary.md](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Briefing_Summary.md)
+  - [User_Profile.json](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/User_Profile.json)
+  - [Briefing_Summary.md](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Briefing_Summary.md)
 - **Steps**:
     1. Engage the user to gather detailed information on their technical background, industry experience, and preferred project methodologies. Document responses thoroughly.
     2. Conduct a structured elicitation session (e.g., via interactive prompt or pre-defined questionnaire) to gather information on technical expertise, industry experience, previous projects, and working styles.
@@ -67,7 +69,7 @@ The @nlu-processor-agent is chosen for its expertise in user profiling, backgrou
     - User_Profile.json is a valid JSON document and adheres to the expected schema for user profiles.
 - **Max Retries**: 2
 - **On Failure**: ESCALATE_TO_HUMAN (@nlu-lead) with full logs and status.
-- **Integration Points**: The completed user profile will be used to inform subsequent agent selection and to tailor communication approaches throughout the project.
+- **Integration Points**: The completed user profile will be used to inform subsequent agent selection throughout the project.
 - **Next Subtask**: P01-S01-T02-Communication-Preferences.md
 
 ## Rollback Procedures
@@ -75,7 +77,7 @@ The @nlu-processor-agent is chosen for its expertise in user profiling, backgrou
 - If requirements change, update documentation and re-validate with user.
 
 ## Integration Points
-- User profile feeds into agent selection and communication strategies for all subsequent phases.
+- User profile feeds into agent selection strategies for all subsequent phases.
 
 ## Quality Gates
 - Completeness Check: All required user profile fields are filled.
@@ -88,9 +90,6 @@ The @nlu-processor-agent is chosen for its expertise in user profiling, backgrou
 ## Risk Mitigation
 - Use structured questioning and follow-up sessions for incomplete information.
 - Employ clarification techniques for unclear responses.
-
-## Output Artifacts
-- [User_Profile.json](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/User_Profile.json): Complete user background and preferences
 
 ## Next Action
 Initiate user background assessment and begin structured elicitation session.

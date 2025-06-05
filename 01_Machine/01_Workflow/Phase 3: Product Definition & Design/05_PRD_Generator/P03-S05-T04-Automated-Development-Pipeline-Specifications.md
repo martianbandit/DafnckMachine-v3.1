@@ -11,6 +11,9 @@ source: Step.json
 agent: "@development-orchestrator-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Development_Agent_Specifications.md — Development_Agent_Specifications.md: Development_Agent_Specifications.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/QA_Automation_Framework.md — QA_Automation_Framework.md: QA_Automation_Framework.md (missing)
 
 # Previous Task: P03-S05-T03-Universal-Technology-Stack-Support-Matrix.md
 # Current Task: P03-S05-T04-Automated-Development-Pipeline-Specifications.md
@@ -50,11 +53,11 @@ You are @development-orchestrator-agent responsible for defining the automated d
 - **Quality Framework**: Continuous quality assurance with automated testing and monitoring
 
 ## Documentation & Templates
-- [PRD_Template.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/PRD_Template.md)
-- [Development_Agent_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Development_Agent_Specifications.md)
-- [Language_Support_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Language_Support_Matrix.json)
-- [QA_Automation_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/QA_Automation_Framework.md)
-- [Testing_Pipeline_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Testing_Pipeline_Specifications.json)
+- [PRD_Template.md](mdc:01_Machine/04_Documentation/vision/Phase_3/PRD_Template.md)
+- [Development_Agent_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Development_Agent_Specifications.md)
+- [Language_Support_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Language_Support_Matrix.json)
+- [QA_Automation_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/QA_Automation_Framework.md)
+- [Testing_Pipeline_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Testing_Pipeline_Specifications.json)
 
 ## Primary Responsible Agent
 @development-orchestrator-agent - development-agents, language-support, framework-integration
@@ -73,7 +76,7 @@ The Development Orchestrator Agent is chosen for its expertise in development ag
 - **ID**: P03-T04-S01
 - **Description**: Define development agent swarm with language-specific agents, framework specialists, quality assurance agents, testing automation, and deployment agents.
 - **Agent Assignment**: @development-orchestrator-agent (development-agents, language-support, framework-integration)
-- **Documentation Links**: [Development_Agent_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Development_Agent_Specifications.md), [Language_Support_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Language_Support_Matrix.json)
+- **Documentation Links**: [Development_Agent_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Development_Agent_Specifications.md), [Language_Support_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Language_Support_Matrix.json)
 - **Steps**:
     1. Define language-specific development agents and their capabilities (edit_file)
     2. Specify development agent coordination and task distribution mechanisms (edit_file)
@@ -87,7 +90,7 @@ The Development Orchestrator Agent is chosen for its expertise in development ag
 - **ID**: P03-T04-S02
 - **Description**: Specify QA automation including continuous quality gates, automated testing, security scanning, performance monitoring, accessibility compliance, and cross-platform testing.
 - **Agent Assignment**: @test-orchestrator-agent (qa-automation, testing-pipeline, security-scanning)
-- **Documentation Links**: [QA_Automation_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/QA_Automation_Framework.md), [Testing_Pipeline_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Testing_Pipeline_Specifications.json)
+- **Documentation Links**: [QA_Automation_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/QA_Automation_Framework.md), [Testing_Pipeline_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Testing_Pipeline_Specifications.json)
 - **Steps**:
     1. Define continuous quality gates and automated testing frameworks (edit_file)
     2. Specify security scanning and performance monitoring requirements (edit_file)

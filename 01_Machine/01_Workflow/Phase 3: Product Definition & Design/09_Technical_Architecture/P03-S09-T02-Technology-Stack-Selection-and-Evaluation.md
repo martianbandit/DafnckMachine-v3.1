@@ -11,6 +11,11 @@ source: Step.json
 agent: "@technology-advisor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Frontend_Technology_Selection.md — Frontend_Technology_Selection.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Framework_Evaluation_Matrix.json — Framework_Evaluation_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Backend_Technology_Selection.md — Backend_Technology_Selection.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Platform_Evaluation_Matrix.json — Platform_Evaluation_Matrix.json (missing)
 
 # Mission Statement
 Evaluate and select the optimal technology stack for frontend and backend development, ensuring alignment with project requirements, scalability, and maintainability.
@@ -33,10 +38,10 @@ You are @technology-advisor-agent responsible for evaluating and selecting the o
 - Technology Stack: Optimized technology selection with integration strategies and implementation guidelines
 
 # Documentation & Templates
-- [Frontend_Technology_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Frontend_Technology_Selection.md)
-- [Framework_Evaluation_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Framework_Evaluation_Matrix.json)
-- [Backend_Technology_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Backend_Technology_Selection.md)
-- [Platform_Evaluation_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Platform_Evaluation_Matrix.json)
+- [Frontend_Technology_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Frontend_Technology_Selection.md)
+- [Framework_Evaluation_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Framework_Evaluation_Matrix.json)
+- [Backend_Technology_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Backend_Technology_Selection.md)
+- [Platform_Evaluation_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Platform_Evaluation_Matrix.json)
 
 # Primary Responsible Agent
 @technology-advisor-agent
@@ -59,8 +64,8 @@ The @technology-advisor-agent is chosen for its expertise in technology evaluati
 - **Description**: Evaluate and select frontend technologies, considering frameworks, libraries, tooling, performance, and development efficiency.
 - **Agent Assignment**: @technology-advisor-agent (frontend-technologies, framework-evaluation)
 - **Documentation Links**:
-  - [Frontend_Technology_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Frontend_Technology_Selection.md)
-  - [Framework_Evaluation_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Framework_Evaluation_Matrix.json)
+  - [Frontend_Technology_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Frontend_Technology_Selection.md)
+  - [Framework_Evaluation_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Framework_Evaluation_Matrix.json)
 - **Steps**:
   1. Research current trends, advantages, and disadvantages of potential frontend technologies (web_search)
   2. Evaluate frontend technologies based on criteria such as performance, development efficiency, community support, and alignment with project goals. Populate Framework_Evaluation_Matrix.json (CognitiveProcessing)
@@ -79,8 +84,8 @@ The @technology-advisor-agent is chosen for its expertise in technology evaluati
 - **Description**: Evaluate and select backend technologies, focusing on platform, database, API framework, scalability, and security features.
 - **Agent Assignment**: @technology-advisor-agent (backend-technologies, platform-evaluation)
 - **Documentation Links**:
-  - [Backend_Technology_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Backend_Technology_Selection.md)
-  - [Platform_Evaluation_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Platform_Evaluation_Matrix.json)
+  - [Backend_Technology_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Backend_Technology_Selection.md)
+  - [Platform_Evaluation_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Platform_Evaluation_Matrix.json)
 - **Steps**:
   1. Research potential backend technologies (platforms, databases, API frameworks) based on project requirements (web_search)
   2. Evaluate backend technologies and document the findings in Platform_Evaluation_Matrix.json (CognitiveProcessing)

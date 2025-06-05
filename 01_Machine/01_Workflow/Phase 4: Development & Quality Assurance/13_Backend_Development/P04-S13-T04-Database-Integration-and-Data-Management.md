@@ -11,6 +11,8 @@ source: Step.json
 agent: "@coding-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- _No Output Artifacts section found_
 
 ## Mission Statement
 Implement comprehensive database integration with ORM configuration, data models, and migration systems for scalable data management.
@@ -34,10 +36,10 @@ You are @coding-agent. Your mission is to implement database integration, ORM se
 - Database Integration: Optimized database design, ORM configuration, data modeling, migration system, data seeding
 
 ## Documentation & Templates
-- [Database_Integration_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Database_Integration_Guide.md)
-- [ORM_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/ORM_Configuration.json)
-- [Migration_System_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Migration_System_Guide.md)
-- [Data_Seeding_Scripts.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Data_Seeding_Scripts.json)
+- [Database_Integration_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Database_Integration_Guide.md)
+- [ORM_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/ORM_Configuration.json)
+- [Migration_System_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Migration_System_Guide.md)
+- [Data_Seeding_Scripts.json](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Data_Seeding_Scripts.json)
 
 ## Primary Responsible Agent
 @coding-agent

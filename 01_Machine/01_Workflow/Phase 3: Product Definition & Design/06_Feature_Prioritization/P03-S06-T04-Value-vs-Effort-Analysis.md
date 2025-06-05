@@ -11,6 +11,11 @@ source: Step.json
 agent: "@prd-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Value_vs_Effort_Matrix.json — Value_vs_Effort_Matrix.json: Value_vs_Effort_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Quick_Wins_Analysis.md — Quick_Wins_Analysis.md: Quick_Wins_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Strategic_Investment_Plan.md — Strategic_Investment_Plan.md: Strategic_Investment_Plan.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Quick_Wins_Roadmap.json — Quick_Wins_Roadmap.json: Quick_Wins_Roadmap.json (missing)
 
 ## Mission Statement
 Create value-effort analysis to identify quick wins, strategic investments, and optimization opportunities.
@@ -33,10 +38,10 @@ Create a comprehensive value-effort matrix plotting features by business value a
 - **Quick Wins & Strategic Investments**: Immediate value delivery and long-term advantage opportunities
 
 ## Documentation & Templates
-- [Value_vs_Effort_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Value_vs_Effort_Matrix.json)
-- [Quick_Wins_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Quick_Wins_Analysis.md)
-- [Strategic_Investment_Plan.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Strategic_Investment_Plan.md)
-- [Quick_Wins_Roadmap.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Quick_Wins_Roadmap.json)
+- [Value_vs_Effort_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Value_vs_Effort_Matrix.json)
+- [Quick_Wins_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Quick_Wins_Analysis.md)
+- [Strategic_Investment_Plan.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Strategic_Investment_Plan.md)
+- [Quick_Wins_Roadmap.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Quick_Wins_Roadmap.json)
 
 ## Primary Responsible Agent
 @prd-architect-agent
@@ -57,8 +62,8 @@ Create a comprehensive value-effort matrix plotting features by business value a
 - **Description**: Create comprehensive value-effort matrix plotting features by business value and development effort to identify quick wins, major investments, and low-value features.
 - **Agent Assignment**: @prd-architect-agent
 - **Documentation Links**:
-  - [Value_vs_Effort_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Value_vs_Effort_Matrix.json)
-  - [Quick_Wins_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Quick_Wins_Analysis.md)
+  - [Value_vs_Effort_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Value_vs_Effort_Matrix.json)
+  - [Quick_Wins_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Quick_Wins_Analysis.md)
 - **Steps**:
   1. Create value-effort matrix plotting features by business value and development effort (edit_file)
   2. Generate value-effort matrix JSON with feature positioning and strategic categorization (edit_file)
@@ -73,8 +78,8 @@ Create a comprehensive value-effort matrix plotting features by business value a
 - **Description**: Identify and analyze strategic opportunities including quick wins for immediate value delivery, strategic investments for long-term advantage, and optimization opportunities.
 - **Agent Assignment**: @prd-architect-agent
 - **Documentation Links**:
-  - [Strategic_Investment_Plan.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Strategic_Investment_Plan.md)
-  - [Quick_Wins_Roadmap.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Quick_Wins_Roadmap.json)
+  - [Strategic_Investment_Plan.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Strategic_Investment_Plan.md)
+  - [Quick_Wins_Roadmap.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Quick_Wins_Roadmap.json)
 - **Steps**:
   1. Identify quick wins and strategic investment opportunities based on value-effort analysis (edit_file)
   2. Create quick wins roadmap with immediate value delivery opportunities (edit_file)

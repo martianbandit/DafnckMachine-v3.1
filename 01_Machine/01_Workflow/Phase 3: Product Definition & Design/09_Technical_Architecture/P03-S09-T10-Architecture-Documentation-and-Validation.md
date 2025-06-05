@@ -11,6 +11,11 @@ source: Step.json
 agent: "@system-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Complete_Technical_Architecture.md — Complete_Technical_Architecture.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Implementation_Guidelines.json — Implementation_Guidelines.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Architecture_Validation_Report.md — Architecture_Validation_Report.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Technical_Review_Results.json — Technical_Review_Results.json (missing)
 
 # Mission Statement
 Compile all technical documentation and validate the overall architecture for DafnckMachine v3.1.
@@ -34,10 +39,10 @@ You are @system-architect-agent responsible for compiling and validating the tec
 - Architecture Validation: Feasibility, scalability, security, performance, implementation readiness
 
 # Documentation & Templates
-- [Complete_Technical_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Complete_Technical_Architecture.md)
-- [Implementation_Guidelines.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Implementation_Guidelines.json)
-- [Architecture_Validation_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Architecture_Validation_Report.md)
-- [Technical_Review_Results.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Technical_Review_Results.json)
+- [Complete_Technical_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Complete_Technical_Architecture.md)
+- [Implementation_Guidelines.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Implementation_Guidelines.json)
+- [Architecture_Validation_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Architecture_Validation_Report.md)
+- [Technical_Review_Results.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Technical_Review_Results.json)
 
 # Primary Responsible Agent
 @system-architect-agent
@@ -57,8 +62,8 @@ The @system-architect-agent is chosen for its expertise in documentation, techni
 - **Description**: Compile all technical documentation, including architecture overview, implementation guidelines, technical specifications, integration guides, and maintenance procedures.
 - **Agent Assignment**: @system-architect-agent (documentation-compilation, technical-specifications)
 - **Documentation Links**:
-  - [Complete_Technical_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Complete_Technical_Architecture.md)
-  - [Implementation_Guidelines.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Implementation_Guidelines.json)
+  - [Complete_Technical_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Complete_Technical_Architecture.md)
+  - [Implementation_Guidelines.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Implementation_Guidelines.json)
 - **Steps**:
   1. Compile technical documentation: consolidate all previously created documents into a cohesive architecture overview, develop implementation guidelines, summarize technical specifications, create integration guides, and outline maintenance procedures (CognitiveProcessing)
   2. Create or update the main Complete_Technical_Architecture.md document (edit_file)
@@ -74,8 +79,8 @@ The @system-architect-agent is chosen for its expertise in documentation, techni
 - **Description**: Validate the overall architecture design for feasibility, scalability, security, performance, and implementation readiness through a comprehensive review.
 - **Agent Assignment**: @system-architect-agent (architecture-validation, technical-review)
 - **Documentation Links**:
-  - [Architecture_Validation_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Architecture_Validation_Report.md)
-  - [Technical_Review_Results.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Technical_Review_Results.json)
+  - [Architecture_Validation_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Architecture_Validation_Report.md)
+  - [Technical_Review_Results.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Technical_Review_Results.json)
 - **Steps**:
   1. Validate architecture design: conduct a thorough review of the compiled technical documentation, assessing for feasibility, scalability, security vulnerabilities, performance bottlenecks, and overall implementation readiness (CognitiveProcessing)
   2. Document the findings of the architecture validation in Architecture_Validation_Report.md (edit_file)

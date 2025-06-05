@@ -11,6 +11,8 @@ source: Step.json
 agent: "@elicitation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Success_Criteria.md — Success_Criteria.md: Documented success criteria and measurable goals (missing)
 
 ## Mission Statement
 Define measurable outcomes, KPIs, acceptance criteria, and quality standards for project success.
@@ -33,8 +35,8 @@ You are @elicitation-agent responsible for collaborating with the user to define
 - Success Metrics: Measurable outcomes, KPIs, acceptance criteria, and quality standards
 
 ## Documentation & Templates
-- [Success_Metrics.json](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Success_Metrics.json): Measurable success criteria and KPIs
-- [Project_Vision_Statement.md](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Project_Vision_Statement.md): Core project concept and objectives
+- [Success_Metrics.json](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Success_Metrics.json): Measurable success criteria and KPIs
+- [Project_Vision_Statement.md](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Project_Vision_Statement.md): Core project concept and objectives
 
 ## Primary Responsible Agent
 @elicitation-agent
@@ -57,8 +59,8 @@ The @elicitation-agent is chosen for its expertise in success metrics, criteria 
 - **Description**: Define measurable outcomes, KPIs, acceptance criteria, and quality standards.
 - **Agent Assignment**: @elicitation-agent
 - **Documentation Links**:
-  - [Success_Metrics.json](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Success_Metrics.json)
-  - [Project_Vision_Statement.md](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Project_Vision_Statement.md)
+  - [Success_Metrics.json](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Success_Metrics.json)
+  - [Project_Vision_Statement.md](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Project_Vision_Statement.md)
 - **Steps**:
     1. Work with the user to establish clear and quantifiable success metrics, KPIs, acceptance criteria for core features, and quality standards.
     2. Record these in Success_Metrics.json as a JSON array or object with at least 3 distinct, measurable success metrics/KPIs, and at least 5 acceptance criteria for core features.

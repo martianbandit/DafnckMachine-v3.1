@@ -11,6 +11,9 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Revenue_Model.md — Revenue_Model.md: Revenue_Model.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Financial_Projections_Model.json — Financial_Projections_Model.json: Financial_Projections_Model.json (missing)
 
 ## Mission Statement
 Design comprehensive revenue strategy including monetization frameworks, pricing models, and financial projections for DafnckMachine v3.1.
@@ -37,10 +40,10 @@ This task develops a revenue strategy with diversified monetization streams, pri
 - Financial Projections
 
 ## Documentation & Templates
-- [Revenue_Model.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Revenue_Model.md)
-- [Monetization_Model.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Monetization_Model.json)
-- [Financial_Projections_Model.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Financial_Projections_Model.json)
-- [Revenue_Forecast.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Revenue_Forecast.md)
+- [Revenue_Model.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Revenue_Model.md)
+- [Monetization_Model.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Monetization_Model.json)
+- [Financial_Projections_Model.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Financial_Projections_Model.json)
+- [Revenue_Forecast.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Revenue_Forecast.md)
 
 ## Primary Responsible Agent
 @market-research-agent
@@ -64,8 +67,8 @@ The @market-research-agent is chosen for its expertise in monetization, pricing 
 - **Description**: Design monetization framework with revenue streams, pricing models, and subscription strategies.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Revenue_Model.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Revenue_Model.md)
-  - [Monetization_Model.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Monetization_Model.json)
+  - [Revenue_Model.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Revenue_Model.md)
+  - [Monetization_Model.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Monetization_Model.json)
 - **Steps**:
   1. Design monetization framework (edit_file)
   2. Research competitive pricing models (web_search)
@@ -80,8 +83,8 @@ The @market-research-agent is chosen for its expertise in monetization, pricing 
 - **Description**: Develop financial projections with revenue forecasting, cost modeling, and scenario planning.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Financial_Projections_Model.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Financial_Projections_Model.json)
-  - [Revenue_Forecast.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Revenue_Forecast.md)
+  - [Financial_Projections_Model.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Financial_Projections_Model.json)
+  - [Revenue_Forecast.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Revenue_Forecast.md)
 - **Steps**:
   1. Develop 3-year financial projections (edit_file)
   2. Perform scenario planning and sensitivity analysis (edit_file)

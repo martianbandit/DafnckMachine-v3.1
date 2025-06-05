@@ -11,6 +11,9 @@ source: Step.json
 agent: "@coding-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Frontend_Environment_Setup.md — Frontend_Environment_Setup.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Development_Configuration.json — Development_Configuration.json (missing)
 
 # Mission Statement
 Establish a comprehensive frontend development environment with modern tooling, framework configuration, and build optimization for scalable application development in DafnckMachine v3.1.
@@ -39,8 +42,8 @@ You are @coding-agent responsible for initializing the frontend environment for 
 - Foundation for all frontend development
 
 # Documentation & Templates
-- [Frontend_Environment_Setup.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Frontend_Environment_Setup.md)
-- [Development_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Development_Configuration.json)
+- [Frontend_Environment_Setup.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Frontend_Environment_Setup.md)
+- [Development_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Development_Configuration.json)
 
 # Primary Responsible Agent
 @coding-agent - frontend-development
@@ -65,8 +68,8 @@ You are @coding-agent responsible for initializing the frontend environment for 
 - **Description**: Initialize frontend development environment with project structure, dependency management, and development server configuration for optimal development workflow.
 - **Agent Assignment**: @coding-agent
 - **Documentation Links**: 
-  - [Frontend_Environment_Setup.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Frontend_Environment_Setup.md)
-  - [Development_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Development_Configuration.json)
+  - [Frontend_Environment_Setup.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Frontend_Environment_Setup.md)
+  - [Development_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Development_Configuration.json)
 - **Steps**:
     1. Initialize frontend project structure and install core dependencies (run_terminal_cmd)
     2. Configure development server and build scripts (edit_file)
@@ -91,8 +94,8 @@ You are @coding-agent responsible for initializing the frontend environment for 
 - **Description**: Configure frontend framework with routing, state management integration, and build optimization for scalable application architecture.
 - **Agent Assignment**: @coding-agent
 - **Documentation Links**:
-  - [Framework_Configuration_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Framework_Configuration_Guide.md)
-  - [Integration_Settings.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Integration_Settings.json)
+  - [Framework_Configuration_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Framework_Configuration_Guide.md)
+  - [Integration_Settings.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Integration_Settings.json)
 - **Steps**:
     1. Configure frontend framework and routing system (edit_file)
     2. Integrate state management and build optimization (edit_file)

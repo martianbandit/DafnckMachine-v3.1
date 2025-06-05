@@ -11,6 +11,9 @@ source: Step.json
 agent: "@knowledge-evolution-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md — Feature_Evolution_Planning.md: Feature enhancement planning and roadmap optimization (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md — Iterative_Development_Framework.md: Enhancement development and QA (missing)
 
 # Workflow Metadata
 - **Workflow-Step**: Continuous Improvement
@@ -46,8 +49,8 @@ You are @knowledge-evolution-agent. Your mission is to optimize the feature road
 - **Feature Evolution**: Strategic feature development with enhancement planning and roadmap optimization
 
 # Documentation & Templates
-- [Feature_Evolution_Planning.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md): Feature enhancement planning and roadmap optimization
-- [Iterative_Development_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md): Enhancement development and QA
+- [Feature_Evolution_Planning.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md): Feature enhancement planning and roadmap optimization
+- [Iterative_Development_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md): Enhancement development and QA
 
 # Primary Responsible Agent
 @knowledge-evolution-agent
@@ -67,7 +70,7 @@ The Knowledge Evolution Agent is chosen for its expertise in feature roadmap opt
 - **ID**: P05-T03-S01
 - **Description**: Optimize the feature roadmap including evolution planning, scheduling, and prioritization.
 - **Agent**: @knowledge-evolution-agent
-- **Documentation**: [Feature_Evolution_Planning.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md)
+- **Documentation**: [Feature_Evolution_Planning.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md)
 - **Steps**:
     1. Optimize feature roadmap: feature evolution planning, enhancement scheduling, roadmap prioritization, development planning (Tool: edit_file)
         - Success: `01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/feature_roadmap_v3.2.md` exists and contains `status: "Optimized"`
@@ -81,7 +84,7 @@ The Knowledge Evolution Agent is chosen for its expertise in feature roadmap opt
 - **ID**: P05-T03-S02
 - **Description**: Implement systematic processes for feature enhancement, quality assurance, and deployment.
 - **Agent**: @development-orchestrator-agent
-- **Documentation**: [Iterative_Development_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md)
+- **Documentation**: [Iterative_Development_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md)
 - **Steps**:
     1. Implement enhancement development: feature enhancement processes, improvement implementation, quality assurance, deployment workflows (Tool: edit_file)
         - Success: `config/enhancement_dev_process.json` exists and contains `"automatedQAChecksEnabled": true`
@@ -109,8 +112,8 @@ The Knowledge Evolution Agent is chosen for its expertise in feature roadmap opt
 - Revert state on repeated enhancement development failures
 
 # Output Artifacts
-- [Feature_Evolution_Planning.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md)
-- [Iterative_Development_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md)
+- [Feature_Evolution_Planning.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md)
+- [Iterative_Development_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md)
 
 # Next Action
 Optimize feature roadmap and implement enhancement development process with @knowledge-evolution-agent and @development-orchestrator-agent

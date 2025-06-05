@@ -11,6 +11,9 @@ source: Step.json
 agent: "@test-orchestrator-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Framework_Architecture.md — Test_Framework_Architecture.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Testing_Strategy_Design.json — Testing_Strategy_Design.json (missing)
 
 # Mission Statement
 Establish comprehensive test framework architecture with testing layers, automation strategy, framework selection, and integration points for scalable automated testing in DafnckMachine v3.1.
@@ -35,8 +38,8 @@ You are @test-orchestrator-agent responsible for designing and configuring the t
 - Integration points for all testing workflows
 
 # Documentation & Templates
-- [Test_Framework_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Framework_Architecture.md)
-- [Testing_Strategy_Design.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Testing_Strategy_Design.json)
+- [Test_Framework_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Framework_Architecture.md)
+- [Testing_Strategy_Design.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Testing_Strategy_Design.json)
 
 # Primary Responsible Agent
 @...test-orchestrator-agent
@@ -59,7 +62,7 @@ The @test-orchestrator-agent is selected for its expertise in test frameworks, a
 - **ID**: P04-S15-T01-S01
 - **Description**: Design test framework architecture with testing layers, automation strategy, framework selection, and integration points.
 - **Agent**: @test-orchestrator-agent
-- **Documentation**: [Test_Framework_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Framework_Architecture.md), [Testing_Strategy_Design.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Testing_Strategy_Design.json)
+- **Documentation**: [Test_Framework_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Framework_Architecture.md), [Testing_Strategy_Design.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Testing_Strategy_Design.json)
 - **Steps**:
     1. Design comprehensive test framework architecture with testing layers and automation strategy (edit_file)
     2. Configure testing environment setup and framework integration (run_terminal_cmd)
@@ -85,8 +88,8 @@ The @test-orchestrator-agent is selected for its expertise in test frameworks, a
 - Escalate to @test-lead if framework or integration fails after 3 attempts
 
 # Output Artifacts
-- [Test_Framework_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Framework_Architecture.md)
-- [Testing_Strategy_Design.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Testing_Strategy_Design.json)
+- [Test_Framework_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Framework_Architecture.md)
+- [Testing_Strategy_Design.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Testing_Strategy_Design.json)
 
 # Next Action
 Design test framework architecture with @test-orchestrator-agent

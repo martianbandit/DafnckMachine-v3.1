@@ -11,12 +11,18 @@ source: Step.json
 agent: "@prd-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/PRD_Analysis_Report.md — PRD_Analysis_Report.md: PRD_Analysis_Report.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Requirements_Extraction.json — Requirements_Extraction.json: Requirements_Extraction.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/DafnckMachine_PRD.md — DafnckMachine_PRD.md: DafnckMachine_PRD.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Initial_Task_Structure.md — Initial_Task_Structure.md: Initial_Task_Structure.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Hierarchy_Design.json — Task_Hierarchy_Design.json: Task_Hierarchy_Design.json (missing)
 
 ## Mission Statement
 Analyze the Product Requirements Document (PRD) and generate an initial set of tasks for DafnckMachine v3.1, ensuring all requirements and features are captured and prioritized for development.
 
 ## Description
-Process the PRD to extract requirements, identify features, and assess task priorities. The PRD must synthesize all relevant information from previous phases, drawing from documentation in 01_Machine/04_Documentation/Doc/ (especially Phase 0-3 subfolders). Use TaskMaster to generate the initial tasks.json.
+Process the PRD to extract requirements, identify features, and assess task priorities. The PRD must synthesize all relevant information from previous phases, drawing from documentation in 01_Machine/04_Documentation/vision/ (especially Phase 0-3 subfolders). Use TaskMaster to generate the initial tasks.json.
 
 ## Super-Prompt
 "You are @prd-architect-agent. Your mission is to synthesize all relevant documentation into a comprehensive PRD, then use TaskMaster to generate an actionable, prioritized task list for the project."
@@ -36,11 +42,11 @@ Process the PRD to extract requirements, identify features, and assess task prio
 - Progress Monitoring: Comprehensive analytics and reporting for development visibility and control
 
 ## Documentation & Templates
-- [PRD_Analysis_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/PRD_Analysis_Report.md)
-- [Requirements_Extraction.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Requirements_Extraction.json)
-- [DafnckMachine_PRD.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/DafnckMachine_PRD.md)
-- [Initial_Task_Structure.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Initial_Task_Structure.md)
-- [Task_Hierarchy_Design.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Hierarchy_Design.json)
+- [PRD_Analysis_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/PRD_Analysis_Report.md)
+- [Requirements_Extraction.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Requirements_Extraction.json)
+- [DafnckMachine_PRD.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/DafnckMachine_PRD.md)
+- [Initial_Task_Structure.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Initial_Task_Structure.md)
+- [Task_Hierarchy_Design.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Hierarchy_Design.json)
 
 ## Primary Responsible Agent
 @prd-architect-agent
@@ -63,11 +69,11 @@ Process the PRD to extract requirements, identify features, and assess task prio
 - **Description:** Synthesize information from all relevant documents to create/update the main project PRD, then parse this PRD to generate initial tasks.
 - **Agent:** @prd-architect-agent
 - **Documentation Links:**
-  - [PRD_Analysis_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/PRD_Analysis_Report.md)
-  - [Requirements_Extraction.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Requirements_Extraction.json)
-  - [DafnckMachine_PRD.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/DafnckMachine_PRD.md)
+  - [PRD_Analysis_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/PRD_Analysis_Report.md)
+  - [Requirements_Extraction.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Requirements_Extraction.json)
+  - [DafnckMachine_PRD.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/DafnckMachine_PRD.md)
 - **Steps:**
-    1. Synthesize information from all relevant documents in 01_Machine/04_Documentation/Doc/ (focusing on Phase 0-3 folders) to create/update the main project PRD.
+    1. Synthesize information from all relevant documents in 01_Machine/04_Documentation/vision/ (focusing on Phase 0-3 folders) to create/update the main project PRD.
     2. Use mcp_taskmaster-ai_parse_prd to generate initial tasks.json from the PRD.
 - **Success Criteria:**
     - File Exists: tasks/tasks.json
@@ -82,8 +88,8 @@ Process the PRD to extract requirements, identify features, and assess task prio
 - **Description:** Review and refine the auto-generated task structure, establishing hierarchy and basic dependencies.
 - **Agent:** @task-planning-agent
 - **Documentation Links:**
-  - [Initial_Task_Structure.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Initial_Task_Structure.md)
-  - [Task_Hierarchy_Design.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Hierarchy_Design.json)
+  - [Initial_Task_Structure.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Initial_Task_Structure.md)
+  - [Task_Hierarchy_Design.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Hierarchy_Design.json)
 - **Steps:**
     1. Retrieve all tasks from tasks.json for review using mcp_taskmaster-ai_get_tasks.
     2. Validate basic task structure and hierarchy. Add initial high-level dependencies if obvious using edit_file or mcp_taskmaster-ai_add_dependency.
@@ -113,11 +119,11 @@ Process the PRD to extract requirements, identify features, and assess task prio
 - Task Breakdown Complexity: Systematic complexity analysis and iterative refinement processes
 
 ## Output Artifacts
-- [PRD_Analysis_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/PRD_Analysis_Report.md)
-- [Requirements_Extraction.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Requirements_Extraction.json)
-- [DafnckMachine_PRD.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/DafnckMachine_PRD.md)
-- [Initial_Task_Structure.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Initial_Task_Structure.md)
-- [Task_Hierarchy_Design.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Hierarchy_Design.json)
+- [PRD_Analysis_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/PRD_Analysis_Report.md)
+- [Requirements_Extraction.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Requirements_Extraction.json)
+- [DafnckMachine_PRD.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/DafnckMachine_PRD.md)
+- [Initial_Task_Structure.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Initial_Task_Structure.md)
+- [Task_Hierarchy_Design.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Hierarchy_Design.json)
 
 ## Next Action
 Proceed to P04-S11-T03-Task-Complexity-Analysis-Assessment.md

@@ -11,6 +11,9 @@ source: Step.json
 agent: "@system-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Growth_Strategy_Roadmap.md — Growth_Strategy_Roadmap.md: Growth_Strategy_Roadmap.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Market_Expansion_Plan.md — Market_Expansion_Plan.md: Market_Expansion_Plan.md (missing)
 
 ## Mission Statement
 Develop growth strategy planning with scalability framework and market expansion strategy for DafnckMachine v3.1.
@@ -37,10 +40,10 @@ This task develops a growth strategy, including scalability framework, market ex
 - Resource Scaling Models
 
 ## Documentation & Templates
-- [Growth_Strategy_Roadmap.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Growth_Strategy_Roadmap.md)
-- [Scalability_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Scalability_Framework.json)
-- [Market_Expansion_Plan.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Market_Expansion_Plan.md)
-- [Expansion_Roadmap.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Expansion_Roadmap.json)
+- [Growth_Strategy_Roadmap.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Growth_Strategy_Roadmap.md)
+- [Scalability_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Scalability_Framework.json)
+- [Market_Expansion_Plan.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Market_Expansion_Plan.md)
+- [Expansion_Roadmap.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Expansion_Roadmap.json)
 
 ## Primary Responsible Agent
 @system-architect-agent (scalability)
@@ -63,8 +66,8 @@ This task develops a growth strategy, including scalability framework, market ex
 - **Description**: Develop scalability framework covering business, technical, and operational dimensions.
 - **Agent**: @system-architect-agent
 - **Documentation Links**:
-  - [Growth_Strategy_Roadmap.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Growth_Strategy_Roadmap.md)
-  - [Scalability_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Scalability_Framework.json)
+  - [Growth_Strategy_Roadmap.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Growth_Strategy_Roadmap.md)
+  - [Scalability_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Scalability_Framework.json)
 - **Steps**:
   1. Develop scalability framework (edit_file)
   2. Define resource scaling models (edit_file)
@@ -80,8 +83,8 @@ This task develops a growth strategy, including scalability framework, market ex
 - **Description**: Plan market expansion including geographic, vertical, and horizontal strategies.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Market_Expansion_Plan.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Market_Expansion_Plan.md)
-  - [Expansion_Roadmap.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Expansion_Roadmap.json)
+  - [Market_Expansion_Plan.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Market_Expansion_Plan.md)
+  - [Expansion_Roadmap.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Expansion_Roadmap.json)
 - **Steps**:
   1. Develop market expansion plan (edit_file)
   2. Research target markets for validation (web_search)

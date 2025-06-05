@@ -11,6 +11,9 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Business_Model_Canvas.md — Business_Model_Canvas.md: Business_Model_Canvas.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Value_Proposition_Canvas.json — Value_Proposition_Canvas.json: Value_Proposition_Canvas.json (missing)
 
 ## Mission Statement
 Develop comprehensive business model framework including business model canvas, value propositions, customer segments, revenue streams, and strategic positioning for DafnckMachine v3.1.
@@ -39,8 +42,8 @@ This task synthesizes market research findings into a cohesive business model, d
 - Strategic Positioning
 
 ## Documentation & Templates
-- [Business_Model_Canvas.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Business_Model_Canvas.md)
-- [Value_Proposition_Canvas.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Value_Proposition_Canvas.json)
+- [Business_Model_Canvas.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Business_Model_Canvas.md)
+- [Value_Proposition_Canvas.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Value_Proposition_Canvas.json)
 
 ## Supporting Agents
 - @idea-generation-agent
@@ -62,8 +65,8 @@ The @market-research-agent is chosen for its expertise in business model design,
 - **Description**: Create comprehensive business model canvas with all nine components.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Business_Model_Canvas.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Business_Model_Canvas.md)
-  - [Value_Proposition_Canvas.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Value_Proposition_Canvas.json)
+  - [Business_Model_Canvas.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Business_Model_Canvas.md)
+  - [Value_Proposition_Canvas.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Value_Proposition_Canvas.json)
 - **Steps**:
   1. Create business model canvas based on market research insights (edit_file)
   2. Validate components against market research data (file_search)
@@ -78,7 +81,7 @@ The @market-research-agent is chosen for its expertise in business model design,
 - **Description**: Design compelling value propositions with product-market fit validation.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Value_Proposition_Canvas.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Value_Proposition_Canvas.json)
+  - [Value_Proposition_Canvas.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Value_Proposition_Canvas.json)
 - **Steps**:
   1. Design value proposition canvas (edit_file)
   2. Validate product-market fit for each proposition (edit_file)

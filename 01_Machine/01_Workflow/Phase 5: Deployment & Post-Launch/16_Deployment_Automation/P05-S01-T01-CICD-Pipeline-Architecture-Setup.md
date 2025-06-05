@@ -11,6 +11,9 @@ source: Step.json
 agent: "@devops-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/CICD_Pipeline_Configuration.md — CICD_Pipeline_Configuration.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Pipeline_Configuration.json — Pipeline_Configuration.json (missing)
 
 # Mission Statement
 Design and implement comprehensive CI/CD pipeline architecture with automated workflow stages, integration points, and deployment strategies for DafnckMachine v3.1.
@@ -42,8 +45,8 @@ You are @devops-agent. Your mission is to architect and implement a comprehensiv
 - Rollback Procedures: Automated rollback on failure
 
 # Documentation & Templates
-- [CICD_Pipeline_Configuration.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/CICD_Pipeline_Configuration.md)
-- [Pipeline_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Pipeline_Configuration.json)
+- [CICD_Pipeline_Configuration.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/CICD_Pipeline_Configuration.md)
+- [Pipeline_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Pipeline_Configuration.json)
 
 # Supporting Agents
 - @security-auditor-agent
@@ -65,7 +68,7 @@ You are @devops-agent. Your mission is to architect and implement a comprehensiv
 - **ID**: P05-T01-S01
 - **Description**: Design comprehensive CI/CD architecture including pipeline stages, workflow automation, integration points, and deployment strategies.
 - **Agent**: @devops-agent
-- **Documentation Links**: [CI_CD_Architecture_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/CI_CD_Architecture_Design.md), [Pipeline_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Pipeline_Configuration.json)
+- **Documentation Links**: [CI_CD_Architecture_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/CI_CD_Architecture_Design.md), [Pipeline_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Pipeline_Configuration.json)
 - **Steps**:
     1. Analyze current infrastructure and requirements for CI/CD pipeline design (Success: "Infrastructure analysis completed", analysis_report.md exists)
     2. Design pipeline stages including build, test, security scan, and deployment phases (Success: CI_CD_Architecture_Design.md exists, content matches pipeline stages)
@@ -76,7 +79,7 @@ You are @devops-agent. Your mission is to architect and implement a comprehensiv
 - **ID**: P05-T01-S02
 - **Description**: Implement functional CI/CD pipelines with automated build, test integration, deployment stages, and artifact management.
 - **Agent**: @devops-agent
-- **Documentation Links**: [Pipeline_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Pipeline_Implementation_Guide.md), [Automation_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Automation_Configuration.json)
+- **Documentation Links**: [Pipeline_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Pipeline_Implementation_Guide.md), [Automation_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Automation_Configuration.json)
 - **Steps**:
     1. Setup CI/CD pipeline infrastructure and base configuration (Success: "Pipeline infrastructure initialized")
     2. Configure build automation with dependency management and artifact creation (Success: build-config.yml exists, build-service running)
@@ -110,7 +113,7 @@ You are @devops-agent. Your mission is to architect and implement a comprehensiv
 
 # Output Artifacts
 - [CI_CD_Pipeline_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/CI_CD_Pipeline_Implementation.md)
-- [Pipeline_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Pipeline_Configuration.json)
+- [Pipeline_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Pipeline_Configuration.json)
 
 # Next Action
 Proceed to P05-S01-T02-Infrastructure-as-Code-Implementation.md

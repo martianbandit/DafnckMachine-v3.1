@@ -11,6 +11,11 @@ source: Step.json
 agent: "@design-system-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Design_Token_Implementation.json — Design Token Implementation (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Token_System_Guidelines.md — Token System Guidelines (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Token_Implementation_Guidelines.md — Token Implementation Guidelines (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Token_Usage_Standards.json — Token Usage Standards (missing)
 
 # Mission Statement
 Develop and document a system of design tokens to ensure consistency and enable efficient theming for DafnckMachine v3.1.
@@ -34,10 +39,10 @@ You are @design-system-agent. Your mission is to develop a comprehensive design 
 - Token Usage Standards
 
 # Documentation & Templates
-- [Design Token Implementation](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Design_Token_Implementation.json)
-- [Token System Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Token_System_Guidelines.md)
-- [Token Implementation Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Token_Implementation_Guidelines.md)
-- [Token Usage Standards](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Token_Usage_Standards.json)
+- [Design Token Implementation](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Design_Token_Implementation.json)
+- [Token System Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Token_System_Guidelines.md)
+- [Token Implementation Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Token_Implementation_Guidelines.md)
+- [Token Usage Standards](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Token_Usage_Standards.json)
 
 # Primary Responsible Agent
 @design-system-agent
@@ -58,8 +63,8 @@ The Design System Agent is chosen for its expertise in token system development,
 - **Description**: Develop a system of design tokens for colors, spacing, typography, component-specific properties, and theme variations.
 - **Agent**: @design-system-agent
 - **Documentation Links**:
-  - [Design Token Implementation](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Design_Token_Implementation.json)
-  - [Token System Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Token_System_Guidelines.md)
+  - [Design Token Implementation](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Design_Token_Implementation.json)
+  - [Token System Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Token_System_Guidelines.md)
 - **Steps**:
   1. Define tokens for colors, spacing, and typography based on the established design system. (edit_file)
   2. Develop tokens for component-specific properties and define variations for theming (e.g., light/dark mode). (edit_file)
@@ -74,8 +79,8 @@ The Design System Agent is chosen for its expertise in token system development,
 - **Description**: Create clear guidelines for implementing and using design tokens, including naming conventions, update procedures, version control, and documentation standards.
 - **Agent**: @design-system-agent
 - **Documentation Links**:
-  - [Token Implementation Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Token_Implementation_Guidelines.md)
-  - [Token Usage Standards](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Token_Usage_Standards.json)
+  - [Token Implementation Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Token_Implementation_Guidelines.md)
+  - [Token Usage Standards](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Token_Usage_Standards.json)
 - **Steps**:
   1. Document token naming conventions and best practices for usage in code. (edit_file)
   2. Define procedures for updating tokens, version control strategy, and documentation standards for the token system. (edit_file)

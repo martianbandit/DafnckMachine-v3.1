@@ -11,6 +11,11 @@ source: Step.json
 agent: "@system-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Coding_Standards_Guidelines.md — Coding_Standards_Guidelines.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Development_Best_Practices.json — Development_Best_Practices.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Testing_Framework_Design.md — Testing_Framework_Design.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/QA_Standards_Specifications.json — QA_Standards_Specifications.json (missing)
 
 # Mission Statement
 Establish clear development standards, coding guidelines, and testing frameworks for DafnckMachine v3.1.
@@ -33,10 +38,10 @@ You are @system-architect-agent responsible for establishing development standar
 - Testing Framework: Unit, integration, E2E, automation, quality gates, coverage, environments
 
 # Documentation & Templates
-- [Coding_Standards_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Coding_Standards_Guidelines.md)
-- [Development_Best_Practices.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Development_Best_Practices.json)
-- [Testing_Framework_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Testing_Framework_Design.md)
-- [QA_Standards_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/QA_Standards_Specifications.json)
+- [Coding_Standards_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Coding_Standards_Guidelines.md)
+- [Development_Best_Practices.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Development_Best_Practices.json)
+- [Testing_Framework_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Testing_Framework_Design.md)
+- [QA_Standards_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/QA_Standards_Specifications.json)
 
 # Primary Responsible Agent
 @system-architect-agent
@@ -56,8 +61,8 @@ The @system-architect-agent is chosen for its expertise in coding standards, dev
 - **Description**: Establish coding standards, including code style, naming conventions, documentation standards, code review processes, and quality metrics.
 - **Agent Assignment**: @system-architect-agent (coding-standards, development-practices)
 - **Documentation Links**:
-  - [Coding_Standards_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Coding_Standards_Guidelines.md)
-  - [Development_Best_Practices.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Development_Best_Practices.json)
+  - [Coding_Standards_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Coding_Standards_Guidelines.md)
+  - [Development_Best_Practices.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Development_Best_Practices.json)
 - **Steps**:
   1. Establish coding standards: define code style guidelines, naming conventions, documentation standards, code review processes, and quality metrics (CognitiveProcessing)
   2. Document the coding standards and guidelines in Coding_Standards_Guidelines.md (edit_file)
@@ -73,8 +78,8 @@ The @system-architect-agent is chosen for its expertise in coding standards, dev
 - **Description**: Design the testing framework, including strategies for unit, integration, E2E testing, automation frameworks, quality gates, coverage requirements, and testing environments.
 - **Agent Assignment**: @system-architect-agent (testing-framework, qa-standards)
 - **Documentation Links**:
-  - [Testing_Framework_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Testing_Framework_Design.md)
-  - [QA_Standards_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/QA_Standards_Specifications.json)
+  - [Testing_Framework_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Testing_Framework_Design.md)
+  - [QA_Standards_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/QA_Standards_Specifications.json)
 - **Steps**:
   1. Design testing framework: define strategies for different testing levels, select appropriate frameworks, establish quality gates, set coverage requirements, and plan for testing environments (CognitiveProcessing)
   2. Document the testing framework design in Testing_Framework_Design.md (edit_file)

@@ -11,6 +11,11 @@ source: Step.json
 agent: "@coding-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Base_Components_Library.md — Base_Components_Library.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Component_Specifications.json — Component_Specifications.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Complex_Components_Library.md — Complex_Components_Library.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Advanced_Component_Specs.json — Advanced_Component_Specs.json (missing)
 
 # Mission Statement
 Develop a robust, reusable core component library for DafnckMachine v3.1, ensuring consistency, maintainability, and scalability across the frontend application.
@@ -39,10 +44,10 @@ You are @coding-agent responsible for building the core component library for Da
 - Advanced UI functionality and interaction patterns
 
 # Documentation & Templates
-- [Base_Components_Library.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Base_Components_Library.md)
-- [Component_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Component_Specifications.json)
-- [Complex_Components_Library.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Complex_Components_Library.md)
-- [Advanced_Component_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Advanced_Component_Specs.json)
+- [Base_Components_Library.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Base_Components_Library.md)
+- [Component_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Component_Specifications.json)
+- [Complex_Components_Library.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Complex_Components_Library.md)
+- [Advanced_Component_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Advanced_Component_Specs.json)
 
 # Primary Responsible Agent
 @coding-agent - frontend-development
@@ -64,8 +69,8 @@ You are @coding-agent responsible for building the core component library for Da
 - **Description**: Implement foundational base components including buttons, inputs, typography, icons, and layout components with accessibility features and responsive design.
 - **Agent Assignment**: @coding-agent
 - **Documentation Links**:
-  - [Base_Components_Library.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Base_Components_Library.md)
-  - [Component_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Component_Specifications.json)
+  - [Base_Components_Library.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Base_Components_Library.md)
+  - [Component_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Component_Specifications.json)
 - **Steps**:
     1. Implement button and input components with variants (edit_file)
     2. Implement typography and icon components (edit_file)
@@ -92,8 +97,8 @@ You are @coding-agent responsible for building the core component library for Da
 - **Description**: Develop advanced complex components including forms, modals, navigation, data tables, and charts with sophisticated functionality and interactions.
 - **Agent Assignment**: @coding-agent
 - **Documentation Links**:
-  - [Complex_Components_Library.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Complex_Components_Library.md)
-  - [Advanced_Component_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/12_Frontend_Development/Advanced_Component_Specs.json)
+  - [Complex_Components_Library.md](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Complex_Components_Library.md)
+  - [Advanced_Component_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/12_Frontend_Development/Advanced_Component_Specs.json)
 - **Steps**:
     1. Implement form and modal components with validation (edit_file)
     2. Implement navigation and data table components (edit_file)

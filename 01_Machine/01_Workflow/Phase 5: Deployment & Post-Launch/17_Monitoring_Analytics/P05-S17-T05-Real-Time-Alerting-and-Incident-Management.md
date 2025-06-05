@@ -11,6 +11,11 @@ source: Step.json
 agent: "@health-monitor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Alerting_System_Implementation.md — Alerting_System_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Incident_Management_Framework.json — Incident_Management_Framework.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Incident_Response_Procedures.md — Incident_Response_Procedures.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Escalation_Workflows.json — Escalation_Workflows.json (missing)
 
 # Mission Statement
 Implement a real-time alerting system and establish robust incident management procedures to proactively address issues in DafnckMachine v3.1.
@@ -40,10 +45,10 @@ You are @health-monitor-agent. Your mission is to implement a real-time alerting
 - Communication protocols and post-incident analysis
 
 # Documentation & Templates
-- [Alerting_System_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Alerting_System_Implementation.md)
-- [Incident_Management_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Incident_Management_Framework.json)
-- [Incident_Response_Procedures.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Incident_Response_Procedures.md)
-- [Escalation_Workflows.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Escalation_Workflows.json)
+- [Alerting_System_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Alerting_System_Implementation.md)
+- [Incident_Management_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Incident_Management_Framework.json)
+- [Incident_Response_Procedures.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Incident_Response_Procedures.md)
+- [Escalation_Workflows.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Escalation_Workflows.json)
 
 # Primary Responsible Agent
 @health-monitor-agent
@@ -67,8 +72,8 @@ The @health-monitor-agent is chosen for its expertise in alerting systems, incid
 - **Description**: Implement an alerting system by configuring alert rules, setting up notification channels, defining escalation procedures, and integrating with incident response workflows.
 - **Agent**: @health-monitor-agent
 - **Documentation Links**:
-  - [Alerting_System_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Alerting_System_Implementation.md)
-  - [Incident_Management_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Incident_Management_Framework.json)
+  - [Alerting_System_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Alerting_System_Implementation.md)
+  - [Incident_Management_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Incident_Management_Framework.json)
 - **Steps**:
   1. Configure alerting system rules and notification channels in Incident_Management_Framework.json, including alert rule definitions, notification channel setups, escalation procedures, and incident response integrations.
      - Tool: edit_file
@@ -90,8 +95,8 @@ The @health-monitor-agent is chosen for its expertise in alerting systems, incid
 - **Description**: Establish formal incident response procedures, define escalation workflows, set up communication protocols, and implement post-incident analysis processes.
 - **Agent**: @health-monitor-agent
 - **Documentation Links**:
-  - [Incident_Response_Procedures.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Incident_Response_Procedures.md)
-  - [Escalation_Workflows.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Escalation_Workflows.json)
+  - [Incident_Response_Procedures.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Incident_Response_Procedures.md)
+  - [Escalation_Workflows.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Escalation_Workflows.json)
 - **Steps**:
   1. Document incident response procedures and escalation workflows in Incident_Response_Procedures.md and Escalation_Workflows.json respectively. This includes communication protocols and post-incident analysis guidelines.
      - Tool: edit_file
@@ -124,9 +129,9 @@ The @health-monitor-agent is chosen for its expertise in alerting systems, incid
 - Communication protocol validation
 
 # Output Artifacts
-- [Incident_Management_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Incident_Management_Framework.json)
-- [Incident_Response_Procedures.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Incident_Response_Procedures.md)
-- [Escalation_Workflows.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Escalation_Workflows.json)
+- [Incident_Management_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Incident_Management_Framework.json)
+- [Incident_Response_Procedures.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Incident_Response_Procedures.md)
+- [Escalation_Workflows.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Escalation_Workflows.json)
 
 # Next Action
 Implement alerting system and incident management with @health-monitor-agent

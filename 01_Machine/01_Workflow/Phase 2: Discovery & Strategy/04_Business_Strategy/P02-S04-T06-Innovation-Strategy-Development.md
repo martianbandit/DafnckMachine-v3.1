@@ -11,6 +11,9 @@ source: Step.json
 agent: "@idea-generation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Innovation_Strategy.md — Innovation_Strategy.md: Innovation_Strategy.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Technology_Strategy_Alignment.md — Technology_Strategy_Alignment.md: Technology_Strategy_Alignment.md (missing)
 
 ## Mission Statement
 Develop innovation strategy with product innovation framework and technology strategy alignment for DafnckMachine v3.1.
@@ -36,10 +39,10 @@ This task develops an innovation strategy, including product innovation framewor
 - R&D Strategy
 
 ## Documentation & Templates
-- [Innovation_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Innovation_Strategy.md)
-- [Product_Innovation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Product_Innovation_Framework.json)
-- [Technology_Strategy_Alignment.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Technology_Strategy_Alignment.md)
-- [Tech_Roadmap.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Tech_Roadmap.json)
+- [Innovation_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Innovation_Strategy.md)
+- [Product_Innovation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Product_Innovation_Framework.json)
+- [Technology_Strategy_Alignment.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Technology_Strategy_Alignment.md)
+- [Tech_Roadmap.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Tech_Roadmap.json)
 
 ## Primary Responsible Agent
 @idea-generation-agent (innovation)
@@ -62,8 +65,8 @@ This task develops an innovation strategy, including product innovation framewor
 - **Description**: Develop innovation framework with R&D strategy and innovation priorities.
 - **Agent**: @idea-generation-agent
 - **Documentation Links**:
-  - [Innovation_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Innovation_Strategy.md)
-  - [Product_Innovation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Product_Innovation_Framework.json)
+  - [Innovation_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Innovation_Strategy.md)
+  - [Product_Innovation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Product_Innovation_Framework.json)
 - **Steps**:
   1. Develop innovation framework (edit_file)
   2. Align with product roadmap and business objectives (edit_file)
@@ -79,8 +82,8 @@ This task develops an innovation strategy, including product innovation framewor
 - **Description**: Align technology strategy with innovation priorities and business objectives.
 - **Agent**: @technology-advisor-agent
 - **Documentation Links**:
-  - [Technology_Strategy_Alignment.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Technology_Strategy_Alignment.md)
-  - [Tech_Roadmap.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Tech_Roadmap.json)
+  - [Technology_Strategy_Alignment.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Technology_Strategy_Alignment.md)
+  - [Tech_Roadmap.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Tech_Roadmap.json)
 - **Steps**:
   1. Align technology strategy (edit_file)
   2. Define technology partnerships and capability development (edit_file)

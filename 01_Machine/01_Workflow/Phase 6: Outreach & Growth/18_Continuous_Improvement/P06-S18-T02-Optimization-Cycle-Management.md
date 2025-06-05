@@ -3,6 +3,9 @@ Previous Task: P06-S18-T01-Feedback-Collection-Analysis-System.md
 Current Task: P06-S18-T02-Optimization-Cycle-Management.md
 Next Task: P06-S18-T03-Feature-Evolution-Enhancement-Planning.md
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Optimization_Cycle_Management.md — Optimization_Cycle_Management.md: Systematic improvement workflows and optimization processes (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md — Feature_Evolution_Planning.md: Enhancement prioritization and planning (missing)
 
 # Workflow Metadata
 - **Workflow-Step**: Continuous Improvement
@@ -38,8 +41,8 @@ You are @knowledge-evolution-agent. Your mission is to design and implement opti
 - **Optimization Cycles**: Systematic improvement workflows with performance enhancement and efficiency optimization
 
 # Documentation & Templates
-- [Optimization_Cycle_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Optimization_Cycle_Management.md): Systematic improvement workflows and optimization processes
-- [Feature_Evolution_Planning.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md): Enhancement prioritization and planning
+- [Optimization_Cycle_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Optimization_Cycle_Management.md): Systematic improvement workflows and optimization processes
+- [Feature_Evolution_Planning.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md): Enhancement prioritization and planning
 
 # Primary Responsible Agent
 @knowledge-evolution-agent
@@ -61,7 +64,7 @@ The Knowledge Evolution Agent is chosen for its expertise in improvement workflo
 - **ID**: P05-T02-S01
 - **Description**: Design workflows for optimization cycles, improvement planning, and iteration management.
 - **Agent**: @knowledge-evolution-agent
-- **Documentation**: [Optimization_Cycle_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Optimization_Cycle_Management.md)
+- **Documentation**: [Optimization_Cycle_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Optimization_Cycle_Management.md)
 - **Steps**:
     1. Design improvement workflows: optimization cycles, improvement planning, enhancement processes, iteration management (Tool: edit_file)
         - Success: `config/improvement_workflow.json` exists and contains `"cycleManagementActive": true`
@@ -75,7 +78,7 @@ The Knowledge Evolution Agent is chosen for its expertise in improvement workflo
 - **ID**: P05-T02-S02
 - **Description**: Implement a data-driven system for prioritizing enhancements based on impact, effort, and ROI.
 - **Agent**: @analytics-setup-agent
-- **Documentation**: [Feature_Evolution_Planning.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md)
+- **Documentation**: [Feature_Evolution_Planning.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md)
 - **Steps**:
     1. Implement enhancement prioritization: impact analysis, effort estimation, ROI calculation, priority scoring (Tool: edit_file)
         - Success: `config/enhancement_prioritization_config.json` exists and contains `"impactWeight": 0.4`
@@ -103,8 +106,8 @@ The Knowledge Evolution Agent is chosen for its expertise in improvement workflo
 - Escalate to human on repeated prioritization failures
 
 # Output Artifacts
-- [Optimization_Cycle_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Optimization_Cycle_Management.md)
-- [Feature_Evolution_Planning.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md)
+- [Optimization_Cycle_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Optimization_Cycle_Management.md)
+- [Feature_Evolution_Planning.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feature_Evolution_Planning.md)
 
 # Next Action
 Design improvement workflows and implement prioritization system with @knowledge-evolution-agent and @analytics-setup-agent

@@ -11,6 +11,11 @@ source: Step.json
 agent: "@documentation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [x] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Developer_Handoff_Guidelines.md — Developer Handoff Guidelines
+- [x] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Implementation_Standards_UI.json — Implementation Standards (UI)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Complete_UI_Design_System.md — Complete UI Design System (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Design_System_Maintenance.json — Design System Maintenance Guide (missing)
 
 # Workflow Metadata
 - **Workflow-Step**: User Interface Design
@@ -45,10 +50,10 @@ You are @documentation-agent. Your mission is to prepare a complete developer ha
 - Design System Maintenance Guide
 
 # Documentation & Templates
-- [Developer Handoff Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Developer_Handoff_Guidelines.md)
-- [Implementation Standards (UI)](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Implementation_Standards_UI.json)
-- [Complete UI Design System](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Complete_UI_Design_System.md)
-- [Design System Maintenance Guide](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Design_System_Maintenance.json)
+- [Developer Handoff Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Developer_Handoff_Guidelines.md)
+- [Implementation Standards (UI)](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Implementation_Standards_UI.json)
+- [Complete UI Design System](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Complete_UI_Design_System.md)
+- [Design System Maintenance Guide](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Design_System_Maintenance.json)
 
 # Primary Responsible Agent
 @documentation-agent
@@ -69,8 +74,8 @@ The Documentation Agent is chosen for its expertise in handoff documentation, im
 - **Description**: Create a comprehensive developer handoff package, including technical specifications, coding guidelines, asset delivery instructions, quality standards, and UI testing criteria.
 - **Agent**: @documentation-agent
 - **Documentation Links**:
-  - [Developer Handoff Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Developer_Handoff_Guidelines.md)
-  - [Implementation Standards (UI)](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Implementation_Standards_UI.json)
+  - [Developer Handoff Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Developer_Handoff_Guidelines.md)
+  - [Implementation Standards (UI)](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Implementation_Standards_UI.json)
 - **Steps**:
   1. Compile all technical specifications, including component details, design tokens, and responsive behavior. (edit_file)
   2. Document UI-related coding guidelines, asset delivery instructions, quality standards, and UI testing criteria. (edit_file)
@@ -86,8 +91,8 @@ The Documentation Agent is chosen for its expertise in handoff documentation, im
 - **Description**: Finalize the complete UI Design System, including all documentation, usage guidelines, maintenance procedures, version control strategy, and update protocols.
 - **Agent**: @design-system-agent
 - **Documentation Links**:
-  - [Complete UI Design System](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Complete_UI_Design_System.md)
-  - [Design System Maintenance Guide](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Design_System_Maintenance.json)
+  - [Complete UI Design System](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Complete_UI_Design_System.md)
+  - [Design System Maintenance Guide](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Design_System_Maintenance.json)
 - **Steps**:
   1. Consolidate all design system documentation into a final, comprehensive package. (edit_file)
   2. Define and document maintenance procedures, version control strategy, and update protocols for the design system. (edit_file)

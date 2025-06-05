@@ -11,6 +11,11 @@ source: Step.json
 agent: "@test-orchestrator-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [x] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Data_Management.md — Test_Data_Management.md
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Data_Generation_Framework.json — Data_Generation_Framework.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Environment_Management.md — Test_Environment_Management.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Environment_Isolation_Setup.json — Environment_Isolation_Setup.json (missing)
 
 # Mission Statement
 Implement comprehensive test data management with test data generation, data seeding, data cleanup, and privacy compliance for reliable testing environments in DafnckMachine v3.1.
@@ -33,10 +38,10 @@ You are @test-orchestrator-agent responsible for implementing test data manageme
 - Test data management and environment isolation
 
 # Documentation & Templates
-- [Test_Data_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Data_Management.md)
-- [Data_Generation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Data_Generation_Framework.json)
-- [Test_Environment_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Environment_Management.md)
-- [Environment_Isolation_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Environment_Isolation_Setup.json)
+- [Test_Data_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Data_Management.md)
+- [Data_Generation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Data_Generation_Framework.json)
+- [Test_Environment_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Environment_Management.md)
+- [Environment_Isolation_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Environment_Isolation_Setup.json)
 
 # Primary Responsible Agent
 @test-orchestrator-agent
@@ -56,7 +61,7 @@ The @test-orchestrator-agent is selected for its expertise in test data manageme
 - **ID**: P04-T09-S15
 - **Description**: Develop test data management system with automated generation and privacy compliance.
 - **Agent**: @test-orchestrator-agent
-- **Documentation**: [Test_Data_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Data_Management.md), [Data_Generation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Data_Generation_Framework.json)
+- **Documentation**: [Test_Data_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Data_Management.md), [Data_Generation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Data_Generation_Framework.json)
 - **Steps**:
     1. Implement test data management with automated generation and privacy compliance (edit_file)
     2. Setup data seeding and cleanup automation (run_terminal_cmd)
@@ -68,7 +73,7 @@ The @test-orchestrator-agent is selected for its expertise in test data manageme
 - **ID**: P04-T09-S16
 - **Description**: Develop environment management system with isolation, provisioning, configuration management, and cleanup automation.
 - **Agent**: @test-orchestrator-agent
-- **Documentation**: [Test_Environment_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Environment_Management.md), [Environment_Isolation_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Environment_Isolation_Setup.json)
+- **Documentation**: [Test_Environment_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Environment_Management.md), [Environment_Isolation_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Environment_Isolation_Setup.json)
 - **Steps**:
     1. Implement environment management with isolation and automated provisioning (edit_file)
     2. Configure environment cleanup and management automation (run_terminal_cmd)
@@ -93,10 +98,10 @@ The @test-orchestrator-agent is selected for its expertise in test data manageme
 - Escalate to @test-data-lead or @environment-management-lead if tests fail after 3 attempts
 
 # Output Artifacts
-- [Test_Data_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Data_Management.md)
-- [Data_Generation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Data_Generation_Framework.json)
-- [Test_Environment_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Environment_Management.md)
-- [Environment_Isolation_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Environment_Isolation_Setup.json)
+- [Test_Data_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Data_Management.md)
+- [Data_Generation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Data_Generation_Framework.json)
+- [Test_Environment_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Environment_Management.md)
+- [Environment_Isolation_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Environment_Isolation_Setup.json)
 
 # Next Action
 Develop and execute test data management and environment isolation with @test-orchestrator-agent

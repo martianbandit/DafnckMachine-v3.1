@@ -11,6 +11,9 @@ source: Step.json
 agent: "@performance-optimizer-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md — Performance_Enhancement_Strategy.md: Performance optimization and resource management (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/User_Experience_Optimization.md — User_Experience_Optimization.md: UX improvement and accessibility (missing)
 
 # Mission Statement
 Optimize system performance and enhance user experience through targeted strategies in DafnckMachine v3.1.
@@ -36,8 +39,8 @@ You are @performance-optimizer-agent. Your mission is to optimize system perform
 - **Performance Enhancement**: Continuous performance optimization with efficiency improvements and system tuning
 
 # Documentation & Templates
-- [Performance_Enhancement_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md): Performance optimization and resource management
-- [User_Experience_Optimization.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/User_Experience_Optimization.md): UX improvement and accessibility
+- [Performance_Enhancement_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md): Performance optimization and resource management
+- [User_Experience_Optimization.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/User_Experience_Optimization.md): UX improvement and accessibility
 
 # Primary Responsible Agent
 @performance-optimizer-agent
@@ -57,7 +60,7 @@ The Performance Optimizer Agent is chosen for its expertise in system optimizati
 - **ID**: P05-T04-S01
 - **Description**: Implement performance tuning, efficiency improvements, and resource optimization.
 - **Agent**: @performance-optimizer-agent
-- **Documentation**: [Performance_Enhancement_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md)
+- **Documentation**: [Performance_Enhancement_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md)
 - **Steps**:
     1. Optimize system performance: performance tuning, efficiency improvements, resource optimization, scalability enhancement (Tool: edit_file)
         - Success: `config/system_performance_config.json` exists and contains `"cachingStrategy": "aggressive"`
@@ -71,7 +74,7 @@ The Performance Optimizer Agent is chosen for its expertise in system optimizati
 - **ID**: P05-T04-S02
 - **Description**: Implement UX optimizations, interface improvements, and usability enhancements.
 - **Agent**: @user-feedback-collector-agent
-- **Documentation**: [User_Experience_Optimization.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/User_Experience_Optimization.md)
+- **Documentation**: [User_Experience_Optimization.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/User_Experience_Optimization.md)
 - **Steps**:
     1. Enhance user experience: UX optimization, interface improvements, usability enhancement, accessibility optimization (Tool: edit_file)
         - Success: `config/ux_enhancement_config.json` exists and contains `"accessibilityStandard": "WCAG 2.1 AA"`
@@ -99,8 +102,8 @@ The Performance Optimizer Agent is chosen for its expertise in system optimizati
 - Notify and continue on minor issues
 
 # Output Artifacts
-- [Performance_Enhancement_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md)
-- [User_Experience_Optimization.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/User_Experience_Optimization.md)
+- [Performance_Enhancement_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md)
+- [User_Experience_Optimization.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/User_Experience_Optimization.md)
 
 # Next Action
 Optimize system performance and enhance user experience with @performance-optimizer-agent and @user-feedback-collector-agent

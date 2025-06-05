@@ -11,6 +11,11 @@ source: Step.json
 agent: "@prd-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Feature_Prioritization_Framework.md — Feature_Prioritization_Framework.md: Feature_Prioritization_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Evaluation_Criteria_Matrix.json — Evaluation_Criteria_Matrix.json: Evaluation_Criteria_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Scoring_Methodology.md — Scoring_Methodology.md: Scoring_Methodology.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Prioritization_Algorithm.json — Prioritization_Algorithm.json: Prioritization_Algorithm.json (missing)
 
 ## Mission Statement
 Establish comprehensive feature prioritization framework with objective evaluation criteria and scoring methodology.
@@ -44,8 +49,8 @@ Establish a systematic feature prioritization framework that evaluates, ranks, a
 - **Stakeholder Alignment**: Consensus on priorities with clear rationale and decision framework
 
 ## Documentation & Templates
-- [Feature_Prioritization_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Feature_Prioritization_Framework.md)
-- [Evaluation_Criteria_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Evaluation_Criteria_Matrix.json)
+- [Feature_Prioritization_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Feature_Prioritization_Framework.md)
+- [Evaluation_Criteria_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Evaluation_Criteria_Matrix.json)
 
 ## Primary Responsible Agent
 @prd-architect-agent
@@ -70,8 +75,8 @@ The @prd-architect-agent is chosen for its expertise in product planning, featur
 - **Description**: Define comprehensive evaluation criteria including business value metrics, user impact assessment, technical complexity scoring, resource requirements, strategic alignment, and market timing considerations.
 - **Agent Assignment**: @prd-architect-agent
 - **Documentation Links**:
-  - [Feature_Prioritization_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Feature_Prioritization_Framework.md)
-  - [Evaluation_Criteria_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Evaluation_Criteria_Matrix.json)
+  - [Feature_Prioritization_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Feature_Prioritization_Framework.md)
+  - [Evaluation_Criteria_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Evaluation_Criteria_Matrix.json)
 - **Steps**:
   1. Define evaluation criteria framework with business value, user impact, technical complexity, resource requirements, strategic alignment, and market timing metrics (edit_file)
   2. Create evaluation criteria matrix with weighted scoring system and normalization approach (edit_file)
@@ -86,8 +91,8 @@ The @prd-architect-agent is chosen for its expertise in product planning, featur
 - **Description**: Design objective scoring methodology with weighted scoring system, criteria weighting, normalization approach, aggregation methods, and ranking algorithms.
 - **Agent Assignment**: @prd-architect-agent
 - **Documentation Links**:
-  - [Scoring_Methodology.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Scoring_Methodology.md)
-  - [Prioritization_Algorithm.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Prioritization_Algorithm.json)
+  - [Scoring_Methodology.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Scoring_Methodology.md)
+  - [Prioritization_Algorithm.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Prioritization_Algorithm.json)
 - **Steps**:
   1. Design weighted scoring methodology with normalization and aggregation algorithms (edit_file)
   2. Implement prioritization algorithm configuration with scoring parameters and thresholds (edit_file)

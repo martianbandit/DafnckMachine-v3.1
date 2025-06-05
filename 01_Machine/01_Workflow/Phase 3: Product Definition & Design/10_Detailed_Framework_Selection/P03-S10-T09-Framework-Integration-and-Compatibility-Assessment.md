@@ -11,6 +11,11 @@ source: Step.json
 agent: "@system-architect-agent, @technology-advisor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Compatibility_Assessment_Report.md — Compatibility_Assessment_Report.md: Compatibility_Assessment_Report.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Integration_Analysis_Results.json — Integration_Analysis_Results.json: Integration_Analysis_Results.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Proof_of_Concept_Results.md — Proof_of_Concept_Results.md: Proof_of_Concept_Results.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Framework_Validation_Report.json — Framework_Validation_Report.json: Framework_Validation_Report.json (missing)
 
 ## Mission Statement
 Assess the integration compatibility of selected frameworks and conduct proof-of-concept development for DafnckMachine v3.1, ensuring seamless integration and system stability.
@@ -33,10 +38,10 @@ You are @system-architect-agent (integration analysis) and @technology-advisor-a
 - Framework integration and compatibility validation rationale
 
 ## Documentation & Templates
-- [Compatibility_Assessment_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Compatibility_Assessment_Report.md)
-- [Integration_Analysis_Results.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Integration_Analysis_Results.json)
-- [Proof_of_Concept_Results.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Proof_of_Concept_Results.md)
-- [Framework_Validation_Report.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Framework_Validation_Report.json)
+- [Compatibility_Assessment_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Compatibility_Assessment_Report.md)
+- [Integration_Analysis_Results.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Integration_Analysis_Results.json)
+- [Proof_of_Concept_Results.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Proof_of_Concept_Results.md)
+- [Framework_Validation_Report.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Framework_Validation_Report.json)
 
 ## Primary Responsible Agent
 @system-architect-agent (integration analysis), @technology-advisor-agent (PoC development)
@@ -94,10 +99,10 @@ You are @system-architect-agent (integration analysis) and @technology-advisor-a
 - Update integration plan as new requirements emerge
 
 ## Output Artifacts
-- [Compatibility_Assessment_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Compatibility_Assessment_Report.md)
-- [Integration_Analysis_Results.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Integration_Analysis_Results.json)
-- [Proof_of_Concept_Results.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Proof_of_Concept_Results.md)
-- [Framework_Validation_Report.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Framework_Validation_Report.json)
+- [Compatibility_Assessment_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Compatibility_Assessment_Report.md)
+- [Integration_Analysis_Results.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Integration_Analysis_Results.json)
+- [Proof_of_Concept_Results.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Proof_of_Concept_Results.md)
+- [Framework_Validation_Report.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Framework_Validation_Report.json)
 
 ## Next Action
 Initiate integration compatibility analysis and PoC development with @system-architect-agent and @technology-advisor-agent.

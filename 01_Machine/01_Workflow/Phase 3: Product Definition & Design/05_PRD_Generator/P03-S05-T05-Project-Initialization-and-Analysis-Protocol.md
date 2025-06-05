@@ -11,6 +11,9 @@ source: Step.json
 agent: "@prd-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Project_Initialization_Protocol.md — Project_Initialization_Protocol.md: Project_Initialization_Protocol.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Automated_Analysis_Framework.md — Automated_Analysis_Framework.md: Automated_Analysis_Framework.md (missing)
 
 ## Mission Statement
 Define universal project specification framework and automated analysis capabilities for project initialization, market research, technical feasibility, and architecture generation.
@@ -36,11 +39,11 @@ You are @prd-architect-agent responsible for defining the project initialization
 - **Automated Analysis**: Automated market research, technical feasibility, architecture generation, technology optimization, risk assessment, and resource estimation
 
 ## Documentation & Templates
-- [PRD_Template.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/PRD_Template.md)
-- [Project_Initialization_Protocol.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Project_Initialization_Protocol.md)
-- [Universal_Specification_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Universal_Specification_Framework.json)
-- [Automated_Analysis_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Automated_Analysis_Framework.md)
-- [Architecture_Generation_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Architecture_Generation_Specifications.json)
+- [PRD_Template.md](mdc:01_Machine/04_Documentation/vision/Phase_3/PRD_Template.md)
+- [Project_Initialization_Protocol.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Project_Initialization_Protocol.md)
+- [Universal_Specification_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Universal_Specification_Framework.json)
+- [Automated_Analysis_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Automated_Analysis_Framework.md)
+- [Architecture_Generation_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Architecture_Generation_Specifications.json)
 
 ## Primary Responsible Agent
 @prd-architect-agent - project-initialization, universal-specification, requirements-analysis
@@ -59,7 +62,7 @@ The PRD Architect Agent is chosen for its expertise in project initialization, u
 - **ID**: P03-T05-S01
 - **Description**: Define universal project specification including platform selection matrix, technology preferences, performance requirements, integration needs, and constraints handling.
 - **Agent Assignment**: @prd-architect-agent (project-initialization, universal-specification, requirements-analysis)
-- **Documentation Links**: [Project_Initialization_Protocol.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Project_Initialization_Protocol.md), [Universal_Specification_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Universal_Specification_Framework.json)
+- **Documentation Links**: [Project_Initialization_Protocol.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Project_Initialization_Protocol.md), [Universal_Specification_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Universal_Specification_Framework.json)
 - **Steps**:
     1. Define universal project specification framework and platform selection matrix (edit_file)
     2. Specify performance requirements and constraints handling mechanisms (edit_file)
@@ -73,7 +76,7 @@ The PRD Architect Agent is chosen for its expertise in project initialization, u
 - **ID**: P03-T05-S02
 - **Description**: Specify automated analysis including market research, technical feasibility, architecture generation, technology optimization, risk assessment, and resource estimation.
 - **Agent Assignment**: @system-architect-agent (automated-analysis, architecture-generation, feasibility-assessment)
-- **Documentation Links**: [Automated_Analysis_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Automated_Analysis_Framework.md), [Architecture_Generation_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Architecture_Generation_Specifications.json)
+- **Documentation Links**: [Automated_Analysis_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Automated_Analysis_Framework.md), [Architecture_Generation_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Architecture_Generation_Specifications.json)
 - **Steps**:
     1. Define automated market research and technical feasibility analysis (edit_file)
     2. Specify architecture generation and technology optimization processes (edit_file)

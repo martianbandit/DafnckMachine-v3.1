@@ -11,6 +11,11 @@ source: Step.json
 agent: "@system-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/System_Diagrams_Collection.md — System_Diagrams_Collection.md: System_Diagrams_Collection.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Visual_Documentation.json — Visual_Documentation.json: Visual_Documentation.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/UI_Documentation_Complete.md — UI_Documentation_Complete.md: UI_Documentation_Complete.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Interface_Guides.json — Interface_Guides.json: Interface_Guides.json (missing)
 
 ## Mission Statement
 Create comprehensive visual documentation with system diagrams, user interface documentation, and visual aids for enhanced understanding and communication.
@@ -37,10 +42,10 @@ Create comprehensive visual documentation with system diagrams, user interface d
 - Visual Documentation: System diagrams, UI documentation, and visual aids
 
 ## Documentation & Templates
-- [System_Diagrams_Collection.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/System_Diagrams_Collection.md)
-- [Visual_Documentation.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Visual_Documentation.json)
-- [UI_Documentation_Complete.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/UI_Documentation_Complete.md)
-- [Interface_Guides.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Interface_Guides.json)
+- [System_Diagrams_Collection.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/System_Diagrams_Collection.md)
+- [Visual_Documentation.json](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Visual_Documentation.json)
+- [UI_Documentation_Complete.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/UI_Documentation_Complete.md)
+- [Interface_Guides.json](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Interface_Guides.json)
 
 ## Primary Responsible Agent
 @system-architect-agent, @ui-designer-agent
@@ -62,8 +67,8 @@ The System Architect Agent and UI Designer Agent are chosen for their expertise 
 - **Description**: Create comprehensive system diagrams with architecture diagrams, data flow charts, component relationships, and deployment diagrams for visual system understanding.
 - **Agent Assignment**: @system-architect-agent
 - **Documentation Links**:
-  - [System_Diagrams_Collection.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/System_Diagrams_Collection.md)
-  - [Visual_Documentation.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Visual_Documentation.json)
+  - [System_Diagrams_Collection.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/System_Diagrams_Collection.md)
+  - [Visual_Documentation.json](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Visual_Documentation.json)
 - **Steps**:
     1. Create system architecture diagrams and component relationship charts (edit_file)
     2. Create data flow diagrams and deployment architecture visuals (edit_file)
@@ -78,8 +83,8 @@ The System Architect Agent and UI Designer Agent are chosen for their expertise 
 - **Description**: Create comprehensive UI documentation with interface screenshots, workflow diagrams, user journey maps, and component guides for user interface understanding.
 - **Agent Assignment**: @ui-designer-agent
 - **Documentation Links**:
-  - [UI_Documentation_Complete.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/UI_Documentation_Complete.md)
-  - [Interface_Guides.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Interface_Guides.json)
+  - [UI_Documentation_Complete.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/UI_Documentation_Complete.md)
+  - [Interface_Guides.json](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Interface_Guides.json)
 - **Steps**:
     1. Create UI documentation with interface screenshots and component guides (edit_file)
     2. Create workflow diagrams and user journey maps (edit_file)
@@ -106,10 +111,10 @@ The System Architect Agent and UI Designer Agent are chosen for their expertise 
 - Review and approval process to catch gaps or inconsistencies.
 
 ## Output Artifacts
-- [System_Diagrams_Collection.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/System_Diagrams_Collection.md)
-- [Visual_Documentation.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Visual_Documentation.json)
-- [UI_Documentation_Complete.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/UI_Documentation_Complete.md)
-- [Interface_Guides.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Interface_Guides.json)
+- [System_Diagrams_Collection.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/System_Diagrams_Collection.md)
+- [Visual_Documentation.json](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Visual_Documentation.json)
+- [UI_Documentation_Complete.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/UI_Documentation_Complete.md)
+- [Interface_Guides.json](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Interface_Guides.json)
 
 ## Next Action
 Create system diagrams and UI documentation with @system-architect-agent and @ui-designer-agent

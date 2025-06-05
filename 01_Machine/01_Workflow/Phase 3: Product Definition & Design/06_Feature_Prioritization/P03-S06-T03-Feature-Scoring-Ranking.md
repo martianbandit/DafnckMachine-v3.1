@@ -11,6 +11,11 @@ source: Step.json
 agent: "@prd-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Feature_Priority_Matrix.json — Feature_Priority_Matrix.json: Feature_Priority_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Multi_Criteria_Scores.md — Multi_Criteria_Scores.md: Multi_Criteria_Scores.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/MoSCoW_Analysis.json — MoSCoW_Analysis.json: MoSCoW_Analysis.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/06_Feature_Prioritization/Priority_Classification.md — Priority_Classification.md: Priority_Classification.md (missing)
 
 # Previous Task: P03-S06-T02-Feature-Analysis-Assessment.md
 # Current Task: P03-S06-T03-Feature-Scoring-Ranking.md
@@ -47,10 +52,10 @@ Score all features across evaluation criteria using established methodology, cal
 - **Priority Classification**: MoSCoW categories, priority tiers, feature grouping, release planning
 
 ## Documentation & Templates
-- [Feature_Priority_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Feature_Priority_Matrix.json)
-- [Multi_Criteria_Scores.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Multi_Criteria_Scores.md)
-- [MoSCoW_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/MoSCoW_Analysis.json)
-- [Priority_Classification.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Priority_Classification.md)
+- [Feature_Priority_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Feature_Priority_Matrix.json)
+- [Multi_Criteria_Scores.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Multi_Criteria_Scores.md)
+- [MoSCoW_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/MoSCoW_Analysis.json)
+- [Priority_Classification.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Priority_Classification.md)
 
 ## Primary Responsible Agent
 @prd-architect-agent
@@ -71,8 +76,8 @@ Score all features across evaluation criteria using established methodology, cal
 - **Description**: Score all features across evaluation criteria using established methodology, calculate weighted scores, normalize results, aggregate criteria scores, and generate comprehensive rankings.
 - **Agent Assignment**: @prd-architect-agent
 - **Documentation Links**:
-  - [Feature_Priority_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Feature_Priority_Matrix.json)
-  - [Multi_Criteria_Scores.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Multi_Criteria_Scores.md)
+  - [Feature_Priority_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Feature_Priority_Matrix.json)
+  - [Multi_Criteria_Scores.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Multi_Criteria_Scores.md)
 - **Steps**:
   1. Apply scoring methodology to calculate weighted scores for all features across evaluation criteria (edit_file)
   2. Create feature priority matrix with detailed rankings and evaluation criteria scores (edit_file)
@@ -87,8 +92,8 @@ Score all features across evaluation criteria using established methodology, cal
 - **Description**: Classify feature priorities using MoSCoW categorization, priority tiers, feature grouping, theme organization, and release grouping.
 - **Agent Assignment**: @prd-architect-agent
 - **Documentation Links**:
-  - [MoSCoW_Analysis.json](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/MoSCoW_Analysis.json)
-  - [Priority_Classification.md](mdc:01_Machine/04_Documentation/Doc/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Priority_Classification.md)
+  - [MoSCoW_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/MoSCoW_Analysis.json)
+  - [Priority_Classification.md](mdc:01_Machine/04_Documentation/vision/Phase_3_Product_Definition_Design/06_Feature_Prioritization/Priority_Classification.md)
 - **Steps**:
   1. Classify features using MoSCoW methodology and priority tiers based on scoring results (edit_file)
   2. Create MoSCoW analysis with detailed categorization and release grouping (edit_file)

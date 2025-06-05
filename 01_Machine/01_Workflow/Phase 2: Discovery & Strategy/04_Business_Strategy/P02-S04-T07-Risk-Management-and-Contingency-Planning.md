@@ -11,6 +11,9 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Risk_Assessment_Matrix.json — Risk_Assessment_Matrix.json: Risk_Assessment_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Contingency_Strategy_Plan.md — Contingency_Strategy_Plan.md: Contingency_Strategy_Plan.md (missing)
 
 ## Mission Statement
 Develop risk management framework with strategic risk assessment and contingency planning for DafnckMachine v3.1.
@@ -36,10 +39,10 @@ This task develops a risk management framework, including strategic risk assessm
 - Scenario Planning Matrix
 
 ## Documentation & Templates
-- [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Risk_Assessment_Matrix.json)
-- [Strategic_Risk_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Strategic_Risk_Matrix.json)
-- [Contingency_Strategy_Plan.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Contingency_Strategy_Plan.md)
-- [Scenario_Planning_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Scenario_Planning_Matrix.json)
+- [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Risk_Assessment_Matrix.json)
+- [Strategic_Risk_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Strategic_Risk_Matrix.json)
+- [Contingency_Strategy_Plan.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Contingency_Strategy_Plan.md)
+- [Scenario_Planning_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Scenario_Planning_Matrix.json)
 
 ## Primary Responsible Agent
 @market-research-agent
@@ -61,8 +64,8 @@ The @market-research-agent is chosen for its expertise in risk assessment, conti
 - **Description**: Assess strategic risks and develop mitigation strategies.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Risk_Assessment_Matrix.json)
-  - [Strategic_Risk_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Strategic_Risk_Matrix.json)
+  - [Risk_Assessment_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Risk_Assessment_Matrix.json)
+  - [Strategic_Risk_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Strategic_Risk_Matrix.json)
 - **Steps**:
   1. Conduct comprehensive risk assessment (edit_file)
   2. Prioritize risks and develop mitigation strategies (edit_file)
@@ -77,8 +80,8 @@ The @market-research-agent is chosen for its expertise in risk assessment, conti
 - **Description**: Develop contingency strategies with scenario planning and crisis management protocols.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Contingency_Strategy_Plan.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Contingency_Strategy_Plan.md)
-  - [Scenario_Planning_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Scenario_Planning_Matrix.json)
+  - [Contingency_Strategy_Plan.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Contingency_Strategy_Plan.md)
+  - [Scenario_Planning_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Scenario_Planning_Matrix.json)
 - **Steps**:
   1. Develop contingency strategies with scenario planning (edit_file)
   2. Define crisis management protocols and decision triggers (edit_file)

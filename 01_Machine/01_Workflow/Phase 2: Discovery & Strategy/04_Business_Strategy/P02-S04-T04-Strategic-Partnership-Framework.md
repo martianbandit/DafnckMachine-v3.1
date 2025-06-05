@@ -11,6 +11,9 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Partnership_Opportunity_Map.md — Partnership_Opportunity_Map.md: Partnership_Opportunity_Map.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Partnership_Framework.md — Partnership_Framework.md: Partnership_Framework.md (missing)
 
 ## Mission Statement
 Develop strategic partnership framework with opportunity identification and collaboration models for DafnckMachine v3.1.
@@ -37,10 +40,10 @@ This task develops a partnership strategy, including opportunity identification,
 - Governance Structures
 
 ## Documentation & Templates
-- [Partnership_Opportunity_Map.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Partnership_Opportunity_Map.md)
-- [Partnership_Opportunity_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Partnership_Opportunity_Matrix.json)
-- [Partnership_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Partnership_Framework.md)
-- [Collaboration_Models.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Collaboration_Models.json)
+- [Partnership_Opportunity_Map.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Partnership_Opportunity_Map.md)
+- [Partnership_Opportunity_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Partnership_Opportunity_Matrix.json)
+- [Partnership_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Partnership_Framework.md)
+- [Collaboration_Models.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Collaboration_Models.json)
 
 ## Primary Responsible Agent
 @market-research-agent
@@ -63,8 +66,8 @@ The @market-research-agent is chosen for its expertise in partnership strategy, 
 - **Description**: Identify strategic partnerships across technology, distribution, and integration domains.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Partnership_Opportunity_Map.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Partnership_Opportunity_Map.md)
-  - [Partnership_Opportunity_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Partnership_Opportunity_Matrix.json)
+  - [Partnership_Opportunity_Map.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Partnership_Opportunity_Map.md)
+  - [Partnership_Opportunity_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Partnership_Opportunity_Matrix.json)
 - **Steps**:
   1. Research and identify potential partners (web_search)
   2. Create partnership opportunity map (edit_file)
@@ -79,8 +82,8 @@ The @market-research-agent is chosen for its expertise in partnership strategy, 
 - **Description**: Design partnership frameworks including collaboration models and governance structures.
 - **Agent**: @market-research-agent
 - **Documentation Links**:
-  - [Partnership_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Partnership_Framework.md)
-  - [Collaboration_Models.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/04_Business_Strategy/Collaboration_Models.json)
+  - [Partnership_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Partnership_Framework.md)
+  - [Collaboration_Models.json](mdc:01_Machine/04_Documentation/vision/Phase_2/04_Business_Strategy/Collaboration_Models.json)
 - **Steps**:
   1. Design partnership framework (edit_file)
   2. Define partnership lifecycle management and success metrics (edit_file)

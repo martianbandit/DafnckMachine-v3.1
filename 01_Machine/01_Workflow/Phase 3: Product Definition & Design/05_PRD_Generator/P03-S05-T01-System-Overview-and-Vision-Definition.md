@@ -11,6 +11,9 @@ source: Step.json
 agent: "@prd-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Product_Requirements_Document.md — Product_Requirements_Document.md: Product_Requirements_Document.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Agent_Swarm_Architecture.json — Agent_Swarm_Architecture.json: Agent_Swarm_Architecture.json (missing)
 
 ## Mission Statement
 Define the core mission and autonomous architecture for DafnckMachine v3.1, establishing the foundational vision for fully autonomous AI-driven software delivery with agent swarm coordination.
@@ -21,7 +24,7 @@ Define DafnckMachine v3.1 core mission focusing on fully autonomous AI-driven so
 ## Super-Prompt
 You are @prd-architect-agent responsible for generating the comprehensive Product Requirements Document for DafnckMachine v3.1 following the established template structure. Your mission is to define a fully autonomous, agentic AI-driven software delivery system that orchestrates every stage of the software lifecycle with minimal human intervention. Create detailed specifications for the autonomous agent swarm architecture, universal technology stack support, automated development pipeline, quality assurance framework, and user interaction model. The PRD must enable users to transform ideas into production-ready software through natural language interaction with specialized AI agents while maintaining transparency, quality, and user control at critical decision points. Document all specifications following the DafnckMachine v3.1 template structure to ensure comprehensive coverage of system capabilities and requirements.
 
-**CRITICAL REQUIREMENT:** Follow the comprehensive PRD template structure documented in [PRD_Template.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/PRD_Template.md) exactly. This template provides the complete framework for DafnckMachine v3.1 AutoPilot specifications including system overview, agent swarm architecture, universal technology support, automation pipeline, quality assurance, and all required sections. Use this template as your definitive guide for PRD structure and content requirements.
+**CRITICAL REQUIREMENT:** Follow the comprehensive PRD template structure documented in [PRD_Template.md](mdc:01_Machine/04_Documentation/vision/Phase_3/PRD_Template.md) exactly. This template provides the complete framework for DafnckMachine v3.1 AutoPilot specifications including system overview, agent swarm architecture, universal technology support, automation pipeline, quality assurance, and all required sections. Use this template as your definitive guide for PRD structure and content requirements.
 
 ## MCP Tools Required
 - edit_file
@@ -47,9 +50,9 @@ You are @prd-architect-agent responsible for generating the comprehensive Produc
 - **Configuration System**: Customizable parameters for development standards and preferences
 
 ## Documentation & Templates
-- [PRD_Template.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/PRD_Template.md)
-- [Product_Requirements_Document.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Product_Requirements_Document.md)
-- [System_Overview_Vision.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/System_Overview_Vision.json)
+- [PRD_Template.md](mdc:01_Machine/04_Documentation/vision/Phase_3/PRD_Template.md)
+- [Product_Requirements_Document.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Product_Requirements_Document.md)
+- [System_Overview_Vision.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/System_Overview_Vision.json)
 
 ## Primary Responsible Agent
 @prd-architect-agent - autonomous-system-design
@@ -71,7 +74,7 @@ The PRD Architect Agent is chosen for its specialized capabilities in autonomous
 - **ID**: P03-T01-S01
 - **Description**: Define DafnckMachine v3.1 core mission focusing on fully autonomous AI-driven software delivery, agent swarm architecture, minimal human intervention, and complete lifecycle automation.
 - **Agent Assignment**: @prd-architect-agent (autonomous-system-vision, agent-swarm-architecture, system-design)
-- **Documentation Links**: [Product_Requirements_Document.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Product_Requirements_Document.md), [System_Overview_Vision.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/System_Overview_Vision.json)
+- **Documentation Links**: [Product_Requirements_Document.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Product_Requirements_Document.md), [System_Overview_Vision.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/System_Overview_Vision.json)
 - **Steps**:
     1. Create system overview section defining autonomous AI-driven software delivery mission (edit_file)
     2. Define agent swarm architecture specifications and coordination protocols (edit_file)
@@ -86,7 +89,7 @@ The PRD Architect Agent is chosen for its specialized capabilities in autonomous
 - **ID**: P03-T01-S02
 - **Description**: Specify comprehensive agent swarm architecture including specialized agent types, coordination protocols, state management, communication patterns, and resource allocation mechanisms.
 - **Agent Assignment**: @system-architect-agent (agent-coordination, swarm-architecture, distributed-systems)
-- **Documentation Links**: [Agent_Swarm_Architecture.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Agent_Swarm_Architecture.json), [Agent_Coordination_Protocol.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Agent_Coordination_Protocol.md)
+- **Documentation Links**: [Agent_Swarm_Architecture.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Agent_Swarm_Architecture.json), [Agent_Coordination_Protocol.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Agent_Coordination_Protocol.md)
 - **Steps**:
     1. Document specialized agent types and their specific capabilities (edit_file)
     2. Specify coordination protocols and communication patterns between agents (edit_file)

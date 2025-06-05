@@ -11,12 +11,18 @@ source: Step.json
 agent: "@task-planning-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/High_Priority_Task_Breakdown.md — High_Priority_Task_Breakdown.md: High_Priority_Task_Breakdown.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Subtask_Specifications.json — Subtask_Specifications.json: Subtask_Specifications.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Expansion_Strategy.md — Task_Expansion_Strategy.md: Task_Expansion_Strategy.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Complete_Task_Breakdown.md — Complete_Task_Breakdown.md: Complete_Task_Breakdown.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Full_Subtask_Structure.json — Full_Subtask_Structure.json: Full_Subtask_Structure.json (missing)
 
 ## Mission Statement
 Perform detailed breakdown of complex tasks into manageable subtasks based on the expansion strategy for DafnckMachine v3.1.
 
 ## Description
-Expand high-priority and all remaining tasks into detailed subtasks, refining dependencies and resource allocation. Prompts for TaskMaster tools must be contextualized by relevant documentation and general principles from 01_Machine/04_Documentation/Doc/.
+Expand high-priority and all remaining tasks into detailed subtasks, refining dependencies and resource allocation. Prompts for TaskMaster tools must be contextualized by relevant documentation and general principles from 01_Machine/04_Documentation/vision/.
 
 ## Super-Prompt
 "You are @task-planning-agent. Your mission is to expand high-priority and all remaining tasks into detailed subtasks, referencing relevant technical and design documentation."
@@ -35,11 +41,11 @@ Expand high-priority and all remaining tasks into detailed subtasks, refining de
 - Workflow Integration: TaskMaster integration with development tools and quality assurance processes
 
 ## Documentation & Templates
-- [High_Priority_Task_Breakdown.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/High_Priority_Task_Breakdown.md)
-- [Subtask_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Subtask_Specifications.json)
-- [Task_Expansion_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Expansion_Strategy.md)
-- [Complete_Task_Breakdown.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Complete_Task_Breakdown.md)
-- [Full_Subtask_Structure.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Full_Subtask_Structure.json)
+- [High_Priority_Task_Breakdown.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/High_Priority_Task_Breakdown.md)
+- [Subtask_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Subtask_Specifications.json)
+- [Task_Expansion_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Expansion_Strategy.md)
+- [Complete_Task_Breakdown.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Complete_Task_Breakdown.md)
+- [Full_Subtask_Structure.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Full_Subtask_Structure.json)
 
 ## Primary Responsible Agent
 @task-planning-agent
@@ -61,9 +67,9 @@ Expand high-priority and all remaining tasks into detailed subtasks, refining de
 - **Description:** Expand high-priority tasks (identified in the expansion strategy) into detailed subtasks with specifications, referencing relevant documentation.
 - **Agent:** @task-planning-agent
 - **Documentation Links:**
-  - [High_Priority_Task_Breakdown.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/High_Priority_Task_Breakdown.md)
-  - [Subtask_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Subtask_Specifications.json)
-  - [Task_Expansion_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Expansion_Strategy.md)
+  - [High_Priority_Task_Breakdown.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/High_Priority_Task_Breakdown.md)
+  - [Subtask_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Subtask_Specifications.json)
+  - [Task_Expansion_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Expansion_Strategy.md)
 - **Steps:**
     1. Identify high-priority tasks for expansion from Task_Expansion_Strategy.md using read_file.
     2. For each identified high-priority task, expand it into subtasks using mcp_taskmaster-ai_expand_task, referencing relevant documentation.
@@ -80,8 +86,8 @@ Expand high-priority and all remaining tasks into detailed subtasks, refining de
 - **Description:** Expand all remaining tasks systematically into subtasks, refining dependencies and resource allocation, referencing general principles from documentation.
 - **Agent:** @task-planning-agent
 - **Documentation Links:**
-  - [Complete_Task_Breakdown.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Complete_Task_Breakdown.md)
-  - [Full_Subtask_Structure.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Full_Subtask_Structure.json)
+  - [Complete_Task_Breakdown.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Complete_Task_Breakdown.md)
+  - [Full_Subtask_Structure.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Full_Subtask_Structure.json)
 - **Steps:**
     1. Expand all remaining pending tasks that have not yet been expanded using mcp_taskmaster-ai_expand_all, referencing general principles from documentation.
 - **Success Criteria:**
@@ -110,11 +116,11 @@ Expand high-priority and all remaining tasks into detailed subtasks, refining de
 - Task Breakdown Complexity: Systematic complexity analysis and iterative refinement processes
 
 ## Output Artifacts
-- [High_Priority_Task_Breakdown.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/High_Priority_Task_Breakdown.md)
-- [Subtask_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Subtask_Specifications.json)
-- [Task_Expansion_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Expansion_Strategy.md)
-- [Complete_Task_Breakdown.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Complete_Task_Breakdown.md)
-- [Full_Subtask_Structure.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Full_Subtask_Structure.json)
+- [High_Priority_Task_Breakdown.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/High_Priority_Task_Breakdown.md)
+- [Subtask_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Subtask_Specifications.json)
+- [Task_Expansion_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Expansion_Strategy.md)
+- [Complete_Task_Breakdown.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Complete_Task_Breakdown.md)
+- [Full_Subtask_Structure.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Full_Subtask_Structure.json)
 
 ## Next Action
 Proceed to P04-S11-T05-Dependency-Management-Workflow-Orchestration.md

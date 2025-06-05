@@ -11,6 +11,11 @@ source: Step.json
 agent: "@health-monitor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Monitoring_Architecture_Design.md — Monitoring_Architecture_Design.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Observability_Strategy.json — Observability_Strategy.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Monitoring_Infrastructure_Setup.md — Monitoring_Infrastructure_Setup.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Platform_Configuration.json — Platform_Configuration.json (missing)
 
 # Mission Statement
 Define and establish the foundational monitoring architecture and infrastructure necessary for observing system health and performance in DafnckMachine v3.1.
@@ -42,10 +47,10 @@ You are @health-monitor-agent. Your mission is to design and implement a robust 
 - Integration points with other systems
 
 # Documentation & Templates
-- [Monitoring_Architecture_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Monitoring_Architecture_Design.md)
-- [Observability_Strategy.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Observability_Strategy.json)
-- [Monitoring_Infrastructure_Setup.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Monitoring_Infrastructure_Setup.md)
-- [Platform_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Platform_Configuration.json)
+- [Monitoring_Architecture_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Monitoring_Architecture_Design.md)
+- [Observability_Strategy.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Observability_Strategy.json)
+- [Monitoring_Infrastructure_Setup.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Monitoring_Infrastructure_Setup.md)
+- [Platform_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Platform_Configuration.json)
 
 # Primary Responsible Agent
 @health-monitor-agent
@@ -69,8 +74,8 @@ The @health-monitor-agent is chosen for its expertise in monitoring systems, ana
 - **Description**: Design a comprehensive monitoring architecture, including the observability strategy, metrics collection plan, monitoring stack, and integration points.
 - **Agent**: @health-monitor-agent
 - **Documentation Links**:
-  - [Monitoring_Architecture_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Monitoring_Architecture_Design.md)
-  - [Observability_Strategy.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Observability_Strategy.json)
+  - [Monitoring_Architecture_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Monitoring_Architecture_Design.md)
+  - [Observability_Strategy.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Observability_Strategy.json)
 - **Steps**:
   1. Design monitoring architecture: observability strategy, metrics collection, monitoring stack, integration points and document it in Monitoring_Architecture_Design.md
      - Tool: edit_file
@@ -86,8 +91,8 @@ The @health-monitor-agent is chosen for its expertise in monitoring systems, ana
 - **Description**: Set up the core monitoring infrastructure, including deploying the chosen monitoring platform, configuring data collection agents, and establishing data storage and scalability plans.
 - **Agent**: @health-monitor-agent
 - **Documentation Links**:
-  - [Monitoring_Infrastructure_Setup.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Monitoring_Infrastructure_Setup.md)
-  - [Platform_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Platform_Configuration.json)
+  - [Monitoring_Infrastructure_Setup.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Monitoring_Infrastructure_Setup.md)
+  - [Platform_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Platform_Configuration.json)
 - **Steps**:
   1. Configure monitoring platform settings in Platform_Configuration.json
      - Tool: edit_file
@@ -122,8 +127,8 @@ The @health-monitor-agent is chosen for its expertise in monitoring systems, ana
 - Resource monitoring and capacity planning
 
 # Output Artifacts
-- [Monitoring_Architecture_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Monitoring_Architecture_Design.md)
-- [Platform_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Platform_Configuration.json)
+- [Monitoring_Architecture_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Monitoring_Architecture_Design.md)
+- [Platform_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Platform_Configuration.json)
 
 # Next Action
 Design monitoring architecture with @health-monitor-agent

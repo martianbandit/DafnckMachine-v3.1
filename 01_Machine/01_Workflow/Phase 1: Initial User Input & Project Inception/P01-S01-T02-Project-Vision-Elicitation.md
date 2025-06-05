@@ -5,12 +5,14 @@ task: T02
 task_id: P01-S01-T02
 title: Project Vision Elicitation
 previous_task: P01-S01-T01
-next_task: P01-S01-T04
+next_task: P01-S01-T03
 version: 3.1.0
 source: Step.json
 agent: "@elicitation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Project_Vision.md — Project_Vision.md: Documented project vision and goals (missing)
 
 ## Mission Statement
 Elicit the core concept and define measurable success criteria for the project, including main objectives, target audience, key features, and unique value proposition.
@@ -33,8 +35,8 @@ You are @elicitation-agent responsible for collaborating with the user to articu
 - Project Vision: Core concept, objectives, target audience, and success metrics
 
 ## Documentation & Templates
-- [Project_Vision_Statement.md](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Project_Vision_Statement.md): Core project concept and objectives
-- [Briefing_Summary.md](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Briefing_Summary.md): Briefing session summary
+- [Project_Vision_Statement.md](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Project_Vision_Statement.md): Core project concept and objectives
+- [Briefing_Summary.md](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Briefing_Summary.md): Briefing session summary
 
 ## Primary Responsible Agent
 @elicitation-agent
@@ -67,11 +69,11 @@ The @elicitation-agent is chosen for its expertise in vision discovery, concept 
 - **Description**: Discover the main objectives, target audience, key features, and unique value proposition.
 - **Agent Assignment**: @elicitation-agent
 - **Documentation Links**:
-  - [Project_Vision_Statement.md](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Project_Vision_Statement.md)
-  - [Briefing_Summary.md](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Briefing_Summary.md)
-  - [Elicitation Techniques Guide](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Elicitation_Techniques_Guide.md): General techniques for vision elicitation.
-  - [Agent Collaboration Guide for P01-S01-T02](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Agent_Collaboration_Guide.md): Roles and workflow of agents for this task.
-  - [MCP Tool Usage Guide for P01-S01-T02](mdc:01_Machine/04_Documentation/Doc/Phase_1/01_User_Briefing/Tool_Usage_Guide.md): How to use MCP tools for this task.
+  - [Project_Vision_Statement.md](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Project_Vision_Statement.md)
+  - [Briefing_Summary.md](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Briefing_Summary.md)
+  - [Elicitation Techniques Guide](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Elicitation_Techniques_Guide.md): General techniques for vision elicitation.
+  - [Agent Collaboration Guide for P01-S01-T02](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Agent_Collaboration_Guide.md): Roles and workflow of agents for this task.
+  - [MCP Tool Usage Guide for P01-S01-T02](mdc:01_Machine/04_Documentation/vision/Phase_1/01_User_Briefing/Tool_Usage_Guide.md): How to use MCP tools for this task.
 - **Steps**:
     1. Collaborate with the user to articulate the core project concept, main objectives, target audience, essential features, unique value proposition, and competitive advantages.
     2. Document these in Project_Vision_Statement.md with distinct sections or bullet points for each required element.

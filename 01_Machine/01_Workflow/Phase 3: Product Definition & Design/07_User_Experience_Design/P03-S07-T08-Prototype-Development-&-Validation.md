@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ui-designer-agent, @design-qa-analyst"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Prototype_Documentation.md — Prototype_Documentation.md: Prototype_Documentation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Interactive_Flow_Specifications.json — Interactive_Flow_Specifications.json: Interactive_Flow_Specifications.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Design_Validation_Report.md — Design_Validation_Report.md: Design_Validation_Report.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Usability_Testing_Results.json — Usability_Testing_Results.json: Usability_Testing_Results.json (missing)
 
 # Previous Task: P03-S07-T07-Accessibility-&-Inclusive-Design.md
 # Current Task: P03-S07-T08-Prototype-Development-&-Validation.md
@@ -47,10 +52,10 @@ You are @ui-designer-agent and @design-qa-analyst. Your mission is to create int
 - Design validation report and usability testing results
 
 ## Documentation & Templates
-- [Prototype_Documentation.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Prototype_Documentation.md)
-- [Interactive_Flow_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Interactive_Flow_Specifications.json)
-- [Design_Validation_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Design_Validation_Report.md)
-- [Usability_Testing_Results.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Usability_Testing_Results.json)
+- [Prototype_Documentation.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Prototype_Documentation.md)
+- [Interactive_Flow_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Interactive_Flow_Specifications.json)
+- [Design_Validation_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Design_Validation_Report.md)
+- [Usability_Testing_Results.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Usability_Testing_Results.json)
 
 ## Primary Responsible Agent
 @ui-designer-agent (Prototype Creation)
@@ -76,8 +81,8 @@ The @ui-designer-agent is selected for prototype development and interactive des
 - **Description**: Develop functional interactive prototypes with clickable interfaces, complete interaction flows, state demonstrations, and user testing scenarios for comprehensive design validation.
 - **Agent Assignment**: @ui-designer-agent
 - **Documentation Links**:
-  - [Prototype_Documentation.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Prototype_Documentation.md)
-  - [Interactive_Flow_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Interactive_Flow_Specifications.json)
+  - [Prototype_Documentation.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Prototype_Documentation.md)
+  - [Interactive_Flow_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Interactive_Flow_Specifications.json)
 - **Steps**:
     1. Create interactive prototypes with clickable interfaces (Tool: edit_file)
     2. Document state demonstrations and user testing scenarios (Tool: edit_file)
@@ -90,8 +95,8 @@ The @ui-designer-agent is selected for prototype development and interactive des
 - **Description**: Conduct comprehensive design validation through usability testing, design review, accessibility testing, and user feedback collection to ensure optimal user experience.
 - **Agent Assignment**: @design-qa-analyst
 - **Documentation Links**:
-  - [Design_Validation_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Design_Validation_Report.md)
-  - [Usability_Testing_Results.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Usability_Testing_Results.json)
+  - [Design_Validation_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Design_Validation_Report.md)
+  - [Usability_Testing_Results.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Usability_Testing_Results.json)
 - **Steps**:
     1. Conduct usability testing and design review validation (Tool: edit_file)
     2. Collect user feedback and document improvement recommendations (Tool: edit_file)
@@ -117,10 +122,10 @@ The @ui-designer-agent is selected for prototype development and interactive des
 - Iterative design validation and user testing at multiple stages throughout prototype development
 
 ## Output Artifacts
-- [Prototype_Documentation.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Prototype_Documentation.md)
-- [Interactive_Flow_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Interactive_Flow_Specifications.json)
-- [Design_Validation_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Design_Validation_Report.md)
-- [Usability_Testing_Results.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Usability_Testing_Results.json)
+- [Prototype_Documentation.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Prototype_Documentation.md)
+- [Interactive_Flow_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Interactive_Flow_Specifications.json)
+- [Design_Validation_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Design_Validation_Report.md)
+- [Usability_Testing_Results.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Usability_Testing_Results.json)
 
 ## Next Action
 Initiate prototype development and design validation with @ui-designer-agent and @design-qa-analyst

@@ -11,6 +11,8 @@ source: Step.json
 agent: "@analytics-setup-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Marketing_Analytics_Framework.md — Marketing_Analytics_Framework.md: Performance tracking and optimization insights platform (missing)
 
 ## Workflow Metadata
 - **Workflow-Step**: Marketing Outreach
@@ -50,10 +52,10 @@ Integrate analytics tools, define KPIs, set up dashboards, analyze performance, 
 - **Performance Optimization**: Analysis, recommendations, reporting
 
 ## Documentation & Templates
-- [Marketing Analytics Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Marketing_Analytics_Framework.md)
-- [Performance Tracking System](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Performance_Tracking_System.json)
-- [Performance Optimization Guide](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Performance_Optimization_Guide.md)
-- [Reporting Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Reporting_Framework.json)
+- [Marketing Analytics Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Marketing_Analytics_Framework.md)
+- [Performance Tracking System](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Performance_Tracking_System.json)
+- [Performance Optimization Guide](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Performance_Optimization_Guide.md)
+- [Reporting Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Reporting_Framework.json)
 
 ## Primary Responsible Agent
 @analytics-setup-agent
@@ -76,8 +78,8 @@ The Analytics Setup Agent is chosen for expertise in analytics integration, KPI 
 - **Description**: Integrate analytics tools, define KPIs, and set up dashboards.
 - **Agent Assignment**: @analytics-setup-agent
 - **Documentation Links**:
-  - [Marketing Analytics Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Marketing_Analytics_Framework.md)
-  - [Performance Tracking System](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Performance_Tracking_System.json)
+  - [Marketing Analytics Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Marketing_Analytics_Framework.md)
+  - [Performance Tracking System](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Performance_Tracking_System.json)
 - **Steps**:
     1. Integrate analytics tools across all marketing channels.
     2. Define key marketing KPIs and set up dashboards.
@@ -94,8 +96,8 @@ The Analytics Setup Agent is chosen for expertise in analytics integration, KPI 
 - **Description**: Analyze performance, implement optimizations, and generate reports.
 - **Agent Assignment**: @analytics-setup-agent
 - **Documentation Links**:
-  - [Performance Optimization Guide](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Performance_Optimization_Guide.md)
-  - [Reporting Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Reporting_Framework.json)
+  - [Performance Optimization Guide](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Performance_Optimization_Guide.md)
+  - [Reporting Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Reporting_Framework.json)
 - **Steps**:
     1. Regularly analyze marketing performance data.
     2. Develop and implement optimization recommendations.
@@ -130,7 +132,7 @@ The Analytics Setup Agent is chosen for expertise in analytics integration, KPI 
 - Optimization Gaps: Review and adjust recommendations
 
 ## Output Artifacts
-- [Marketing_Analytics_Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/Marketing_Analytics_Framework.md): Performance tracking and optimization insights platform
+- [Marketing_Analytics_Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Marketing_Analytics_Framework.md): Performance tracking and optimization insights platform
 
 ## Next Action
 Integrate analytics tools and set up dashboards with @analytics-setup-agent

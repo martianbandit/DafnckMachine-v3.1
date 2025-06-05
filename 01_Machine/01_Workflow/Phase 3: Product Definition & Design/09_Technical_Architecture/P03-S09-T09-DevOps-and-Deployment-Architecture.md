@@ -11,6 +11,11 @@ source: Step.json
 agent: "@devops-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/DevOps_Pipeline_Specifications.md — DevOps_Pipeline_Specifications.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/CICD_Automation_Plan.json — CICD_Automation_Plan.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Environment_Management_Strategy.md — Environment_Management_Strategy.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Configuration_Management_Plan.json — Configuration_Management_Plan.json (missing)
 
 # Mission Statement
 Design the CI/CD pipeline and environment management strategy for DafnckMachine v3.1.
@@ -33,10 +38,10 @@ You are @devops-agent responsible for designing the DevOps and deployment archit
 - Environment Management: Configuration as code, secrets management, environment parity, deployment strategies
 
 # Documentation & Templates
-- [DevOps_Pipeline_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/DevOps_Pipeline_Specifications.md)
-- [CICD_Automation_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/CICD_Automation_Plan.json)
-- [Environment_Management_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Environment_Management_Strategy.md)
-- [Configuration_Management_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Configuration_Management_Plan.json)
+- [DevOps_Pipeline_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/DevOps_Pipeline_Specifications.md)
+- [CICD_Automation_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/CICD_Automation_Plan.json)
+- [Environment_Management_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Environment_Management_Strategy.md)
+- [Configuration_Management_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Configuration_Management_Plan.json)
 
 # Primary Responsible Agent
 @devops-agent
@@ -56,8 +61,8 @@ The @devops-agent is chosen for its expertise in CI/CD, automation, and environm
 - **Description**: Design the CI/CD pipeline, including build automation, testing integration, deployment automation, and rollback procedures.
 - **Agent Assignment**: @devops-agent (cicd-design, automation-pipeline)
 - **Documentation Links**:
-  - [DevOps_Pipeline_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/DevOps_Pipeline_Specifications.md)
-  - [CICD_Automation_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/CICD_Automation_Plan.json)
+  - [DevOps_Pipeline_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/DevOps_Pipeline_Specifications.md)
+  - [CICD_Automation_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/CICD_Automation_Plan.json)
 - **Steps**:
   1. Design CI/CD pipeline: select CI/CD tools, define stages, automate build processes, integrate automated testing, automate deployment, manage environment-specific configurations, and plan rollback procedures (CognitiveProcessing)
   2. Document the CI/CD pipeline specifications in DevOps_Pipeline_Specifications.md (edit_file)
@@ -73,8 +78,8 @@ The @devops-agent is chosen for its expertise in CI/CD, automation, and environm
 - **Description**: Design the environment management strategy, including environment configuration, secrets management, configuration as code, environment parity, and deployment strategies.
 - **Agent Assignment**: @devops-agent (environment-management, configuration-design)
 - **Documentation Links**:
-  - [Environment_Management_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Environment_Management_Strategy.md)
-  - [Configuration_Management_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Configuration_Management_Plan.json)
+  - [Environment_Management_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Environment_Management_Strategy.md)
+  - [Configuration_Management_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Configuration_Management_Plan.json)
 - **Steps**:
   1. Design environment management strategy: define processes for provisioning and managing environments, implement secure secrets management, adopt configuration as code, ensure environment parity, and select deployment strategies (CognitiveProcessing)
   2. Document the environment management strategy in Environment_Management_Strategy.md (edit_file)

@@ -11,6 +11,8 @@ source: Step.json
 agent: "@social-media-setup-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Social_Media_Engagement_Plan.md — Social_Media_Engagement_Plan.md: Platform-specific engagement and community building (missing)
 
 ## Workflow Metadata
 - **Workflow-Step**: Marketing Outreach
@@ -51,10 +53,10 @@ Develop and execute social media strategies, optimize platform presence, schedul
 - **Community Engagement**: Growth strategies, UGC, social listening
 
 ## Documentation & Templates
-- [Social Media Management](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Social_Media_Management.md)
-- [Platform Strategy Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Platform_Strategy_Framework.json)
-- [Community Engagement Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Community_Engagement_Strategy.md)
-- [Growth Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Growth_Framework.json)
+- [Social Media Management](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Social_Media_Management.md)
+- [Platform Strategy Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Platform_Strategy_Framework.json)
+- [Community Engagement Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Community_Engagement_Strategy.md)
+- [Growth Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Growth_Framework.json)
 
 ## Primary Responsible Agent
 @social-media-setup-agent
@@ -79,8 +81,8 @@ The Social Media Setup Agent is chosen for expertise in platform management, con
 - **Description**: Manage social media platforms including platform optimization, content scheduling, community management, and engagement strategies.
 - **Agent Assignment**: @social-media-setup-agent
 - **Documentation Links**:
-  - [Social Media Management](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Social_Media_Management.md)
-  - [Platform Strategy Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Platform_Strategy_Framework.json)
+  - [Social Media Management](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Social_Media_Management.md)
+  - [Platform Strategy Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Platform_Strategy_Framework.json)
 - **Steps**:
     1. Optimize social media profiles for consistency and brand representation.
     2. Schedule content publication according to the editorial calendar.
@@ -97,8 +99,8 @@ The Social Media Setup Agent is chosen for expertise in platform management, con
 - **Description**: Build community engagement through audience interaction, fostering community growth, encouraging user-generated content, and social listening.
 - **Agent Assignment**: @social-media-setup-agent
 - **Documentation Links**:
-  - [Community Engagement Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Community_Engagement_Strategy.md)
-  - [Growth Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Growth_Framework.json)
+  - [Community Engagement Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Community_Engagement_Strategy.md)
+  - [Growth Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Growth_Framework.json)
 - **Steps**:
     1. Implement strategies for audience interaction and response.
     2. Launch initiatives to encourage user-generated content (UGC).
@@ -141,7 +143,7 @@ The Social Media Setup Agent is chosen for expertise in platform management, con
 - Negative Mentions: Crisis communication protocols
 
 ## Output Artifacts
-- [Social_Media_Engagement_Plan](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/Social_Media_Engagement_Plan.md): Platform-specific engagement and community building
+- [Social_Media_Engagement_Plan](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Social_Media_Engagement_Plan.md): Platform-specific engagement and community building
 
 ## Next Action
 Optimize social media profiles and schedule content with @social-media-setup-agent

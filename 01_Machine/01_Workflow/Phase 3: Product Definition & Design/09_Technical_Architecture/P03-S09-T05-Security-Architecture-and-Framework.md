@@ -11,6 +11,11 @@ source: Step.json
 agent: "@security-auditor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Security_Architecture_Framework.md — Security_Architecture_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Authentication_Specifications.json — Authentication_Specifications.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Data_Protection_Strategy.md — Data_Protection_Strategy.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Privacy_Compliance_Framework.json — Privacy_Compliance_Framework.json (missing)
 
 # Mission Statement
 Design the security architecture and establish a comprehensive security framework for DafnckMachine v3.1.
@@ -33,10 +38,10 @@ You are @security-auditor-agent responsible for designing the security architect
 - Security Framework: Authentication, authorization, session management, token security, MFA, encryption, privacy compliance, data protection
 
 # Documentation & Templates
-- [Security_Architecture_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Security_Architecture_Framework.md)
-- [Authentication_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Authentication_Specifications.json)
-- [Data_Protection_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Data_Protection_Strategy.md)
-- [Privacy_Compliance_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Privacy_Compliance_Framework.json)
+- [Security_Architecture_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Security_Architecture_Framework.md)
+- [Authentication_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Authentication_Specifications.json)
+- [Data_Protection_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Data_Protection_Strategy.md)
+- [Privacy_Compliance_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Privacy_Compliance_Framework.json)
 
 # Primary Responsible Agent
 @security-auditor-agent
@@ -56,8 +61,8 @@ The @security-auditor-agent is chosen for its expertise in security architecture
 - **Description**: Design the security framework, focusing on authentication mechanisms, authorization policies, session management, token security, and multi-factor authentication.
 - **Agent Assignment**: @security-auditor-agent (authentication-design, authorization-framework)
 - **Documentation Links**:
-  - [Security_Architecture_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Security_Architecture_Framework.md)
-  - [Authentication_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Authentication_Specifications.json)
+  - [Security_Architecture_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Security_Architecture_Framework.md)
+  - [Authentication_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Authentication_Specifications.json)
 - **Steps**:
   1. Research and select appropriate authentication mechanisms and authorization models. Design session management, token security, and MFA integration points (web_search, CognitiveProcessing)
   2. Design the detailed authentication and authorization framework (CognitiveProcessing)
@@ -75,8 +80,8 @@ The @security-auditor-agent is chosen for its expertise in security architecture
 - **Description**: Design data protection measures, including encryption strategies, privacy compliance, data anonymization, secure storage, and transmission security.
 - **Agent Assignment**: @security-auditor-agent (data-protection, privacy-compliance)
 - **Documentation Links**:
-  - [Data_Protection_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Data_Protection_Strategy.md)
-  - [Privacy_Compliance_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Privacy_Compliance_Framework.json)
+  - [Data_Protection_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Data_Protection_Strategy.md)
+  - [Privacy_Compliance_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Privacy_Compliance_Framework.json)
 - **Steps**:
   1. Design data protection strategy: define encryption requirements, select algorithms, outline privacy compliance, specify anonymization techniques, and define secure storage and transmission protocols (CognitiveProcessing)
   2. Document the data protection strategy in Data_Protection_Strategy.md (edit_file)

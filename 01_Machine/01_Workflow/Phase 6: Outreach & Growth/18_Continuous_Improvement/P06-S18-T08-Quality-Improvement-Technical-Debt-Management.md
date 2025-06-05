@@ -11,6 +11,9 @@ source: Step.json
 agent: "@development-orchestrator-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Quality_Improvement_Processes.md — Quality_Improvement_Processes.md: Code quality enhancement and best practices (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Technical_Debt_Management.md — Technical_Debt_Management.md: Technical debt reduction and refactoring (missing)
 
 # Mission Statement
 Enhance code quality through systematic processes and manage technical debt in DafnckMachine v3.1.
@@ -36,8 +39,8 @@ You are @development-orchestrator-agent. Your mission is to enhance code quality
 - **Quality Improvement**: Code quality enhancement and technical debt management
 
 # Documentation & Templates
-- [Quality_Improvement_Processes.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Quality_Improvement_Processes.md): Code quality enhancement and best practices
-- [Technical_Debt_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Technical_Debt_Management.md): Technical debt reduction and refactoring
+- [Quality_Improvement_Processes.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Quality_Improvement_Processes.md): Code quality enhancement and best practices
+- [Technical_Debt_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Technical_Debt_Management.md): Technical debt reduction and refactoring
 
 # Primary Responsible Agent
 @development-orchestrator-agent
@@ -57,7 +60,7 @@ The Development Orchestrator Agent is chosen for its expertise in code quality, 
 - **ID**: P05-T08-S01
 - **Description**: Implement code review processes, quality metrics, refactoring strategies, and best practices.
 - **Agent**: @development-orchestrator-agent
-- **Documentation**: [Quality_Improvement_Processes.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Quality_Improvement_Processes.md)
+- **Documentation**: [Quality_Improvement_Processes.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Quality_Improvement_Processes.md)
 - **Steps**:
     1. Enhance code quality: code review processes, quality metrics, refactoring strategies, best practices implementation (Tool: edit_file)
         - Success: `config/code_quality_config.json` exists and contains `"automatedLintersEnabled": true`
@@ -71,7 +74,7 @@ The Development Orchestrator Agent is chosen for its expertise in code quality, 
 - **ID**: P05-T08-S02
 - **Description**: Implement strategies for identifying, planning, and reducing technical debt.
 - **Agent**: @performance-optimizer-agent
-- **Documentation**: [Technical_Debt_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Technical_Debt_Management.md)
+- **Documentation**: [Technical_Debt_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Technical_Debt_Management.md)
 - **Steps**:
     1. Reduce technical debt: debt identification, reduction planning, refactoring strategies, maintenance optimization (Tool: edit_file)
         - Success: `config/tech_debt_management_config.json` exists and contains `"debtPrioritizationStrategy": "high-impact-first"`
@@ -99,8 +102,8 @@ The Development Orchestrator Agent is chosen for its expertise in code quality, 
 - Escalate to human on repeated technical debt failures
 
 # Output Artifacts
-- [Quality_Improvement_Processes.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Quality_Improvement_Processes.md)
-- [Technical_Debt_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Technical_Debt_Management.md)
+- [Quality_Improvement_Processes.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Quality_Improvement_Processes.md)
+- [Technical_Debt_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Technical_Debt_Management.md)
 
 # Next Action
 Enhance code quality and reduce technical debt with @development-orchestrator-agent and @performance-optimizer-agent

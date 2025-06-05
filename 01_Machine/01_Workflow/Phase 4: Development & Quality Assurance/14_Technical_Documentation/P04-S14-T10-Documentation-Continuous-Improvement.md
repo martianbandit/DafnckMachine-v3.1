@@ -11,6 +11,9 @@ source: Step.json
 agent: "@documentation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Improvement_Log.md — Documentation_Improvement_Log.md: Documentation_Improvement_Log.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Feedback_Collection_Form.md — Feedback_Collection_Form.md: Feedback_Collection_Form.md (missing)
 
 ## Mission Statement
 Establish a process for continuous improvement of technical documentation to ensure it remains accurate, relevant, and aligned with evolving project needs.
@@ -35,8 +38,8 @@ You are @documentation-agent and @knowledge-evolution-agent responsible for cont
 - Documentation improvement processes, feedback logs, and update cycles
 
 ## Documentation & Templates
-- [Documentation_Improvement_Log.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Improvement_Log.md)
-- [Feedback_Collection_Form.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Feedback_Collection_Form.md)
+- [Documentation_Improvement_Log.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Improvement_Log.md)
+- [Feedback_Collection_Form.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Feedback_Collection_Form.md)
 
 ## Primary Responsible Agent
 @documentation-agent, @knowledge-evolution-agent
@@ -59,7 +62,7 @@ The Documentation Agent and Knowledge Evolution Agent are chosen for their exper
 - **Description**: Set up regular review and update cycles for all documentation
 - **Agent Assignment**: @documentation-agent
 - **Documentation Links**:
-  - [Documentation_Improvement_Log.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Improvement_Log.md)
+  - [Documentation_Improvement_Log.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Improvement_Log.md)
 - **Steps**:
     1. Define review schedule and responsibilities (edit_file)
     2. Track updates and improvements (edit_file)
@@ -74,7 +77,7 @@ The Documentation Agent and Knowledge Evolution Agent are chosen for their exper
 - **Description**: Collect feedback from users and developers, and integrate it into documentation
 - **Agent Assignment**: @knowledge-evolution-agent
 - **Documentation Links**:
-  - [Feedback_Collection_Form.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Feedback_Collection_Form.md)
+  - [Feedback_Collection_Form.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Feedback_Collection_Form.md)
 - **Steps**:
     1. Collect feedback using forms and surveys (edit_file)
     2. Update documentation based on feedback and lessons learned (edit_file)
@@ -100,8 +103,8 @@ The Documentation Agent and Knowledge Evolution Agent are chosen for their exper
 - Regular monitoring and feedback collection to catch issues early
 
 ## Output Artifacts
-- [Documentation_Improvement_Log.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Improvement_Log.md)
-- [Feedback_Collection_Form.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Feedback_Collection_Form.md)
+- [Documentation_Improvement_Log.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Improvement_Log.md)
+- [Feedback_Collection_Form.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Feedback_Collection_Form.md)
 
 ## Next Action
 Establish review cycles and feedback collection for documentation with @documentation-agent and @knowledge-evolution-agent

@@ -11,6 +11,11 @@ source: Step.json
 agent: "@devops-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Blue_Green_Deployment_Implementation.md — Blue_Green_Deployment_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Rollback_Configuration.json — Rollback_Configuration.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Canary_Release_Implementation.md — Canary_Release_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/AB_Testing_Configuration.json — AB_Testing_Configuration.json (missing)
 
 # Mission Statement
 Implement blue-green deployment and canary release strategies with zero-downtime and gradual rollout for production deployments in DafnckMachine v3.1.
@@ -40,10 +45,10 @@ You are @devops-agent. Your mission is to implement blue-green and canary deploy
 - Performance Monitoring: A/B testing, traffic shifting
 
 # Documentation & Templates
-- [Blue_Green_Deployment_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Blue_Green_Deployment_Implementation.md)
-- [Rollback_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Rollback_Configuration.json)
-- [Canary_Release_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Canary_Release_Implementation.md)
-- [AB_Testing_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/AB_Testing_Configuration.json)
+- [Blue_Green_Deployment_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Blue_Green_Deployment_Implementation.md)
+- [Rollback_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Rollback_Configuration.json)
+- [Canary_Release_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Canary_Release_Implementation.md)
+- [AB_Testing_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/AB_Testing_Configuration.json)
 
 # Primary Responsible Agent
 @devops-agent
@@ -65,7 +70,7 @@ You are @devops-agent. Your mission is to implement blue-green and canary deploy
 - **ID**: P05-T05-S01
 - **Description**: Implement blue-green deployment with zero-downtime switching and rollback procedures.
 - **Agent**: @devops-agent
-- **Documentation Links**: [Blue_Green_Deployment_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Blue_Green_Deployment_Implementation.md), [Rollback_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Rollback_Configuration.json)
+- **Documentation Links**: [Blue_Green_Deployment_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Blue_Green_Deployment_Implementation.md), [Rollback_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Rollback_Configuration.json)
 - **Steps**:
     1. Setup blue-green deployment infrastructure and base configuration (Success: "Blue-green deployment infrastructure initialized")
     2. Configure blue-green deployment with zero-downtime switching (Success: blue-green-deployment.yml exists, content matches deployment/blue-green/zero-downtime)
@@ -77,7 +82,7 @@ You are @devops-agent. Your mission is to implement blue-green and canary deploy
 - **ID**: P05-T05-S02
 - **Description**: Implement canary release with gradual traffic shifting, A/B testing, performance monitoring, and automated rollback.
 - **Agent**: @devops-agent
-- **Documentation Links**: [Canary_Release_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Canary_Release_Implementation.md), [AB_Testing_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/AB_Testing_Configuration.json)
+- **Documentation Links**: [Canary_Release_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Canary_Release_Implementation.md), [AB_Testing_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/AB_Testing_Configuration.json)
 - **Steps**:
     1. Setup canary release infrastructure and base configuration (Success: "Canary release infrastructure initialized")
     2. Configure canary release with gradual traffic shifting (Success: canary-release.yml exists, content matches deployment/canary/gradual-rollout)
@@ -109,8 +114,8 @@ You are @devops-agent. Your mission is to implement blue-green and canary deploy
 
 # Output Artifacts
 - [Rollback_Recovery_System.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Rollback_Recovery_System.md)
-- [Blue_Green_Deployment_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Blue_Green_Deployment_Implementation.md)
-- [Canary_Release_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Canary_Release_Implementation.md)
+- [Blue_Green_Deployment_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Blue_Green_Deployment_Implementation.md)
+- [Canary_Release_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Canary_Release_Implementation.md)
 
 # Next Action
 Proceed to P05-S01-T06-Security-Integration-and-Compliance.md

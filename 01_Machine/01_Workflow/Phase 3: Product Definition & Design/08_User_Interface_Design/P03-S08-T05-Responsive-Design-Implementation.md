@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ui-designer-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [x] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Responsive_Interface_Specifications.md — Responsive Interface Specifications
+- [x] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Breakpoint_Guidelines.json — Breakpoint Guidelines
+- [x] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Multi_Device_Specifications.md — Multi-Device Interface Specifications
+- [x] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Device_Adaptation_Guidelines.json — Device Adaptation Guidelines
 
 # Mission Statement
 Define and document the responsive design strategy and create designs for multi-device interfaces for DafnckMachine v3.1.
@@ -35,10 +40,10 @@ You are @ui-designer-agent. Your mission is to define a robust responsive design
 - Device Adaptation Guidelines
 
 # Documentation & Templates
-- [Responsive Interface Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Responsive_Interface_Specifications.md)
-- [Breakpoint Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Breakpoint_Guidelines.json)
-- [Multi-Device Interface Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Multi_Device_Specifications.md)
-- [Device Adaptation Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Device_Adaptation_Guidelines.json)
+- [Responsive Interface Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Responsive_Interface_Specifications.md)
+- [Breakpoint Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Breakpoint_Guidelines.json)
+- [Multi-Device Interface Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Multi_Device_Specifications.md)
+- [Device Adaptation Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Device_Adaptation_Guidelines.json)
 
 # Primary Responsible Agent
 @ui-designer-agent
@@ -59,8 +64,8 @@ The UI Designer Agent is chosen for its expertise in responsive design, breakpoi
 - **Description**: Design a comprehensive breakpoint strategy, including device targets, breakpoint definitions, layout adaptations, content prioritization, and touch optimization.
 - **Agent**: @ui-designer-agent
 - **Documentation Links**:
-  - [Responsive Interface Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Responsive_Interface_Specifications.md)
-  - [Breakpoint Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Breakpoint_Guidelines.json)
+  - [Responsive Interface Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Responsive_Interface_Specifications.md)
+  - [Breakpoint Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Breakpoint_Guidelines.json)
 - **Steps**:
   1. Define target devices (mobile, tablet, desktop) and establish specific breakpoints. (edit_file)
   2. Document layout adaptation rules, content prioritization strategies, and touch optimization for each breakpoint. (edit_file)
@@ -76,8 +81,8 @@ The UI Designer Agent is chosen for its expertise in responsive design, breakpoi
 - **Description**: Design specific interface adaptations for multiple devices, including mobile layouts, tablet adaptations, desktop optimizations, and considerations for touch interactions and gesture support.
 - **Agent**: @ui-designer-agent
 - **Documentation Links**:
-  - [Multi-Device Interface Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Multi_Device_Specifications.md)
-  - [Device Adaptation Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Device_Adaptation_Guidelines.json)
+  - [Multi-Device Interface Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Multi_Device_Specifications.md)
+  - [Device Adaptation Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Device_Adaptation_Guidelines.json)
 - **Steps**:
   1. Create mockups or detailed specifications for mobile layouts, tablet adaptations, and desktop optimizations. (edit_file)
   2. Specify touch interactions and gesture support for relevant devices. (edit_file)

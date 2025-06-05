@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ui-designer-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Visual_Design_Mockups.md — Visual Design Mockups (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Screen_Layout_Specifications.json — Screen Layout Specifications (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/User_Flow_Mockups.md — User Flow Mockups (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Interaction_State_Specifications.json — Interaction State Specifications (missing)
 
 # Mission Statement
 Create detailed, high-fidelity mockups for key screens and user flows for DafnckMachine v3.1.
@@ -37,10 +42,10 @@ You are @ui-designer-agent. Your mission is to create pixel-perfect, high-fideli
 - Interaction State Specifications
 
 # Documentation & Templates
-- [Visual Design Mockups](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Visual_Design_Mockups.md)
-- [Screen Layout Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Screen_Layout_Specifications.json)
-- [User Flow Mockups](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/User_Flow_Mockups.md)
-- [Interaction State Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Interaction_State_Specifications.json)
+- [Visual Design Mockups](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Visual_Design_Mockups.md)
+- [Screen Layout Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Screen_Layout_Specifications.json)
+- [User Flow Mockups](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/User_Flow_Mockups.md)
+- [Interaction State Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Interaction_State_Specifications.json)
 
 # Primary Responsible Agent
 @ui-designer-agent
@@ -61,8 +66,8 @@ The UI Designer Agent is chosen for its expertise in mockup design, screen layou
 - **Description**: Create high-fidelity mockups for key screens, including responsive layouts and state variations.
 - **Agent**: @ui-designer-agent
 - **Documentation Links**:
-  - [Visual Design Mockups](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Visual_Design_Mockups.md)
-  - [Screen Layout Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Screen_Layout_Specifications.json)
+  - [Visual Design Mockups](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Visual_Design_Mockups.md)
+  - [Screen Layout Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Screen_Layout_Specifications.json)
 - **Steps**:
   1. Transform UX wireframes into high-fidelity mockups for homepage, dashboard, and main features. (file_search, edit_file)
   2. Design responsive layouts and state variations for key screens. (edit_file)
@@ -77,8 +82,8 @@ The UI Designer Agent is chosen for its expertise in mockup design, screen layou
 - **Description**: Visualize complete user flows through sequences of high-fidelity mockups, detailing step-by-step interfaces, transition states, interaction feedback, error states, and success states.
 - **Agent**: @ui-designer-agent
 - **Documentation Links**:
-  - [User Flow Mockups](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/User_Flow_Mockups.md)
-  - [Interaction State Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Interaction_State_Specifications.json)
+  - [User Flow Mockups](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/User_Flow_Mockups.md)
+  - [Interaction State Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Interaction_State_Specifications.json)
 - **Steps**:
   1. Assemble mockups to visualize key user flows, showing screen sequences. (edit_file)
   2. Detail transition states, interaction feedback, error states, and success states within the flows. (edit_file)

@@ -11,6 +11,8 @@ source: Step.json
 agent: "@content-strategy-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Email_Marketing_Automation.md — Email_Marketing_Automation.md: Email campaign automation and nurturing sequences (missing)
 
 ## Workflow Metadata
 - **Workflow-Step**: Marketing Outreach
@@ -49,10 +51,10 @@ Create, automate, and optimize email campaigns, including content development, w
 - **Email Marketing**: Campaigns, automation, segmentation, optimization
 
 ## Documentation & Templates
-- [Email Marketing Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Email_Marketing_Strategy.md)
-- [Automation Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Automation_Framework.json)
-- [Email Performance Optimization](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Email_Performance_Optimization.md)
-- [Deliverability Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Deliverability_Framework.json)
+- [Email Marketing Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Email_Marketing_Strategy.md)
+- [Automation Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Automation_Framework.json)
+- [Email Performance Optimization](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Email_Performance_Optimization.md)
+- [Deliverability Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Deliverability_Framework.json)
 
 ## Primary Responsible Agent
 @content-strategy-agent
@@ -75,8 +77,8 @@ The Content Strategy Agent is chosen for expertise in email content, automation,
 - **Description**: Develop email campaigns, automation workflows, and segmentation strategies.
 - **Agent Assignment**: @content-strategy-agent
 - **Documentation Links**:
-  - [Email Marketing Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Email_Marketing_Strategy.md)
-  - [Automation Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Automation_Framework.json)
+  - [Email Marketing Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Email_Marketing_Strategy.md)
+  - [Automation Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Automation_Framework.json)
 - **Steps**:
     1. Design email templates and create content for key campaigns.
     2. Set up automation workflows for lead nurturing and engagement.
@@ -93,8 +95,8 @@ The Content Strategy Agent is chosen for expertise in email content, automation,
 - **Description**: Optimize email performance through testing, deliverability, and analytics.
 - **Agent Assignment**: @analytics-setup-agent
 - **Documentation Links**:
-  - [Email Performance Optimization](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Email_Performance_Optimization.md)
-  - [Deliverability Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Deliverability_Framework.json)
+  - [Email Performance Optimization](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Email_Performance_Optimization.md)
+  - [Deliverability Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Deliverability_Framework.json)
 - **Steps**:
     1. Implement A/B testing for subject lines, content, and CTAs.
     2. Monitor and optimize deliverability.
@@ -129,7 +131,7 @@ The Content Strategy Agent is chosen for expertise in email content, automation,
 - Deliverability Issues: Monitor and adjust sending practices
 
 ## Output Artifacts
-- [Email_Marketing_Automation](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/Email_Marketing_Automation.md): Email campaign automation and nurturing sequences
+- [Email_Marketing_Automation](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Email_Marketing_Automation.md): Email campaign automation and nurturing sequences
 
 ## Next Action
 Develop email campaigns and set up automation with @content-strategy-agent

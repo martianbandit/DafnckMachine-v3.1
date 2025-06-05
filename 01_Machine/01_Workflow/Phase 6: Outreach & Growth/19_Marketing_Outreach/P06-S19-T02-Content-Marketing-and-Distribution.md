@@ -11,6 +11,8 @@ source: Step.json
 agent: "@content-strategy-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Content_Strategy_and_Creation.md — Content_Strategy_and_Creation.md: Content creation, distribution, and optimization system (missing)
 
 ## Workflow Metadata
 - **Workflow-Step**: Marketing Outreach
@@ -52,10 +54,10 @@ Develop content marketing strategy, content planning, creation workflows, editor
 - **Content Distribution**: Multi-channel and syndication strategies
 
 ## Documentation & Templates
-- [Content Marketing Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Content_Marketing_Strategy.md)
-- [Content Creation Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Content_Creation_Framework.json)
-- [Content Distribution Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Content_Distribution_Strategy.md)
-- [Distribution Optimization Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Distribution_Optimization_Framework.json)
+- [Content Marketing Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Content_Marketing_Strategy.md)
+- [Content Creation Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Content_Creation_Framework.json)
+- [Content Distribution Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Content_Distribution_Strategy.md)
+- [Distribution Optimization Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Distribution_Optimization_Framework.json)
 
 ## Primary Responsible Agent
 @content-strategy-agent
@@ -81,8 +83,8 @@ The Content Strategy Agent is chosen for expertise in content planning, creation
 - **Description**: Develop content marketing strategy, content planning, creation workflows, editorial calendar, content optimization, and SEO integration.
 - **Agent Assignment**: @content-strategy-agent
 - **Documentation Links**:
-  - [Content Marketing Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Content_Marketing_Strategy.md)
-  - [Content Creation Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Content_Creation_Framework.json)
+  - [Content Marketing Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Content_Marketing_Strategy.md)
+  - [Content Creation Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Content_Creation_Framework.json)
 - **Steps**:
     1. Define content pillars, themes, and formats based on audience insights and campaign objectives.
     2. Establish content creation workflows and an editorial calendar.
@@ -99,8 +101,8 @@ The Content Strategy Agent is chosen for expertise in content planning, creation
 - **Description**: Implement content distribution across various channels, syndicate content, and optimize for performance and engagement.
 - **Agent Assignment**: @content-strategy-agent
 - **Documentation Links**:
-  - [Content Distribution Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Content_Distribution_Strategy.md)
-  - [Distribution Optimization Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Distribution_Optimization_Framework.json)
+  - [Content Distribution Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Content_Distribution_Strategy.md)
+  - [Distribution Optimization Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Distribution_Optimization_Framework.json)
 - **Steps**:
     1. Publish and distribute content across selected primary channels (e.g., blog, social media, email).
     2. Implement content syndication to extend reach to secondary platforms.
@@ -141,7 +143,7 @@ The Content Strategy Agent is chosen for expertise in content planning, creation
 - SEO Underperformance: Regular audits and updates
 
 ## Output Artifacts
-- [Content_Strategy_and_Creation](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/Content_Strategy_and_Creation.md): Content creation, distribution, and optimization system
+- [Content_Strategy_and_Creation](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Content_Strategy_and_Creation.md): Content creation, distribution, and optimization system
 
 ## Next Action
 Develop content marketing strategy and workflows with @content-strategy-agent

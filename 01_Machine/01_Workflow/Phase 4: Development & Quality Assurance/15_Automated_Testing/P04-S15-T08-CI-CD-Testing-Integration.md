@@ -11,6 +11,11 @@ source: Step.json
 agent: "@development-orchestrator-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/CI_CD_Testing_Integration.md — CI_CD_Testing_Integration.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Pipeline_Testing_Configuration.json — Pipeline_Testing_Configuration.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Continuous_Testing_Framework.md — Continuous_Testing_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Feedback_Systems_Setup.json — Feedback_Systems_Setup.json (missing)
 
 # Mission Statement
 Integrate comprehensive testing in CI/CD pipelines with automated execution, parallel testing, and result integration for continuous quality validation in DafnckMachine v3.1.
@@ -33,10 +38,10 @@ You are @development-orchestrator-agent responsible for integrating testing into
 - CI/CD testing integration and automation
 
 # Documentation & Templates
-- [CI_CD_Testing_Integration.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/CI_CD_Testing_Integration.md)
-- [Pipeline_Testing_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Pipeline_Testing_Configuration.json)
-- [Continuous_Testing_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Continuous_Testing_Framework.md)
-- [Feedback_Systems_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Feedback_Systems_Setup.json)
+- [CI_CD_Testing_Integration.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/CI_CD_Testing_Integration.md)
+- [Pipeline_Testing_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Pipeline_Testing_Configuration.json)
+- [Continuous_Testing_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Continuous_Testing_Framework.md)
+- [Feedback_Systems_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Feedback_Systems_Setup.json)
 
 # Primary Responsible Agent
 @development-orchestrator-agent
@@ -56,7 +61,7 @@ The @development-orchestrator-agent is selected for its expertise in CI/CD, pipe
 - **ID**: P04-T08-S01
 - **Description**: Integrate testing in CI/CD with pipeline testing stages, automated execution, parallel testing, and result integration.
 - **Agent**: @development-orchestrator-agent
-- **Documentation**: [CI_CD_Testing_Integration.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/CI_CD_Testing_Integration.md), [Pipeline_Testing_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Pipeline_Testing_Configuration.json)
+- **Documentation**: [CI_CD_Testing_Integration.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/CI_CD_Testing_Integration.md), [Pipeline_Testing_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Pipeline_Testing_Configuration.json)
 - **Steps**:
     1. Integrate testing in CI/CD pipeline with automated execution and parallel testing (edit_file)
     2. Setup pipeline testing stages and result reporting (run_terminal_cmd)
@@ -68,7 +73,7 @@ The @development-orchestrator-agent is selected for its expertise in CI/CD, pipe
 - **ID**: P04-T08-S02
 - **Description**: Implement continuous testing with automated feedback, test result analysis, quality dashboards, and notification systems.
 - **Agent**: @test-orchestrator-agent
-- **Documentation**: [Continuous_Testing_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Continuous_Testing_Framework.md), [Feedback_Systems_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Feedback_Systems_Setup.json)
+- **Documentation**: [Continuous_Testing_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Continuous_Testing_Framework.md), [Feedback_Systems_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Feedback_Systems_Setup.json)
 - **Steps**:
     1. Implement continuous testing with automated feedback and quality dashboards (edit_file)
     2. Configure notification systems and quality monitoring (run_terminal_cmd)
@@ -93,10 +98,10 @@ The @development-orchestrator-agent is selected for its expertise in CI/CD, pipe
 - Escalate to @pipeline-integration-lead or @continuous-testing-lead if tests fail after 3 attempts
 
 # Output Artifacts
-- [CI_CD_Testing_Integration.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/CI_CD_Testing_Integration.md)
-- [Pipeline_Testing_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Pipeline_Testing_Configuration.json)
-- [Continuous_Testing_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Continuous_Testing_Framework.md)
-- [Feedback_Systems_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Feedback_Systems_Setup.json)
+- [CI_CD_Testing_Integration.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/CI_CD_Testing_Integration.md)
+- [Pipeline_Testing_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Pipeline_Testing_Configuration.json)
+- [Continuous_Testing_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Continuous_Testing_Framework.md)
+- [Feedback_Systems_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Feedback_Systems_Setup.json)
 
 # Next Action
 Integrate testing in CI/CD pipeline and implement continuous testing with @development-orchestrator-agent

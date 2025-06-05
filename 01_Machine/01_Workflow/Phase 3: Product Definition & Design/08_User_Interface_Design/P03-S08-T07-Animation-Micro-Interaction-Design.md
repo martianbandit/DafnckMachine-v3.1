@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ui-designer-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Animation_Specifications.md — Animation Specifications (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Motion_Design_Guidelines.json — Motion Design Guidelines (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Micro_Interaction_Specifications.md — Micro-Interaction Specifications (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Feedback_Design_Guidelines.json — Feedback Design Guidelines (missing)
 
 # Mission Statement
 Design the system for animations and specify micro-interactions to enhance user experience for DafnckMachine v3.1.
@@ -35,10 +40,10 @@ You are @ui-designer-agent. Your mission is to design a consistent animation sys
 - Feedback Design Guidelines
 
 # Documentation & Templates
-- [Animation Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Animation_Specifications.md)
-- [Motion Design Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Motion_Design_Guidelines.json)
-- [Micro-Interaction Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Micro_Interaction_Specifications.md)
-- [Feedback Design Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Feedback_Design_Guidelines.json)
+- [Animation Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Animation_Specifications.md)
+- [Motion Design Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Motion_Design_Guidelines.json)
+- [Micro-Interaction Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Micro_Interaction_Specifications.md)
+- [Feedback Design Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Feedback_Design_Guidelines.json)
 
 # Primary Responsible Agent
 @ui-designer-agent
@@ -59,8 +64,8 @@ The UI Designer Agent is chosen for its expertise in animation design, motion sy
 - **Description**: Design a system for animations, including transition, loading, and feedback animations, defining easing curves and timing specifications.
 - **Agent**: @ui-designer-agent
 - **Documentation Links**:
-  - [Animation Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Animation_Specifications.md)
-  - [Motion Design Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Motion_Design_Guidelines.json)
+  - [Animation Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Animation_Specifications.md)
+  - [Motion Design Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Motion_Design_Guidelines.json)
 - **Steps**:
   1. Define types of animations (transitions, loading, feedback) and their purpose. (edit_file)
   2. Specify easing curves and timing specifications for animations. (edit_file)
@@ -76,8 +81,8 @@ The UI Designer Agent is chosen for its expertise in animation design, motion sy
 - **Description**: Specify micro-interactions for common UI elements, including hover states, click feedback, form validation cues, loading indicators, and success confirmations.
 - **Agent**: @ui-designer-agent
 - **Documentation Links**:
-  - [Micro-Interaction Specifications](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Micro_Interaction_Specifications.md)
-  - [Feedback Design Guidelines](mdc:01_Machine/04_Documentation/Doc/Phase_3/08_User_Interface_Design/Feedback_Design_Guidelines.json)
+  - [Micro-Interaction Specifications](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Micro_Interaction_Specifications.md)
+  - [Feedback Design Guidelines](mdc:01_Machine/04_Documentation/vision/Phase_3/08_User_Interface_Design/Feedback_Design_Guidelines.json)
 - **Steps**:
   1. Define and document hover states and click feedback for interactive elements. (edit_file)
   2. Specify form validation cues, loading state indicators, and success/error confirmations. (edit_file)

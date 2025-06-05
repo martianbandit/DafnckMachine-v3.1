@@ -11,6 +11,9 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Opportunity_Analysis.json — Market_Opportunity_Analysis.json: Market sizing and opportunity assessment (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Trends_Analysis.md — Market_Trends_Analysis.md: Industry trends and projections (missing)
 
 ## Mission Statement
 Conduct comprehensive market analysis including sizing, segmentation, and industry trends to quantify the market opportunity and validate commercial viability.
@@ -34,9 +37,9 @@ You are @market-research-agent responsible for market sizing, segmentation, and 
 
 ## Documentation & Templates
 - [Market_Opportunity_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Opportunity_Analysis.json): Market sizing and opportunity assessment
-- [Market_Sizing_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Market_Sizing_Report.md): Market sizing report
+- [Market_Sizing_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Sizing_Report.md): Market sizing report
 - [Market_Trends_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Trends_Analysis.md): Industry trends and projections
-- [Industry_Report.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Industry_Report.json): Industry report
+- [Industry_Report.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Industry_Report.json): Industry report
 
 ## Primary Responsible Agent
 @market-research-agent
@@ -61,7 +64,7 @@ The Market Research Agent is chosen for its specialized capabilities in market s
 - **ID**: P02-T02-S02
 - **Description**: Define and quantify TAM, SAM, SOM, and identify key market segments and growth opportunities.
 - **Agent Assignment**: @market-research-agent
-- **Documentation Links**: [Market_Opportunity_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Opportunity_Analysis.json), [Market_Sizing_Report.md](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Market_Sizing_Report.md)
+- **Documentation Links**: [Market_Opportunity_Analysis.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Opportunity_Analysis.json), [Market_Sizing_Report.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Sizing_Report.md)
 - **Steps**:
     1. Research market data and industry reports to gather sizing information (web_search)
     2. Calculate TAM, SAM, and SOM with supporting methodology and assumptions (edit_file)
@@ -77,7 +80,7 @@ The Market Research Agent is chosen for its specialized capabilities in market s
 - **ID**: P02-T02-S03
 - **Description**: Research and analyze industry trends, growth patterns, emerging technologies, regulatory changes, and market drivers.
 - **Agent Assignment**: @market-research-agent
-- **Documentation Links**: [Market_Trends_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Trends_Analysis.md), [Industry_Report.json](mdc:01_Machine/04_Documentation/Doc/Phase_2/02_Problem_Validation/Industry_Report.json)
+- **Documentation Links**: [Market_Trends_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Market_Trends_Analysis.md), [Industry_Report.json](mdc:01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Industry_Report.json)
 - **Steps**:
     1. Research industry trends, growth patterns, and emerging technologies (web_search)
     2. Analyze regulatory environment and market drivers/barriers (web_search)

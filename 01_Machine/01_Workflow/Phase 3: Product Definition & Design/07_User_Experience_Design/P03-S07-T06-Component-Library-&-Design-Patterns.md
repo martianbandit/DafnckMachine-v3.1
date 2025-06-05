@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ui-designer-agent, @ux-researcher-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/User_Interface_Components.md — User_Interface_Components.md: User_Interface_Components.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Component_Specifications.json — Component_Specifications.json: Component_Specifications.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Interaction_Design_Patterns.json — Interaction_Design_Patterns.json: Interaction_Design_Patterns.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Animation_Specifications.md — Animation_Specifications.md: Animation_Specifications.md (missing)
 
 ## Mission Statement
 Develop comprehensive component library and interaction patterns to ensure consistent interface elements and behaviors across all product areas.
@@ -33,10 +38,10 @@ You are @ui-designer-agent and @ux-researcher-agent. Your mission is to develop 
 - Interaction design patterns and animation specifications
 
 ## Documentation & Templates
-- [User_Interface_Components.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/User_Interface_Components.md)
-- [Component_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Component_Specifications.json)
-- [Interaction_Design_Patterns.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Interaction_Design_Patterns.json)
-- [Animation_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Animation_Specifications.md)
+- [User_Interface_Components.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/User_Interface_Components.md)
+- [Component_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Component_Specifications.json)
+- [Interaction_Design_Patterns.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Interaction_Design_Patterns.json)
+- [Animation_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Animation_Specifications.md)
 
 ## Primary Responsible Agent
 @ui-designer-agent (Component Library)
@@ -62,8 +67,8 @@ The @ui-designer-agent is selected for component design, UI specifications, and 
 - **Description**: Specify detailed UI components with component anatomy, state variations, interaction behaviors, usage guidelines, and accessibility features for consistent interface development.
 - **Agent Assignment**: @ui-designer-agent
 - **Documentation Links**:
-  - [User_Interface_Components.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/User_Interface_Components.md)
-  - [Component_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Component_Specifications.json)
+  - [User_Interface_Components.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/User_Interface_Components.md)
+  - [Component_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Component_Specifications.json)
 - **Steps**:
     1. Specify UI component anatomy and state variations (Tool: edit_file)
     2. Define usage guidelines and accessibility features (Tool: edit_file)
@@ -76,8 +81,8 @@ The @ui-designer-agent is selected for component design, UI specifications, and 
 - **Description**: Define comprehensive interaction patterns including gesture patterns, animation specifications, feedback mechanisms, state transitions, and micro-interactions for consistent user experience.
 - **Agent Assignment**: @ux-researcher-agent
 - **Documentation Links**:
-  - [Interaction_Design_Patterns.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Interaction_Design_Patterns.json)
-  - [Animation_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Animation_Specifications.md)
+  - [Interaction_Design_Patterns.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Interaction_Design_Patterns.json)
+  - [Animation_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Animation_Specifications.md)
 - **Steps**:
     1. Define interaction patterns and gesture specifications (Tool: edit_file)
     2. Specify animations and micro-interaction behaviors (Tool: edit_file)
@@ -103,10 +108,10 @@ The @ui-designer-agent is selected for component design, UI specifications, and 
 - Continuous usability testing and feedback integration throughout component and pattern development
 
 ## Output Artifacts
-- [User_Interface_Components.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/User_Interface_Components.md)
-- [Component_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Component_Specifications.json)
-- [Interaction_Design_Patterns.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Interaction_Design_Patterns.json)
-- [Animation_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Animation_Specifications.md)
+- [User_Interface_Components.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/User_Interface_Components.md)
+- [Component_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Component_Specifications.json)
+- [Interaction_Design_Patterns.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Interaction_Design_Patterns.json)
+- [Animation_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Animation_Specifications.md)
 
 ## Next Action
 Initiate component library and interaction pattern development with @ui-designer-agent and @ux-researcher-agent

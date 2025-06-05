@@ -11,6 +11,9 @@ source: Step.json
 agent: "@technology-advisor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Technology_Stack_Matrix.md — Technology_Stack_Matrix.md: Technology_Stack_Matrix.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Design_System_Integration.md — Design_System_Integration.md: Design_System_Integration.md (missing)
 
 ## Mission Statement
 Define universal technology support covering web applications, mobile development, desktop applications, system programming, and all major development platforms with cross-platform consistency.
@@ -35,11 +38,11 @@ You are @technology-advisor-agent responsible for defining the universal technol
 - **Technology Matrix**: Universal support for any technology stack
 
 ## Documentation & Templates
-- [PRD_Template.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/PRD_Template.md)
-- [Technology_Stack_Matrix.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Technology_Stack_Matrix.md)
-- [Platform_Support_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Platform_Support_Specifications.json)
-- [Design_System_Integration.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Design_System_Integration.md)
-- [UI_Framework_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/UI_Framework_Matrix.json)
+- [PRD_Template.md](mdc:01_Machine/04_Documentation/vision/Phase_3/PRD_Template.md)
+- [Technology_Stack_Matrix.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Technology_Stack_Matrix.md)
+- [Platform_Support_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Platform_Support_Specifications.json)
+- [Design_System_Integration.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Design_System_Integration.md)
+- [UI_Framework_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/UI_Framework_Matrix.json)
 
 ## Primary Responsible Agent
 @technology-advisor-agent - universal-support, cross-platform, technology-integration
@@ -58,7 +61,7 @@ The Technology Advisor Agent is chosen for its expertise in universal technology
 - **ID**: P03-T03-S01
 - **Description**: Define universal technology support for web applications, mobile development, desktop applications, system programming, game development, data science, blockchain, and enterprise systems.
 - **Agent Assignment**: @technology-advisor-agent (universal-support, cross-platform, technology-integration)
-- **Documentation Links**: [Technology_Stack_Matrix.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Technology_Stack_Matrix.md), [Platform_Support_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Platform_Support_Specifications.json)
+- **Documentation Links**: [Technology_Stack_Matrix.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Technology_Stack_Matrix.md), [Platform_Support_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Platform_Support_Specifications.json)
 - **Steps**:
     1. Research and document comprehensive technology stack support matrix (web_search)
     2. Create technology matrix covering all major development platforms (edit_file)
@@ -73,7 +76,7 @@ The Technology Advisor Agent is chosen for its expertise in universal technology
 - **ID**: P03-T03-S02
 - **Description**: Specify universal design system integration with Shadcn/ui + Tailwind CSS foundation, platform-specific adaptations, cross-platform consistency, and accessibility standards.
 - **Agent Assignment**: @technology-advisor-agent (design-systems, ui-frameworks, accessibility-standards)
-- **Documentation Links**: [Design_System_Integration.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Design_System_Integration.md), [UI_Framework_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/UI_Framework_Matrix.json)
+- **Documentation Links**: [Design_System_Integration.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Design_System_Integration.md), [UI_Framework_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/UI_Framework_Matrix.json)
 - **Steps**:
     1. Specify Shadcn/ui + Tailwind CSS foundation integration (edit_file)
     2. Define accessibility standards and cross-platform consistency requirements (edit_file)

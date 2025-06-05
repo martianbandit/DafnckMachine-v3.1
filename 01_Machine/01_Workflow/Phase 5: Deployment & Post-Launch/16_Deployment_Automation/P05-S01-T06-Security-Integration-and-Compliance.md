@@ -11,6 +11,11 @@ source: Step.json
 agent: "@security-auditor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Security_Integration_Framework.md — Security_Integration_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Vulnerability_Scan_Configuration.json — Vulnerability_Scan_Configuration.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Compliance_Automation_Framework.md — Compliance_Automation_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Policy_Enforcement_Configuration.json — Policy_Enforcement_Configuration.json (missing)
 
 # Mission Statement
 Implement security scanning and compliance automation in deployment pipelines for DafnckMachine v3.1.
@@ -40,10 +45,10 @@ You are @security-auditor-agent. Your mission is to integrate automated security
 - Reporting: Security and compliance reports
 
 # Documentation & Templates
-- [Security_Integration_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Security_Integration_Framework.md)
-- [Vulnerability_Scan_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Vulnerability_Scan_Configuration.json)
-- [Compliance_Automation_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Compliance_Automation_Framework.md)
-- [Policy_Enforcement_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Policy_Enforcement_Configuration.json)
+- [Security_Integration_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Security_Integration_Framework.md)
+- [Vulnerability_Scan_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Vulnerability_Scan_Configuration.json)
+- [Compliance_Automation_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Compliance_Automation_Framework.md)
+- [Policy_Enforcement_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Policy_Enforcement_Configuration.json)
 
 # Supporting Agents
 - @compliance-scope-agent
@@ -63,7 +68,7 @@ You are @security-auditor-agent. Your mission is to integrate automated security
 - **ID**: P05-T06-S01
 - **Description**: Integrate automated security scanning tools into CI/CD pipelines for vulnerability detection and code analysis.
 - **Agent**: @security-auditor-agent
-- **Documentation Links**: [Security_Scanning_Integration.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Security_Scanning_Integration.md), [Vulnerability_Scan_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Vulnerability_Scan_Configuration.json)
+- **Documentation Links**: [Security_Scanning_Integration.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Security_Scanning_Integration.md), [Vulnerability_Scan_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Vulnerability_Scan_Configuration.json)
 - **Steps**:
     1. Select and configure security scanning tools for CI/CD integration (Success: "Security scanning tools configured")
     2. Integrate vulnerability scanning in build and deployment stages (Success: vulnerability-scan-config.yml exists, content matches vulnerability-scan/build-stage/deploy-stage)
@@ -75,7 +80,7 @@ You are @security-auditor-agent. Your mission is to integrate automated security
 - **ID**: P05-T06-S02
 - **Description**: Implement compliance automation with policy enforcement, audit logging, and automated compliance checks in deployment pipelines.
 - **Agent**: @compliance-scope-agent
-- **Documentation Links**: [Compliance_Automation_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Compliance_Automation_Implementation.md), [Policy_Enforcement_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Policy_Enforcement_Configuration.json)
+- **Documentation Links**: [Compliance_Automation_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Compliance_Automation_Implementation.md), [Policy_Enforcement_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Policy_Enforcement_Configuration.json)
 - **Steps**:
     1. Define compliance policies and enforcement rules for deployment (Success: compliance-policies.md exists, content matches compliance-policies/enforcement-rules)
     2. Integrate automated compliance checks in CI/CD pipelines (Success: compliance-checks-config.yml exists, content matches compliance-checks/pipeline-stages)
@@ -106,7 +111,7 @@ You are @security-auditor-agent. Your mission is to integrate automated security
 
 # Output Artifacts
 - [Security_Integration_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Security_Integration_Framework.md)
-- [Compliance_Automation_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Compliance_Automation_Framework.md)
+- [Compliance_Automation_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Compliance_Automation_Framework.md)
 
 # Next Action
 Proceed to P05-S01-T07-Monitoring-System-Setup.md

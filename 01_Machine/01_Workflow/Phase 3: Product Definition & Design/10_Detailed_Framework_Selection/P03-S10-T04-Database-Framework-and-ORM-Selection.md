@@ -11,6 +11,11 @@ source: Step.json
 agent: "@technology-advisor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Database_Technology_Analysis.md — Database_Technology_Analysis.md: Database_Technology_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Database_Comparison_Matrix.json — Database_Comparison_Matrix.json: Database_Comparison_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/ORM_Framework_Selection.md — ORM_Framework_Selection.md: ORM_Framework_Selection.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Data_Access_Specifications.json — Data_Access_Specifications.json: Data_Access_Specifications.json (missing)
 
 ## Mission Statement
 Evaluate and select database technologies and Object-Relational Mapping (ORM) frameworks for DafnckMachine v3.1, ensuring optimal data performance, scalability, and maintainability.
@@ -33,10 +38,10 @@ You are @technology-advisor-agent. Your mission is to evaluate and select databa
 - Database and ORM selection criteria and rationale
 
 ## Documentation & Templates
-- [Database_Technology_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Database_Technology_Analysis.md)
-- [Database_Comparison_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Database_Comparison_Matrix.json)
-- [ORM_Framework_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/ORM_Framework_Selection.md)
-- [Data_Access_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Data_Access_Specifications.json)
+- [Database_Technology_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Database_Technology_Analysis.md)
+- [Database_Comparison_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Database_Comparison_Matrix.json)
+- [ORM_Framework_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/ORM_Framework_Selection.md)
+- [Data_Access_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Data_Access_Specifications.json)
 
 ## Primary Responsible Agent
 @technology-advisor-agent
@@ -95,10 +100,10 @@ You are @technology-advisor-agent. Your mission is to evaluate and select databa
 - Update selection as new data requirements emerge
 
 ## Output Artifacts
-- [Database_Technology_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Database_Technology_Analysis.md)
-- [Database_Comparison_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Database_Comparison_Matrix.json)
-- [ORM_Framework_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/ORM_Framework_Selection.md)
-- [Data_Access_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Data_Access_Specifications.json)
+- [Database_Technology_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Database_Technology_Analysis.md)
+- [Database_Comparison_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Database_Comparison_Matrix.json)
+- [ORM_Framework_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/ORM_Framework_Selection.md)
+- [Data_Access_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Data_Access_Specifications.json)
 
 ## Next Action
 Initiate database technology and ORM evaluation with @technology-advisor-agent.

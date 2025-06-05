@@ -11,6 +11,11 @@ source: Step.json
 agent: "@functional-tester-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/E2E_Testing_Implementation.md — E2E_Testing_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/User_Journey_Automation.json — User_Journey_Automation.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Visual_Regression_Testing.md — Visual_Regression_Testing.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/UI_Validation_Framework.json — UI_Validation_Framework.json (missing)
 
 # Workflow Metadata
 - **Workflow-Step**: Automated Testing
@@ -41,10 +46,10 @@ You are @functional-tester-agent responsible for implementing end-to-end testing
 - E2E testing implementation and user journey validation
 
 # Documentation & Templates
-- [E2E_Testing_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/E2E_Testing_Implementation.md)
-- [User_Journey_Automation.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/User_Journey_Automation.json)
-- [Visual_Regression_Testing.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Visual_Regression_Testing.md)
-- [UI_Validation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/UI_Validation_Framework.json)
+- [E2E_Testing_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/E2E_Testing_Implementation.md)
+- [User_Journey_Automation.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/User_Journey_Automation.json)
+- [Visual_Regression_Testing.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Visual_Regression_Testing.md)
+- [UI_Validation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/UI_Validation_Framework.json)
 
 # Primary Responsible Agent
 @functional-tester-agent
@@ -64,7 +69,7 @@ The @functional-tester-agent is selected for its expertise in E2E, user journey,
 - **ID**: P04-S15-T04-S01
 - **Description**: Develop E2E tests with user journey automation and workflow validation using Playwright.
 - **Agent**: @functional-tester-agent
-- **Documentation**: [E2E_Testing_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/E2E_Testing_Implementation.md), [User_Journey_Automation.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/User_Journey_Automation.json)
+- **Documentation**: [E2E_Testing_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/E2E_Testing_Implementation.md), [User_Journey_Automation.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/User_Journey_Automation.json)
 - **Steps**:
     1. Implement E2E testing with user journey automation and workflow validation (mcp_playwright)
     2. Execute E2E tests across multiple browsers and devices (mcp_playwright)
@@ -76,7 +81,7 @@ The @functional-tester-agent is selected for its expertise in E2E, user journey,
 - **ID**: P04-S15-T04-S02
 - **Description**: Develop visual regression tests with screenshot comparison, UI validation, responsive testing, and accessibility testing using Playwright.
 - **Agent**: @functional-tester-agent
-- **Documentation**: [Visual_Regression_Testing.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Visual_Regression_Testing.md), [UI_Validation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/UI_Validation_Framework.json)
+- **Documentation**: [Visual_Regression_Testing.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Visual_Regression_Testing.md), [UI_Validation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/UI_Validation_Framework.json)
 - **Steps**:
     1. Implement visual regression testing with screenshot comparison and UI validation (mcp_playwright)
     2. Execute accessibility testing and responsive design validation (mcp_playwright)
@@ -101,10 +106,10 @@ The @functional-tester-agent is selected for its expertise in E2E, user journey,
 - Escalate to @e2e-testing-lead or @visual-testing-lead if tests fail after 3 attempts
 
 # Output Artifacts
-- [E2E_Testing_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/E2E_Testing_Implementation.md)
-- [User_Journey_Automation.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/User_Journey_Automation.json)
-- [Visual_Regression_Testing.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Visual_Regression_Testing.md)
-- [UI_Validation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/UI_Validation_Framework.json)
+- [E2E_Testing_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/E2E_Testing_Implementation.md)
+- [User_Journey_Automation.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/User_Journey_Automation.json)
+- [Visual_Regression_Testing.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Visual_Regression_Testing.md)
+- [UI_Validation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/UI_Validation_Framework.json)
 
 # Next Action
 Develop and execute E2E and visual regression tests with @functional-tester-agent

@@ -11,6 +11,9 @@ source: Step.json
 agent: "@knowledge-evolution-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feedback_Collection_System.md — Feedback_Collection_System.md: User feedback collection and analysis framework (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md — Performance_Enhancement_Strategy.md: Performance analysis and optimization (missing)
 
 # Workflow Metadata
 - **Workflow-Step**: Continuous Improvement
@@ -46,8 +49,8 @@ You are @knowledge-evolution-agent. Your mission is to implement a robust feedba
 - **Feedback Systems**: Comprehensive feedback collection with user insights and performance analysis
 
 # Documentation & Templates
-- [Feedback_Collection_System.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Feedback_Collection_System.md): User feedback collection and analysis framework
-- [Performance_Enhancement_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md): Performance analysis and optimization
+- [Feedback_Collection_System.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feedback_Collection_System.md): User feedback collection and analysis framework
+- [Performance_Enhancement_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md): Performance analysis and optimization
 
 # Primary Responsible Agent
 @knowledge-evolution-agent
@@ -70,7 +73,7 @@ The Knowledge Evolution Agent is chosen for its expertise in continuous improvem
 - **ID**: P05-T01-S01
 - **Description**: Implement a comprehensive framework for gathering user feedback through various channels.
 - **Agent**: @user-feedback-collector-agent
-- **Documentation**: [Feedback_Collection_System.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Feedback_Collection_System.md)
+- **Documentation**: [Feedback_Collection_System.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feedback_Collection_System.md)
 - **Steps**:
     1. Implement user feedback collection: feedback forms, user surveys, in-app feedback, review analysis, sentiment tracking (Tool: edit_file)
         - Success: `config/feedback_collection_config.json` exists and contains `"sentimentTrackingEnabled": true`
@@ -84,7 +87,7 @@ The Knowledge Evolution Agent is chosen for its expertise in continuous improvem
 - **ID**: P05-T01-S02
 - **Description**: Analyze system performance data and user experience metrics to identify optimization opportunities.
 - **Agent**: @performance-optimizer-agent
-- **Documentation**: [Performance_Enhancement_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md)
+- **Documentation**: [Performance_Enhancement_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md)
 - **Steps**:
     1. Analyze performance feedback: system performance data, user experience metrics, bottleneck identification, optimization opportunities (Tool: edit_file)
         - Success: `scripts/performance_analysis_config.json` exists and contains `"reportGenerationFrequency": "daily"`
@@ -112,8 +115,8 @@ The Knowledge Evolution Agent is chosen for its expertise in continuous improvem
 - Escalate to human on repeated performance analysis failures
 
 # Output Artifacts
-- [Feedback_Collection_System.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Feedback_Collection_System.md)
-- [Performance_Enhancement_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md)
+- [Feedback_Collection_System.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Feedback_Collection_System.md)
+- [Performance_Enhancement_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Performance_Enhancement_Strategy.md)
 
 # Next Action
 Implement user feedback collection framework with @user-feedback-collector-agent

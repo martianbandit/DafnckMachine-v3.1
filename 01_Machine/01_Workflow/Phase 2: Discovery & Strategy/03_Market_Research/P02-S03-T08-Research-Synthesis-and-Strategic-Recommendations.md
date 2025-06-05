@@ -11,6 +11,11 @@ source: Step.json
 agent: "@market-research-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2_Discovery_Strategy/Market_Research_Summary.md — Market_Research_Summary.md: Market_Research_Summary.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2_Discovery_Strategy/Key_Insights_Report.json — Key_Insights_Report.json: Key_Insights_Report.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2_Discovery_Strategy/Strategic_Recommendations.md — Strategic_Recommendations.md: Strategic_Recommendations.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2_Discovery_Strategy/Market_Entry_Plan.json — Market_Entry_Plan.json: Market_Entry_Plan.json (missing)
 
 ## Mission Statement
 Consolidate all market research findings and develop strategic recommendations to guide Phase 3 product definition and design.

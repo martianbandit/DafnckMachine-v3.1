@@ -4,13 +4,16 @@ step: S02
 task: T01
 task_id: P02-S02-T01
 title: Problem Statement Refinement
-previous_task: P01-S01-T06
+previous_task: P01-S01-T05
 next_task: P02-S02-T02
 version: 3.1.0
 source: Step.json
-agent: "@market-research-agent"
+agent: "@elicitation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Problem_Statement.md — Problem_Statement.md: Refined and validated problem definition (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_2/02_Problem_Validation/Stakeholder_Impact_Matrix.json — Stakeholder_Impact_Matrix.json: Stakeholder impact matrix (missing)
 
 ## Mission Statement
 Analyze and refine the initial problem statement from user briefing to create a clear, measurable, and validated problem definition that guides all subsequent validation activities.

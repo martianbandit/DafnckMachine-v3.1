@@ -11,6 +11,9 @@ source: Step.json
 agent: "@prd-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Product_Requirements_Document.md — Product_Requirements_Document.md: Product_Requirements_Document.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Stakeholder_Review_Process.md — Stakeholder_Review_Process.md: Stakeholder_Review_Process.md (missing)
 
 ## Mission Statement
 Compile the comprehensive PRD following DafnckMachine v3.1 template structure and conduct final validation for implementation readiness.
@@ -35,11 +38,11 @@ You are @prd-architect-agent responsible for compiling the comprehensive PRD and
 - **PRD Compilation**: Comprehensive PRD following template structure, all specifications integrated, template compliance verified, stakeholder review completed, implementation readiness confirmed
 
 ## Documentation & Templates
-- [PRD_Template.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/PRD_Template.md)
-- [Product_Requirements_Document.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Product_Requirements_Document.md)
-- [Template_Compliance_Checklist.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Template_Compliance_Checklist.json)
-- [Stakeholder_Review_Process.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Stakeholder_Review_Process.md)
-- [Implementation_Readiness_Assessment.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Implementation_Readiness_Assessment.json)
+- [PRD_Template.md](mdc:01_Machine/04_Documentation/vision/Phase_3/PRD_Template.md)
+- [Product_Requirements_Document.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Product_Requirements_Document.md)
+- [Template_Compliance_Checklist.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Template_Compliance_Checklist.json)
+- [Stakeholder_Review_Process.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Stakeholder_Review_Process.md)
+- [Implementation_Readiness_Assessment.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Implementation_Readiness_Assessment.json)
 
 ## Primary Responsible Agent
 @prd-architect-agent - prd-compilation, template-compliance, documentation-integration, stakeholder-validation, implementation-readiness, feasibility-assessment
@@ -58,7 +61,7 @@ The PRD Architect Agent is chosen for its expertise in PRD compilation, template
 - **ID**: P03-T09-S01
 - **Description**: Compile comprehensive PRD following DafnckMachine v3.1 template structure, integrate all specifications, ensure section completeness, cross-reference validation, and professional formatting.
 - **Agent Assignment**: @prd-architect-agent (prd-compilation, template-compliance, documentation-integration)
-- **Documentation Links**: [Product_Requirements_Document.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Product_Requirements_Document.md), [Template_Compliance_Checklist.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Template_Compliance_Checklist.json)
+- **Documentation Links**: [Product_Requirements_Document.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Product_Requirements_Document.md), [Template_Compliance_Checklist.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Template_Compliance_Checklist.json)
 - **Steps**:
     1. Compile comprehensive PRD following DafnckMachine v3.1 template structure (edit_file)
     2. Verify template compliance and cross-reference validation (file_search)
@@ -72,7 +75,7 @@ The PRD Architect Agent is chosen for its expertise in PRD compilation, template
 - **ID**: P03-T09-S02
 - **Description**: Conduct final validation including stakeholder review process, implementation readiness assessment, technical feasibility confirmation, resource requirement validation, and timeline verification.
 - **Agent Assignment**: @prd-architect-agent (stakeholder-validation, implementation-readiness, feasibility-assessment)
-- **Documentation Links**: [Stakeholder_Review_Process.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Stakeholder_Review_Process.md), [Implementation_Readiness_Assessment.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/05_PRD_Generator/Implementation_Readiness_Assessment.json)
+- **Documentation Links**: [Stakeholder_Review_Process.md](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Stakeholder_Review_Process.md), [Implementation_Readiness_Assessment.json](mdc:01_Machine/04_Documentation/vision/Phase_3/05_PRD_Generator/Implementation_Readiness_Assessment.json)
 - **Steps**:
     1. Conduct stakeholder review process and gather feedback (edit_file)
     2. Assess implementation readiness and technical feasibility (edit_file)

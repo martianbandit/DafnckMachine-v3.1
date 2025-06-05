@@ -11,6 +11,11 @@ source: Step.json
 agent: "@functional-tester-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/API_Integration_Testing.md — API_Integration_Testing.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Endpoint_Validation_Specs.json — Endpoint_Validation_Specs.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Database_Integration_Testing.md — Database_Integration_Testing.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Data_Validation_Framework.json — Data_Validation_Framework.json (missing)
 
 # Mission Statement
 Implement comprehensive integration testing with API testing, database integration, and system component validation for reliable system integration in DafnckMachine v3.1.
@@ -33,10 +38,10 @@ You are @functional-tester-agent responsible for implementing integration testin
 - Integration testing implementation and validation
 
 # Documentation & Templates
-- [API_Integration_Testing.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/API_Integration_Testing.md)
-- [Endpoint_Validation_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Endpoint_Validation_Specs.json)
-- [Database_Integration_Testing.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Database_Integration_Testing.md)
-- [Data_Validation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Data_Validation_Framework.json)
+- [API_Integration_Testing.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/API_Integration_Testing.md)
+- [Endpoint_Validation_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Endpoint_Validation_Specs.json)
+- [Database_Integration_Testing.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Database_Integration_Testing.md)
+- [Data_Validation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Data_Validation_Framework.json)
 
 # Supporting Agents
 - @test-orchestrator-agent
@@ -53,7 +58,7 @@ The @functional-tester-agent is selected for its expertise in integration, API, 
 - **ID**: P04-S15-T03-S01
 - **Description**: Develop API tests with endpoint validation and error handling.
 - **Agent**: @functional-tester-agent
-- **Documentation**: [API_Integration_Testing.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/API_Integration_Testing.md), [Endpoint_Validation_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Endpoint_Validation_Specs.json)
+- **Documentation**: [API_Integration_Testing.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/API_Integration_Testing.md), [Endpoint_Validation_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Endpoint_Validation_Specs.json)
 - **Steps**:
     1. Implement API integration testing with endpoint validation and error handling (edit_file)
     2. Execute API integration tests and validate responses (run_terminal_cmd)
@@ -65,7 +70,7 @@ The @functional-tester-agent is selected for its expertise in integration, API, 
 - **ID**: P04-S15-T03-S02
 - **Description**: Develop database tests with data integrity and transaction validation.
 - **Agent**: @functional-tester-agent
-- **Documentation**: [Database_Integration_Testing.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Database_Integration_Testing.md), [Data_Validation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Data_Validation_Framework.json)
+- **Documentation**: [Database_Integration_Testing.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Database_Integration_Testing.md), [Data_Validation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Data_Validation_Framework.json)
 - **Steps**:
     1. Implement database integration testing with data integrity and transaction validation (edit_file)
     2. Execute database tests and validate data operations (run_terminal_cmd)
@@ -90,10 +95,10 @@ The @functional-tester-agent is selected for its expertise in integration, API, 
 - Escalate to @api-testing-lead or @database-testing-lead if tests fail after 3 attempts
 
 # Output Artifacts
-- [API_Integration_Testing.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/API_Integration_Testing.md)
-- [Endpoint_Validation_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Endpoint_Validation_Specs.json)
-- [Database_Integration_Testing.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Database_Integration_Testing.md)
-- [Data_Validation_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Data_Validation_Framework.json)
+- [API_Integration_Testing.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/API_Integration_Testing.md)
+- [Endpoint_Validation_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Endpoint_Validation_Specs.json)
+- [Database_Integration_Testing.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Database_Integration_Testing.md)
+- [Data_Validation_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Data_Validation_Framework.json)
 
 # Next Action
 Develop and execute integration tests with @functional-tester-agent

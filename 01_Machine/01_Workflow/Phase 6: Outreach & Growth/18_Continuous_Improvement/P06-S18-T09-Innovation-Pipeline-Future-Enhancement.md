@@ -11,6 +11,9 @@ source: Step.json
 agent: "@knowledge-evolution-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Innovation_Pipeline_Management.md — Innovation_Pipeline_Management.md: Innovation tracking and experimental feature development (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Experimental_Feature_Development.md — Experimental_Feature_Development.md: Prototyping and validation (missing)
 
 # Mission Statement
 Implement an innovation tracking system and processes for experimental feature development in DafnckMachine v3.1.
@@ -36,8 +39,8 @@ You are @knowledge-evolution-agent. Your mission is to implement an innovation t
 - **Innovation Pipeline**: Innovation tracking and experimental feature development
 
 # Documentation & Templates
-- [Innovation_Pipeline_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Innovation_Pipeline_Management.md): Innovation tracking and experimental feature development
-- [Experimental_Feature_Development.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Experimental_Feature_Development.md): Prototyping and validation
+- [Innovation_Pipeline_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Innovation_Pipeline_Management.md): Innovation tracking and experimental feature development
+- [Experimental_Feature_Development.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Experimental_Feature_Development.md): Prototyping and validation
 
 # Primary Responsible Agent
 @knowledge-evolution-agent
@@ -57,7 +60,7 @@ The Knowledge Evolution Agent is chosen for its expertise in innovation tracking
 - **ID**: P05-T09-S01
 - **Description**: Implement a system for tracking the innovation pipeline, experimental features, and future enhancements.
 - **Agent**: @knowledge-evolution-agent
-- **Documentation**: [Innovation_Pipeline_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Innovation_Pipeline_Management.md)
+- **Documentation**: [Innovation_Pipeline_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Innovation_Pipeline_Management.md)
 - **Steps**:
     1. Implement innovation tracking: innovation pipeline, experimental features, future enhancement planning, technology evaluation (Tool: edit_file)
         - Success: `config/innovation_tracking_config.json` exists and contains `"ideaSubmissionOpen": true`
@@ -71,7 +74,7 @@ The Knowledge Evolution Agent is chosen for its expertise in innovation tracking
 - **ID**: P05-T09-S02
 - **Description**: Develop processes for prototyping, experimenting with, and validating innovative features.
 - **Agent**: @development-orchestrator-agent
-- **Documentation**: [Experimental_Feature_Development.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Experimental_Feature_Development.md)
+- **Documentation**: [Experimental_Feature_Development.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Experimental_Feature_Development.md)
 - **Steps**:
     1. Develop experimental features: prototype development, feature experimentation, innovation implementation, testing validation (Tool: edit_file)
         - Success: `config/experimental_dev_config.json` exists and contains `"sandboxEnvironmentReady": true`
@@ -99,8 +102,8 @@ The Knowledge Evolution Agent is chosen for its expertise in innovation tracking
 - Revert state on repeated experimental feature failures
 
 # Output Artifacts
-- [Innovation_Pipeline_Management.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Innovation_Pipeline_Management.md)
-- [Experimental_Feature_Development.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Experimental_Feature_Development.md)
+- [Innovation_Pipeline_Management.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Innovation_Pipeline_Management.md)
+- [Experimental_Feature_Development.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Experimental_Feature_Development.md)
 
 # Next Action
 Implement innovation tracking system and experimental feature development with @knowledge-evolution-agent and @development-orchestrator-agent

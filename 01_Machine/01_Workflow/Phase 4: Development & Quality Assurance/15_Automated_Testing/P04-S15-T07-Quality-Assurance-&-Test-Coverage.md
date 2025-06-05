@@ -11,6 +11,11 @@ source: Step.json
 agent: "@test-orchestrator-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.md — Test_Coverage_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Quality_Metrics_Framework.json — Quality_Metrics_Framework.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Quality_Gates_Implementation.md — Quality_Gates_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Validation_Criteria.json — Validation_Criteria.json (missing)
 
 # Mission Statement
 Implement comprehensive quality assurance with test coverage analysis, quality metrics, coverage reporting, and gap analysis for quality validation in DafnckMachine v3.1.
@@ -33,10 +38,10 @@ You are @test-orchestrator-agent responsible for implementing quality assurance 
 - Quality assurance and test coverage analysis
 
 # Documentation & Templates
-- [Test_Coverage_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.md)
-- [Quality_Metrics_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Quality_Metrics_Framework.json)
-- [Quality_Gates_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Quality_Gates_Implementation.md)
-- [Validation_Criteria.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Validation_Criteria.json)
+- [Test_Coverage_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.md)
+- [Quality_Metrics_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Quality_Metrics_Framework.json)
+- [Quality_Gates_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Quality_Gates_Implementation.md)
+- [Validation_Criteria.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Validation_Criteria.json)
 
 # Primary Responsible Agent
 @test-orchestrator-agent
@@ -56,7 +61,7 @@ The @test-orchestrator-agent is selected for its expertise in quality assurance,
 - **ID**: P04-S15-T07-S01
 - **Description**: Develop test coverage analysis with quality metrics and gap identification.
 - **Agent**: @test-orchestrator-agent
-- **Documentation**: [Test_Coverage_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.md), [Quality_Metrics_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Quality_Metrics_Framework.json)
+- **Documentation**: [Test_Coverage_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.md), [Quality_Metrics_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Quality_Metrics_Framework.json)
 - **Steps**:
     1. Implement test coverage analysis with quality metrics and reporting (edit_file)
     2. Generate coverage reports and analyze quality metrics (run_terminal_cmd)
@@ -68,7 +73,7 @@ The @test-orchestrator-agent is selected for its expertise in quality assurance,
 - **ID**: P04-S15-T07-S02
 - **Description**: Develop quality gates with validation criteria and automated quality checks.
 - **Agent**: @test-orchestrator-agent
-- **Documentation**: [Quality_Gates_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Quality_Gates_Implementation.md), [Validation_Criteria.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Validation_Criteria.json)
+- **Documentation**: [Quality_Gates_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Quality_Gates_Implementation.md), [Validation_Criteria.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Validation_Criteria.json)
 - **Steps**:
     1. Implement quality gates with validation criteria and automated checks (edit_file)
     2. Configure release criteria and quality validation workflows (run_terminal_cmd)
@@ -93,10 +98,10 @@ The @test-orchestrator-agent is selected for its expertise in quality assurance,
 - Escalate to @coverage-analysis-lead or @quality-gates-lead if tests fail after 3 attempts
 
 # Output Artifacts
-- [Test_Coverage_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.md)
-- [Quality_Metrics_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Quality_Metrics_Framework.json)
-- [Quality_Gates_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Quality_Gates_Implementation.md)
-- [Validation_Criteria.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Validation_Criteria.json)
+- [Test_Coverage_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Coverage_Analysis.md)
+- [Quality_Metrics_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Quality_Metrics_Framework.json)
+- [Quality_Gates_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Quality_Gates_Implementation.md)
+- [Validation_Criteria.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Validation_Criteria.json)
 
 # Next Action
 Develop and execute test coverage analysis and quality gates with @test-orchestrator-agent

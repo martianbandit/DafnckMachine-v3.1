@@ -11,6 +11,9 @@ source: Step.json
 agent: "@task-planning-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Progress_Tracking_Framework.md — Progress_Tracking_Framework.md: Progress_Tracking_Framework.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Analytics_Dashboard_Specifications.md — Analytics_Dashboard_Specifications.md: Analytics_Dashboard_Specifications.md (missing)
 
 ## Mission Statement
 Set up and implement a system for tracking and monitoring development progress using TaskMaster for DafnckMachine v3.1.
@@ -35,11 +38,11 @@ Establish the framework for progress tracking, including status management, mile
 - Progress Monitoring: Comprehensive analytics and reporting for development visibility and control
 
 ## Documentation & Templates
-- [Progress_Tracking_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Progress_Tracking_Framework.md)
-- [Monitoring_System_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Monitoring_System_Setup.json)
-- [Analytics_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Analytics_Implementation_Guide.md)
-- [Reporting_System_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Reporting_System_Specs.json)
-- [Analytics_Dashboard_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Analytics_Dashboard_Specifications.md)
+- [Progress_Tracking_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Progress_Tracking_Framework.md)
+- [Monitoring_System_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Monitoring_System_Setup.json)
+- [Analytics_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Analytics_Implementation_Guide.md)
+- [Reporting_System_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Reporting_System_Specs.json)
+- [Analytics_Dashboard_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Analytics_Dashboard_Specifications.md)
 
 ## Primary Responsible Agent
 @task-planning-agent
@@ -62,13 +65,13 @@ Establish the framework for progress tracking, including status management, mile
 - **Description:** Establish the framework for progress tracking, including status management, milestone definition, and reporting metrics.
 - **Agent:** @task-planning-agent
 - **Documentation Links:**
-  - [Progress_Tracking_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Progress_Tracking_Framework.md)
-  - [Monitoring_System_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Monitoring_System_Setup.json)
+  - [Progress_Tracking_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Progress_Tracking_Framework.md)
+  - [Monitoring_System_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Monitoring_System_Setup.json)
 - **Steps:**
     1. Define and document task statuses and milestone criteria using edit_file.
     2. Ensure TaskMaster can set and reflect these statuses correctly for tasks and subtasks using mcp_taskmaster-ai_set_task_status and mcp_taskmaster-ai_get_task.
 - **Success Criteria:**
-    - File Exists: 01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Progress_Tracking_Framework.md
+    - File Exists: 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Progress_Tracking_Framework.md
     - File Content Matches: Framework document contains status definitions and milestone criteria
     - Tool Output Contains: "Status updated successfully"
     - mcp_taskmaster-ai_get_task output shows correct status
@@ -82,14 +85,14 @@ Establish the framework for progress tracking, including status management, mile
 - **Description:** Implement analytics and reporting capabilities to monitor progress, team productivity, and timeline adherence.
 - **Agent:** @task-planning-agent
 - **Documentation Links:**
-  - [Analytics_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Analytics_Implementation_Guide.md)
-  - [Reporting_System_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Reporting_System_Specs.json)
-  - [Analytics_Dashboard_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Analytics_Dashboard_Specifications.md)
+  - [Analytics_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Analytics_Implementation_Guide.md)
+  - [Reporting_System_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Reporting_System_Specs.json)
+  - [Analytics_Dashboard_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Analytics_Dashboard_Specifications.md)
 - **Steps:**
     1. Define KPIs and reporting requirements for project analytics using edit_file.
     2. Verify that mcp_taskmaster-ai_get_tasks can provide data for these reports.
 - **Success Criteria:**
-    - File Exists: 01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Analytics_Dashboard_Specifications.md
+    - File Exists: 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Analytics_Dashboard_Specifications.md
     - File Content Matches: Specifications document outlines KPIs and report formats
     - Tool Output Contains: Task list data suitable for generating defined reports
 - **On Failure:** NOTIFY_AND_CONTINUE (manual reporting will be necessary)
@@ -116,8 +119,8 @@ Establish the framework for progress tracking, including status management, mile
 - Progress Tracking Issues: Enhance monitoring system and improve analytics accuracy
 
 ## Output Artifacts
-- [Progress_Tracking_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Progress_Tracking_Framework.md)
-- [Analytics_Dashboard_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Analytics_Dashboard_Specifications.md)
+- [Progress_Tracking_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Progress_Tracking_Framework.md)
+- [Analytics_Dashboard_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Analytics_Dashboard_Specifications.md)
 
 ## Next Action
 Proceed to P04-S11-T07-Development-Workflow-Integration.md

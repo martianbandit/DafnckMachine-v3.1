@@ -11,6 +11,8 @@ source: Step.json
 agent: "@coding-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- _No Output Artifacts section found_
 
 ## Mission Statement
 Implement comprehensive authentication system with user management APIs, JWT token handling, and role-based access control for secure backend services.
@@ -35,10 +37,10 @@ You are @coding-agent. Your mission is to implement secure authentication and us
 - User Management: Role-based access control, permission systems, user profile management
 
 ## Documentation & Templates
-- [Authentication_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Authentication_Implementation.md)
-- [JWT_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/JWT_Configuration.json)
-- [User_Management_APIs.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/User_Management_APIs.md)
-- [RBAC_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/RBAC_Configuration.json)
+- [Authentication_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Authentication_Implementation.md)
+- [JWT_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/JWT_Configuration.json)
+- [User_Management_APIs.md](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/User_Management_APIs.md)
+- [RBAC_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/RBAC_Configuration.json)
 
 ## Primary Responsible Agent
 @coding-agent

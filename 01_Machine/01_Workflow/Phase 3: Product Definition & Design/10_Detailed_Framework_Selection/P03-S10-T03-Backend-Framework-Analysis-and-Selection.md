@@ -11,6 +11,11 @@ source: Step.json
 agent: "@technology-advisor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Backend_Framework_Analysis.md — Backend_Framework_Analysis.md: Backend_Framework_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Backend_Comparison_Matrix.json — Backend_Comparison_Matrix.json: Backend_Comparison_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/API_Framework_Selection.md — API_Framework_Selection.md: API_Framework_Selection.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Middleware_Specifications.json — Middleware_Specifications.json: Middleware_Specifications.json (missing)
 
 ## Mission Statement
 Analyze and select suitable backend frameworks, API frameworks, and middleware for DafnckMachine v3.1, ensuring optimal performance, scalability, and maintainability.
@@ -34,10 +39,10 @@ You are @technology-advisor-agent. Your mission is to evaluate and select backen
 - Backend framework and API/middleware selection criteria and rationale
 
 ## Documentation & Templates
-- [Backend_Framework_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Backend_Framework_Analysis.md)
-- [Backend_Comparison_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Backend_Comparison_Matrix.json)
-- [API_Framework_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/API_Framework_Selection.md)
-- [Middleware_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Middleware_Specifications.json)
+- [Backend_Framework_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Backend_Framework_Analysis.md)
+- [Backend_Comparison_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Backend_Comparison_Matrix.json)
+- [API_Framework_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/API_Framework_Selection.md)
+- [Middleware_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Middleware_Specifications.json)
 
 ## Primary Responsible Agent
 @technology-advisor-agent
@@ -97,10 +102,10 @@ You are @technology-advisor-agent. Your mission is to evaluate and select backen
 - Update selection as new backend requirements emerge
 
 ## Output Artifacts
-- [Backend_Framework_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Backend_Framework_Analysis.md)
-- [Backend_Comparison_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Backend_Comparison_Matrix.json)
-- [API_Framework_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/API_Framework_Selection.md)
-- [Middleware_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Middleware_Specifications.json)
+- [Backend_Framework_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Backend_Framework_Analysis.md)
+- [Backend_Comparison_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Backend_Comparison_Matrix.json)
+- [API_Framework_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/API_Framework_Selection.md)
+- [Middleware_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Middleware_Specifications.json)
 
 ## Next Action
 Initiate backend framework research and evaluation with @technology-advisor-agent.

@@ -11,6 +11,11 @@ source: Step.json
 agent: "@devops-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Rollback_Recovery_Procedures.md — Rollback_Recovery_Procedures.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Recovery_Procedures.json — Recovery_Procedures.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Disaster_Recovery_Implementation.md — Disaster_Recovery_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Backup_Configuration.json — Backup_Configuration.json (missing)
 
 # Mission Statement
 Implement automated rollback and disaster recovery with failure detection, automatic rollback triggers, version management, and data consistency for DafnckMachine v3.1.
@@ -40,10 +45,10 @@ You are @devops-agent. Your mission is to implement automated rollback and disas
 - Version Management: Data consistency, business continuity
 
 # Documentation & Templates
-- [Rollback_Recovery_Procedures.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Rollback_Recovery_Procedures.md)
-- [Recovery_Procedures.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Recovery_Procedures.json)
-- [Disaster_Recovery_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Disaster_Recovery_Implementation.md)
-- [Backup_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Backup_Configuration.json)
+- [Rollback_Recovery_Procedures.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Rollback_Recovery_Procedures.md)
+- [Recovery_Procedures.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Recovery_Procedures.json)
+- [Disaster_Recovery_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Disaster_Recovery_Implementation.md)
+- [Backup_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Backup_Configuration.json)
 
 # Primary Responsible Agent
 @devops-agent
@@ -65,7 +70,7 @@ You are @devops-agent. Your mission is to implement automated rollback and disas
 - **ID**: P05-T08-S01
 - **Description**: Implement automated rollback with failure detection and automatic rollback triggers.
 - **Agent**: @devops-agent
-- **Documentation Links**: [Rollback_Automation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Rollback_Automation_Guide.md), [Recovery_Procedures.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Recovery_Procedures.json)
+- **Documentation Links**: [Rollback_Automation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Rollback_Automation_Guide.md), [Recovery_Procedures.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Recovery_Procedures.json)
 - **Steps**:
     1. Setup rollback infrastructure and base configuration (Success: "Rollback infrastructure initialized")
     2. Configure rollback with failure detection (Success: rollback-detection.yml exists, content matches rollback/detection)
@@ -79,7 +84,7 @@ You are @devops-agent. Your mission is to implement automated rollback and disas
 - **ID**: P05-T08-S02
 - **Description**: Implement disaster recovery with backup automation, data replication, recovery procedures, and business continuity.
 - **Agent**: @devops-agent
-- **Documentation Links**: [Disaster_Recovery_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Disaster_Recovery_Implementation.md), [Backup_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Backup_Configuration.json)
+- **Documentation Links**: [Disaster_Recovery_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Disaster_Recovery_Implementation.md), [Backup_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Backup_Configuration.json)
 - **Steps**:
     1. Setup disaster recovery infrastructure and base configuration (Success: "Disaster recovery infrastructure initialized")
     2. Configure backup automation with disaster recovery (Success: backup-automation.yml exists, content matches backup/automation)
@@ -112,7 +117,7 @@ You are @devops-agent. Your mission is to implement automated rollback and disas
 
 # Output Artifacts
 - [Rollback_Recovery_Procedures.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Rollback_Recovery_Procedures.md)
-- [Disaster_Recovery_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/16_Deployment_Automation/Disaster_Recovery_Implementation.md)
+- [Disaster_Recovery_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/16_Deployment_Automation/Disaster_Recovery_Implementation.md)
 
 # Next Action
 Proceed to P05-S01-T09-Performance-Optimization-and-Scaling.md

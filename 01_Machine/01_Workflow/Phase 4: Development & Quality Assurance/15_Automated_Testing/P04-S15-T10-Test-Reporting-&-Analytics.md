@@ -11,6 +11,11 @@ source: Step.json
 agent: "@test-orchestrator-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Reporting_Dashboard.md — Test_Reporting_Dashboard.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Analytics_Framework.json — Analytics_Framework.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Quality_Metrics_Monitoring.md — Quality_Metrics_Monitoring.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Monitoring_Systems_Setup.json — Monitoring_Systems_Setup.json (missing)
 
 # Mission Statement
 Implement comprehensive test reporting with test result dashboards, analytics reporting, trend analysis, and quality metrics visualization for testing insights in DafnckMachine v3.1.
@@ -33,10 +38,10 @@ You are @test-orchestrator-agent responsible for implementing test reporting and
 - Test reporting and analytics
 
 # Documentation & Templates
-- [Test_Reporting_Dashboard.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Reporting_Dashboard.md)
-- [Analytics_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Analytics_Framework.json)
-- [Quality_Metrics_Monitoring.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Quality_Metrics_Monitoring.md)
-- [Monitoring_Systems_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Monitoring_Systems_Setup.json)
+- [Test_Reporting_Dashboard.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Reporting_Dashboard.md)
+- [Analytics_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Analytics_Framework.json)
+- [Quality_Metrics_Monitoring.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Quality_Metrics_Monitoring.md)
+- [Monitoring_Systems_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Monitoring_Systems_Setup.json)
 
 # Primary Responsible Agent
 @test-orchestrator-agent
@@ -56,7 +61,7 @@ The @test-orchestrator-agent is selected for its expertise in test reporting, an
 - **ID**: P04-T10-S15
 - **Description**: Develop test reporting dashboard with analytics and quality metrics visualization.
 - **Agent**: @test-orchestrator-agent
-- **Documentation**: [Test_Reporting_Dashboard.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Reporting_Dashboard.md), [Analytics_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Analytics_Framework.json)
+- **Documentation**: [Test_Reporting_Dashboard.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Reporting_Dashboard.md), [Analytics_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Analytics_Framework.json)
 - **Steps**:
     1. Implement test reporting dashboard with analytics and quality metrics visualization (edit_file)
     2. Configure dashboard setup and analytics integration (run_terminal_cmd)
@@ -68,7 +73,7 @@ The @test-orchestrator-agent is selected for its expertise in test reporting, an
 - **ID**: P04-T10-S16
 - **Description**: Develop quality monitoring system with metrics tracking, alerting, performance monitoring, and trend analysis.
 - **Agent**: @test-orchestrator-agent
-- **Documentation**: [Quality_Metrics_Monitoring.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Quality_Metrics_Monitoring.md), [Monitoring_Systems_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Monitoring_Systems_Setup.json)
+- **Documentation**: [Quality_Metrics_Monitoring.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Quality_Metrics_Monitoring.md), [Monitoring_Systems_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Monitoring_Systems_Setup.json)
 - **Steps**:
     1. Implement quality monitoring with metrics tracking and alerting systems (edit_file)
     2. Configure quality trend analysis and monitoring automation (run_terminal_cmd)
@@ -93,10 +98,10 @@ The @test-orchestrator-agent is selected for its expertise in test reporting, an
 - Escalate to @test-reporting-lead or @quality-monitoring-lead if tests fail after 3 attempts
 
 # Output Artifacts
-- [Test_Reporting_Dashboard.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Test_Reporting_Dashboard.md)
-- [Analytics_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Analytics_Framework.json)
-- [Quality_Metrics_Monitoring.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Quality_Metrics_Monitoring.md)
-- [Monitoring_Systems_Setup.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Monitoring_Systems_Setup.json)
+- [Test_Reporting_Dashboard.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Test_Reporting_Dashboard.md)
+- [Analytics_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Analytics_Framework.json)
+- [Quality_Metrics_Monitoring.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Quality_Metrics_Monitoring.md)
+- [Monitoring_Systems_Setup.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Monitoring_Systems_Setup.json)
 
 # Next Action
 Develop and execute test reporting and quality monitoring with @test-orchestrator-agent

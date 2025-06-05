@@ -11,6 +11,11 @@ source: Step.json
 agent: "@performance-load-tester-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/APM_Implementation_Guide.md — APM_Implementation_Guide.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Performance_Metrics_Configuration.json — Performance_Metrics_Configuration.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Performance_Dashboard_Implementation.md — Performance_Dashboard_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Metrics_Visualization.json — Metrics_Visualization.json (missing)
 
 # Mission Statement
 Implement and configure Application Performance Monitoring (APM) to track and analyze the performance of the application in real-time for DafnckMachine v3.1.
@@ -42,10 +47,10 @@ You are @performance-load-tester-agent. Your mission is to implement and configu
 - Dashboard structure and KPIs
 
 # Documentation & Templates
-- [APM_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/APM_Implementation_Guide.md)
-- [Performance_Metrics_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Performance_Metrics_Configuration.json)
-- [Performance_Dashboard_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Performance_Dashboard_Implementation.md)
-- [Metrics_Visualization.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Metrics_Visualization.json)
+- [APM_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/APM_Implementation_Guide.md)
+- [Performance_Metrics_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Performance_Metrics_Configuration.json)
+- [Performance_Dashboard_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Performance_Dashboard_Implementation.md)
+- [Metrics_Visualization.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Metrics_Visualization.json)
 
 # Primary Responsible Agent
 @performance-load-tester-agent
@@ -69,8 +74,8 @@ The @performance-load-tester-agent is chosen for its expertise in APM implementa
 - **Description**: Implement and configure APM agents, define key performance metrics, set up transaction tracing, and enable error tracking.
 - **Agent**: @performance-load-tester-agent
 - **Documentation Links**:
-  - [APM_Implementation_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/APM_Implementation_Guide.md)
-  - [Performance_Metrics_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Performance_Metrics_Configuration.json)
+  - [APM_Implementation_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/APM_Implementation_Guide.md)
+  - [Performance_Metrics_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Performance_Metrics_Configuration.json)
 - **Steps**:
   1. Configure APM settings in Performance_Metrics_Configuration.json including agent setup, performance metrics, transaction tracing, and error tracking.
      - Tool: edit_file
@@ -92,8 +97,8 @@ The @performance-load-tester-agent is chosen for its expertise in APM implementa
 - **Description**: Create dashboards for visualizing performance metrics, KPIs, trend analysis, and capacity planning based on APM data.
 - **Agent**: @health-monitor-agent
 - **Documentation Links**:
-  - [Performance_Dashboard_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Performance_Dashboard_Implementation.md)
-  - [Metrics_Visualization.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Metrics_Visualization.json)
+  - [Performance_Dashboard_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Performance_Dashboard_Implementation.md)
+  - [Metrics_Visualization.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Metrics_Visualization.json)
 - **Steps**:
   1. Configure dashboard settings in Metrics_Visualization.json for performance KPIs, trend analysis, and capacity planning.
      - Tool: edit_file
@@ -130,8 +135,8 @@ The @performance-load-tester-agent is chosen for its expertise in APM implementa
 - Error tracking and alerting
 
 # Output Artifacts
-- [Performance_Metrics_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Performance_Metrics_Configuration.json)
-- [Metrics_Visualization.json](mdc:01_Machine/04_Documentation/Doc/Phase_5/17_Monitoring_Analytics/Metrics_Visualization.json)
+- [Performance_Metrics_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Performance_Metrics_Configuration.json)
+- [Metrics_Visualization.json](mdc:01_Machine/04_Documentation/vision/Phase_5/17_Monitoring_Analytics/Metrics_Visualization.json)
 
 # Next Action
 Implement and configure APM with @performance-load-tester-agent

@@ -11,6 +11,9 @@ source: Step.json
 agent: "@system-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/System_Architecture_Design.md — System_Architecture_Design.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/High_Level_Design_Specifications.json — High_Level_Design_Specifications.json (missing)
 
 # Mission Statement
 Establish the foundational system architecture, including high-level design and component definitions, to guide all subsequent technical decisions and development implementation for DafnckMachine v3.1.
@@ -34,8 +37,8 @@ You are @system-architect-agent responsible for designing comprehensive technica
 - System Architecture: Complete technical system design with component structure and interaction patterns
 
 # Documentation & Templates
-- [System_Architecture_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/System_Architecture_Design.md)
-- [High_Level_Design_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/High_Level_Design_Specifications.json)
+- [System_Architecture_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/System_Architecture_Design.md)
+- [High_Level_Design_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/High_Level_Design_Specifications.json)
 
 # Primary Responsible Agent
 @system-architect-agent - technical-architecture
@@ -58,8 +61,8 @@ The @system-architect-agent is chosen for its specialized expertise in system de
 - **Description**: Design the overall system architecture, defining component structures, system boundaries, interaction patterns, data flow, and architectural principles.
 - **Agent Assignment**: @system-architect-agent (system-design, architecture-planning)
 - **Documentation Links**:
-  - [System_Architecture_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/System_Architecture_Design.md)
-  - [High_Level_Design_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/High_Level_Design_Specifications.json)
+  - [System_Architecture_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/System_Architecture_Design.md)
+  - [High_Level_Design_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/High_Level_Design_Specifications.json)
 - **Steps**:
   1. Search for existing feature requirements documentation to inform the system architecture. (file_search)
   2. Based on gathered requirements, design system architecture: component structure, system boundaries, interaction patterns, data flow design, architectural principles. (CognitiveProcessing)
@@ -79,8 +82,8 @@ The @system-architect-agent is chosen for its specialized expertise in system de
 - **Description**: Design the detailed component architecture, including module boundaries, component interfaces, dependency management, and strategies for minimizing coupling and maximizing cohesion.
 - **Agent Assignment**: @system-architect-agent (component-design, modular-architecture)
 - **Documentation Links**:
-  - [Component_Architecture_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Component_Architecture_Design.md)
-  - [Module_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Module_Specifications.json)
+  - [Component_Architecture_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Component_Architecture_Design.md)
+  - [Module_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Module_Specifications.json)
 - **Steps**:
   1. Design component architecture: module boundaries, component interfaces, dependency management, coupling minimization, cohesion optimization. (CognitiveProcessing)
   2. Document the component architecture in Component_Architecture_Design.md. (edit_file)

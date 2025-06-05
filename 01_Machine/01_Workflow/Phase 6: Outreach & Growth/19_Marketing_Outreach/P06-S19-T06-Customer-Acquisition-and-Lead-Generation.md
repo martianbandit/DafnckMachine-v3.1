@@ -11,6 +11,8 @@ source: Step.json
 agent: "@marketing-strategy-orchestrator"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Customer_Acquisition_Strategy.md — Customer_Acquisition_Strategy.md: Lead generation and conversion funnel optimization (missing)
 
 ## Workflow Metadata
 - **Workflow-Step**: Marketing Outreach
@@ -50,10 +52,10 @@ Develop and execute lead generation and customer acquisition strategies, includi
 - **Customer Acquisition**: Funnel mapping, tracking, optimization
 
 ## Documentation & Templates
-- [Lead Generation Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Lead_Generation_Strategy.md)
-- [Acquisition Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Acquisition_Framework.json)
-- [Conversion Funnel Optimization](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Conversion_Funnel_Optimization.md)
-- [Funnel Analysis Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Funnel_Analysis_Framework.json)
+- [Lead Generation Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Lead_Generation_Strategy.md)
+- [Acquisition Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Acquisition_Framework.json)
+- [Conversion Funnel Optimization](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Conversion_Funnel_Optimization.md)
+- [Funnel Analysis Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Funnel_Analysis_Framework.json)
 
 ## Primary Responsible Agent
 @marketing-strategy-orchestrator
@@ -76,8 +78,8 @@ The Marketing Strategy Orchestrator is chosen for expertise in lead generation, 
 - **Description**: Develop lead magnets, capture mechanisms, and nurturing workflows.
 - **Agent Assignment**: @marketing-strategy-orchestrator
 - **Documentation Links**:
-  - [Lead Generation Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Lead_Generation_Strategy.md)
-  - [Acquisition Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Acquisition_Framework.json)
+  - [Lead Generation Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Lead_Generation_Strategy.md)
+  - [Acquisition Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Acquisition_Framework.json)
 - **Steps**:
     1. Design lead magnets (e.g., ebooks, webinars, free trials).
     2. Implement lead capture mechanisms (e.g., landing pages, forms).
@@ -94,8 +96,8 @@ The Marketing Strategy Orchestrator is chosen for expertise in lead generation, 
 - **Description**: Map, track, and optimize conversion funnels for acquisition efficiency.
 - **Agent Assignment**: @analytics-setup-agent
 - **Documentation Links**:
-  - [Conversion Funnel Optimization](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Conversion_Funnel_Optimization.md)
-  - [Funnel Analysis Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Funnel_Analysis_Framework.json)
+  - [Conversion Funnel Optimization](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Conversion_Funnel_Optimization.md)
+  - [Funnel Analysis Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Funnel_Analysis_Framework.json)
 - **Steps**:
     1. Map out existing conversion funnels and set up tracking.
     2. Analyze funnel performance and identify improvements.
@@ -130,7 +132,7 @@ The Marketing Strategy Orchestrator is chosen for expertise in lead generation, 
 - Poor Lead Quality: Refine qualification criteria
 
 ## Output Artifacts
-- [Customer_Acquisition_Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/Customer_Acquisition_Strategy.md): Lead generation and conversion funnel optimization
+- [Customer_Acquisition_Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Customer_Acquisition_Strategy.md): Lead generation and conversion funnel optimization
 
 ## Next Action
 Design lead magnets and map conversion funnels with @marketing-strategy-orchestrator

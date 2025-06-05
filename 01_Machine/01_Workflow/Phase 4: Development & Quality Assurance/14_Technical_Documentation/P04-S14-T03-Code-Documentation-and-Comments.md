@@ -11,6 +11,9 @@ source: Step.json
 agent: "@documentation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Code_Commenting_Standards.md — Code_Commenting_Standards.md: Code_Commenting_Standards.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Code_Documentation_Examples.md — Code_Documentation_Examples.md: Code_Documentation_Examples.md (missing)
 
 ## Mission Statement
 Ensure all code is thoroughly documented with clear comments, explanations, and references to facilitate maintenance, onboarding, and collaboration.
@@ -35,8 +38,8 @@ You are @documentation-agent and @coding-agent responsible for code documentatio
 - Code documentation standards, comment practices, and module explanations
 
 ## Documentation & Templates
-- [Code_Commenting_Standards.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Code_Commenting_Standards.md)
-- [Code_Documentation_Examples.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Code_Documentation_Examples.md)
+- [Code_Commenting_Standards.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Code_Commenting_Standards.md)
+- [Code_Documentation_Examples.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Code_Documentation_Examples.md)
 
 ## Primary Responsible Agent
 @documentation-agent, @coding-agent
@@ -59,7 +62,7 @@ The Documentation Agent and Coding Agent are chosen for their expertise in code 
 - **Description**: Document all code modules, functions, and classes with meaningful comments
 - **Agent Assignment**: @coding-agent
 - **Documentation Links**:
-  - [Code_Commenting_Standards.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Code_Commenting_Standards.md)
+  - [Code_Commenting_Standards.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Code_Commenting_Standards.md)
 - **Steps**:
     1. Add comments to all modules, functions, and classes (edit_file)
     2. Review and update comments for clarity (edit_file)
@@ -73,7 +76,7 @@ The Documentation Agent and Coding Agent are chosen for their expertise in code 
 - **Description**: Establish and enforce standards for code comments and documentation
 - **Agent Assignment**: @documentation-agent
 - **Documentation Links**:
-  - [Code_Documentation_Examples.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Code_Documentation_Examples.md)
+  - [Code_Documentation_Examples.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Code_Documentation_Examples.md)
 - **Steps**:
     1. Define and document commenting standards (edit_file)
     2. Share standards with development team (edit_file)
@@ -98,8 +101,8 @@ The Documentation Agent and Coding Agent are chosen for their expertise in code 
 - Regular reviews and updates to code comments
 
 ## Output Artifacts
-- [Code_Commenting_Standards.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Code_Commenting_Standards.md)
-- [Code_Documentation_Examples.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Code_Documentation_Examples.md)
+- [Code_Commenting_Standards.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Code_Commenting_Standards.md)
+- [Code_Documentation_Examples.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Code_Documentation_Examples.md)
 
 ## Next Action
 Document all code modules and establish commenting standards with @documentation-agent and @coding-agent

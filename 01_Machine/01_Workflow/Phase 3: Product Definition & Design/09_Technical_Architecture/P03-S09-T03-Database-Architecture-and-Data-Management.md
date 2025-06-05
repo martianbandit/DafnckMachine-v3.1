@@ -11,6 +11,11 @@ source: Step.json
 agent: "@system-architect-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Database_Schema_Design.md — Database_Schema_Design.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Data_Model_Specifications.json — Data_Model_Specifications.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Data_Management_Strategy.md — Data_Management_Strategy.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Storage_Optimization_Plan.json — Storage_Optimization_Plan.json (missing)
 
 # Mission Statement
 Design the database architecture and establish a comprehensive data management strategy for DafnckMachine v3.1.
@@ -34,10 +39,10 @@ You are @system-architect-agent responsible for designing the database architect
 - Data Management: Storage, backup, migration, archiving, and governance
 
 # Documentation & Templates
-- [Database_Schema_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Database_Schema_Design.md)
-- [Data_Model_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Data_Model_Specifications.json)
-- [Data_Management_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Data_Management_Strategy.md)
-- [Storage_Optimization_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Storage_Optimization_Plan.json)
+- [Database_Schema_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Database_Schema_Design.md)
+- [Data_Model_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Data_Model_Specifications.json)
+- [Data_Management_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Data_Management_Strategy.md)
+- [Storage_Optimization_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Storage_Optimization_Plan.json)
 
 # Primary Responsible Agent
 @system-architect-agent
@@ -58,8 +63,8 @@ The @system-architect-agent is chosen for its expertise in database design and d
 - **Description**: Design the database schema, including relationship modeling, indexing strategy, normalization, and query performance optimization.
 - **Agent Assignment**: @system-architect-agent (database-design, schema-architecture)
 - **Documentation Links**:
-  - [Database_Schema_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Database_Schema_Design.md)
-  - [Data_Model_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Data_Model_Specifications.json)
+  - [Database_Schema_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Database_Schema_Design.md)
+  - [Data_Model_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Data_Model_Specifications.json)
 - **Steps**:
   1. Design database architecture: schema design, relationship modeling, indexing strategy, normalization optimization, query performance based on selected backend technology and application requirements (CognitiveProcessing)
   2. Document the database schema design, including diagrams, table definitions, relationships, and indexing strategies in Database_Schema_Design.md (edit_file)
@@ -75,8 +80,8 @@ The @system-architect-agent is chosen for its expertise in database design and d
 - **Description**: Design a comprehensive data management strategy covering data storage, backup procedures, migration, archiving, and governance.
 - **Agent Assignment**: @system-architect-agent (data-management, storage-strategy)
 - **Documentation Links**:
-  - [Data_Management_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Data_Management_Strategy.md)
-  - [Storage_Optimization_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Storage_Optimization_Plan.json)
+  - [Data_Management_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Data_Management_Strategy.md)
+  - [Storage_Optimization_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Storage_Optimization_Plan.json)
 - **Steps**:
   1. Design data management strategy: data storage solutions, backup and recovery procedures, data migration plans, data archiving policies, and data governance framework (CognitiveProcessing)
   2. Document the data management strategy in Data_Management_Strategy.md (edit_file)

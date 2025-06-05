@@ -11,6 +11,11 @@ source: Step.json
 agent: "@technology-advisor-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Frontend_Framework_Analysis.md — Frontend_Framework_Analysis.md: Frontend_Framework_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Frontend_Comparison_Matrix.json — Frontend_Comparison_Matrix.json: Frontend_Comparison_Matrix.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/UI_Library_Selection.md — UI_Library_Selection.md: UI_Library_Selection.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Component_Framework_Specs.json — Component_Framework_Specs.json: Component_Framework_Specs.json (missing)
 
 ## Mission Statement
 Analyze and select suitable frontend frameworks, UI libraries, and component frameworks for DafnckMachine v3.1, ensuring optimal performance, maintainability, and developer experience.
@@ -34,10 +39,10 @@ You are @technology-advisor-agent. Your mission is to evaluate and select fronte
 - Frontend framework and UI library selection criteria and rationale
 
 ## Documentation & Templates
-- [Frontend_Framework_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Frontend_Framework_Analysis.md)
-- [Frontend_Comparison_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Frontend_Comparison_Matrix.json)
-- [UI_Library_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/UI_Library_Selection.md)
-- [Component_Framework_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Component_Framework_Specs.json)
+- [Frontend_Framework_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Frontend_Framework_Analysis.md)
+- [Frontend_Comparison_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Frontend_Comparison_Matrix.json)
+- [UI_Library_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/UI_Library_Selection.md)
+- [Component_Framework_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Component_Framework_Specs.json)
 
 ## Primary Responsible Agent
 @technology-advisor-agent
@@ -97,10 +102,10 @@ You are @technology-advisor-agent. Your mission is to evaluate and select fronte
 - Update selection as new frontend requirements emerge
 
 ## Output Artifacts
-- [Frontend_Framework_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Frontend_Framework_Analysis.md)
-- [Frontend_Comparison_Matrix.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Frontend_Comparison_Matrix.json)
-- [UI_Library_Selection.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/UI_Library_Selection.md)
-- [Component_Framework_Specs.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/10_Detailed_Framework_Selection/Component_Framework_Specs.json)
+- [Frontend_Framework_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Frontend_Framework_Analysis.md)
+- [Frontend_Comparison_Matrix.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Frontend_Comparison_Matrix.json)
+- [UI_Library_Selection.md](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/UI_Library_Selection.md)
+- [Component_Framework_Specs.json](mdc:01_Machine/04_Documentation/vision/Phase_3/10_Detailed_Framework_Selection/Component_Framework_Specs.json)
 
 ## Next Action
 Initiate frontend framework research and evaluation with @technology-advisor-agent.

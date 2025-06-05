@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ui-designer-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Wireframe_Specifications.md — Wireframe_Specifications.md: Wireframe_Specifications.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Layout_Structure_Plans.json — Layout_Structure_Plans.json: Layout_Structure_Plans.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Responsive_Design_Guidelines.md — Responsive_Design_Guidelines.md: Responsive_Design_Guidelines.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Breakpoint_Specifications.json — Breakpoint_Specifications.json: Breakpoint_Specifications.json (missing)
 
 # Previous Task: P03-S07-T03-Information-Architecture-&-Navigation-Design.md
 # Current Task: P03-S07-T04-Wireframe-Development-&-Layout-Design.md
@@ -47,10 +52,10 @@ You are @ui-designer-agent. Your mission is to develop wireframes and responsive
 - Responsive design guidelines and breakpoint specifications
 
 ## Documentation & Templates
-- [Wireframe_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Wireframe_Specifications.md)
-- [Layout_Structure_Plans.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Layout_Structure_Plans.json)
-- [Responsive_Design_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Responsive_Design_Guidelines.md)
-- [Breakpoint_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Breakpoint_Specifications.json)
+- [Wireframe_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Wireframe_Specifications.md)
+- [Layout_Structure_Plans.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Layout_Structure_Plans.json)
+- [Responsive_Design_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Responsive_Design_Guidelines.md)
+- [Breakpoint_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Breakpoint_Specifications.json)
 
 ## Primary Responsible Agent
 @ui-designer-agent
@@ -76,8 +81,8 @@ The @ui-designer-agent is selected for its expertise in wireframe design, layout
 - **Description**: Develop detailed wireframes with layout structures, content placement, functional element positioning, and responsive considerations for all key user interfaces.
 - **Agent Assignment**: @ui-designer-agent
 - **Documentation Links**:
-  - [Wireframe_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Wireframe_Specifications.md)
-  - [Layout_Structure_Plans.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Layout_Structure_Plans.json)
+  - [Wireframe_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Wireframe_Specifications.md)
+  - [Layout_Structure_Plans.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Layout_Structure_Plans.json)
 - **Steps**:
     1. Create wireframes with layout structure and content placement (Tool: edit_file)
     2. Add responsive considerations and interaction indicators (Tool: edit_file)
@@ -90,8 +95,8 @@ The @ui-designer-agent is selected for its expertise in wireframe design, layout
 - **Description**: Design comprehensive responsive framework with breakpoint strategies, layout adaptation rules, content prioritization, and touch interaction optimization for multi-device experiences.
 - **Agent Assignment**: @ui-designer-agent
 - **Documentation Links**:
-  - [Responsive_Design_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Responsive_Design_Guidelines.md)
-  - [Breakpoint_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Breakpoint_Specifications.json)
+  - [Responsive_Design_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Responsive_Design_Guidelines.md)
+  - [Breakpoint_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Breakpoint_Specifications.json)
 - **Steps**:
     1. Design breakpoint strategy and layout adaptation rules (Tool: edit_file)
     2. Optimize touch interactions and multi-device experiences (Tool: edit_file)
@@ -116,10 +121,10 @@ The @ui-designer-agent is selected for its expertise in wireframe design, layout
 - Continuous usability testing and feedback integration throughout wireframe and layout design
 
 ## Output Artifacts
-- [Wireframe_Specifications.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Wireframe_Specifications.md)
-- [Layout_Structure_Plans.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Layout_Structure_Plans.json)
-- [Responsive_Design_Guidelines.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Responsive_Design_Guidelines.md)
-- [Breakpoint_Specifications.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Breakpoint_Specifications.json)
+- [Wireframe_Specifications.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Wireframe_Specifications.md)
+- [Layout_Structure_Plans.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Layout_Structure_Plans.json)
+- [Responsive_Design_Guidelines.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Responsive_Design_Guidelines.md)
+- [Breakpoint_Specifications.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Breakpoint_Specifications.json)
 
 ## Next Action
 Initiate wireframe and layout design with @ui-designer-agent

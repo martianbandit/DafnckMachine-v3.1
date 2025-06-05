@@ -3,6 +3,9 @@ Previous Task: P06-S18-T04-Performance-Enhancement-Optimization.md
 Current Task: P06-S18-T05-Iterative-Development-Rapid-Iteration.md
 Next Task: P06-S18-T06-Data-Driven-Improvement-Analytics.md
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md — Iterative_Development_Framework.md: Agile improvement and CI/CD (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/CI_CD_Improvement_Optimization.md — CI_CD_Improvement_Optimization.md: CI/CD pipeline optimization (missing)
 
 # Workflow Metadata
 - **Workflow-Step**: Continuous Improvement
@@ -38,8 +41,8 @@ You are @development-orchestrator-agent. Your mission is to implement agile impr
 - **Iterative Development**: Agile improvement processes with rapid iteration and continuous delivery
 
 # Documentation & Templates
-- [Iterative_Development_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md): Agile improvement and CI/CD
-- [CI_CD_Improvement_Optimization.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/CI_CD_Improvement_Optimization.md): CI/CD pipeline optimization
+- [Iterative_Development_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md): Agile improvement and CI/CD
+- [CI_CD_Improvement_Optimization.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/CI_CD_Improvement_Optimization.md): CI/CD pipeline optimization
 
 # Primary Responsible Agent
 @development-orchestrator-agent
@@ -59,7 +62,7 @@ The Development Orchestrator Agent is chosen for its expertise in agile improvem
 - **ID**: P05-T05-S01
 - **Description**: Implement iterative development cycles, rapid prototyping, and continuous delivery.
 - **Agent**: @development-orchestrator-agent
-- **Documentation**: [Iterative_Development_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md)
+- **Documentation**: [Iterative_Development_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md)
 - **Steps**:
     1. Implement agile improvement: iterative development cycles, rapid prototyping, continuous delivery, feedback integration (Tool: edit_file)
         - Success: `config/agile_process_config.json` exists and contains `"sprintDurationDays": 14`
@@ -73,7 +76,7 @@ The Development Orchestrator Agent is chosen for its expertise in agile improvem
 - **ID**: P05-T05-S02
 - **Description**: Optimize CI/CD pipelines for improvement deployment, including automation and testing.
 - **Agent**: @development-orchestrator-agent
-- **Documentation**: [CI_CD_Improvement_Optimization.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/CI_CD_Improvement_Optimization.md)
+- **Documentation**: [CI_CD_Improvement_Optimization.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/CI_CD_Improvement_Optimization.md)
 - **Steps**:
     1. Optimize CI/CD for improvements: deployment automation, testing integration, release management, rollback procedures (Tool: edit_file)
         - Success: `cicd/pipeline_config_v2.yml` exists and contains `enableAutomatedRollback: true`
@@ -103,8 +106,8 @@ The Development Orchestrator Agent is chosen for its expertise in agile improvem
 - Escalate to human on persistent issues
 
 # Output Artifacts
-- [Iterative_Development_Framework.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md)
-- [CI_CD_Improvement_Optimization.md](mdc:01_Machine/04_Documentation/Doc/Phase_5/18_Continuous_Improvement/CI_CD_Improvement_Optimization.md)
+- [Iterative_Development_Framework.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/Iterative_Development_Framework.md)
+- [CI_CD_Improvement_Optimization.md](mdc:01_Machine/04_Documentation/vision/Phase_5/18_Continuous_Improvement/CI_CD_Improvement_Optimization.md)
 
 # Next Action
 Implement agile improvement processes and optimize CI/CD with @development-orchestrator-agent

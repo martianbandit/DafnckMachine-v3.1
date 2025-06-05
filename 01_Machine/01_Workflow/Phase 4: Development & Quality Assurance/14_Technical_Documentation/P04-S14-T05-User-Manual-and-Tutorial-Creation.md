@@ -11,6 +11,9 @@ source: Step.json
 agent: "@documentation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/User_Manual.md — User_Manual.md: User_Manual.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Tutorials.md — Tutorials.md: Tutorials.md (missing)
 
 ## Mission Statement
 Create comprehensive user manuals and tutorials to ensure end users and stakeholders can effectively use and understand DafnckMachine v3.1.
@@ -34,8 +37,8 @@ You are @documentation-agent and @ui-designer-agent responsible for user manual 
 - User manuals, quick start guides, and tutorials
 
 ## Documentation & Templates
-- [User_Manual.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/User_Manual.md)
-- [Tutorials.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Tutorials.md)
+- [User_Manual.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/User_Manual.md)
+- [Tutorials.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Tutorials.md)
 
 ## Primary Responsible Agent
 @documentation-agent, @ui-designer-agent
@@ -58,7 +61,7 @@ The Documentation Agent and UI Designer Agent are chosen for their expertise in 
 - **Description**: Develop comprehensive user manuals and quick start guides
 - **Agent Assignment**: @documentation-agent
 - **Documentation Links**:
-  - [User_Manual.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/User_Manual.md)
+  - [User_Manual.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/User_Manual.md)
 - **Steps**:
     1. Draft user manuals and quick start guides (edit_file)
     2. Review and update documentation for clarity (edit_file)
@@ -72,7 +75,7 @@ The Documentation Agent and UI Designer Agent are chosen for their expertise in 
 - **Description**: Create step-by-step tutorials for key features and workflows
 - **Agent Assignment**: @ui-designer-agent
 - **Documentation Links**:
-  - [Tutorials.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Tutorials.md)
+  - [Tutorials.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Tutorials.md)
 - **Steps**:
     1. Draft tutorials for key features and workflows (edit_file)
     2. Review and update tutorials for clarity and usability (edit_file)
@@ -97,8 +100,8 @@ The Documentation Agent and UI Designer Agent are chosen for their expertise in 
 - Regular reviews and updates to user documentation
 
 ## Output Artifacts
-- [User_Manual.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/User_Manual.md)
-- [Tutorials.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Tutorials.md)
+- [User_Manual.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/User_Manual.md)
+- [Tutorials.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Tutorials.md)
 
 ## Next Action
 Develop user manuals and tutorials with @documentation-agent and @ui-designer-agent

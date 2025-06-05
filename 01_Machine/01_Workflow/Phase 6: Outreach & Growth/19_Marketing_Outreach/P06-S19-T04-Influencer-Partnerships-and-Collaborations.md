@@ -11,6 +11,8 @@ source: Step.json
 agent: "@marketing-strategy-orchestrator"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Influencer_Partnership_Program.md — Influencer_Partnership_Program.md: Influencer collaboration and partnership management (missing)
 
 ## Workflow Metadata
 - **Workflow-Step**: Marketing Outreach
@@ -50,10 +52,10 @@ Develop influencer partnerships through research, outreach, negotiation, collabo
 - **Influencer Partnerships**: Research, outreach, negotiation, collaboration, performance tracking
 
 ## Documentation & Templates
-- [Influencer Partnership Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Influencer_Partnership_Strategy.md)
-- [Collaboration Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Collaboration_Framework.json)
-- [Partnership Management Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Partnership_Management_Framework.md)
-- [Collaboration Optimization](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Collaboration_Optimization.json)
+- [Influencer Partnership Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Influencer_Partnership_Strategy.md)
+- [Collaboration Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Collaboration_Framework.json)
+- [Partnership Management Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Partnership_Management_Framework.md)
+- [Collaboration Optimization](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Collaboration_Optimization.json)
 
 ## Primary Responsible Agent
 @marketing-strategy-orchestrator
@@ -78,8 +80,8 @@ The Marketing Strategy Orchestrator is chosen for expertise in influencer outrea
 - **Description**: Research, identify, and reach out to potential influencers aligned with the brand and target audience.
 - **Agent Assignment**: @marketing-strategy-orchestrator
 - **Documentation Links**:
-  - [Influencer Partnership Strategy](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Influencer_Partnership_Strategy.md)
-  - [Collaboration Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Collaboration_Framework.json)
+  - [Influencer Partnership Strategy](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Influencer_Partnership_Strategy.md)
+  - [Collaboration Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Collaboration_Framework.json)
 - **Steps**:
     1. Research and identify potential influencers aligned with the brand and target audience.
     2. Develop an outreach strategy and templates for contacting influencers.
@@ -96,8 +98,8 @@ The Marketing Strategy Orchestrator is chosen for expertise in influencer outrea
 - **Description**: Manage influencer partnerships through collaboration execution, performance tracking, relationship management, and optimization strategies.
 - **Agent Assignment**: @campaign-manager-agent
 - **Documentation Links**:
-  - [Partnership Management Framework](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Partnership_Management_Framework.md)
-  - [Collaboration Optimization](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/A/Collaboration_Optimization.json)
+  - [Partnership Management Framework](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Partnership_Management_Framework.md)
+  - [Collaboration Optimization](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/A/Collaboration_Optimization.json)
 - **Steps**:
     1. Finalize collaboration agreements and plan content with selected influencers.
     2. Oversee collaboration execution and ensure content aligns with brand guidelines.
@@ -137,7 +139,7 @@ The Marketing Strategy Orchestrator is chosen for expertise in influencer outrea
 - Performance Drops: Adjust or terminate collaborations
 
 ## Output Artifacts
-- [Influencer_Partnership_Program](mdc:01_Machine/04_Documentation/Doc/Phase_6/19_Marketing_Outreach/Influencer_Partnership_Program.md): Influencer collaboration and partnership management
+- [Influencer_Partnership_Program](mdc:01_Machine/04_Documentation/vision/Phase_6/19_Marketing_Outreach/Influencer_Partnership_Program.md): Influencer collaboration and partnership management
 
 ## Next Action
 Research and reach out to influencers with @marketing-strategy-orchestrator

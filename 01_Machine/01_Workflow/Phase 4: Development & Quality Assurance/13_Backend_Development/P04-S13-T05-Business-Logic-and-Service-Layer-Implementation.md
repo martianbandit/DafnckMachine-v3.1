@@ -11,6 +11,8 @@ source: Step.json
 agent: "@coding-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- _No Output Artifacts section found_
 
 ## Mission Statement
 Implement comprehensive business logic layer with service architecture, data validation, and business rule enforcement for scalable application logic.
@@ -34,10 +36,10 @@ You are @coding-agent. Your mission is to implement the business logic layer, se
 - Business Logic: Core application functionality, service architecture, domain modeling, validation, error handling, logging
 
 ## Documentation & Templates
-- [Business_Logic_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Business_Logic_Architecture.md)
-- [Service_Layer_Design.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Service_Layer_Design.json)
-- [Error_Handling_Guide.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Error_Handling_Guide.md)
-- [Logging_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Logging_Configuration.json)
+- [Business_Logic_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Business_Logic_Architecture.md)
+- [Service_Layer_Design.json](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Service_Layer_Design.json)
+- [Error_Handling_Guide.md](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Error_Handling_Guide.md)
+- [Logging_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Logging_Configuration.json)
 
 ## Primary Responsible Agent
 @coding-agent

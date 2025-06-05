@@ -11,6 +11,11 @@ source: Step.json
 agent: "@devops-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Infrastructure_Requirements.md — Infrastructure_Requirements.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Deployment_Architecture_Plan.json — Deployment_Architecture_Plan.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Scalability_Architecture_Design.md — Scalability_Architecture_Design.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Performance_Optimization_Plan.json — Performance_Optimization_Plan.json (missing)
 
 # Mission Statement
 Design the infrastructure architecture and plan for deployment, scalability, and performance for DafnckMachine v3.1.
@@ -34,10 +39,10 @@ You are @devops-agent responsible for designing the infrastructure architecture 
 - Scalability & Performance: Load balancing, auto-scaling, caching, resource management
 
 # Documentation & Templates
-- [Infrastructure_Requirements.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Infrastructure_Requirements.md)
-- [Deployment_Architecture_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Deployment_Architecture_Plan.json)
-- [Scalability_Architecture_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Scalability_Architecture_Design.md)
-- [Performance_Optimization_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Performance_Optimization_Plan.json)
+- [Infrastructure_Requirements.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Infrastructure_Requirements.md)
+- [Deployment_Architecture_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Deployment_Architecture_Plan.json)
+- [Scalability_Architecture_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Scalability_Architecture_Design.md)
+- [Performance_Optimization_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Performance_Optimization_Plan.json)
 
 # Primary Responsible Agent
 @devops-agent
@@ -57,8 +62,8 @@ The @devops-agent is chosen for its expertise in infrastructure design, deployme
 - **Description**: Design the infrastructure architecture, considering server architecture, cloud services, containerization, orchestration, and networking.
 - **Agent Assignment**: @devops-agent (infrastructure-design, deployment-planning)
 - **Documentation Links**:
-  - [Infrastructure_Requirements.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Infrastructure_Requirements.md)
-  - [Deployment_Architecture_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Deployment_Architecture_Plan.json)
+  - [Infrastructure_Requirements.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Infrastructure_Requirements.md)
+  - [Deployment_Architecture_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Deployment_Architecture_Plan.json)
 - **Steps**:
   1. Research and evaluate cloud service providers and specific services. Consider containerization and orchestration strategies (web_search, CognitiveProcessing)
   2. Design infrastructure architecture: define server architecture, select cloud services, plan containerization and orchestration, and design networking (CognitiveProcessing)
@@ -75,8 +80,8 @@ The @devops-agent is chosen for its expertise in infrastructure design, deployme
 - **Description**: Design the architecture for scalability and performance, including load balancing, auto-scaling, caching strategies, and resource management.
 - **Agent Assignment**: @devops-agent (scalability-design, performance-architecture)
 - **Documentation Links**:
-  - [Scalability_Architecture_Design.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Scalability_Architecture_Design.md)
-  - [Performance_Optimization_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/09_Technical_Architecture/Performance_Optimization_Plan.json)
+  - [Scalability_Architecture_Design.md](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Scalability_Architecture_Design.md)
+  - [Performance_Optimization_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/09_Technical_Architecture/Performance_Optimization_Plan.json)
 - **Steps**:
   1. Design scalability architecture: define load balancing strategies, configure auto-scaling, design caching strategies, and plan for efficient resource management and performance optimization (CognitiveProcessing)
   2. Document the scalability architecture design in Scalability_Architecture_Design.md (edit_file)

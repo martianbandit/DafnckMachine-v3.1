@@ -11,6 +11,8 @@ source: Step.json
 agent: "@coding-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- _No Output Artifacts section found_
 
 ## Mission Statement
 Establish comprehensive backend development environment with server initialization, framework configuration, and development tools for scalable backend application development.
@@ -44,8 +46,8 @@ You are @coding-agent. Your mission is to set up the backend development environ
 - Performance Optimization: Server optimization
 
 ## Documentation & Templates
-- [Backend_Environment_Setup.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Backend_Environment_Setup.md)
-- [Server_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/13_Backend_Development/Server_Configuration.json)
+- [Backend_Environment_Setup.md](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Backend_Environment_Setup.md)
+- [Server_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/13_Backend_Development/Server_Configuration.json)
 
 ## Primary Responsible Agent
 @coding-agent

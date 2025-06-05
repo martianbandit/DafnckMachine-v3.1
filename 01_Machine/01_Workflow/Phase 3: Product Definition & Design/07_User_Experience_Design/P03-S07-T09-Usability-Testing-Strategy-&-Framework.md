@@ -11,6 +11,11 @@ source: Step.json
 agent: "@ux-researcher-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Usability_Testing_Strategy.md — Usability_Testing_Strategy.md: Usability_Testing_Strategy.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Testing_Protocol_Framework.json — Testing_Protocol_Framework.json: Testing_Protocol_Framework.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Feedback_Integration_Process.md — Feedback_Integration_Process.md: Feedback_Integration_Process.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Design_Iteration_Plan.json — Design_Iteration_Plan.json: Design_Iteration_Plan.json (missing)
 
 ## Mission Statement
 Develop comprehensive usability testing strategy and feedback integration framework to ensure continuous user validation and design optimization throughout the product lifecycle.
@@ -33,10 +38,10 @@ You are @ux-researcher-agent. Your mission is to develop a usability testing str
 - Feedback integration process and design iteration plan
 
 ## Documentation & Templates
-- [Usability_Testing_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Usability_Testing_Strategy.md)
-- [Testing_Protocol_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Testing_Protocol_Framework.json)
-- [Feedback_Integration_Process.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Feedback_Integration_Process.md)
-- [Design_Iteration_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Design_Iteration_Plan.json)
+- [Usability_Testing_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Usability_Testing_Strategy.md)
+- [Testing_Protocol_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Testing_Protocol_Framework.json)
+- [Feedback_Integration_Process.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Feedback_Integration_Process.md)
+- [Design_Iteration_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Design_Iteration_Plan.json)
 
 ## Primary Responsible Agent
 @ux-researcher-agent
@@ -61,8 +66,8 @@ The @ux-researcher-agent is selected for testing methodology, validation framewo
 - **Description**: Develop comprehensive testing methodology with testing protocols, user recruitment strategies, task scenarios, success metrics, and feedback collection systems for ongoing usability validation.
 - **Agent Assignment**: @ux-researcher-agent
 - **Documentation Links**:
-  - [Usability_Testing_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Usability_Testing_Strategy.md)
-  - [Testing_Protocol_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Testing_Protocol_Framework.json)
+  - [Usability_Testing_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Usability_Testing_Strategy.md)
+  - [Testing_Protocol_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Testing_Protocol_Framework.json)
 - **Steps**:
     1. Develop testing protocols and user recruitment strategies (Tool: edit_file)
     2. Define success metrics and feedback collection systems (Tool: edit_file)
@@ -75,8 +80,8 @@ The @ux-researcher-agent is selected for testing methodology, validation framewo
 - **Description**: Establish systematic feedback integration process with feedback analysis, design iteration planning, improvement prioritization, and validation cycles for continuous user-centered improvement.
 - **Agent Assignment**: @ux-researcher-agent
 - **Documentation Links**:
-  - [Feedback_Integration_Process.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Feedback_Integration_Process.md)
-  - [Design_Iteration_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Design_Iteration_Plan.json)
+  - [Feedback_Integration_Process.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Feedback_Integration_Process.md)
+  - [Design_Iteration_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Design_Iteration_Plan.json)
 - **Steps**:
     1. Establish feedback analysis and design iteration planning (Tool: edit_file)
     2. Define validation cycles and improvement tracking (Tool: edit_file)
@@ -102,10 +107,10 @@ The @ux-researcher-agent is selected for testing methodology, validation framewo
 - Continuous user validation and iterative improvement throughout the product lifecycle
 
 ## Output Artifacts
-- [Usability_Testing_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Usability_Testing_Strategy.md)
-- [Testing_Protocol_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Testing_Protocol_Framework.json)
-- [Feedback_Integration_Process.md](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Feedback_Integration_Process.md)
-- [Design_Iteration_Plan.json](mdc:01_Machine/04_Documentation/Doc/Phase_3/07_User_Experience_Design/Design_Iteration_Plan.json)
+- [Usability_Testing_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Usability_Testing_Strategy.md)
+- [Testing_Protocol_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Testing_Protocol_Framework.json)
+- [Feedback_Integration_Process.md](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Feedback_Integration_Process.md)
+- [Design_Iteration_Plan.json](mdc:01_Machine/04_Documentation/vision/Phase_3/07_User_Experience_Design/Design_Iteration_Plan.json)
 
 ## Next Action
 Initiate usability testing strategy and feedback integration with @ux-researcher-agent

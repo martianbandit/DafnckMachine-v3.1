@@ -11,6 +11,11 @@ source: Step.json
 agent: "@performance-load-tester-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Performance_Testing_Implementation.md — Performance_Testing_Implementation.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Load_Testing_Configuration.json — Load_Testing_Configuration.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Performance_Monitoring_Setup.md — Performance_Monitoring_Setup.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Benchmarking_Framework.json — Benchmarking_Framework.json (missing)
 
 # Mission Statement
 Implement comprehensive performance testing with load testing, stress testing, scalability testing, and bottleneck identification for application performance validation in DafnckMachine v3.1.
@@ -33,10 +38,10 @@ You are @performance-load-tester-agent responsible for implementing performance 
 - Performance testing implementation and analysis
 
 # Documentation & Templates
-- [Performance_Testing_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Performance_Testing_Implementation.md)
-- [Load_Testing_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Load_Testing_Configuration.json)
-- [Performance_Monitoring_Setup.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Performance_Monitoring_Setup.md)
-- [Benchmarking_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Benchmarking_Framework.json)
+- [Performance_Testing_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Performance_Testing_Implementation.md)
+- [Load_Testing_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Load_Testing_Configuration.json)
+- [Performance_Monitoring_Setup.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Performance_Monitoring_Setup.md)
+- [Benchmarking_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Benchmarking_Framework.json)
 
 # Primary Responsible Agent
 @performance-load-tester-agent
@@ -56,7 +61,7 @@ The @performance-load-tester-agent is selected for its expertise in load, stress
 - **ID**: P04-S15-T05-S01
 - **Description**: Develop performance tests with load testing, stress testing, scalability testing, and bottleneck identification.
 - **Agent**: @performance-load-tester-agent
-- **Documentation**: [Performance_Testing_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Performance_Testing_Implementation.md), [Load_Testing_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Load_Testing_Configuration.json)
+- **Documentation**: [Performance_Testing_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Performance_Testing_Implementation.md), [Load_Testing_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Load_Testing_Configuration.json)
 - **Steps**:
     1. Implement load testing and stress testing with performance validation (edit_file)
     2. Execute performance tests and analyze bottlenecks (run_terminal_cmd)
@@ -68,7 +73,7 @@ The @performance-load-tester-agent is selected for its expertise in load, stress
 - **ID**: P04-S15-T05-S02
 - **Description**: Develop performance monitoring with benchmarking, alerting, and optimization recommendations.
 - **Agent**: @performance-load-tester-agent
-- **Documentation**: [Performance_Monitoring_Setup.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Performance_Monitoring_Setup.md), [Benchmarking_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Benchmarking_Framework.json)
+- **Documentation**: [Performance_Monitoring_Setup.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Performance_Monitoring_Setup.md), [Benchmarking_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Benchmarking_Framework.json)
 - **Steps**:
     1. Implement performance monitoring with benchmarking and alerting (edit_file)
     2. Configure optimization recommendations and performance tracking (run_terminal_cmd)
@@ -93,10 +98,10 @@ The @performance-load-tester-agent is selected for its expertise in load, stress
 - Escalate to @performance-testing-lead or @monitoring-lead if tests fail after 3 attempts
 
 # Output Artifacts
-- [Performance_Testing_Implementation.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Performance_Testing_Implementation.md)
-- [Load_Testing_Configuration.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Load_Testing_Configuration.json)
-- [Performance_Monitoring_Setup.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Performance_Monitoring_Setup.md)
-- [Benchmarking_Framework.json](mdc:01_Machine/04_Documentation/Doc/Phase_4/15_Automated_Testing/Benchmarking_Framework.json)
+- [Performance_Testing_Implementation.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Performance_Testing_Implementation.md)
+- [Load_Testing_Configuration.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Load_Testing_Configuration.json)
+- [Performance_Monitoring_Setup.md](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Performance_Monitoring_Setup.md)
+- [Benchmarking_Framework.json](mdc:01_Machine/04_Documentation/vision/Phase_4/15_Automated_Testing/Benchmarking_Framework.json)
 
 # Next Action
 Develop and execute performance tests with @performance-load-tester-agent

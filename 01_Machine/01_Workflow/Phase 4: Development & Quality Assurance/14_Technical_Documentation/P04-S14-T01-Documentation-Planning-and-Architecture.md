@@ -11,6 +11,9 @@ source: Step.json
 agent: "@documentation-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Architecture.md — Documentation_Architecture.md: Documentation_Architecture.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Templates.md — Documentation_Templates.md: Documentation_Templates.md (missing)
 
 ## Mission Statement
 Establish a robust documentation planning and architecture process to ensure all technical documentation is comprehensive, consistent, and aligned with project goals.
@@ -35,8 +38,8 @@ Define the structure, standards, and tools for technical documentation, includin
 - Documentation architecture, planning strategies, and templates
 
 ## Documentation & Templates
-- [Documentation_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Architecture.md)
-- [Documentation_Templates.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Templates.md)
+- [Documentation_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Architecture.md)
+- [Documentation_Templates.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Templates.md)
 
 ## Primary Responsible Agent
 @documentation-agent, @system-architect-agent
@@ -59,7 +62,7 @@ The Documentation Agent and System Architect Agent are chosen for their expertis
 - **Description**: Define the structure and organization of all technical documentation
 - **Agent Assignment**: @documentation-agent
 - **Documentation Links**:
-  - [Documentation_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Architecture.md)
+  - [Documentation_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Architecture.md)
 - **Steps**:
     1. Analyze documentation needs and requirements (edit_file)
     2. Define structure and organization (edit_file)
@@ -73,7 +76,7 @@ The Documentation Agent and System Architect Agent are chosen for their expertis
 - **Description**: Define standards for documentation style, formatting, and content
 - **Agent Assignment**: @system-architect-agent
 - **Documentation Links**:
-  - [Documentation_Templates.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Templates.md)
+  - [Documentation_Templates.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Templates.md)
 - **Steps**:
     1. Define style and formatting standards (edit_file)
     2. Document standards and share with team (edit_file)
@@ -87,7 +90,7 @@ The Documentation Agent and System Architect Agent are chosen for their expertis
 - **Description**: Create templates for all documentation types
 - **Agent Assignment**: @documentation-agent
 - **Documentation Links**:
-  - [Documentation_Templates.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Templates.md)
+  - [Documentation_Templates.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Templates.md)
 - **Steps**:
     1. Create templates for each documentation type (edit_file)
     2. Review and approve templates (edit_file)
@@ -101,7 +104,7 @@ The Documentation Agent and System Architect Agent are chosen for their expertis
 - **Description**: Plan versioning and maintenance strategy for documentation
 - **Agent Assignment**: @system-architect-agent
 - **Documentation Links**:
-  - [Documentation_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Architecture.md)
+  - [Documentation_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Architecture.md)
 - **Steps**:
     1. Define versioning strategy (edit_file)
     2. Document maintenance plan (edit_file)
@@ -126,8 +129,8 @@ The Documentation Agent and System Architect Agent are chosen for their expertis
 - Multiple review stages and feedback incorporation
 
 ## Output Artifacts
-- [Documentation_Architecture.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Architecture.md)
-- [Documentation_Templates.md](mdc:01_Machine/04_Documentation/Doc/Phase_4/14_Technical_Documentation/Documentation_Templates.md)
+- [Documentation_Architecture.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Architecture.md)
+- [Documentation_Templates.md](mdc:01_Machine/04_Documentation/vision/Phase_4/14_Technical_Documentation/Documentation_Templates.md)
 
 ## Next Action
 Define documentation structure, standards, and templates with @documentation-agent and @system-architect-agent

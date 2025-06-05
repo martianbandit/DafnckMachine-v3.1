@@ -11,6 +11,11 @@ source: Step.json
 agent: "@task-planning-agent"
 orchestrator: "@uber-orchestrator-agent"
 ---
+## Output Artifacts Checklist
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Complexity_Analysis.md — Task_Complexity_Analysis.md: Task_Complexity_Analysis.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Complexity_Assessment_Report.json — Complexity_Assessment_Report.json: Complexity_Assessment_Report.json (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Expansion_Strategy.md — Task_Expansion_Strategy.md: Task_Expansion_Strategy.md (missing)
+- [ ] 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Breakdown_Planning_Guide.json — Breakdown_Planning_Guide.json: Breakdown_Planning_Guide.json (missing)
 
 ## Mission Statement
 Analyze the complexity of generated tasks to guide further breakdown and resource allocation for DafnckMachine v3.1.
@@ -35,10 +40,10 @@ Execute TaskMaster's complexity analysis to score tasks and get expansion recomm
 - Progress Monitoring: Comprehensive analytics and reporting for development visibility and control
 
 ## Documentation & Templates
-- [Task_Complexity_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Complexity_Analysis.md)
-- [Complexity_Assessment_Report.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Complexity_Assessment_Report.json)
-- [Task_Expansion_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Expansion_Strategy.md)
-- [Breakdown_Planning_Guide.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Breakdown_Planning_Guide.json)
+- [Task_Complexity_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Complexity_Analysis.md)
+- [Complexity_Assessment_Report.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Complexity_Assessment_Report.json)
+- [Task_Expansion_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Expansion_Strategy.md)
+- [Breakdown_Planning_Guide.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Breakdown_Planning_Guide.json)
 
 ## Primary Responsible Agent
 @task-planning-agent
@@ -60,8 +65,8 @@ Execute TaskMaster's complexity analysis to score tasks and get expansion recomm
 - **Description:** Execute TaskMaster's complexity analysis to score tasks and get expansion recommendations.
 - **Agent:** @task-planning-agent
 - **Documentation Links:**
-  - [Task_Complexity_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Complexity_Analysis.md)
-  - [Complexity_Assessment_Report.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Complexity_Assessment_Report.json)
+  - [Task_Complexity_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Complexity_Analysis.md)
+  - [Complexity_Assessment_Report.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Complexity_Assessment_Report.json)
 - **Steps:**
     1. Analyze project complexity for all tasks in tasks.json using mcp_taskmaster-ai_analyze_project_complexity.
     2. Verify creation and content of scripts/task-complexity-report.json.
@@ -78,14 +83,14 @@ Execute TaskMaster's complexity analysis to score tasks and get expansion recomm
 - **Description:** Develop a strategy for expanding tasks based on complexity analysis, prioritizing tasks for breakdown.
 - **Agent:** @task-planning-agent
 - **Documentation Links:**
-  - [Task_Expansion_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Expansion_Strategy.md)
-  - [Breakdown_Planning_Guide.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Breakdown_Planning_Guide.json)
+  - [Task_Expansion_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Expansion_Strategy.md)
+  - [Breakdown_Planning_Guide.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Breakdown_Planning_Guide.json)
 - **Steps:**
     1. Review the complexity report to identify tasks needing expansion using mcp_taskmaster-ai_complexity_report.
     2. Formulate and document the expansion strategy based on the report using edit_file.
 - **Success Criteria:**
     - Tool Output Contains: Complexity report displayed
-    - File Exists: 01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Expansion_Strategy.md
+    - File Exists: 01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Expansion_Strategy.md
     - File Content Matches: Task_Expansion_Strategy.md contains the developed strategy
 - **On Failure:** NOTIFY_AND_CONTINUE (default expansion strategy will be used)
 - **Max Retries:** 1
@@ -110,10 +115,10 @@ Execute TaskMaster's complexity analysis to score tasks and get expansion recomm
 - Task Breakdown Complexity: Systematic complexity analysis and iterative refinement processes
 
 ## Output Artifacts
-- [Task_Complexity_Analysis.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Complexity_Analysis.md)
-- [Complexity_Assessment_Report.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Complexity_Assessment_Report.json)
-- [Task_Expansion_Strategy.md](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Task_Expansion_Strategy.md)
-- [Breakdown_Planning_Guide.json](mdc:01_Machine/04_Documentation/Doc/Phase_4_Development_QA/Breakdown_Planning_Guide.json)
+- [Task_Complexity_Analysis.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Complexity_Analysis.md)
+- [Complexity_Assessment_Report.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Complexity_Assessment_Report.json)
+- [Task_Expansion_Strategy.md](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Task_Expansion_Strategy.md)
+- [Breakdown_Planning_Guide.json](mdc:01_Machine/04_Documentation/vision/Phase_4_Development_QA/Breakdown_Planning_Guide.json)
 
 ## Next Action
 Proceed to P04-S11-T04-Detailed-Task-Breakdown-Subtask-Generation.md
